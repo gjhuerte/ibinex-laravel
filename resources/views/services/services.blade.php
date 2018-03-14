@@ -106,8 +106,8 @@
                             <img class="red-ellipse" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
 
                             <div class="col-12 col-sm-10 text-white lorem-ipsum px-0">
-                                <div class="inner-lorem px-3">
-                                    <p class="text-justify text-sm-left pt-5 pt-sm-0 mt-4 mt-sm-0 h4"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <div class="inner-lorem px-3 pt-5">
+                                    <p class="text-justify text-sm-left pt-4 pt-sm-0 mt-4 mt-sm-0 h4"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
                                         </em></p>
                                     <p>HuffPost</p>
@@ -122,7 +122,7 @@
 
             <div class="col-12 cb px-0">
                 <div class="container-fluid">
-                    <div class="row pt-5 max-width-none">
+                    <div class="row max-width-none">
                         <div class="d-none d-sm-block col-sm-6 px-0 cb-logo">
                             <!--                 <img class="w-100" src="assets/images/cb.png" alt="CB logo"> -->
                         </div>
@@ -134,10 +134,10 @@
 
                         </div>
                         <div class="col-12 col-sm-6 cb-text">
-                            <h1 class="text-dark">CryptoBridge<sup>&trade;</sup></h1>
-                            <p class="text-justify text-sm-left pt-4 mt-3 mb-sm-5 pb-sm-5 mt-sm-0">Aggregate elite exchanges and indexes as the cryptocurrency market moves, with out patent-pending proprietary software suite,
-                                CryptoBridge<sup>&trade;</sup>. Gain access to 60 premier exchanges for maximum liquidity cryptocurrencies, all available only through
-                                CryptoBridge<sup>&trade;</sup> by Ibinex</p>
+                                <h1 class="text-dark">CryptoBridge<sup>&trade;</sup></h1>
+                                <p class="text-justify text-sm-left pt-4 mt-3 mb-sm-5 pb-sm-5 mt-sm-0">Aggregate elite exchanges and indexes as the cryptocurrency market moves, with out patent-pending proprietary software suite,
+                                    CryptoBridge<sup>&trade;</sup>. Gain access to 60 premier exchanges for maximum liquidity cryptocurrencies, all available only through
+                                    CryptoBridge<sup>&trade;</sup> by Ibinex</p>
                         </div>
                     </div> <!-- /.row -->
                 </div>
