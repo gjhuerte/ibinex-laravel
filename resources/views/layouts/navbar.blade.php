@@ -1,3 +1,4 @@
+
 <!-- Start menu here -->
 <nav class="navbar navbar-expand-md navbar-light bg-faded">
     <div class="container">
@@ -34,7 +35,7 @@
                     <a class="nav-link" href="#">Legal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{!! url('contact-us') !!}">Contact Us</a>
+                    <a class="nav-link" href="{!! url('/contact-us') !!}">Contact Us</a>
                 </li>
             </ul>
 

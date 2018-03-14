@@ -16,7 +16,9 @@
     </section>
 @endsection
 
+@section('body-class','home')
 @section('content')
+    <!--1  -->
     <section id="second-fold" class="container-fluid bg-color-grey">
         <section class="row no-gutters pt-5 position-relative fixed-height">
             <!--Will remove fixed-height -->
@@ -42,12 +44,12 @@
                 </h2>
 
                 <section class="pt-3">
-                    <h2 class="sub-title blue">Tailored Front End content website</h2>
+                    <h2 class="sub-title blue bold">Tailored Front End content website</h2>
                     <p class="description text-justify">Ibinex provide you with a tailored front-end website with a fully-integrated web-based trading platform and Content Management System (CMS). Offering you flexible front-end user trading, while preserving the personal touch for your brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
                 </section>
 
                 <section class="pt-3">
-                    <h2 class="sub-title blue">Tailored Front End content website</h2>
+                    <h2 class="sub-title blue bold">Tailored Front End content website</h2>
                     <p class="description text-justify">The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account & money management. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
                 </section>
 
@@ -65,12 +67,12 @@
         <section class="row embed-parent">
             <div class="col-xl-6 order-xl-1">
                 <section class="pt-3">
-                    <h2 class="sub-title blue">Aggregated Liquidity Exchange</h2>
+                    <h2 class="sub-title blue bold">Aggregated Liquidity Exchange</h2>
                     <p class="description text-justify">Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
                 </section>
 
                 <section class="pt-3">
-                    <h2 class="sub-title blue">Complete processing solution</h2>
+                    <h2 class="sub-title blue bold">Complete processing solution</h2>
                     <p class="description text-justify">With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilies for your exchange to thrive in maximum liquidity.</p>
                 </section>
             </div>
@@ -93,94 +95,103 @@
 
     <!--4 -->
     <section id="fifth-fold" class="container-fluid position-relative">
-        <section class="row embed-parent">
+        <section class="row embed-parent max-width-none">
+            <section class="row">
+                <div class="col-xl-6 order-xl-2">
+                    <section class="pt-3">
+                        <h2 class="sub-title blue bold">Compliant Banking Custodian Service</h2>
+                        <p class="description text-justify">Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
+                    </section>
 
-            <div class="col-xl-6 order-xl-2">
-                <h2>title</h2>
+                    <section class="pt-3">
+                        <h2 class="sub-title blue bold">Hosted in a secure private cloud environment</h2>
+                        <p class="description text-justify">With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilies for your exchange to thrive in maximum liquidity.</p>
+                    </section>
+                </div>
 
-                <span>sub-title</span>
-                <p>description</p>
-
-                <span>sub-title</span>
-                <p>description</p>
-            </div>
+                <div class="col-xl-6 order-xl-1 d-none d-lg-block d-xl-block" style=""></div>
+            </section>
 
             <aside class="col-xl-6 order-xl-1 embed-parent-wrap left">
                 <div class="embed-image halfed shadow" style="background-image: url('https://i.imgur.com/hN17jUY.png');">&nbsp;</div>
                 <div class="faButton raise-half">fa-quote</div>
             </aside>
+
         </section>
     </section>
 
     <!--5 -->
-    <section id="sixthFold" class="row">
-        <header>
-            <h3>sub-title</h3>
-            <h2>title</h2>
+    <section id="sixth-fold" class="container-fluid bg-color-grey py-5">
+        <header class="title-section text-center">
+            <h2 class="sub-title grey bold">Learn more about Ibinex</h2>
+            <h1 class="title black smaller bold">Technical Papers & Legal Circular</h1>
         </header>
+        <section class="row">
 
-        <section id="downloadables">
-            <div class="">
-                <!-- 1 -->
-                image
-                <h3>title</h3>
-                <span>details</span>
-                <button>download</button>
-            </div>
+            <section id="downloadables">
+                <!-- FIRST ROW START -->
 
-            <div class="">
-                <!-- 2 -->
-                image
-                <h3>title</h3>
-                <span>details</span>
-                <button>download</button>
-            </div>
+                <div class="brochures text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
 
+                <div class="brochures text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
 
-            <div class="">
-                <!-- 3 -->
-                image
-                <h3>title</h3>
-                <span>details</span>
-                <button>download</button>
-            </div>
+                <div class="brochures text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+                <!-- FIRST ROW END -->
+                <!-- SECOND ROW START -->
 
+                <div class="brochures text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
 
-            <div class="">
-                <!-- 4 -->
-                image
-                <h3>title</h3>
-                <span>details</span>
-                <button>download</button>
-            </div>
+                <div class="brochures text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
 
+                <div class="brochures text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+                <!-- SECOND ROW END -->
 
-            <div class="">
-                <!-- 5 -->
-                image
-                <h3>title</h3>
-                <span>details</span>
-                <button>download</button>
-            </div>
+            </section>
 
-
-            <div class="">
-                <!-- 6 -->
-                image
-                <h3>title</h3>
-                <span>details</span>
-                <button>download</button>
-            </div>
         </section>
-
     </section>
-
-    <section id="seventhFold">
+    <section id="seventh-fold">
         <header>
             <h2>title</h2>
         </header>
         <section id="logos">
-            image image image image image image
+           image
         </section>
     </section>
 

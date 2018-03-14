@@ -29,7 +29,7 @@
     @stack('stylesheets')
 </head>
 
-<body>
+<body class='@yield('body-class')-template'>
 <div class='container-fluid'>
     <header id="fullscreen-hero" class="full-height">
         <section class="container">

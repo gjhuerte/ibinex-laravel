@@ -19,14 +19,6 @@ body {
      **************************  MOBILE  ******************************
      *****************************************************************/
 }
-body > .inner {
-    display: none;
-}
-
-body.pg-loaded > .inner {
-    display: block;
-}
-
 body > div {
     padding: 0 !important;
 }
@@ -45,13 +37,18 @@ body .container section {
     padding-left: 0;
     padding-right: 0;
 }
-body h1.blue {
+body h1.bold, body h2.bold {
+    font-weight: bold;
+}
+body h1.blue, body h1.black, body h1.grey {
     font-family: "Proxima Nova";
     font-size: 32px;
 }
-body h2.blue {
+body h1.smaller {
+    font-size: 20px;
+}
+body h2.blue, body h2.black, body h2.grey {
     font-family: "Proxima Nova";
-    font-weight: bold;
     font-size: 16px;
 }
 body p.quote, body span.quote {
@@ -81,6 +78,17 @@ body .faButton.top-half {
 body .faButton.red {
     background-color: #f52e4d;
 }
+body .semi-circle {
+    padding: 10px 25px;
+    border: 0;
+    animation: all 0.5s;
+}
+body .semi-circle.green-brochure {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 25px;
+}
 body #fullscreen-hero {
     color: white;
 }
@@ -99,19 +107,27 @@ body .semi-circle.green {
 body .semi-circle.pink {
     background-color: rgba(224, 159, 181, 1);
 }
+body .semi-circle.green-brochure {
+    background-color: rgba(18, 213, 184, 1);
+    color: rgba(33, 42, 95, 1);
+}
 body h1, body h2 {
     color: #333;
 }
 body h1.blue, body h2.blue {
     color: #2770f6;
 }
+body h1.grey, body h2.grey {
+    color: #9c9c9c;
+}
 body .bg-color-grey {
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(240, 240, 240, 1);
 }
 body #fullscreen-hero {
-    /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
+    background-image: url("https://i.imgur.com/JM0qNPw.png");
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 body #fullscreen-hero.full-height {
@@ -170,6 +186,13 @@ body .position-relative .embed-parent-wrap .embed-image {
 body .position-relative .embed-parent-wrap .embed-blue-wrap {
     background-color: rgba(69, 187, 173, 1);
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+body #downloadables .brochures {
+    margin: 25px 0;
+    display: inline-block;
+}
+body #downloadables .brochures p {
+    margin: 0;
 }
 /****************************************************************
  **************************  DESKTOP  ****************************
@@ -250,6 +273,12 @@ body .position-relative .embed-parent-wrap .embed-blue-wrap {
     body .container-fluid > .row, body .container > .row {
         max-width: 1140px;
         margin: 0 auto;
+    }
+    body .container-fluid > .row.max-width-none, body .container > .row.max-width-none {
+        max-width: none;
+    }
+    body #downloadables .brochures {
+        width: 33%;
     }
     body .fixed-height {
         height: 567px;
