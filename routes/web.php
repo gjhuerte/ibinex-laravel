@@ -30,3 +30,7 @@ Route::get('/security', function () {
 Route::get('/why-ibinex', function () {
     return view('why-ibinex.why');
 });
+
+Route::get('/services', function () {
+    return view('services.services');
+});
