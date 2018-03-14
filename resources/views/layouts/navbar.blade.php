@@ -20,7 +20,7 @@
                     <a class="nav-link" href="{!! url('/why-ibinex') !!}">Why iBinex</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="{!! url('pricing') !!}">Pricing</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{!! url('services') !!}">Services</a>
