@@ -13,12 +13,9 @@
         <p class="description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
 @endsection
-
+@section('body-class','contact')
+@section('bg-img','contact-bg.png')
 @section('content')
-    <div class='container-fluid'>
-        <header id="fullscreenHero">
-            <section class="">
-                <section id="hero-content">
                     <div class="container">
                         <div class="ib-get-started">
                             <div class="row ib-get-started-a">
@@ -113,8 +110,4 @@
                             </div>
                         </div>
                     </div>
-                </section>
-            </section>
-        </header>
-    </div>
 @endsection
