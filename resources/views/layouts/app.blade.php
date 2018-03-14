@@ -29,9 +29,9 @@
     @stack('stylesheets')
 </head>
 
-<body>
+<body class='@yield('body-class')-template'>
 <div class='container-fluid'>
-    <header id="fullscreen-hero" class="full-height">
+    <header id="fullscreen-hero" class="full-height" style="background: url({{ asset("img/")}}{{ "/" }}@yield('bg-img')) no-repeat center top">
         <section class="container">
             @include('layouts.navbar')
             @yield('header-content')

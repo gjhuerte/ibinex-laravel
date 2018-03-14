@@ -22,3 +22,7 @@ Route::get('/contact-us', function () {
 Route::get('/pricing', function () {
     return view('pricing.pricing');
 });
+
+Route::get('/why-ibinex', function () {
+    return view('why-ibinex.why');
+});
