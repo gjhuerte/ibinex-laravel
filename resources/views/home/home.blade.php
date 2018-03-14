@@ -17,6 +17,7 @@
 @endsection
 
 @section('body-class','home')
+@section('header-height','full-height')
 @section('bg-img','home-bg.png')
 @section('content')
     <!--1  -->

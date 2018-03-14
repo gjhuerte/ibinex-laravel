@@ -27,7 +27,7 @@
 
 <body class='@yield('body-class')-template'>
 <div class='container-fluid'>
-    <header id="fullscreen-hero" class="full-height" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
+    <header id="fullscreen-hero" class="@yield('header-height') " style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <section class="container">
             @include('layouts.navbar')
             @yield('header-content')
