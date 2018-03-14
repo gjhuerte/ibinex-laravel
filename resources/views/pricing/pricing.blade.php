@@ -2,8 +2,22 @@
 
 @section('title', 'Pricing')
 
-@section('content')
+@push('stylesheets')
+    <link href="{{ asset("css/pricing.css") }}" rel="stylesheet" />
+@endpush
 
+@section('body-class', 'pricing')
+
+@section('bg-img','pricing-bg.png')
+
+@section('header-content')
+    <section id="hero-content" class="col-xl-7 col-sm-12">
+        <h1 class="title text-center">Pricing</h1>
+        <p class="description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+@endsection
+
+@section('content')
     <section id="pricing-content" class="container-fluid">
         <section class="text-center">
             <h2>Integration of the Ibinex turnkey cryptocurrency platform to exchange your way requires:</h2>
@@ -63,5 +77,4 @@
             </article>
         </section>
     </section>
-
 @endsection
