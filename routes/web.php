@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/contact-us', function () {
     return view('contact-us.contact-us');
 });
+
+Route::get('/why', function () {
+    return view('why-ibinex.why');
+});
+
