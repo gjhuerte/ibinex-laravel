@@ -19,7 +19,7 @@ Route::get('/contact-us', function () {
     return view('contact-us.contact-us');
 });
 
-Route::get('/why', function () {
+Route::get('/why-ibinex', function () {
     return view('why-ibinex.why');
 });
 

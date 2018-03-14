@@ -17,7 +17,7 @@
                     <a class="nav-link nav" href="{!! url('/') !!}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Why iBinex</a>
+                    <a class="nav-link" href="{!! url('/why-ibinex') !!}">Why iBinex</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pricing</a>

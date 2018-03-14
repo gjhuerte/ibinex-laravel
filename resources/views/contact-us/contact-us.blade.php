@@ -14,6 +14,7 @@
     </section>
 @endsection
 @section('body-class','contact')
+@section('bg-img','contact-bg.png')
 @section('content')
                     <div class="container">
                         <div class="ib-get-started">
