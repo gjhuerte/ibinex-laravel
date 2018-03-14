@@ -84,6 +84,9 @@ section#hero-content {
 .ib-contact .ib-contact-support .col-sm-3 {
     padding-top: 5%;
 }
+.ib-get-started {
+    padding-top: 10%;
+}
 @media only screen and (max-width: 576px) {
     .row.ib-get-started-a {
         margin: 0 0 0;
@@ -121,6 +124,9 @@ section#hero-content {
     }
     .ib-get-started {
         padding-top: 15%;
+    }
+    .ib-contact .ib-contact-support .col-sm-3 {
+        padding: 0 7%;
     }
 }
 
