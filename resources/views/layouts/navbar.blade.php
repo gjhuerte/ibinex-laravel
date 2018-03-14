@@ -29,7 +29,7 @@
                     <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Security</a>
+                    <a class="nav-link" href="{!! url('/security') !!}">Security</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Legal</a>
