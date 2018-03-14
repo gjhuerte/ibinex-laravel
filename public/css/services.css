@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+
+
+/* Mobile Development */
+div.platform-text p {
+    line-height: 2;
+}
+
+div.crm p {
+    line-height: 2;
+}
+
+div.lorem .l2 img{
+    /*   zoom: 53%; */
+    /*   margin-right: -40px; */
+}
+
+.red-ellipse{
+    z-index: 999;
+    position: absolute;
+    top: 35%;
+    height: 30%;
+}
+
+.red-ellipse-2{
+    z-index: 999;
+    position: absolute;
+    top: 39%;
+    height: 27%;
+}
+
+.cb-logo{
+    background-image: url(../img/cb.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 420px;
+}
+
+.fone-img{
+    background-image: url(../img/fone.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 816px;
+}
+
+.cb1{
+    background-image: url(../img/cb1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 194px;
+    height: 242px;
+    z-index: 0;
+}
+
+
+.cb2{
+    background-image: url(../img/cb2_nobg.png);
+    background-repeat: no-repeat;
+    background-position: 52% 257%;
+    background-size: 600px;
+    zoom: 2;
+    z-index: 100;
+    height: 242px;
+    position: absolute;
+    top: 21%;
+}
+
+.cb-text{
+    padding-top: 317px;
+}
+
+
+.macbook-img{
+    background-image: url(../img/l2.png);
+    background-repeat: no-repeat;
+    background-position: 77% center;
+    background-size: cover;
+    width: 100%;
+    height: 238px;
+    /*   zoom: 0.5; */
+}
+
+@media only screen and (min-width: 576px){
+    .macbook-img{
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 303px;
+    }
+}
+
+.qtt{
+    background-image: url(../img/qtt.png);
+    background-repeat: no-repeat;
+    background-position: 40% center;
+    background-size: cover;
+    width: 100%;
+    height: 1150px;
+    zoom: 0.3;
+}
+
+div.lorem-ipsum p, .lorem-ipsum-lower p{
+    line-height: 1.5;
+}
+
+div.lorem-ipsum, .lorem-ipsum-lower{
+    background-color: rgb(39, 112, 246);
+}
+
+div.cb, .custodian{
+    background-color: rgb(242, 241, 241);
+}
+
+div.cb{
+    z-index: -1;
+}
+
+div.cb p{
+    /*   color: rgba(105,105,105); */
+    color: #595959;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.normal-p{
+    color: #595959;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+div.credit-card p {
+    color: #595959;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.custodian-p{
+    color: rgb(39, 112, 246);
+}
+
+/* Tablets to Desktop */
+
+@media only screen and (min-width: 576px){
+    div.inner-lorem{
+        padding: 20px 40px;
+        font-size: 16px;
+    }
+
+    .red-ellipse{
+        top: 71%;
+        left: 20%;
+        height: 30%;
+    }
+
+    .red-ellipse-2{
+        top: 49%;
+        left: 17%;
+    }
+
+    div.lorem-ipsum{
+        /*     float: right;
+            width: 40vw; */
+        /*     margin-left: 5rem !important; */
+        z-index: 5;
+        position: absolute;
+        top: 83%;
+    }
+
+    .cb-text{
+        padding-top: 100px;
+    }
+
+    .inner-crm{
+        padding-left: 100px;
+    }
+
+    .crm-container{
+        padding-bottom: 113px !important;
+    }
+
+    .qtt-container{
+        position: absolute;
+        top: -25%;
+    }
+
+    .custodian{
+        padding-bottom: 307px;
+    }
+
+    .custodian-left{
+        padding-left: 105px;
+    }
+}
+
+@media (min-width: 576px){
+    .lorem-ipsum{
+        margin-left: 5rem !important;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 5rem !important;
+    }
+}
+
+
+/* @media only screen and (min-width: 767px){
+  .lorem-ipsum{
+    margin-left: 5rem !important;
+  }
+
+  .lorem-ipsum-lower{
+    margin-left: 5rem !important;
+  }
+} */
+
+@media only screen and (min-width: 1000px){
+    .lorem-ipsum{
+        margin-left: 7rem !important;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 7rem !important;
+    }
+}
+

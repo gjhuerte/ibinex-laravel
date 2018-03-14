@@ -1,0 +1,123 @@
+/* Fonts and Typography */
+
+#pricing-content {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#pricing-content article > h5 {
+    font-weight: bold;
+}
+
+#pricing-content {
+    color: #fff;
+}
+
+#pricing-content article > h5 {
+    font-size: 22px;
+}
+
+#pricing-content h2 {
+    font-size: 34px;
+    color: #fff;
+}
+
+#pricing-content article > .blue-text {
+    color: #2770f6;
+}
+
+#pricing-content article > .green-text {
+    color: #12d5b8;
+}
+
+#pricing-content article > .small-text {
+    font-size: 14px;
+}
+
+
+/* Backgrounds and Borders */
+
+#pricing-content {
+    background-color: #212a5f;
+}
+
+#pricing-content > hr {
+    border-color: #2770f6;
+}
+
+
+/* Distance and Spacing */
+
+#pricing-content > section:first-of-type {
+    max-width: 675px;
+    margin: auto;
+}
+
+#pricing-content {
+    padding-bottom: 15px;
+}
+
+#pricing-content h2 {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    line-height: 130%;
+}
+
+#pricing-content article,
+#pricing-content article > h5 {
+    padding-bottom: 20px;
+}
+
+#pricing-content > section:nth-of-type(2) > article:last-of-type {
+    padding-bottom: 0;
+}
+
+#pricing-content article p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 180%;
+}
+
+#pricing-content article p,
+#pricing-content > hr {
+    padding-bottom: 15px;
+}
+
+#pricing-content article > .small-text p {
+    padding-bottom: 5px;
+}
+
+#pricing-content > hr:first-of-type {
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+#pricing-content > hr:last-of-type {
+    padding-bottom: 40px;
+}
+
+
+/* Media Queries: Non-Mobile */
+
+@media only screen and (min-width: 576px) {
+    #pricing-content {
+        padding: 20px 25px 125px;
+        max-width: 970px;
+        border-radius: 20px;
+        /*
+        margin-top: -333px;
+        margin-bottom: -65px;
+        */
+    }
+
+    #pricing-content > hr:first-of-type {
+        margin-top: 10px;
+    }
+
+    #pricing-content > section:nth-of-type(3) > article {
+        padding-bottom: 0;
+    }
+
+    #pricing-content article > .small-text p {
+        padding-bottom: 30px;
+    }
+}
