@@ -7,10 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-
 
     <!-- Le styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,7 +27,7 @@
 
 <body class='@yield('body-class')-template'>
 <div class='container-fluid'>
-    <header id="fullscreen-hero" class="full-height" style="background: url({{ asset("img/")}}{{ "/" }}@yield('bg-img')) no-repeat center center">
+    <header id="fullscreen-hero" class="full-height" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <section class="container">
             @include('layouts.navbar')
             @yield('header-content')
@@ -52,13 +48,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 {{--<script src="script.js"></script>--}}
 <script>
-
+    var faButton = $('.faButton');
     $(window).resize(function() {
-        $('.faButton').css('height', $('.faButton').width());
+        faButton.css('height', faButton.width());
     });
 
     $(document).ready(function() {
-        $('.faButton').css('height', $('.faButton').width());
+        faButton.css('height', faButton.width());
     });
 
 </script>
