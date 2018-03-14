@@ -17,6 +17,7 @@
 @endsection
 
 @section('body-class','home')
+@section('bg-img','homebg.png')
 @section('content')
     <!--1  -->
     <section id="second-fold" class="container-fluid bg-color-grey">
