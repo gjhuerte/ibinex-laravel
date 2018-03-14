@@ -7,8 +7,6 @@
     <link href="{{ asset("css/security.css") }}" rel="stylesheet" />
 @endpush
 
-@section('body-class','security')
-@section('bg-img','security-banner.png')
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12">
         <h1 class="title text-center">Security</h1>
@@ -16,10 +14,12 @@
     </section>
 @endsection
 
+@section('body-class','security')
+@section('bg-img','security-banner.png')
+
 @section('content')
 
-    <main id='security-page'>
-        <section>
+        <section id='first-section'>
             <article class='container-fluid'>
                 <div class="row security-width">
                     <div class="col-sm-6">
@@ -49,6 +49,5 @@
                 <div class="security-section">&nbsp;</div>
             </article>
         </section>
-    </main>
 
 @endsection
