@@ -102,8 +102,10 @@
         padding: 20px 25px 125px;
         max-width: 970px;
         border-radius: 20px;
+        /*
         margin-top: -333px;
         margin-bottom: -65px;
+        */
     }
 
     #pricing-content > hr:first-of-type {
