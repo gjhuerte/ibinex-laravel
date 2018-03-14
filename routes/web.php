@@ -19,7 +19,9 @@ Route::get('/contact-us', function () {
     return view('contact-us.contact-us');
 });
 
-
+Route::get('/pricing', function () {
+    return view('pricing.pricing');
+});
 
 Route::get('/security', function () {
     return view('security.security');
@@ -29,4 +31,6 @@ Route::get('/why-ibinex', function () {
     return view('why-ibinex.why');
 });
 
-
+Route::get('/services', function () {
+    return view('services.services');
+});
