@@ -38,19 +38,17 @@ body{
 .block {
     background-color: rgb(242,241,241);
     position: absolute;
-    top: 60vh;
+    top: 38vh;
 
 }
 
 h2.blocktext
 {
-    font-size: 5rem;
     padding-top: 20%;
 }
 
 p.blocktext
 {
-    font-size: 2.5rem;
     margin-top: 10%;
 }
 
@@ -101,14 +99,12 @@ p.blocktext
 
     h2.blocktext
     {
-        font-size: 2rem;
         padding:5%;
         margin-right:20%;
     }
 
     p.blocktext
     {
-        font-size: 1rem;
         margin-top: 0%;
         text-align: justify;
         margin-left: 5%;
