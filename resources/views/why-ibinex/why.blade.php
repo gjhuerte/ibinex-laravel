@@ -21,9 +21,9 @@
         <div class="row max-width-none">
             <h2 class="col-sm-12 text-center my-3">Why you should exchange your way with Ibinex</h2>
             <p class="col-sm-12 text-center mt-1 mb-3">Our strategy is underpinned by the 4 core strengths of ibinex:</p>
-            <div class="container">
+            <div class="container overflow-remover">
                 <div class="row">
-                    <div class="col-lg-3 col-md-5 col-s-12 mx-3">
+                    <div class="col-lg-3 col-md-5 col-s-12 mx-3 core-left">
                         <div class="py-3">
                             <span class="core">01</span>
                         </div>
@@ -39,11 +39,11 @@
                     </div><!--col-->
 
 
-                    <img class="col-lg-5 col-md-12 d-none d-lg-block" src="{{asset('img/pc.png')}}" alt="pc image">
+                    <img class="col-lg-5 col-md-12 d-none d-lg-block pc" src="{{asset('img/pc.png')}}" alt="pc image">
 
 
 
-                    <div class="col-lg-3 col-md-5 col-s-12 mx-3">
+                    <div class="col-lg-3 col-md-5 col-s-12 mx-3 core-right">
                         <div class="py-3">
                             <span class="core">03</span>
                         </div>
@@ -62,8 +62,9 @@
         </div><!--row-->
     </div><!--container-->
     <div class="container-fluid remover">
-        <div  class="row position-relative max-width-none">
+        <div  class="row position-relative max-width-none overflow-remover">
             <div class="col-xs-12 blocktext-background shadow"></div>
+            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
             <div class="block mx-3 px-3 shadow">
                 <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
                 <p class="blocktext">
@@ -80,8 +81,56 @@
                 </p>
             </div>
 
-            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
 
         </div><!--row-->
+
     </div><!--container-->
 @endsection
+
+@push('custom-scripts')
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.core-left', {
+            duration: 3000,
+            origin: 'left',
+            distance: '300px',
+            mobile: false
+        });
+        sr.reveal('.core-right', {
+            duration: 3000,
+            origin: 'right',
+            distance: '300px',
+            mobile: false
+        });
+        sr.reveal('.pc', {
+            duration: 3000,
+            origin: 'top',
+            mobile: false
+        });
+        sr.reveal('.blocktext-background', {
+            duration: 2000,
+            origin: 'left',
+            distance: '200px',
+            viewFactor: 0.2,
+            mobile: false
+        });
+        sr.reveal('.block', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2,
+            mobile:false
+        });
+        sr.reveal('.blocktext-background2', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        });
+
+    </script>
+
+
+@endpush
