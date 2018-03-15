@@ -54,6 +54,10 @@ body h2.blue, body h2.black, body h2.grey {
     font-family: "Proxima Nova", sans-serif;
     font-size: 16px;
 }
+body footer .smaller{
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 12px;
+}
 body p.quote, body span.quote {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -110,6 +114,9 @@ body .semi-circle.green {
 body .semi-circle.pink {
     background-color: rgba(224, 159, 181, 1);
 }
+body .semi-circle.red{
+     background-color:rgba( 255, 0, 0, 1);
+}
 body .semi-circle.green-brochure {
     background-color: rgba(18, 213, 184, 1);
     color: rgba(33, 42, 95, 1);
@@ -120,7 +127,7 @@ body h1, body h2 {
 body h1.blue, body h2.blue {
     color: #2770f6;
 }
-body h1.grey, body h2.grey {
+body h1.grey, body h2.grey, body footer .grey{
     color: #9c9c9c;
 }
 body .bg-color-grey {
@@ -285,4 +292,96 @@ body #downloadables .brochures p {
     body .fixed-height {
         height: 567px;
     }
+}
+
+/*
+    Footer by PJ
+ */
+
+
+body footer {
+    position: relative;
+}
+body footer {
+    background: #1e2654;
+    color: #fff;
+    margin: 0;
+}
+body footer .fonts {
+    font-size: 14px;
+}
+body footer .centered {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+body footer .centered .footer-logo {
+    width: 20%;
+}
+body footer .centered .footer-logo img.logo {
+    padding: 30px 20px 10px 20px;
+    max-width: 100%;
+    display: block;
+}
+body footer .centered .footer-contact {
+    width: 10%;
+}
+body footer .centered .footer-navigation {
+    width: 60%;
+}
+body footer .centered .footer-navigation .footer-links-holder {
+    width: 30%;
+    position: relative;
+    float: left;
+    margin: 0;
+}
+body footer .centered .footer-navigation .footer-links-holder .footer-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-transition: max-height .5s;
+    transition: max-height .5s;
+}
+body footer .bottom-bar {
+    position: relative;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    background: #000;
+    padding: 15px 0;
+}
+body span.color {
+    color: black;
+}
+body .bg-color-grey {
+    background-color: whitesmoke;
+}
+body .bg-shade-grey {
+    background-color: #f2f1f1;
+}
+body input.colors {
+    color: white;
+}
+body footer.bg-color-blue-dark {
+    background-color: #1e2654;
+}
+body .column2 {
+    color: white;
+}
+body h6 {
+    margin-top: 20px;
+}
+body div + span.property {
+    font-weight: lighter;
+    font-size: 0.1px;
+}
+body h6.heads {
+    color: blue;
+}
+body li {
+    list-style-type: none;
+}
+body .column3 {
+    color: white;
 }
