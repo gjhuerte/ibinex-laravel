@@ -1,12 +1,11 @@
 $(document).ready(function() {
-
     $(window).scroll(function() {
         var navOffset = $("#inner-nav").offset().top;
         if($(document).scrollTop() >= navOffset){
-        $("#inner-nav").addClass('shrink');
+            $("#inner-nav").addClass('shrink shadow');
         }
         else {
-            $("#inner-nav").removeClass('shrink');
+            $("#inner-nav").removeClass('shrink shadow');
         }
     });
 
@@ -17,7 +16,6 @@ $(document).ready(function() {
         console.log(reff.position().top + " <= " + scrollPos + " && " + (reff.position().top+reff.height()) + " > " + scrollPos);
         // console.log(curr);
     });
-
 
     $(document).on("scroll", onScroll);
 
@@ -49,7 +47,6 @@ $(document).ready(function() {
         } // End if
     });
 
-
     function onScroll(event){
         var scrollPos = $(document).scrollTop();
         // console.log(scrollPos);
@@ -65,5 +62,74 @@ $(document).ready(function() {
             }
         });
     }
+
+
+    window.sr = ScrollReveal();
+
+    sr.reveal('.inner-platform', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#platformText', {
+        distance: '300px',
+    });
+
+    sr.reveal('.second-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#secondSection', {
+        distance: '300px',
+    });
+
+    sr.reveal('.third-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('.third-section-mobile', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#thirdSection', {
+        distance: '300px',
+    });
+
+    sr.reveal('.fourth-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#fourthSection', {
+        distance: '300px',
+    });
+
+    sr.reveal('.fifth-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#fifthSection', {
+        distance: '300px',
+    });
+
+    // sr.reveal('#platformImg', {
+    //     duration: 1500,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    //     origin: 'left'
+    // });
+
+
+
 });
 
