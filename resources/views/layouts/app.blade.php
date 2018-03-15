@@ -53,7 +53,6 @@
 <script src="{{ asset("js/services.js") }}"></script>
 {{--<script src="script.js"></script>--}}
 @stack('custom-scripts')
-@stack('scripts')
 </body>
 
 </html>
