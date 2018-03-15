@@ -12,6 +12,7 @@
     <!-- Le styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link href="{{ asset("css/animate.css") }}" rel="stylesheet" />
     <link href="{{ asset("css/style.css") }}" rel="stylesheet" />
     <link href="{{ asset("css/ib-loader.css") }}" rel="stylesheet" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -51,7 +52,20 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="{{ asset("js/ib-loader.js") }}"></script>
-<script src="{{ asset("js/services.js") }}"></script>
+<script src="{{ asset("js/ibinex.js") }}"></script>
+{{--<script src="script.js"></script>--}}
+<script>
+    var faButton = $('.faButton');
+    $(window).resize(function() {
+        faButton.css('height', faButton.width());
+    });
+
+    $(document).ready(function() {
+        faButton.css('height', faButton.width());
+    });
+    ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp',500);
+</script>
+@stack('scripts')
 {{--<script src="script.js"></script>--}}
 @stack('custom-scripts')
 </body>
