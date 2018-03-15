@@ -27,7 +27,7 @@
 </head>
 
 <body class='@yield('body-class')-template'>
-<div class='container-fluid'>
+<div id="main-body" class='container-fluid'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">
             <section class="container">

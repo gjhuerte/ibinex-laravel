@@ -374,7 +374,7 @@ body footer footer.bg-color-blue-dark {
 body footer .column2 {
     color: white;
     align-self:center;
-    padding-top:7%;
+    padding-top:50px;
     padding-left:5%;
 }
 body footer h6 {
@@ -407,22 +407,29 @@ body footer .padding{
     padding-top: 3%;
 }
 
-<<<<<<< HEAD
 body footer .pad-left{
     padding-left: 5%;
 }
 
 body footer .pad-top{
-    padding-top: 17%;
+    padding-top: 50px;
 }
 
-@media all and (max-width:576px){
-
+@media all and (max-width: 576px){
+    .d-xs-block{
+        display: block;
+    }
+}
+@media all and (max-width: 768px){
+    .align-self-center{
+        text-align: center;
+        padding: 45px ;
+    }
     body footer .pad-top{
-        padding-top: 10%;
+        padding-top: 45px;
     }
     body footer .column2{
-         padding-top: 0%;
+         padding-top: 0;
      }
 }
 
@@ -430,7 +437,6 @@ body footer .pad-top{
 /*
     Ansell navbar
 */
-=======
 #contact-section a {
     color: #222;
 }    	
@@ -438,8 +444,6 @@ body footer .pad-top{
 #contact-section a:hover {
     color: #000;
 }
->>>>>>> bfec06da3c342a88e6fa9db6771758e0340eba29
-
 ul.navbar-nav a:hover {
     background: rgba(255,255,255,0.2);
     border-radius: 8px;
@@ -452,8 +456,3 @@ ul.navbar-nav + button.btn:hover {
     background: #2563c6;
     color: #fff;
 }
-<<<<<<< HEAD
-
-/* */
-=======
->>>>>>> bfec06da3c342a88e6fa9db6771758e0340eba29

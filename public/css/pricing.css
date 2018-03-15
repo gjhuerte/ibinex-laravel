@@ -38,6 +38,19 @@
 
 #pricing-content {
     background-color: #212a5f;
+    position: relative;
+}
+
+#pricing-content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #a5aaae;
 }
 
 #pricing-content > hr {
@@ -102,7 +115,7 @@
     #pricing-content {
         box-sizing: border-box;
         max-width: 970px;
-        padding: 20px 10px 122px;
+        padding: 20px 15px 122px;
         margin: auto;
     }
 
@@ -119,8 +132,24 @@
     }
 }
 
-@media only screen and (min-width: 969px) {
+@media only screen and (min-width: 970px) {
+    body {
+        position: relative;
+    }
+
+    body #fullscreen-hero.full-height {
+        min-height: 134vh;
+    }
+
     #pricing-content {
         border-radius: 20px;
+        position: relative;
+        top: -335px;
+        margin-bottom: -400px;
+    }
+
+    .footer-buffer {
+        height: 95px;
+        background-color: #f2f1f1;
     }
 }
