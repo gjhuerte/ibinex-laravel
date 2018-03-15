@@ -19,6 +19,30 @@
 @section('body-class','home')
 @section('header-height','full-height')
 @section('bg-img','home-bg.png')
+
+@push('custom-scripts')
+    <script>
+
+        $(function() {
+            //floating button will remain a circle at all times
+            let faButton = $('.faButton');
+            faButton.css('height', faButton.width());
+            $(window).resize(function() {
+                faButton.css('height', faButton.width());
+            });
+
+            //margin-right fix for fifth-fold
+            let marginRight = parseInt($('#third-fold > .row').css('margin-right'));
+            $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
+            $(window).resize(function() {
+                marginRight = parseInt($('#third-fold > .row').css('margin-right'));
+                $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
+            });
+        });
+
+    </script>
+@endpush
+
 @section('content')
     <!--1  -->
     <section id="second-fold" class="container-fluid bg-color-grey">

@@ -1,6 +1,6 @@
 
 <!-- Start menu here -->
-<nav class="navbar navbar-expand-md navbar-light bg-faded">
+<nav class="navbar navbar-expand-lg navbar-light bg-faded">
     <div class="container">
         <a class="navbar-brand" href="#">
             <!--Logo here-->

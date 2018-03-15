@@ -39,6 +39,7 @@ body{
     background-color: rgb(242,241,241);
     position: absolute;
     top: 38vh;
+    z-index: 99999;
 
 }
 
@@ -55,12 +56,20 @@ p.blocktext
 .blocktext-background{
     background-image: url(../img/s1.png);
     height: 750px;
-    width: 100%;
+    width:100%;
     zoom: 0.6;
     background-repeat:no-repeat;
 }
 
 @media only screen and (min-width: 768px){
+    h2.blocktext {
+        padding-top: 10%;
+    }
+
+    p.blocktext {
+        margin-top: 5%;
+    }
+    
     .block{
         top:35vh;
         margin-left: 7% !important;
@@ -116,7 +125,6 @@ p.blocktext
         top: 12%;
         right: 0%;
         width: 53%;
-        height: 52%;
         margin-right: 0px !important;
         padding: 3% 5% 4% !important;
     }

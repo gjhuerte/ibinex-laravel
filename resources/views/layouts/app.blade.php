@@ -27,12 +27,14 @@
 </head>
 
 <body class='@yield('body-class')-template'>
-<div class='container-fluid'>
+<div id="main-body" class='container-fluid'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
-        <section class="container">
-            @include('layouts.navbar')
-            @yield('header-content')
-        </section>
+        <div class="gradient-wrapper">
+            <section class="container">
+                @include('layouts.navbar')
+                @yield('header-content')
+            </section>
+        </div>
     </header>
     <main>
         @yield('content')
@@ -50,19 +52,7 @@
 <script src="{{ asset("js/ib-loader.js") }}"></script>
 <script src="{{ asset("js/services.js") }}"></script>
 {{--<script src="script.js"></script>--}}
-<script>
-    var faButton = $('.faButton');
-    $(window).resize(function() {
-        faButton.css('height', faButton.width());
-    });
-
-    $(document).ready(function() {
-        faButton.css('height', faButton.width());
-    });
-
-
-</script>
-@stack('scripts')
+@stack('custom-scripts')
 </body>
 
 </html>
