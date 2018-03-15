@@ -385,3 +385,17 @@ body li {
 body .column3 {
     color: white;
 }
+
+
+ul.navbar-nav a:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+ul.navbar-nav + button.btn:hover {
+    opacity: 1.0;
+    background: #2563c6;
+    color: #fff;
+}
