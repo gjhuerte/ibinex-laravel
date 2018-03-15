@@ -19,23 +19,23 @@
 @section('bg-img','services.png')
 @section('content')
     <div class="d-none d-sm-block pb-4 sticky-top">
-        <nav class="navbar navbar-expand-md navbar-white bg-white">
-            <div class="container">
+        <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white">
+            <div id="menu-center" class="container">
                 <ul class="nav navbar-nav mx-auto">
-                    <li class="nav-item px-4 inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#platform">Platform</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link px-4 inner-nav-link" href="#platform">Platform</a>
                     </li>
-                    <li class="nav-item px-4 inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#CRMbackoffice">CRM Back Office</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link px-4 inner-nav-link" href="#CRMbackoffice">CRM Back Office</a>
                     </li>
-                    <li class="nav-item px-4 inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#cryptoBridge">CryptoBridge&trade;</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link px-4 inner-nav-link" href="#cryptoBridge">CryptoBridge&trade;</a>
                     </li>
-                    <li class="nav-item px-4 inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#creditCard">Credit Card Processing</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link px-4 inner-nav-link" href="#creditCard">Credit Card Processing</a>
                     </li>
-                    <li class="nav-item px-4 inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#custodian">Custodian Accounts</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link px-4 inner-nav-link" href="#custodian">Custodian Accounts</a>
                     </li>
                 </ul>
             </div>

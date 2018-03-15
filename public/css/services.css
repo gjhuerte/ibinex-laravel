@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 
+.shrink {
+    max-height: 35px;
+    font-size: 12px;
+    padding: 0 1rem !important;
+}
 
 .navbar-nav > li {
     float: left;
     position: relative;
 }
-.navbar-white .navbar-nav .active a::after{
+.navbar-white .navbar-nav .active{
     border-bottom: 3px solid rgb(39,112,246);
-    bottom: -10px;
-    content: " ";
-    left: 0;
-    position: absolute;
-    right: 0;
+    color: rgb(39,112,246);
+    /*bottom: -10px;*/
+    /*left: 0;*/
+    /*position: absolute;*/
+    /*right: 0;*/
 }
 .navbar-white .navbar-nav a {
     color: #6c757d;
@@ -23,7 +28,7 @@
 
 .navbar-white .navbar-nav a:hover:after{
     border-bottom: 3px solid rgb(39,112,246);
-    bottom: -10px;
+    bottom: 0px;
     content: " ";
     left: 0;
     position: absolute;
