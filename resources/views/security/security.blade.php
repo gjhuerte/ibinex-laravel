@@ -118,6 +118,15 @@
                 useDelay: 'always',
                 delay: 1500
             });
+            // image
+            sr.reveal('.security-section', {
+                // origin: 'right',
+                duration: 2000,
+                useDelay: 'always',
+                delay: 800,
+                // opacity: 0.5,
+                // easing: 'ease-in-out(0.6, 0.2, 0.1, 1)',
+            });
         }
     </script>
 @endpush
