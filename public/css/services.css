@@ -31,7 +31,7 @@ div.lorem .l2 img{
 .red-ellipse{
     z-index: 999;
     position: absolute;
-    top: 37%;
+    top: 35%;
     height: 30%;
 }
 
@@ -193,7 +193,7 @@ div.credit-card p {
     }
 
     .crm-container{
-        padding-bottom: 105px;
+        padding-bottom: 113px !important;
     }
 
     .qtt-container{

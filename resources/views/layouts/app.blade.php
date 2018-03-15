@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Ibinex - @yield('title')</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
     <meta name="description" content="" />
     <meta name="author" content="" />
 
@@ -27,7 +28,7 @@
 
 <body class='@yield('body-class')-template'>
 <div class='container-fluid'>
-    <header id="fullscreen-hero" class="full-height" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
+    <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <section class="container">
             @include('layouts.navbar')
             @yield('header-content')
