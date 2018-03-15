@@ -36,5 +36,5 @@ Route::get('/services', function () {
 });
 
 Route::get('/about-us', fuunction(){
-   return view('about-us.about-us')
+   return view('about-us.about-us');
 });
