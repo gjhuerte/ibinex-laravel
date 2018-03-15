@@ -31,33 +31,39 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="row ib-get-started-b ib-text-center">
+                            <div class="row ib-get-started-b text-center ib-text-center">
                                 <div class="col-sm">
-                                    <img class="ib-p" src="{{ asset("img/p1.png") }}" />
-                                    <img class="ib-pp" src="{{ asset("img/p1-1.gif") }}" />
-                                    <div class="label">
+                                    <div class="py-3 ib-circle-c">
+                                        <span class="ib-circle">1</span>
+                                    </div>
+                                    <img class="ib-pb-2 pt-4 pb-5" src="{{ asset("img/p1.png") }}" />
+                                    <div class="label pt-3 ib-pt-1">
                                         Local Escrow deposit
                                     </div>
-                                    <div class="label">
+                                    <div class="label ib-pb-1">
                                         (reserve only, no payment)
                                     </div>
                                 </div>
                                 <div class="col-sm">
-                                    <img class="ib-p" src="{{ asset("img/p2.png") }}" />
-                                    <img class="ib-pp" src="{{ asset("img/p2-2.gif") }}" />
-                                    <div class="label">
+                                    <div class="py-3 ib-circle-c">
+                                        <span class="ib-circle">2</span>
+                                    </div>
+                                    <img class="ib-p py-3" src="{{ asset("img/p2.png") }}" />
+                                    <div class="label pt-4 ib-pb-1">
                                         Letter of Intent
                                     </div>
                                 </div>
                                 <div class="col-sm">
-                                    <img class="ib-p" src="{{ asset("img/p3.png") }}" />
-                                    <img class="ib-pp" src="{{ asset("img/p3-3.gif") }}" />
-                                    <div class="label">
+                                    <div class="py-3 ib-circle-c">
+                                        <span class="ib-circle">3</span>
+                                    </div>
+                                    <img class="ib-p py-3" src="{{ asset("img/p3.png") }}" />
+                                    <div class="label pt-4 ib-pb-1">
                                         Proof of Escrow deposit
                                     </div>
                                 </div>
                             </div>
-                            <div class="ib-get-started-note">
+                            <div class="text-center mt-5">
                                 <p>
                                     Please note that, due to high demand, the current on-boarding time frame is 4 months.
                                 </p>
@@ -67,23 +73,25 @@
 
                     <div class="ib-contact">
                         <div class="row ib-contact-support">
-                            <div class="col-sm-2"></div>
-                            <div class="col-sm-3">
-                                <h2>
-                                    Support
-                                </h2>
-                                <p>
-                                    Contact and feedback are integral to the Ibinex way, enabling
-                                    us to cater to your needs and requirements effectively and efficiently.
-                                </p>
-                                <p>
-                                    For support regarding any aspect of the Ibinex platform, your use of this website
-                                    or your own exchange integrationm please contact us with your enquiry for
-                                    personalised customer service.
-                                </p>
-                                <p>
-                                    We will endeavour to respond to you as promptly as possible.
-                                </p>
+                            {{--<div class="col-sm-2"></div>--}}
+                            <div class="col-sm-5">
+                                <div class="ib-support-text">
+                                    <h2>
+                                        Support
+                                    </h2>
+                                    <p>
+                                        Contact and feedback are integral to the Ibinex way, enabling
+                                        us to cater to your needs and requirements effectively and efficiently.
+                                    </p>
+                                    <p>
+                                        For support regarding any aspect of the Ibinex platform, your use of this website
+                                        or your own exchange integrationm please contact us with your enquiry for
+                                        personalised customer service.
+                                    </p>
+                                    <p>
+                                        We will endeavour to respond to you as promptly as possible.
+                                    </p>
+                                </div>
                             </div>
                             <div class="col-sm-7 ib-contact-bg">
                                 <div class="ib-contact-form">

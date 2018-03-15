@@ -128,7 +128,7 @@
             <h2 class="sub-title grey bold">Learn more about Ibinex</h2>
             <h1 class="title black smaller bold">Technical Papers & Legal Circular</h1>
         </header>
-        <section class="row">
+        <section>
 
             <section id="downloadables">
                 <!-- FIRST ROW START -->

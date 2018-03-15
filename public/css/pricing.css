@@ -48,7 +48,7 @@
 /* Distance and Spacing */
 
 #pricing-content {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 #pricing-content > section:first-of-type {
@@ -57,7 +57,7 @@
 }
 
 #pricing-content h2 {
-    padding-top: 55px;
+    padding-top: 47px;
     padding-bottom: 75px;
     line-height: 130%;
 }
@@ -102,7 +102,7 @@
     #pricing-content {
         box-sizing: border-box;
         max-width: 970px;
-        padding: 20px 10px 125px;
+        padding: 20px 10px 122px;
         margin: auto;
     }
 
