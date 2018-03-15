@@ -14,10 +14,70 @@
     </section>
 @endsection
 
+@push('custom-scripts')
+    <script>
+        $(function(){
+            window.sr = ScrollReveal();
+            sr.reveal('.core-left', {
+                duration: 3000,
+                origin: 'left',
+                distance: '300px',
+
+            });
+            sr.reveal('.core-right', {
+                duration: 3000,
+                origin: 'right',
+                distance: '300px',
+
+            });
+            sr.reveal('.pc', {
+                duration: 3000,
+                origin: 'top',
+            });
+            sr.reveal('.blocktext-background', {
+                duration: 2000,
+                origin: 'left',
+                distance: '200px',
+                viewFactor: 0.2,
+                mobile:false
+            });
+            sr.reveal('.block', {
+                duration: 2000,
+                origin: 'right',
+                distance: '300px',
+                viewFactor: 0.2,
+            });
+            sr.reveal('.blocktext-background2', {
+                duration: 2000,
+                origin: 'left',
+                distance: '300px'
+            });
+
+            let secondFold = $('#second-fold > div > div');
+            let secondFoldFix, divFix;
+            secondFoldFix = parseInt($('#second-fold > div > div.block').css('height'));
+            divFix = parseInt(secondFold.css('height')) / 2;
+
+
+            $(window).resize(function() {
+                secondFoldFix = parseInt($('#second-fold > div > div.block').css('height'));
+                if($( window ).width() < 1023) {
+                    secondFold.css('margin-bottom', secondFoldFix + divFix);
+                }
+                else
+                    secondFold.css('margin-bottom', 0);
+            });
+
+            secondFold.css('margin-bottom', secondFoldFix + divFix);
+
+        });
+    </script>
+@endpush
+
 @section('body-class','contact')
 @section('bg-img','top.png')
 @section('content')
-    <div class="container spacer">
+    <div id="first-fold" class="container spacer">
         <div class="row max-width-none">
             <h2 class="col-sm-12 text-center my-3">Why you should exchange your way with Ibinex</h2>
             <p class="col-sm-12 text-center mt-1 mb-3">Our strategy is underpinned by the 4 core strengths of ibinex:</p>
@@ -61,7 +121,7 @@
             </div><!--container-->
         </div><!--row-->
     </div><!--container-->
-    <div class="container-fluid remover">
+    <div id="second-fold" class="container-fluid remover">
         <div  class="row position-relative max-width-none overflow-remover">
             <div class="col-xs-12 blocktext-background shadow"></div>
             <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
@@ -86,44 +146,3 @@
 
     </div><!--container-->
 @endsection
-
-@push('custom-scripts')
-
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('.core-left', {
-            duration: 3000,
-            origin: 'left',
-            distance: '300px',
-        });
-        sr.reveal('.core-right', {
-            duration: 3000,
-            origin: 'right',
-            distance: '300px',
-        });
-        sr.reveal('.pc', {
-            duration: 3000,
-            origin: 'top',
-        });
-        sr.reveal('.blocktext-background', {
-            duration: 2000,
-            origin: 'left',
-            distance: '200px',
-            viewFactor: 0.2,
-        });
-        sr.reveal('.block', {
-            duration: 2000,
-            origin: 'right',
-            distance: '300px',
-            viewFactor: 0.2,
-        });
-        sr.reveal('.blocktext-background2', {
-            duration: 2000,
-            origin: 'left',
-            distance: '300px'
-        });
-
-    </script>
-
-
-@endpush

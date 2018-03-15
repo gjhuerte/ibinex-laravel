@@ -1,28 +1,135 @@
 $(document).ready(function() {
-    $(".inner-nav-item").click(function() {
-        $(".inner-nav-item").removeClass("active");
-        $(this).addClass("active");
+    $(window).scroll(function() {
+        var navOffset = $("#inner-nav").offset().top;
+        if($(document).scrollTop() >= navOffset){
+            $("#inner-nav").addClass('shrink shadow');
+        }
+        else {
+            $("#inner-nav").removeClass('shrink shadow');
+        }
     });
 
-    $(".inner-nav-link").on('click', function(event) {
-        console.log(this.hash);
+    $(".inner-nav-item a").click(function() {
+        var scrollPos = $(document).scrollTop();
+        var curr = $(this);
+        var reff = $(curr.attr("href"));
+        console.log(reff.position().top + " <= " + scrollPos + " && " + (reff.position().top+reff.height()) + " > " + scrollPos);
+        // console.log(curr);
+    });
+
+    $(document).on("scroll", onScroll);
+
+    $('a[href^="#"]').on('click', function(event) {
         if (this.hash !== "") {
             // Prevent default anchor click behavior
             event.preventDefault();
 
+            $(document).off("scroll");
+
+            $('a').each(function () {
+                $(this).removeClass('active');
+            });
+            $(this).addClass('active');
+
             // Store hash
-            var hash = this.hash;
+            var target = this.hash,
+                menu = target;
 
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function(){
-
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
+            $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $(document).on("scroll", onScroll);
             });
         } // End if
     });
+
+    function onScroll(event){
+        var scrollPos = $(document).scrollTop();
+        // console.log(scrollPos);
+        $('.inner-nav-item a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (refElement.position().top <= scrollPos+100 && refElement.position().top + refElement.height() > scrollPos) {
+                $('#menu-center ul li a').removeClass("active");
+                currLink.addClass("active");
+            }
+            else{
+                currLink.removeClass("active");
+            }
+        });
+    }
+
+
+    window.sr = ScrollReveal();
+
+    sr.reveal('.inner-platform', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#platformText', {
+        distance: '300px',
+    });
+
+    sr.reveal('.second-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#secondSection', {
+        distance: '300px',
+    });
+
+    sr.reveal('.third-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('.third-section-mobile', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#thirdSection', {
+        distance: '300px',
+    });
+
+    sr.reveal('.fourth-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#fourthSection', {
+        distance: '300px',
+    });
+
+    sr.reveal('.fifth-section', {
+        duration: 2000,
+        viewFactor: 0.5,
+        distance: '100px',
+    }, 450);
+
+    sr.reveal('#fifthSection', {
+        distance: '300px',
+    });
+
+    // sr.reveal('#platformImg', {
+    //     duration: 1500,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    //     origin: 'left'
+    // });
+
+
+
 });
 
