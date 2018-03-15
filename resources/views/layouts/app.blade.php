@@ -59,6 +59,7 @@
         faButton.css('height', faButton.width());
     });
 
+
 </script>
 @stack('scripts')
 </body>

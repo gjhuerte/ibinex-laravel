@@ -98,7 +98,7 @@
     <!--4 -->
     <section id="fifth-fold" class="container-fluid position-relative">
         <section class="row embed-parent max-width-none">
-            <section class="row">
+            <section class="row mx-0">
                 <div class="col-xl-6 order-xl-2">
                     <section class="pt-3">
                         <h2 class="sub-title blue bold">Compliant Banking Custodian Service</h2>
@@ -130,7 +130,7 @@
         </header>
         <section class="row">
 
-            <section id="downloadables">
+            <section id="downloadables" class="d-flex justify-content-around flex-wrap">
                 <!-- FIRST ROW START -->
 
                 <div class="brochures text-center">
@@ -188,21 +188,17 @@
 
         </section>
     </section>
-    <section id="seventh-fold">
+    <section id="seventh-fold" class="text-center my-5">
         <header>
-            <h2>title</h2>
+            <h1 class="title black smaller bold">Ibinex Media Coverage</h1>
         </header>
-        <section id="logos">
-           image
+        <section id="logo" class="mt-5">
+           <img alt="" class="" src="{{ asset("img/logo/logo-1.png") }}">
+           <img alt="" class="" src="{{ asset("img/logo/logo-2.png") }}">
+           <img alt="" class="" src="{{ asset("img/logo/logo-3.png") }}">
+           <img alt="" class="" src="{{ asset("img/logo/logo-4.png") }}">
+           <img alt="" class="" src="{{ asset("img/logo/logo-5.png") }}">
+           <img alt="" class="" src="{{ asset("img/logo/logo-6.png") }}">
         </section>
-    </section>
-
-    <section id="contact-section">
-        <header>
-            <span>contact-us</span>
-        </header>
-        <nav>
-            menu
-        </nav>
     </section>
 @endsection

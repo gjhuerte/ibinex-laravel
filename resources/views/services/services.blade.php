@@ -2,14 +2,13 @@
 
 @section('title','Services')
 
-
 @push('stylesheets')
     <link href="{{ asset("css/services.css") }}" rel="stylesheet" />
 @endpush
 
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">
-        <h1 class="title text-center">Services</h1>
+        <h1 class="title text-left text-sm-center">Services</h1>
         <p class="description text-justify">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
         <p class="description text-justify">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
@@ -19,25 +18,24 @@
 @section('body-class','services')
 @section('bg-img','services.png')
 @section('content')
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            {{--<a class="navbar-brand" href="#">Navbar</a>--}}
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+    <div class="container d-none d-sm-block pb-4">
+        <nav class="navbar navbar-expand-md navbar-fixed-top navbar-white bg-white">
+            <div class="container">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item px-4 active">
+                        <a class="nav-link" href="#platform">Platform</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#CRMbackoffice">CRM Back Office</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#cryptoBridge">CryptoBridge&trade;</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#creditCard">Credit Card Processing</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#custodian">Custodian Accounts</a>
                     </li>
                 </ul>
             </div>
@@ -45,9 +43,8 @@
     </div>
 
     <div class="container-fluid">
-
         <div class="row max-width-none">
-            <div class="col-12 bg-light">
+            <div id="platform" class="col-12 bg-light">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6 macbook-img1 pt-4">
@@ -74,12 +71,14 @@
                         </div>
                     </div> <!-- /.row -->
                 </div>
-            </div> <!-- /.col-12 bg-light  -->
-            <div class="container-fluid crm-container">
+            </div> <!-- /.col-12 bg-light  --> {{--#platform--}}
+
+
+            <div id="CRMbackoffice" class="container-fluid crm-container">
                 <div class="row max-width-none">
                     <div class="col-12 col-sm-6 bg-white crm">
                         <div class="inner-crm">
-                            <div class="text-center text-sm-left pt-5 mt-3">
+                            <div class="text-left pt-5 mt-3">
                                 <span class="text-dark h1">CRM Back Office</span>
                             </div>
                             <div class="pt-4">
@@ -116,11 +115,11 @@
                         </div> <!-- /.row -->
                     </div> <!-- /.col-12 -->
                 </div>
-            </div>
+            </div> {{--#CRMbackoffice--}}
 
 
 
-            <div class="col-12 cb px-0">
+            <div id="cryptoBridge" class="col-12 cb px-0">
                 <div class="container-fluid">
                     <div class="row max-width-none">
                         <div class="d-none d-sm-block col-sm-6 px-0 cb-logo">
@@ -129,7 +128,6 @@
                         <div class="d-block d-sm-none col-12 cb1">
 
                         </div>
-
                         <div class="d-block d-sm-none col-12 cb2">
 
                         </div>
@@ -141,10 +139,10 @@
                         </div>
                     </div> <!-- /.row -->
                 </div>
-            </div> <!-- /.col-12 CB logo-->
+            </div> <!-- /.col-12 CB logo--> {{--#cryptoBridge--}}
 
 
-            <div class="col-12 pt-5 bg-white px-md-0">
+            <div id="creditCard" class="col-12 pt-5 bg-white px-md-0">
                 <div class="container">
                     <div class="row max-width-none">
                         <div class="col-12 col-sm-6 col-md-6 d-none d-sm-block fone-img">
@@ -161,9 +159,9 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- /.credit-card -->
+            </div> <!-- /.credit-card --> {{--#creditCard--}}
 
-            <div class="col-12 custodian px-0 pt-4">
+            <div id="custodian" class="col-12 custodian px-0 pt-4">
                 <div class="container-fluid">
                     <div class="row max-width-none">
                         <div class="col-12 col-sm-6 custodian-left pb-4 pb-sm-0">
@@ -193,7 +191,7 @@
                                     <!--<img class="qtt-img" src="" alt=""> -->
                                 </div>
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
-                                <div class="col-12 col-sm-10 text-white pb-4 pt-5 pt-sm-0 lorem-ipsum-lower">
+                                <div class="col-12 col-sm-10 text-white px-3 pb-sm-4 pt-4 pt-sm-5 px-sm-5 lorem-ipsum-lower">
                                     <p class="text-justify pt-5 h4 mt-sm-0"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
                                         </em></p>
@@ -203,7 +201,7 @@
                         </div>
                     </div> <!-- /.row -->
                 </div>
-            </div> <!-- /.col-12 custodian -->
+            </div> <!-- /.col-12 custodian --> {{--#custodian--}}
         </div> <!-- /.row -->
     </div>
 @endsection
