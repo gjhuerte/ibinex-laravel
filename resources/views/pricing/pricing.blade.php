@@ -42,8 +42,8 @@
         </section>
         <hr>
 
-        <section>
-            <article>
+        <section class="row">
+            <article class="col">
                 <h5>What you receive</h5>
                 <div class="row small-text">
                     <div class="col-sm-6">
