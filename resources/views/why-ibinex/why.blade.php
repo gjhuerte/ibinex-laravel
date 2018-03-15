@@ -21,7 +21,7 @@
         <div class="row max-width-none">
             <h2 class="col-sm-12 text-center my-3">Why you should exchange your way with Ibinex</h2>
             <p class="col-sm-12 text-center mt-1 mb-3">Our strategy is underpinned by the 4 core strengths of ibinex:</p>
-            <div class="container">
+            <div class="container overflow-remover">
                 <div class="row">
                     <div class="col-lg-3 col-md-5 col-s-12 mx-3 core-left">
                         <div class="py-3">
@@ -62,7 +62,7 @@
         </div><!--row-->
     </div><!--container-->
     <div class="container-fluid remover">
-        <div  class="row position-relative max-width-none">
+        <div  class="row position-relative max-width-none overflow-remover">
             <div class="col-xs-12 blocktext-background shadow"></div>
             <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
             <div class="block mx-3 px-3 shadow">
@@ -133,4 +133,4 @@
     </script>
 
 
-    @endpush
+@endpush
