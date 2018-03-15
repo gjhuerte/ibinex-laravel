@@ -9,7 +9,7 @@
 
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12">
-        <h1 class="title text-center">Security</h1>
+        <h1 class="title text-center" id="security_title">Security</h1>
         <p class="description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
 @endsection
@@ -77,54 +77,5 @@
 @endsection
 
 @push('custom-scripts')
-
-    <script>
-        // No animation strating from iPad to smaller devices
-        if (document.documentElement.clientWidth > 1023) {
-            window.sr = ScrollReveal({reset: false,});
-
-            sr.reveal('#subtitle_1', {
-                origin: 'left',
-                duration: 2000,
-                useDelay: 'always',
-                delay: 900
-            });
-            sr.reveal('#para_1 p', {
-                origin: 'left',
-                duration: 2500,
-                useDelay: 'always',
-                delay: 1500
-            });
-            sr.reveal('#subtitle_2', {
-                origin: 'right',
-                duration: 3500,
-                useDelay: 'always',
-                delay: 1700
-            });
-            sr.reveal('#para_2 p', {
-                origin: 'right',
-                duration: 4000,
-                useDelay: 'always',
-                delay: 2100
-            });
-            sr.reveal('#infor-security h1', {
-                origin: 'left',
-                duration: 2000,
-                useDelay: 'always',
-                delay: 900
-            });
-            sr.reveal('#infor-security p', {
-                origin: 'left',
-                duration: 2500,
-                useDelay: 'always',
-                delay: 1500
-            });
-            // image
-            sr.reveal('.security-section', {
-                duration: 2000,
-                useDelay: 'always',
-                delay: 800,
-            });
-        }
-    </script>
+    <script src={{ asset("js/security.js") }}></script>
 @endpush
