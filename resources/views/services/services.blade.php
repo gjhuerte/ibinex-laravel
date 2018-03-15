@@ -8,7 +8,7 @@
 
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">
-        <h1 class="title text-center">Services</h1>
+        <h1 class="title text-left text-sm-center">Services</h1>
         <p class="description text-justify">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
         <p class="description text-justify">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
@@ -78,7 +78,7 @@
                 <div class="row max-width-none">
                     <div class="col-12 col-sm-6 bg-white crm">
                         <div class="inner-crm">
-                            <div class="text-center text-sm-left pt-5 mt-3">
+                            <div class="text-left pt-5 mt-3">
                                 <span class="text-dark h1">CRM Back Office</span>
                             </div>
                             <div class="pt-4">
@@ -191,7 +191,7 @@
                                     <!--<img class="qtt-img" src="" alt=""> -->
                                 </div>
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
-                                <div class="col-12 col-sm-10 text-white pb-4 pt-5 pt-sm-0 lorem-ipsum-lower">
+                                <div class="col-12 col-sm-10 text-white px-3 pb-sm-4 pt-4 pt-sm-5 px-sm-5 lorem-ipsum-lower">
                                     <p class="text-justify pt-5 h4 mt-sm-0"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
                                         </em></p>
