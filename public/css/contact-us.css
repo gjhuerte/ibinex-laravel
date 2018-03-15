@@ -44,6 +44,10 @@ section#hero-content {
     margin-top: 35px;
     text-align: center;
 }
+.row.ib-contact-support {
+    width: 100%;
+    margin-left: 0px;
+}
 .ib-contact {
     height: 100vh;
     margin: 15% 0 0 0;
@@ -56,6 +60,7 @@ section#hero-content {
 }
 .ib-contact-form {
     width: 28vw;
+    min-width: 300px;
     background: #f2f1f1;
     padding: 5%;
     position: absolute;
