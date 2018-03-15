@@ -79,6 +79,7 @@
 @push('custom-scripts')
 
     <script>
+        // No animation strating from iPad to smaller devices
         if (document.documentElement.clientWidth > 1023) {
             window.sr = ScrollReveal({reset: false,});
 
