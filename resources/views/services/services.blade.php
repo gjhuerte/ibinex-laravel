@@ -18,24 +18,24 @@
 @section('body-class','services')
 @section('bg-img','services.png')
 @section('content')
-    <div class="container d-none d-sm-block pb-4 sticky-top">
-        <nav class="navbar navbar-expand-md navbar-white bg-transparent">
+    <div class="d-none d-sm-block pb-4 sticky-top">
+        <nav class="navbar navbar-expand-md navbar-white bg-white">
             <div class="container">
                 <ul class="nav navbar-nav mx-auto">
-                    <li class="nav-item px-4">
-                        <a class="nav-link" href="#platform">Platform</a>
+                    <li class="nav-item px-4 inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#platform">Platform</a>
                     </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link" href="#CRMbackoffice">CRM Back Office</a>
+                    <li class="nav-item px-4 inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#CRMbackoffice">CRM Back Office</a>
                     </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link" href="#cryptoBridge">CryptoBridge&trade;</a>
+                    <li class="nav-item px-4 inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#cryptoBridge">CryptoBridge&trade;</a>
                     </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link" href="#creditCard">Credit Card Processing</a>
+                    <li class="nav-item px-4 inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#creditCard">Credit Card Processing</a>
                     </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link" href="#custodian">Custodian Accounts</a>
+                    <li class="nav-item px-4 inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#custodian">Custodian Accounts</a>
                     </li>
                 </ul>
             </div>
