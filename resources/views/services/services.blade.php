@@ -18,11 +18,11 @@
 @section('body-class','services')
 @section('bg-img','services.png')
 @section('content')
-    <div class="container d-none d-sm-block pb-4">
-        <nav class="navbar navbar-expand-md navbar-fixed-top navbar-white bg-white">
+    <div class="container d-none d-sm-block pb-4 sticky-top">
+        <nav class="navbar navbar-expand-md navbar-white bg-transparent">
             <div class="container">
                 <ul class="nav navbar-nav mx-auto">
-                    <li class="nav-item px-4 active">
+                    <li class="nav-item px-4">
                         <a class="nav-link" href="#platform">Platform</a>
                     </li>
                     <li class="nav-item px-4">
