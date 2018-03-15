@@ -15,7 +15,8 @@
 @endsection
 
 @section('body-class','security')
-@section('bg-img','hand.png')
+{{--@section('bg-img','hand.png')Jovi to generalize all banner gradients --}}
+@section('bg-img','security-banner-temp.png')
 
 @section('content')
 
