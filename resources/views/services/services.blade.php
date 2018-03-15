@@ -2,14 +2,13 @@
 
 @section('title','Services')
 
-
 @push('stylesheets')
     <link href="{{ asset("css/services.css") }}" rel="stylesheet" />
 @endpush
 
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">
-        <h1 class="title text-center">Services</h1>
+        <h1 class="title text-left text-sm-center">Services</h1>
         <p class="description text-justify">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
         <p class="description text-justify">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
@@ -19,25 +18,24 @@
 @section('body-class','services')
 @section('bg-img','services.png')
 @section('content')
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            {{--<a class="navbar-brand" href="#">Navbar</a>--}}
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+    <div class="d-none d-sm-block pb-4 sticky-top">
+        <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white">
+            <div id="menu-center" class="container">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#platform">Platform</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#CRMbackoffice">CRM Back Office</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#cryptoBridge">CryptoBridge&trade;</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#creditCard">Credit Card Processing</a>
+                    </li>
+                    <li class="nav-item inner-nav-item">
+                        <a class="nav-link inner-nav-link" href="#custodian">Custodian Accounts</a>
                     </li>
                 </ul>
             </div>
@@ -45,15 +43,14 @@
     </div>
 
     <div class="container-fluid">
-
         <div class="row max-width-none">
-            <div class="col-12 bg-light">
+            <div id="platform" class="col-12 bg-light">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 macbook-img1 pt-4">
+                    <div class="row no-overflow">
+                        <div id="platformImg" class="col-12 col-sm-6 macbook-img1 inner-platform pt-4">
                             <img class="w-100" src="{{asset('img/l1.png')}}" alt="Cryptocurrency Graphs on Macbook">
                         </div>
-                        <div class="col-12 col-sm-6 platform-text pt-5">
+                        <div id="platformText" class="col-12 col-sm-6 inner-platform platform-text pt-5">
                             <div>
                                 <span class="text-dark h1">Platform</span>
                                 <p class="text-secondary text-justify pt-3 mb-sm-1 mt-sm-0">
@@ -74,12 +71,14 @@
                         </div>
                     </div> <!-- /.row -->
                 </div>
-            </div> <!-- /.col-12 bg-light  -->
-            <div class="container-fluid crm-container">
+            </div> <!-- /.col-12 bg-light  --> {{--#platform--}}
+
+
+            <div id="CRMbackoffice" class="container-fluid crm-container">
                 <div class="row max-width-none">
-                    <div class="col-12 col-sm-6 bg-white crm">
+                    <div class="col-12 col-sm-6 bg-white crm second-section">
                         <div class="inner-crm">
-                            <div class="text-center text-sm-left pt-5 mt-3">
+                            <div class="text-left pt-5 mt-3">
                                 <span class="text-dark h1">CRM Back Office</span>
                             </div>
                             <div class="pt-4">
@@ -96,7 +95,7 @@
                             </div>
                         </div>
                     </div> <!-- /.col-12 bg-white crm -->
-                    <div class="col-12 col-sm-6">
+                    <div id="secondSection" class="col-12 col-sm-6 second-section">
                         <div class="row pt-5 mt-2">
                             <div class="col-12 bg-white lorem px-0">
                                 <div class="macbook-img l2">
@@ -106,7 +105,7 @@
                             <img class="red-ellipse" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
 
                             <div class="col-12 col-sm-10 text-white lorem-ipsum px-0">
-                                <div class="inner-lorem px-3 pt-5">
+                                <div class="inner-lorem px-4 pt-5">
                                     <p class="text-justify text-sm-left pt-4 pt-sm-0 mt-4 mt-sm-0 h4"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
                                         </em></p>
@@ -116,24 +115,23 @@
                         </div> <!-- /.row -->
                     </div> <!-- /.col-12 -->
                 </div>
-            </div>
+            </div> {{--#CRMbackoffice--}}
 
 
 
-            <div class="col-12 cb px-0">
+            <div id="cryptoBridge" class="col-12 cb px-0">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="d-none d-sm-block col-sm-6 px-0 cb-logo">
+                        <div class="d-none d-sm-block col-sm-6 px-0 cb-logo third-section">
                             <!--                 <img class="w-100" src="assets/images/cb.png" alt="CB logo"> -->
                         </div>
-                        <div class="d-block d-sm-none col-12 cb1">
+                        <div class="d-block d-sm-none col-12 cb1 third-section-mobile">
 
                         </div>
-
-                        <div class="d-block d-sm-none col-12 cb2">
+                        <div class="d-block d-sm-none col-12 cb2 third-section-mobile">
 
                         </div>
-                        <div class="col-12 col-sm-6 cb-text">
+                        <div id="thirdSection" class="col-12 col-sm-6 cb-text third-section">
                                 <h1 class="text-dark">CryptoBridge<sup>&trade;</sup></h1>
                                 <p class="text-justify text-sm-left pt-4 mt-3 mb-sm-5 pb-sm-5 mt-sm-0">Aggregate elite exchanges and indexes as the cryptocurrency market moves, with out patent-pending proprietary software suite,
                                     CryptoBridge<sup>&trade;</sup>. Gain access to 60 premier exchanges for maximum liquidity cryptocurrencies, all available only through
@@ -141,16 +139,16 @@
                         </div>
                     </div> <!-- /.row -->
                 </div>
-            </div> <!-- /.col-12 CB logo-->
+            </div> <!-- /.col-12 CB logo--> {{--#cryptoBridge--}}
 
 
-            <div class="col-12 pt-5 bg-white px-md-0">
+            <div id="creditCard" class="col-12 pt-5 bg-white px-md-0">
                 <div class="container">
                     <div class="row max-width-none">
-                        <div class="col-12 col-sm-6 col-md-6 d-none d-sm-block fone-img">
+                        <div class="col-12 col-sm-6 col-md-6 d-none d-sm-block fone-img fourth-section">
                             <!--                 <img class="w-100" src="assets/images/fone.png" alt="Phone"> -->
                         </div>
-                        <div class="col-12 col-sm-6 col-md-5 credit-card px-0 pt-sm-5 mt-sm-4">
+                        <div id="fourthSection" class="col-12 col-sm-6 col-md-5 credit-card px-0 pt-sm-5 mt-sm-4 fourth-section">
                             <h1 class="pl-3">Credit Card Processing</h1>
                             <p class="text-justify pt-4 px-2 mt-sm-0">
                                 We offer full spectrum payment processing for cryptocurrencies, and a complete selection that is unavailable elsewhere.
@@ -161,12 +159,12 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- /.credit-card -->
+            </div> <!-- /.credit-card --> {{--#creditCard--}}
 
-            <div class="col-12 custodian px-0 pt-4">
+            <div id="custodian" class="col-12 custodian px-0 pt-4">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="col-12 col-sm-6 custodian-left pb-4 pb-sm-0">
+                        <div class="col-12 col-sm-6 custodian-left pb-4 pb-sm-0 fifth-section">
                             <h1>Custodian Accounts</h1>
                             <p class="normal-p text-justify mt-sm-0">
                                 Another first sees Ibinex leading the way as the world's first cryptocurrency exchange with a finance transaction license.
@@ -187,13 +185,13 @@
                                 </p>
                             </strong>
                         </div>
-                        <div class="col-12 col-sm-6 px-0">
+                        <div id="fifthSection" class="col-12 col-sm-6 px-0 fifth-section">
                             <div class="qtt-container">
                                 <div class="col-12 qtt px-0">
                                     <!--<img class="qtt-img" src="" alt=""> -->
                                 </div>
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
-                                <div class="col-12 col-sm-10 text-white pb-4 pt-5 pt-sm-0 lorem-ipsum-lower">
+                                <div class="col-12 col-sm-10 text-white px-3 pb-sm-4 pt-4 pt-sm-5 px-sm-5 lorem-ipsum-lower">
                                     <p class="text-justify pt-5 h4 mt-sm-0"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
                                         </em></p>
@@ -203,7 +201,11 @@
                         </div>
                     </div> <!-- /.row -->
                 </div>
-            </div> <!-- /.col-12 custodian -->
+            </div> <!-- /.col-12 custodian --> {{--#custodian--}}
         </div> <!-- /.row -->
     </div>
 @endsection
+
+@push('scripts')
+    <script src="{{ asset("js/services.js") }}"></script>
+@endpush

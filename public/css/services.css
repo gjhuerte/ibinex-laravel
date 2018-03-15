@@ -4,15 +4,57 @@
     box-sizing: border-box;
 }
 
-.navbar-nav {
-    width: 100%;
-    text-align: center;
-}
-.navbar-nav li {
-    float: none;
-    display: inline-block;
+.no-overflow{
+    overflow: hidden;
 }
 
+.no-overflow-x{
+    overflow-x: hidden;
+}
+
+.shrink {
+    max-height: 35px;
+    font-size: 12px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.inner-nav-link{
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.navbar-nav > li {
+    float: left;
+    position: relative;
+}
+.navbar-white .navbar-nav .active{
+    border-bottom: 3px solid rgb(39,112,246);
+    color: rgb(39,112,246);
+    /*bottom: -10px;*/
+    /*left: 0;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+}
+.navbar-white .navbar-nav a {
+    color: #6c757d;
+}
+
+.navbar-white .navbar-nav a:hover:after{
+    border-bottom: 3px solid rgb(39,112,246);
+    bottom: 0px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.navbar-white .navbar-nav a:hover{
+    color: rgb(39,112,246);
+}
+
+.navbar-white .navbar-nav .active a {
+    color: rgb(39,112,246);
+}
 
 /* Mobile Development */
 div.platform-text p {
@@ -111,7 +153,7 @@ div.lorem .l2 img{
     background-size: cover;
     width: 100%;
     height: 1150px;
-    zoom: 0.3;
+    zoom: 0.4;
 }
 
 div.lorem-ipsum p, .lorem-ipsum-lower p{
@@ -122,8 +164,12 @@ div.lorem-ipsum, .lorem-ipsum-lower{
     background-color: rgb(39, 112, 246);
 }
 
-div.cb, .custodian{
+.custodian{
     background-color: rgb(242, 241, 241);
+}
+
+.cb{
+    background-color: rgb(250,250,250);
 }
 
 div.cb{
@@ -165,20 +211,18 @@ div.credit-card p {
     }
 
     .red-ellipse{
-        top: 71%;
+        top: 70%;
         left: 20%;
         height: 30%;
     }
 
     .red-ellipse-2{
-        top: 49%;
+        top: 50%;
         left: 17%;
+        height: 20%;
     }
 
     div.lorem-ipsum{
-        /*     float: right;
-            width: 40vw; */
-        /*     margin-left: 5rem !important; */
         z-index: 5;
         position: absolute;
         top: 83%;
@@ -202,7 +246,7 @@ div.credit-card p {
     }
 
     .custodian{
-        padding-bottom: 307px;
+        padding-bottom: 400px;
     }
 
     .custodian-left{
@@ -240,4 +284,16 @@ div.credit-card p {
         margin-left: 7rem !important;
     }
 }
+
+@media only screen and (min-width: 1440px){
+    .lorem-ipsum{
+        margin-left: 8rem !important;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 8rem !important;
+    }
+}
+
+
 

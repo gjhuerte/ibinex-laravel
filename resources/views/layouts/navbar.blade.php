@@ -1,6 +1,6 @@
 
 <!-- Start menu here -->
-<nav class="navbar navbar-expand-md navbar-light bg-faded">
+<nav class="navbar navbar-expand-lg navbar-light bg-faded">
     <div class="container">
         <a class="navbar-brand" href="#">
             <!--Logo here-->
@@ -26,7 +26,7 @@
                     <a class="nav-link" href="{!! url('services') !!}">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="{!! url('/about-us') !!}">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{!! url('/security') !!}">Security</a>

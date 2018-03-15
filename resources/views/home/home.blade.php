@@ -19,12 +19,36 @@
 @section('body-class','home')
 @section('header-height','full-height')
 @section('bg-img','home-bg.png')
+
+@push('custom-scripts')
+    <script>
+
+        $(function() {
+            //floating button will remain a circle at all times
+            let faButton = $('.faButton');
+            faButton.css('height', faButton.width());
+            $(window).resize(function() {
+                faButton.css('height', faButton.width());
+            });
+
+            //margin-right fix for fifth-fold
+            let marginRight = parseInt($('#third-fold > .row').css('margin-right'));
+            $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
+            $(window).resize(function() {
+                marginRight = parseInt($('#third-fold > .row').css('margin-right'));
+                $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
+            });
+        });
+
+    </script>
+@endpush
+
 @section('content')
     <!--1  -->
     <section id="second-fold" class="container-fluid bg-color-grey">
         <section class="row no-gutters pt-5 position-relative fixed-height">
             <!--Will remove fixed-height -->
-            <aside class="col-xl-8 order-xl-2 d-none d-lg-block d-xl-block position-absolute stick-right">
+            <aside class="col-xl-8 order-xl-2 d-none  d-xl-block position-absolute stick-right">
                 <img class="" src="https://i.imgur.com/qHjq1P1.png" height="520" alt="bootstrap">
             </aside>
             <div class="col-xl-6 order-xl-1 pt-5">
@@ -98,7 +122,7 @@
     <!--4 -->
     <section id="fifth-fold" class="container-fluid position-relative">
         <section class="row embed-parent max-width-none">
-            <section class="row">
+            <section class="row mx-0">
                 <div class="col-xl-6 order-xl-2">
                     <section class="pt-3">
                         <h2 class="sub-title blue bold">Compliant Banking Custodian Service</h2>
@@ -130,7 +154,7 @@
         </header>
         <section class="row">
 
-            <section id="downloadables">
+            <section id="downloadables" class="d-flex justify-content-around flex-wrap">
                 <!-- FIRST ROW START -->
 
                 <div class="brochures text-center">
@@ -188,21 +212,17 @@
 
         </section>
     </section>
-    <section id="seventh-fold">
+    <section id="seventh-fold" class="text-center my-5">
         <header>
-            <h2>title</h2>
+            <h1 class="title black smaller bold">Ibinex Media Coverage</h1>
         </header>
-        <section id="logos">
-           image
+        <section id="logo" class="mt-5">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-1.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-2.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-3.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-4.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-5.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-6.png") }}">
         </section>
-    </section>
-
-    <section id="contact-section">
-        <header>
-            <span>contact-us</span>
-        </header>
-        <nav>
-            menu
-        </nav>
     </section>
 @endsection

@@ -34,3 +34,7 @@ Route::get('/why-ibinex', function () {
 Route::get('/services', function () {
     return view('services.services');
 });
+
+Route::get('/about-us', function () {
+    return view('about-us/about-us');
+});
