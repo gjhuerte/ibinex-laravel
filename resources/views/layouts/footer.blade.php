@@ -15,7 +15,7 @@
                     <ul class="list-unstyled">
                         <li>
                             <br>
-                            <span class="color">Our vision</span>
+                            <span class="color"><a href="#">Our vision</a></span>
                         </li>
                     </ul>
 
@@ -25,10 +25,10 @@
                     <ul class="list-unstyled">
                         <li>
                             <br>
-                            <span class="color">Platform Pricing</span>
+                            <span class="color"><a href="#">Platform Pricing</a></span>
                         </li>
                         <li>
-                            <span class="color">Liquidity Fee's</span>
+                            <span class="color"><a href="#">Liquidity Fee's</a></span>
                         </li>
                     </ul>
                 </div>
@@ -37,19 +37,19 @@
                     <ul class="list-unstyled">
                         <li>
                             <br>
-                            <span class="color">Platform</span>
+                            <span class="color"><a href="#">Platform</a></span>
                         </li>
                         <li>
-                            <span class="color">CRM / BackOffice</span>
+                            <span class="color"><a href="#">CRM / BackOffice</a></span>
                         </li>
                         <li>
-                            <span class="color">CryptoBridge</span>
+                            <span class="color"><a href="#">CryptoBridge</a></span>
                         </li>
                         <li>
-                            <span class="color">Credit Card Processing</span>
+                            <span class="color"><a href="#">Credit Card Processing</a></span>
                         </li>
                         <li>
-                            <span class="color">Custodian Accounts</span>
+                            <span class="color"><a href="#">Custodian Accounts</a></span>
                         </li>
                     </ul>
                 </div>
@@ -58,16 +58,16 @@
                     <ul class="list-unstyled">
                         <li>
                             <br>
-                            <span class="color">Protection of Funds</span>
+                            <span class="color"><a href="#">Protection of Funds</a></span>
                         </li>
                         <li>
-                            <span class="color">Encryption and Technologies</span>
+                            <span class="color"><a href="#">Encryption and Technologies</a></span>
                         </li>
                         <li>
-                            <span class="color">Information Security</span>
+                            <span class="color"><a href="#">Information Security</a></span>
                         </li>
                         <li>
-                            <span class="color">Privacy</span>
+                            <span class="color"><a href="#">Privacy</a></span>
                         </li>
                     </ul>
                 </div>
@@ -76,25 +76,25 @@
                     <ul class="list-unstyled">
                         <li>
                             <br>
-                            <span class="color">Regulation</span>
+                            <span class="color"><a href="#">Regulation</a></span>
                         </li>
                         <li>
-                            <span class="color">AML & KYC</span>
+                            <span class="color"><a href="#">AML & KYC</a></span>
                         </li>
                         <li>
-                            <span class="color">Terms and Conditions</span>
+                            <span class="color"><a href="#">Terms and Conditions</a></span>
                         </li>
                         <li>
-                            <span class="color">Marketing Guidelines</span>
+                            <span class="color"><a href="#">Marketing Guidelines</a></span>
                         </li>
                         <li>
-                            <span class="color">Licensing</span>
+                            <span class="color"><a href="#">Licensing</a></span>
                         </li>
                         <li>
-                            <span class="color">Entry Requirements</span>
+                            <span class="color"><a href="#">Entry Requirements</a></span>
                         </li>
                         <li>
-                            <span class="color">Privacy Policy</span>
+                            <span class="color"><a href="#">Privacy Policy</a></span>
                         </li>
                     </ul>
                 </div>
@@ -103,19 +103,19 @@
                     <ul class="list-unstyled">
                         <li>
                             <br>
-                            <span class="color">Transparency</span>
+                            <span class="color"><a href="#">Transparency</a></span>
                         </li>
                         <li>
-                            <span class="color">Press</span>
+                            <span class="color"><a href="#">Press</a></span>
                         </li>
                         <li>
-                            <span class="color">Executive Team</span>
+                            <span class="color"><a href="#">Executive Team</a></span>
                         </li>
                         <li>
-                            <span class="color">Advisory Board</span>
+                            <span class="color"><a href="#">Advisory Board</a></span>
                         </li>
                         <li>
-                            <span class="color">Roadmap</span>
+                            <span class="color"><a href="#">Roadmap</a></span>
                         </li>
                     </ul>
                 </div>
