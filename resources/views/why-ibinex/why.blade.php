@@ -63,22 +63,21 @@
     </div><!--container-->
     <div class="container-fluid remover">
         <div class="row position-relative max-width-none">
-            <div class="col-xs-12 blocktext-background shadow">
-                <div class="block mx-3 px-3 shadow">
-                    <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
-                    <p class="blocktext">
-                        We seek to revolutionise the way that exchange owners create their platforms
-                        and raise the standard of marketplace excellence by incorporating our cutting-edge
-                        technology, delivered with practicality and a host of unique benefits, only enjoyed
-                        by merging with Ibinex ecosystem.
-                    </p>
+            <div class="col-xs-12 blocktext-background shadow"></div>
+            <div class="block mx-3 px-3 shadow">
+                <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
+                <p class="blocktext">
+                    We seek to revolutionise the way that exchange owners create their platforms
+                    and raise the standard of marketplace excellence by incorporating our cutting-edge
+                    technology, delivered with practicality and a host of unique benefits, only enjoyed
+                    by merging with Ibinex ecosystem.
+                </p>
 
-                    <h2 class="blocktext">We are an ecosystem with vision</h2>
-                    <p class="blocktext">
-                        As the gateway to your own customizable cryptocurrency ecosystem, our vision is to equip
-                        you with the tools to create and operate your cryptocurrency exchange, your way.
-                    </p>
-                </div>
+                <h2 class="blocktext">We are an ecosystem with vision</h2>
+                <p class="blocktext">
+                    As the gateway to your own customizable cryptocurrency ecosystem, our vision is to equip
+                    you with the tools to create and operate your cryptocurrency exchange, your way.
+                </p>
             </div>
 
             <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/s2.png')}}" alt="typing hand">
