@@ -29,10 +29,12 @@
 <body class='@yield('body-class')-template'>
 <div class='container-fluid'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
-        <section class="container">
-            @include('layouts.navbar')
-            @yield('header-content')
-        </section>
+        <div class="gradient-wrapper">
+            <section class="container">
+                @include('layouts.navbar')
+                @yield('header-content')
+            </section>
+        </div>
     </header>
     <main>
         @yield('content')
@@ -49,18 +51,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="{{ asset("js/ib-loader.js") }}"></script>
 {{--<script src="script.js"></script>--}}
-<script>
-    var faButton = $('.faButton');
-    $(window).resize(function() {
-        faButton.css('height', faButton.width());
-    });
-
-    $(document).ready(function() {
-        faButton.css('height', faButton.width());
-    });
-
-
-</script>
+@stack('custom-scripts')
 @stack('scripts')
 </body>
 

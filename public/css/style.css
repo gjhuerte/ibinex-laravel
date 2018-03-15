@@ -124,7 +124,7 @@ body .semi-circle.green-brochure {
 body h1, body h2 {
     color: #333;
 }
-body h1.blue, body h2.blue {
+body h1.blue, body h2.blue, .blue {
     color: #2770f6;
 }
 body h1.grey, body h2.grey, body footer .grey{
@@ -223,7 +223,7 @@ body #downloadables .brochures p {
         padding: 0 10px;
     }
     body #fullscreen-hero #hero-content {
-        padding-top: 25vh;
+        padding-top: 10%;
     }
     body #fullscreen-hero .semi-circle {
         padding: 5px 25px 8px;
@@ -299,6 +299,7 @@ body #downloadables .brochures p {
  */
 
 
+/*PJ CSS*/
 body footer {
     position: relative;
 }
@@ -327,6 +328,10 @@ body footer .centered .footer-logo img.logo {
 body footer .centered .footer-contact {
     width: 10%;
 }
+footer .semi-circle{
+    color: rgb(184, 22, 31);
+}
+
 body footer .centered .footer-navigation {
     width: 60%;
 }
@@ -351,41 +356,79 @@ body footer .bottom-bar {
     background: #000;
     padding: 15px 0;
 }
-body span.color {
+body footer span.color {
     color: black;
 }
-body .bg-color-grey {
+body footer .bg-color-grey {
     background-color: whitesmoke;
 }
-body .bg-shade-grey {
+body footer .bg-shade-grey {
     background-color: #f2f1f1;
 }
-body input.colors {
+body footer input.colors {
     color: white;
 }
-body footer.bg-color-blue-dark {
+body footer footer.bg-color-blue-dark {
     background-color: #1e2654;
 }
-body .column2 {
+body footer .column2 {
     color: white;
+    align-self:center;
+    padding-top:7%;
+    padding-left:5%;
 }
-body h6 {
+body footer h6 {
     margin-top: 20px;
 }
-body div + span.property {
-    font-weight: lighter;
+body footer div + span.property {
+    font-weight: light;
     font-size: 0.1px;
 }
-body h6.heads {
+body footer h6.heads {
     color: blue;
 }
-body li {
+body footer li {
     list-style-type: none;
 }
-body .column3 {
+body footer .column3 {
     color: white;
 }
+body footer #flex{
+    padding: 2%;
+}
+footer .offset-1{
+    margin-left: ;
+}
+body footer div .alignment{
+    text-align:left;
+}
+body footer .padding{
+    padding-left:2%;
+    padding-top: 3%;
+}
 
+body footer .pad-left{
+    padding-left: 5%;
+}
+
+body footer .pad-top{
+    padding-top: 17%;
+}
+
+@media all and (max-width:576px){
+
+    body footer .pad-top{
+        padding-top: 10%;
+    }
+    body footer .column2{
+         padding-top: 0%;
+     }
+}
+
+
+/*
+    Ansell navbar
+*/
 
 ul.navbar-nav a:hover {
     background: rgba(255,255,255,0.2);
@@ -399,3 +442,5 @@ ul.navbar-nav + button.btn:hover {
     background: #2563c6;
     color: #fff;
 }
+
+/* */
