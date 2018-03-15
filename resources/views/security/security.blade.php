@@ -23,7 +23,7 @@
             <article class='container-fluid'>
                 <div class="row security-width">
                     <div class="col-sm-6">
-                        <h4 class='subtitle' id="subtitle_1">Protection of Funds</h4>
+                        <h1 class='subtitle black' id="subtitle_1">Protection of Funds</h1>
                         <span id="para_1">
                             <p>
                                 The protection of your crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
@@ -38,7 +38,7 @@
                         </span>
                     </div>
                     <div class="col-sm-6">
-                        <h4 class='subtitle' id="subtitle_2">Encryption and Technologies</h4>
+                        <h1 class='subtitle black' id="subtitle_2">Encryption and Technologies</h1>
                         <span id="para_2">
                             <p>
                                 A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned,
@@ -57,12 +57,12 @@
             <article class='container-fluid position-relative'>
                 <div class="row security-width">
                     <div class="col-sm-5" id='infor-security'>
-                        <h4 class='subtitle'>Information Security</h4>
+                        <h1 class='subtitle black'>Information Security</h1>
                         <p>
                            Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work
                            who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.
                         </p>
-                        <h4 class='subtitle'>Privacy</h4>
+                        <h1 class='subtitle black'>Privacy</h1>
                         <p>
                         <p>
                             Security and confidentiality are of the utmost importance for our clients, and you can learn more about our completely transparent Regulation and Privacy Policy,
@@ -106,7 +106,7 @@
                 useDelay: 'always',
                 delay: 2100
             });
-            sr.reveal('#infor-security h4', {
+            sr.reveal('#infor-security h1', {
                 origin: 'left',
                 duration: 2000,
                 useDelay: 'always',
@@ -120,12 +120,9 @@
             });
             // image
             sr.reveal('.security-section', {
-                // origin: 'right',
                 duration: 2000,
                 useDelay: 'always',
                 delay: 800,
-                // opacity: 0.5,
-                // easing: 'ease-in-out(0.6, 0.2, 0.1, 1)',
             });
         }
     </script>
