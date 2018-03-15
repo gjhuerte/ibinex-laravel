@@ -407,7 +407,6 @@ body footer .padding{
     padding-top: 3%;
 }
 
-<<<<<<< HEAD
 body footer .pad-left{
     padding-left: 5%;
 }
@@ -430,7 +429,6 @@ body footer .pad-top{
 /*
     Ansell navbar
 */
-=======
 #contact-section a {
     color: #222;
 }    	
@@ -438,8 +436,6 @@ body footer .pad-top{
 #contact-section a:hover {
     color: #000;
 }
->>>>>>> bfec06da3c342a88e6fa9db6771758e0340eba29
-
 ul.navbar-nav a:hover {
     background: rgba(255,255,255,0.2);
     border-radius: 8px;
@@ -452,8 +448,3 @@ ul.navbar-nav + button.btn:hover {
     background: #2563c6;
     color: #fff;
 }
-<<<<<<< HEAD
-
-/* */
-=======
->>>>>>> bfec06da3c342a88e6fa9db6771758e0340eba29
