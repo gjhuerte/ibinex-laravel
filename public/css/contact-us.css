@@ -33,16 +33,9 @@ section#hero-content {
     text-decoration: underline;
     cursor: pointer;
 }
-.row.ib-get-started-b .col-sm img {
-    padding-bottom: 15px;
-}
 .row.ib-get-started-b .col-sm .label {
     color: #2770f6;
     font-weight: bold;
-}
-.container .ib-get-started-note {
-    margin-top: 35px;
-    text-align: center;
 }
 .row.ib-contact-support {
     width: 100%;
@@ -80,17 +73,34 @@ section#hero-content {
     border: none;
     width: 120px;
 }
-.ib-text-center {
+.ib-circle {
+    background-color: #fd0000;
+    color: white;
+    padding: 7px;
+    height: 38px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
     text-align: center;
 }
-.ib-pp {
-    display: none;
+.core {
+    background-color: rgb(48,217,196);
+    color: white;
+    font-size: 12px;
+    padding: 14px 15px;
+    border-radius: 50%;
 }
 .ib-contact .ib-contact-support .col-sm-3 {
     padding-top: 5%;
 }
 .ib-get-started {
     padding-top: 10%;
+}
+.ib-contact-support .ib-support-text {
+    width: 73%;
+    float: right;
+    padding-top: 12%;
 }
 @media only screen and (max-width: 576px) {
     .row.ib-get-started-a {
@@ -117,11 +127,8 @@ section#hero-content {
         width: 155px;
         padding: 3%;
     }
-    .ib-p, #live-demo-btn {
+    .ib-circle-c, #live-demo-btn {
         display: none;
-    }
-    .ib-pp {
-        display: block;
     }
     #fullscreen-hero {
         height: 100vh;
@@ -133,11 +140,25 @@ section#hero-content {
     .ib-contact .ib-contact-support .col-sm-3 {
         padding: 0 7%;
     }
+    .label.ib-pb-1 {
+        padding-bottom: 1.5rem!important;
+    }
+    img.ib-pb-2.pt-4.pb-5 {
+        padding-bottom: 0.5rem!important;
+    }
+    .ib-contact-support .ib-support-text {
+        width: auto;
+        float: none;
+        padding-top: 0;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
     #fullscreen-hero{
         background: url(../img/contact-bg.png) no-repeat center top/contain
+    }
+    .ib-contact-support .ib-support-text {
+        width: 60%;
     }
 }
 @media only screen and (max-width: 1224px) and (min-width: 576px) {
@@ -149,5 +170,10 @@ section#hero-content {
     body #fullscreen-hero{
         min-height: 70vh !important;
         height: 70vh;
+    }
+}
+@media only screen and (max-height: 480px) {
+    body #fullscreen-hero #hero-content {
+        padding: 5vh 0 80px;
     }
 }
