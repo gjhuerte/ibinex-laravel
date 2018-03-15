@@ -15,7 +15,8 @@
 @endsection
 
 @section('body-class','security')
-@section('bg-img','security-banner.png')
+{{--@section('bg-img','hand.png')Jovi to generalize all banner gradients --}}
+@section('bg-img','security-banner-temp.png')
 
 @section('content')
 
@@ -24,14 +25,27 @@
                 <div class="row security-width">
                     <div class="col-sm-6">
                         <h4 class='subtitle'>Protection of Funds</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis minima, modi nostrum voluptate voluptas</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis minima, modi nostrum voluptate voluptas ipsum exercitationem esse velit accusantium ea blanditiis tenetur.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis minima, modi nostrum voluptate voluptas ipsum exercitationem esse velit accusantium ea blanditiis tenetur ratione enim, totam nisi beatae? Temporibus, sit, quam!</p>
+                        <p>
+                            The protection of your crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
+                        </p>
+                        <p>
+                            As an indication of the high protective standards we hold, Ibinex has been granted the status of fully-licensed, fully compliant and as a regulated custodian and account processor.
+                        </p>
+                        <p>
+                            We are the first cryptocurrency exchange platform to hold this mantle and offer exclusive payment solutions. As such, we must demonstrate a consistent level of regulatory compliance
+                            in order to retain professional distinction; a title of which we are immensely proud.
+                        </p>
                     </div>
                     <div class="col-sm-6">
                         <h4 class='subtitle'>Encryption and Technologies</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam fuga ducimus, magni, libero, quaerat consequatur impedit dolores accusamus voluptatum alias, aut amet itaque culpa deleniti? eaque? Lorem ipsum dolor sit amet, consectetur adipis</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperres accusamus volu? Dolor consequatur inventore laboriosam eaque? Lorem ipsum dolor sit amet, </p>
+                        <p>
+                            A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned,
+                             and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technology.
+                        </p>
+                        <p>
+                            We ensure that no weak links exist to threaten the stability and core security of Ibinex for our customers. Threats are neutralised before they present themselves &ndash;
+                            we take no chances, and anticipate potential breaches before they arise, entirely removing their potential before they ever eventuate.
+                        </p>
                     </div>
                 </div>
             </article>
@@ -41,9 +55,15 @@
                 <div class="row security-width">
                     <div class="col-sm-5" id='infor-security'>
                         <h4 class='subtitle'>Information Security</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis minima, modi nostrum voluptate voluptas ipsum exercitationem esse velit accu? Temporibus, sit, quam!</p>
+                       <p>
+                           Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work
+                           who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.
+                       </p>
                         <h4 class='subtitle'>Privacy</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis minima, modi nostrum voluptate voluptas ipsum exercitationem esse , sit, quam!</p>
+                        <p>
+                            Security and confidentiality are of the utmost importance for our clients, and you can learn more about our completely transparent Regulation and Privacy Policy,
+                            to have complete peace of mind and confidence in Ibinex.
+                        </p>
                     </div>
                 </div>
                 <div class="security-section">&nbsp;</div>
