@@ -47,17 +47,17 @@
 
 /* Distance and Spacing */
 
+#pricing-content {
+    padding-bottom: 15px;
+}
+
 #pricing-content > section:first-of-type {
     max-width: 675px;
     margin: auto;
 }
 
-#pricing-content {
-    padding-bottom: 15px;
-}
-
 #pricing-content h2 {
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 75px;
     line-height: 130%;
 }
@@ -103,7 +103,6 @@
         box-sizing: border-box;
         max-width: 970px;
         padding: 20px 10px 125px;
-        border-radius: 20px;
         margin: auto;
     }
 
@@ -117,5 +116,11 @@
 
     #pricing-content article > .small-text p {
         padding-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 969px) {
+    #pricing-content {
+        border-radius: 20px;
     }
 }
