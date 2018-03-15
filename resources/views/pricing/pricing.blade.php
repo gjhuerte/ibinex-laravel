@@ -75,7 +75,7 @@
             <article class="col-sm-6">
                 <h5>Onboarding time</h5>
                 <p>Please note that, due to incredibly high demand of the Ibinex exchange solutions suite, the current onboarding waiting time is 4 months.</p>
-                <p>We are doing our utmost to reduce time to market retaining our trademark standard of excellence, and appreciate your interest in our innovations.</p>
+                <p>We are doing our utmost to reduce time to market while retaining our trademark standard of excellence, and appreciate your interest in our innovations.</p>
             </article>
         </section>
     </section>
