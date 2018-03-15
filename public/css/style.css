@@ -374,7 +374,7 @@ body footer footer.bg-color-blue-dark {
 body footer .column2 {
     color: white;
     align-self:center;
-    padding-top:7%;
+    padding-top:50px;
     padding-left:5%;
 }
 body footer h6 {
@@ -412,16 +412,24 @@ body footer .pad-left{
 }
 
 body footer .pad-top{
-    padding-top: 17%;
+    padding-top: 50px;
 }
 
-@media all and (max-width:576px){
-
+@media all and (max-width: 576px){
+    .d-xs-block{
+        display: block;
+    }
+}
+@media all and (max-width: 768px){
+    .align-self-center{
+        text-align: center;
+        padding: 45px ;
+    }
     body footer .pad-top{
-        padding-top: 10%;
+        padding-top: 45px;
     }
     body footer .column2{
-         padding-top: 0%;
+         padding-top: 0;
      }
 }
 
