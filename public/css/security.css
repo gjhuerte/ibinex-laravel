@@ -3,11 +3,6 @@
 /*rgb(109,40,118)*/
 /*rgb(164,46,65)*/
 
-body.security-template #fullscreen-hero {
-    height: 100vh;
-    width: 100%;
-}
-
 section#hero-content {
     margin: 0 auto;
 }
@@ -26,7 +21,7 @@ p {
     text-align: justify;
 }
 section {
-    padding: 3.5em 0;
+    padding-top: 1em;
     min-height: 300px;
     position: relative;
 }
@@ -102,6 +97,9 @@ article {
     }
     #first-section {
         padding-bottom: 12%;
+    }
+    section {
+        padding: 4em 0;
     }
 }
 

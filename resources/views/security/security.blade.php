@@ -8,14 +8,13 @@
 @endpush
 
 @section('header-content')
-    <section id="hero-content" class="col-xl-7 col-sm-12">
+    <section id="hero-content" class="col-xl-7 col-sm-12" data-aos="zoom-in">
         <h1 class="title text-center">Security</h1>
         <p class="description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
 @endsection
 
 @section('body-class','security')
-{{--@section('bg-img','hand.png')Jovi to generalize all banner gradients --}}
 @section('bg-img','security-banner-temp.png')
 
 @section('content')
@@ -71,3 +70,10 @@
         </section>
 
 @endsection
+
+@push('scripts')
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+
+    </script>
+@endpush
