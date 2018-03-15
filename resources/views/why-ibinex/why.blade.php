@@ -89,40 +89,33 @@
 
 @push('custom-scripts')
 
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
     <script>
         window.sr = ScrollReveal();
         sr.reveal('.core-left', {
             duration: 3000,
             origin: 'left',
             distance: '300px',
-            mobile: false
         });
         sr.reveal('.core-right', {
             duration: 3000,
             origin: 'right',
             distance: '300px',
-            mobile: false
         });
         sr.reveal('.pc', {
             duration: 3000,
             origin: 'top',
-            mobile: false
         });
         sr.reveal('.blocktext-background', {
             duration: 2000,
             origin: 'left',
             distance: '200px',
             viewFactor: 0.2,
-            mobile: false
         });
         sr.reveal('.block', {
             duration: 2000,
             origin: 'right',
             distance: '300px',
             viewFactor: 0.2,
-            mobile:false
         });
         sr.reveal('.blocktext-background2', {
             duration: 2000,

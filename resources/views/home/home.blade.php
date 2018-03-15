@@ -48,7 +48,7 @@
     <section id="second-fold" class="container-fluid bg-color-grey">
         <section class="row no-gutters pt-5 position-relative fixed-height">
             <!--Will remove fixed-height -->
-            <aside class="col-xl-8 order-xl-2 d-none d-lg-block d-xl-block position-absolute stick-right">
+            <aside class="col-xl-8 order-xl-2 d-none  d-xl-block position-absolute stick-right">
                 <img class="" src="https://i.imgur.com/qHjq1P1.png" height="520" alt="bootstrap">
             </aside>
             <div class="col-xl-6 order-xl-1 pt-5">
@@ -217,12 +217,12 @@
             <h1 class="title black smaller bold">Ibinex Media Coverage</h1>
         </header>
         <section id="logo" class="mt-5">
-           <img alt="" class="" src="{{ asset("img/logo/logo-1.png") }}">
-           <img alt="" class="" src="{{ asset("img/logo/logo-2.png") }}">
-           <img alt="" class="" src="{{ asset("img/logo/logo-3.png") }}">
-           <img alt="" class="" src="{{ asset("img/logo/logo-4.png") }}">
-           <img alt="" class="" src="{{ asset("img/logo/logo-5.png") }}">
-           <img alt="" class="" src="{{ asset("img/logo/logo-6.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-1.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-2.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-3.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-4.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-5.png") }}">
+           <img alt="" class="flexed-image" src="{{ asset("img/logo/logo-6.png") }}">
         </section>
     </section>
 @endsection

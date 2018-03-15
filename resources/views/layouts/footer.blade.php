@@ -117,7 +117,7 @@
 
 
 <!--Footer-->
-<footer class="page-footer font-small stylish-color-dark">
+<footer class="footer page-footer font-small stylish-color-dark">
     <!--Footer Links-->
     <div class="container text-left text-md-left">
         <div class="row alignment">
@@ -129,7 +129,7 @@
 
             <!--Second column-->
             <div class="col-sm-12 col-md-4 col-lg-3 pad-left">
-                <div class="position-absolute" style="top: 0">
+                <div class="position-absolute pt-lg-3" style="top: 0">
                     <h6 class="text-uppercase font-weight-light fonts grey">Ibinex Offices</h6>
                 </div>
                 <div class="pad-top">
@@ -187,8 +187,8 @@
 
             <!--Fourth column-->
             <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-3 ">
-                <h6 class="text-uppercase fonts font-weight-light grey">sign up to our news letter</h6>
-                <div class="position-relative d-none d-lg-block d-xl-block">
+                <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3">sign up to our news letter</h6>
+                <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
                     <input type="email" class="semi-circle" style="width:100%; height: 40px;"/>
                     <input type="submit" class="position-absolute semi-circle red" value="SUBMIT" style="width:100px; height: 40px; top:0; right:0; color:white;"/>
                 </div>
@@ -208,7 +208,7 @@
             <!--/.Fourth column-->
         </div>
         <div>
-            <p class="property small grey text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est libero, elementum a euismod et, laoreet sed sem. Etiam dignissim ipsum nisl, in suscipit massa mollis a. Praesent sed maximus metus, non tincidunt metus. Proin at semper lorem, at dapibus nisi. Donec id orci ac lectus finibus volutpat. Nunc ornare justo a elit euismod ultricies. Vivamus aliquet ultrices magna in tempor. Nam fermentum nibh in mollis suscipit. In pulvinar scelerisque erat venenatis ullamcorper. Sed ultricies volutpat justo in congue. Quisque et auctor lectus. Nunc ornare, urna vitae semper lacinia, orci nulla ultrices est, ac facilisis nibh justo sit amet eros.</p>
+            <p class="property small grey text-justify pb-5 mb-0">Risk Disclosure: Ibinex Financials (ibinex.com) will not accept any liability for loss or damage as a result of reliance on the information contained within this website including data, quotes, charts and buy/sell signals. Please be fully informed regarding the risks and costs associated with trading the cryptocurrency markets. It is one of the riskiest investment forms possible. Trading or investing in cryptocurrencies carries with IT potential risks. Prices of cryptocurrencies are extremely volatile and may be affected by external factors such as financial, regulatory or political events. Cryptocurrencies are not suitable for all investors. Before deciding to trade foreign exchange or any other financial instrument or cryptocurrencies you should carefully consider your investment objectives, level of experience, and risk appetite. Ibinex Financials would like to remind you that data contained in this website is not necessarily real-time nor accurate. Cryptocurrency prices are not provided by exchanges but rather by market makers, and so prices may not be accurate and may differ from the actual market price, meaning prices are indicative and not appropriate for trading purposes. Therefore, Ibinex doesn't bear any responsibility for any trading losses you might incur as a result of using this data.</p>
         </div>
     </div>
     <!--/.Footer Links-->

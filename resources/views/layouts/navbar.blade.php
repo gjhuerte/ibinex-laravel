@@ -26,7 +26,7 @@
                     <a class="nav-link" href="{!! url('services') !!}">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="{!! url('/about-us') !!}">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{!! url('/security') !!}">Security</a>
