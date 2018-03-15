@@ -76,8 +76,8 @@
 
 @endsection
 
-@push('scripts')
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+@push('custom-scripts')
+
     <script>
         if (document.documentElement.clientWidth > 1023) {
             window.sr = ScrollReveal({reset: false,});
@@ -108,15 +108,15 @@
             });
             sr.reveal('#infor-security h4', {
                 origin: 'left',
-                duration: 3000,
+                duration: 2000,
                 useDelay: 'always',
-                delay: 700
+                delay: 900
             });
             sr.reveal('#infor-security p', {
                 origin: 'left',
                 duration: 2500,
                 useDelay: 'always',
-                delay: 2500
+                delay: 1500
             });
         }
     </script>
