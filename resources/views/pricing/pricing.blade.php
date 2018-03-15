@@ -82,3 +82,29 @@
 
     <div class="footer-buffer"></div>
 @endsection
+
+@push('custom-scripts')
+    <script>
+        // No animation strating from iPad to smaller devices
+        if (document.documentElement.clientWidth > 768) {
+            window.sr = ScrollReveal({
+                origin: 'left',
+                scale: 1,
+                mobile: false,
+                viewFactor: 0.25
+            });
+
+            sr.reveal('#pricing-content article > h5', {
+                distance: '100px',
+                duration: 500,
+                delay: 250
+            });
+
+            sr.reveal('#pricing-content article p', {
+                distance: '50px',
+                duration: 1000,
+                delay: 250
+            });
+        }
+    </script>
+@endpush
