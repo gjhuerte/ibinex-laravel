@@ -8,6 +8,8 @@
 
 @section('body-class', 'pricing')
 
+@section('header-height', 'full-height')
+
 @section('bg-img','pricing-bg.png')
 
 @section('header-content')
@@ -77,4 +79,6 @@
             </article>
         </section>
     </section>
+
+    <div class="footer-buffer"></div>
 @endsection
