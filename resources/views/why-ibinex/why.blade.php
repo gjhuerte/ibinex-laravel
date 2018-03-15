@@ -62,7 +62,7 @@
         </div><!--row-->
     </div><!--container-->
     <div class="container-fluid remover">
-        <div class="row position-relative max-width-none">
+        <div  class="row position-relative max-width-none">
             <div class="col-xs-12 blocktext-background shadow"></div>
             <div class="block mx-3 px-3 shadow">
                 <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
