@@ -35,6 +35,6 @@ Route::get('/services', function () {
     return view('services.services');
 });
 
-Route::get('/about-us', fuunction(){
-   return view('about-us.about-us');
+Route::get('/about-us', function () {
+    return view('about-us/about-us');
 });
