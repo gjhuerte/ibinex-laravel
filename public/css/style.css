@@ -94,6 +94,10 @@ body .semi-circle.green-brochure {
 }
 body #fullscreen-hero {
     color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body #fullscreen-hero h1, body #fullscreen-hero h2, body #fullscreen-hero p, body #fullscreen-hero span {
     color: white;

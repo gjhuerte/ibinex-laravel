@@ -63,7 +63,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="text-center mt-5">
+                            <div class="ib-note text-center mt-5">
                                 <p>
                                     Please note that, due to high demand, the current on-boarding time frame is 4 months.
                                 </p>
@@ -119,3 +119,7 @@
                         </div>
                     </div>
 @endsection
+
+@push('scripts')
+<script src="{{ asset("js/contact-us.js") }}"></script>
+@endpush
