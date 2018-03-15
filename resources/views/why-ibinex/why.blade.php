@@ -80,7 +80,7 @@
                 </p>
             </div>
 
-            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/s2.png')}}" alt="typing hand">
+            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
 
         </div><!--row-->
     </div><!--container-->
