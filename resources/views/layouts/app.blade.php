@@ -31,8 +31,8 @@
 <div id='main-body' class='container-fluid'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">
+            @include('layouts.navbar')
             <section class="container">
-                @include('layouts.navbar')
                 @yield('header-content')
             </section>
         </div>
@@ -64,6 +64,7 @@
         faButton.css('height', faButton.width());
     });
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp',500);
+
 </script>
 @stack('scripts')
 {{--<script src="script.js"></script>--}}
