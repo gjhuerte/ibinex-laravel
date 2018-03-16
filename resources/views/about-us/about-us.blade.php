@@ -57,7 +57,7 @@
             <img id="transparency-right-floater" src="/img/about-us/r5.png" class="img-fluid">
         </div>
     </div>
-    <div class="row  hide-on-lg">
+    <div class="row  hide-on-md">
         <div class="col-sm-auto">
             <img src="/img/about-us/r4.png" class="img-fluid">
         </div>
