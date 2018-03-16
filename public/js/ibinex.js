@@ -64,7 +64,10 @@ var ibinex = (function(options) {
 
 $(document).ready(function() {
 // Add smooth scrolling to all links
-    $("a").on('click', function (event) {
+    $("a[href*='#']")
+        .not("[href='#']")
+        .not("[href='#0']")
+        .on("click", function (event) {
 
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
