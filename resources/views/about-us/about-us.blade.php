@@ -19,7 +19,7 @@
 @section('content')
 <div class="container-fluid">
 
-<div class="pb-5">
+<div id="transparency" class="pb-5">
 
 <div class="row pt-sm-5">
 <div class="col-sm-2"><!-- spacer --></div>
@@ -72,8 +72,8 @@
 </div> <!-- row -->
 </div>
 
-<div>
-<div class="row" id="people-behind">
+<div id="executive-team">
+<div class="row" id="people-behind-bg">
 <div class="col-sm-12 text-center pb-5">
 <h2>
     The people behind Ibinex
@@ -111,7 +111,7 @@
 </div>
 </div>
 
-<div class="py-5">
+<div class="py-5" id="press">
 <div class="row">
 
 <div id="media-coverage-floater" class="col-sm-6 blue-ibinex-bg">
@@ -139,7 +139,7 @@
 </div>
 </div>
 
-<div class="py-5">
+<div class="py-5" id="advisory-board">
 
 <div class="row">
 <div class="col-12 advisory-board">
