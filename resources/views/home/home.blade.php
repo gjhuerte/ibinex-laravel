@@ -152,9 +152,9 @@
             <h2 class="sub-title grey bold">Learn more about Ibinex</h2>
             <h1 class="title black smaller bold">Technical Papers & Legal Circular</h1>
         </header>
-        <section class="row">
+        <section class="row carousel slide d-md-none text-center" data-interval="false" data-ride="carousel" id="advisory-board-members-carousel">
 
-            <section id="downloadables" class="d-flex justify-content-around flex-wrap">
+            <section id="downloadables" class="d-flex justify-content-around flex-wrap carousel-inner">
                 <!-- FIRST ROW START -->
 
                 <div class="brochures text-center">
