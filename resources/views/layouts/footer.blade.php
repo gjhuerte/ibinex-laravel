@@ -6,7 +6,7 @@
         <div class="container text-sm-left text-md-center">
             <div class="row">
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">Why ibinex</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-bold blue py-4">Why ibinex</h6>
 
                     <ul class="list-unstyled">
                         <li>
@@ -16,7 +16,7 @@
 
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">pricing</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-bold blue py-4">pricing</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a>Platform Pricing</a></span>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">services</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-bold blue py-4">services</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a>Platform</a></span>
@@ -47,13 +47,13 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">Security</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-bold blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a>Protection of Funds</a></span>
                         </li>
                         <li>
-                            <span class="color"<a>Encryption and Technologies</a></span>
+                            <span class="color"><a>Encryption and Technologies</a></span>
                         </li>
                         <li>
                             <span class="color"><a>Information Security</a></span>
@@ -64,7 +64,7 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">legal</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-bold blue py-4">legal</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a>Regulation</a></span>
@@ -90,7 +90,7 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">About Ibinex</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-bold blue py-4">About Ibinex</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a>Transparency</a></span>
@@ -123,16 +123,16 @@
         <div class="row alignment">
             <!--First column-->
             <div class="col-sm-12 col-md-4 col-lg-3 align-self-center ">
-                <img class= "padding" src = "/img/social-icons/logo-bottom.png" alt="ibinex logo-bottom">
+                <img class= "padding" src = "/img/logo/logo-bottom.png" alt="ibinex logo-bottom">
             </div>
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-sm-12 col-md-4 col-lg-3 pad-left">
-                <div class="position-absolute pt-lg-3" style="top: 0">
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="position-absolute pt-lg-3 absolute-div">
                     <h6 class="text-uppercase font-weight-light fonts grey">Ibinex Offices</h6>
                 </div>
-                <div class="pad-top">
+                <div class="pad-top pad-left-div" id="pad-left">
                     <ul class="list-unstyled">
                         <li>
                             <p class="pad-bot">iBinex Financials</p>
