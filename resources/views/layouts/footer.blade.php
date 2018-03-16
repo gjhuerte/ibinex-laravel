@@ -30,19 +30,19 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">services</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="{{ url('/services?#platform') }}">Platform</a></span>
+                            <span class="color"><a href="{{ url('/services?#platform-section') }}">Platform</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="{{ url('/services?#CRMbackoffice') }}">CRM / BackOffice</a></span>
+                            <span class="color"><a href="{{ url('/services?#crm-section') }}">CRM / BackOffice</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="{{ url('/services?#cryptoBridge') }}">CryptoBridge</a></span>
+                            <span class="color"><a href="{{ url('/services?#crypto-bridge-section') }}">CryptoBridge</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="{{ url('/services?#creditCard') }}">Credit Card Processing</a></span>
+                            <span class="color"><a href="{{ url('/services?#credit-card-section') }}">Credit Card Processing</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="{{ url('/services?#custodian') }}">Custodian Accounts</a></span>
+                            <span class="color"><a href="{{ url('/services?#custodian-section') }}">Custodian Accounts</a></span>
                         </li>
                     </ul>
                 </div>
@@ -149,7 +149,7 @@
                             <p class="pad-bot">Office: 1-800-972-3981</p>
                         </li>
                         <li>
-                            <p class="pad-bot">contact@ibinex.com</p>
+                            <p class="pad-bot"><a href="maito:contact@ibinex.com">contact@ibinex.com</a></p>
                         </li>
                     </ul>
                 </div>
@@ -177,7 +177,7 @@
                             <p class="pad-bot">Office: 1-809-457257</p>
                         </li>
                         <li>
-                            <p class="pad-bot">rnd@ibinex.com</p>
+                            <p class="pad-bot"><a href="mailto:rnd@ibinex.com">rnd@ibinex.com</a></p>
                         </li>
                     </ul>
                 </div>
