@@ -56,7 +56,6 @@
 {{--<script src="script.js"></script>--}}
 <script>
     var faButton = $('.faButton');
-    var mobile_width = 576;
     $(window).resize(function() {
         faButton.css('height', faButton.width());
     });
@@ -65,6 +64,7 @@
         faButton.css('height', faButton.width());
     });
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp',500);
+
 </script>
 @stack('scripts')
 {{--<script src="script.js"></script>--}}
