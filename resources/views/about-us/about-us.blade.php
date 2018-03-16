@@ -62,7 +62,7 @@
             <img src="/img/about-us/r4.png" class="img-fluid">
         </div>
         <div class="col-lg-5 m-4">
-            <p id="transparency-quote" class="quotes">
+            <p id="transparency-quote" class="quotes font-weight-bold">
                 We can never be sure what the next day, the next week, the next decade will bring. The future is an unexplored realm packed with dreams, surprises, even possible victories.
             </p>
         </div>
@@ -263,7 +263,7 @@
 <div class="row">
 <div class="col-lg-3"></div>
 <div class="col-lg-6 text-center px-4 mb-5 pb-5">
-    <p class="quotes blue-ibinex">
+    <p class="quotes font-weight-bold blue-ibinex">
         Tommorow does not yet exist, but our dreams do. So, we get to work today, like always. Because "tomorrow" will be what we make it. And if we can create the future in our heads, it will meet us halfway.
     </p>
 </div>
