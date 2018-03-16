@@ -11,7 +11,7 @@ body{
 .quotes {
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     font-size: 30px;
 }
@@ -91,12 +91,8 @@ div.advisory-board{
 
 ul.advisory-board-members-list{
     font-family: 'Montserrat';
-    font-size: 0.9rem;
+    font-size: 18px;
     color: #1a1a1a;
-}
-
-div.advisory-board-members-list-item-name{
-    font-weight: bold;
 }
 
 div.advisory-board-members-list-item-name,

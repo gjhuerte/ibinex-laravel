@@ -53,22 +53,22 @@
                 distance: '300px'
             });
 
-            let secondFold = $('#second-fold > div > div');
-            let secondFoldFix, divFix;
-            secondFoldFix = parseInt($('#second-fold > div > div.block').css('height'));
-            divFix = parseInt(secondFold.css('height')) / 2;
-
-
-            $(window).resize(function() {
-                secondFoldFix = parseInt($('#second-fold > div > div.block').css('height'));
-                if($( window ).width() < 1023) {
-                    secondFold.css('margin-bottom', secondFoldFix + divFix);
-                }
-                else
-                    secondFold.css('margin-bottom', 0);
-            });
-
-            secondFold.css('margin-bottom', secondFoldFix + divFix);
+            // let secondFold = $('#second-fold > div > div');
+            // let secondFoldFix, divFix;
+            // secondFoldFix = parseInt($('#second-fold > div > div.block').css('height'));
+            // divFix = parseInt(secondFold.css('height')) / 2;
+            //
+            //
+            // $(window).resize(function() {
+            //     secondFoldFix = parseInt($('#second-fold > div > div.block').css('height'));
+            //     if($( window ).width() < 1023) {
+            //         secondFold.css('margin-bottom', secondFoldFix + divFix);
+            //     }
+            //     else
+            //         secondFold.css('margin-bottom', 0);
+            // });
+            //
+            // secondFold.css('margin-bottom', secondFoldFix + divFix);
 
         });
     </script>
@@ -123,7 +123,7 @@
     </div><!--container-->
     <div id="second-fold" class="container-fluid remover">
         <div id="our-vision" class="row position-relative max-width-none overflow-remover">
-            <div class="col-xs-12 blocktext-background shadow"></div>
+            <div class="col-xs-12 blocktext-background shadow"> <!--content--></div>
             <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
             <div class="block mx-3 px-3 shadow">
                 <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
@@ -145,4 +145,5 @@
         </div><!--row-->
 
     </div><!--container-->
+
 @endsection

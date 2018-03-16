@@ -55,14 +55,7 @@
 <script src="{{ asset("js/ibinex.js") }}"></script>
 {{--<script src="script.js"></script>--}}
 <script>
-    var faButton = $('.faButton');
-    $(window).resize(function() {
-        faButton.css('height', faButton.width());
-    });
-
-    $(document).ready(function() {
-        faButton.css('height', faButton.width());
-    });
+    var mobile_width = 576;
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp',500);
 
 </script>
