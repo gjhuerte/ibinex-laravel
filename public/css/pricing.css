@@ -138,13 +138,15 @@
     }
 
     body #fullscreen-hero.full-height {
-        min-height: 134vh;
+        min-height: 110vh;
     }
-
+    body #fullscreen-hero.full-height .gradient-wrapper{
+        height: calc(100vh - 17.5vh);
+    }
     #pricing-content {
         border-radius: 20px;
         position: relative;
-        top: -335px;
+        top: -25vh;
         margin-bottom: -400px;
     }
 
