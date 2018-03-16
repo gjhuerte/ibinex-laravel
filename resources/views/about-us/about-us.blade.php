@@ -275,7 +275,7 @@
 @endsection
 
 @push('custom-scripts')
+    <script src="{{ asset("js/about-us.js") }}"></script>
 @endpush
-<script src="{{ asset("js/about-us.js") }}"></script>
 
 

@@ -7,9 +7,8 @@ var contact = {
         $('.row.ib-get-started-b img, .row.ib-get-started-b div.label').css('visibility','hidden');
         if(!$circle.hasClass('animated')) {
             $($circle).css('visibility', 'hidden');
-            var e = mobile_animation && $(window).width() <= mobile_width ? ".ib-get-started .row.ib-get-started-a p" : ".ib-get-started .ib-get-started-b";
-            ibinex.scroll(e, function (flag) {
-                console.log(flag);
+            var e = mobile_animation && $(window).width() <= mobile_width ? ".ib-get-started .row.ib-get-started-a" : ".ib-get-started .ib-get-started-b";
+             ibinex.scroll(e, function (flag) {
                 if (flag)
                     contact.circle();
             });
@@ -44,43 +43,46 @@ $(document).ready(function(){
 
     if((!mobile_animation && $(window).width() > mobile_width) || mobile_animation) {
         contact.init_circle();
-        // ibinex.animate(".ib-get-started .row.ib-get-started-a h2, .ib-get-started .row.ib-get-started-a p", "fadeInUp");
-        // ibinex.animate(".ib-get-started .ib-note", "fadeInUp");
+        ibinex.animate(".ib-get-started .row.ib-get-started-a h2, .ib-get-started .row.ib-get-started-a p", "fadeInUp");
+        ibinex.animate(".ib-get-started .ib-note", "fadeInUp");
+        ibinex.animate(".row.ib-contact-support h2", "fadeInLeft");
+        ibinex.animate(".row.ib-contact-support .ib-support-text .p1", "fadeInLeft",200);
+        ibinex.animate(".row.ib-contact-support .ib-support-text .p2", "fadeInLeft",300);
+        ibinex.animate(".row.ib-contact-support .ib-support-text .p3", "fadeInLeft",400);
         ibinex.animate(".ib-contact .ib-contact-form input, .ib-contact .ib-contact-form textarea", "zoomIn");
     }
-    window.sr = ScrollReveal();
-
-    sr.reveal('.ib-get-started .row.ib-get-started-a h2', {
-        duration: 1000,
-        viewFactor: 0.5,
-        distance: '100px',
-        delay: 100
-    });
-    sr.reveal('.ib-get-started .row.ib-get-started-a p', {
-        duration: 1000,
-        viewFactor: 0.5,
-        distance: '100px',
-        delay: 100
-    });
-    sr.reveal('.row.ib-contact-support h2', {
-        origin: 'left',
-        duration: 1000,
-        viewFactor: 0.5,
-        distance: '100px',
-        delay: 100
-    });
-    sr.reveal('.row.ib-contact-support p', {
-        origin: 'left',
-        duration: 1000,
-        viewFactor: 0.5,
-        distance: '100px',
-        delay: 100
-    });
-    sr.reveal('.ib-get-started .ib-note', {
-        duration: 1000,
-        viewFactor: 0.5,
-        distance: '100px',
-        delay: 100
-    });
+    // window.sr = ScrollReveal(); 
+    // sr.reveal('.ib-get-started .row.ib-get-started-a h2', {
+    //     duration: 1000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    //     delay: 100
+    // });
+    // sr.reveal('.ib-get-started .row.ib-get-started-a p', {
+    //     duration: 1000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    //     delay: 100
+    // });
+    // sr.reveal('.row.ib-contact-support h2', {
+    //     origin: 'left',
+    //     duration: 1000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    //     delay: 100
+    // });
+    // sr.reveal('.row.ib-contact-support p', {
+    //     origin: 'left',
+    //     duration: 1000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    //     delay: 100
+    // });
+    // sr.reveal('.ib-get-started .ib-note', {
+    //     duration: 1000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    //     delay: 100
+    // });
 
 });
