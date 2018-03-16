@@ -11,11 +11,12 @@ var ibinex = (function(options) {
                 hH = $(element).outerHeight(),
                 wH = $(window).height(),
                 wS = $(window).scrollTop();
+            console.log(wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH), element);
             if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH))
                 callback(true);
         },
         scroll: function(element, callback) {
-            // $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup', function () {
+            // $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove', function () {
             $(window).scroll(function(){
                 ibinex.scroll_pos(element,function(v){
                     if( v && !$(element).hasClass('animated'))
@@ -24,31 +25,35 @@ var ibinex = (function(options) {
             });
         },
         animate: function(element, effect, delay) {
-            if(!$(element).hasClass('animated')) {
-                $(element).css('visibility', 'hidden');
-                delay = delay ? delay : false;
+            if($(window).width() > $(window).width()) {
+                if(!$(element).hasClass('animated')) {
+                    $(element).css('visibility', 'hidden');
+                    delay = delay ? delay : false;
 
-                window.addEventListener('load', function () {
-                    ibinex.scroll_pos(element, function (v) {
-                        if (v)
+                    window.addEventListener('load', function () {
+                        ibinex.scroll_pos(element, function (v) {
+                            if (v)
+                                ibinex.go_animate(element, effect, delay);
+                        });
+                    });
+                    ibinex.scroll(element, function (flag) {
+                        if (flag)
                             ibinex.go_animate(element, effect, delay);
                     });
-                });
-                ibinex.scroll(element, function (flag) {
-                    if (flag)
-                        ibinex.go_animate(element, effect, delay);
-                });
+                }
             }
         },
         go_animate: function(element, effect, delay) {
-            if(delay) {
-                setTimeout(function(){
-                    $(element).css('visibility','visible');
-                    $(element).addClass('animated '+effect);
-                },delay);
-            }else{
-                $(element).css('visibility','visible');
-                $(element).addClass('animated '+effect)
+            if($(window).width() > $(window).width()) {
+                if (delay) {
+                    setTimeout(function () {
+                        $(element).css('visibility', 'visible');
+                        $(element).addClass('animated ' + effect);
+                    }, delay);
+                } else {
+                    $(element).css('visibility', 'visible');
+                    $(element).addClass('animated ' + effect)
+                }
             }
         }
     }
