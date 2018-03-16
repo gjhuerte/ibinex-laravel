@@ -9,8 +9,8 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">
         <h1 class="title text-left text-sm-center">Services</h1>
-        <p class="description text-justify">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
-        <p class="description text-justify">Our ecosystem of services comprises of the following units.</p>
+        <p class="description text-left text-sm-center">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
+        <p class="description text-left text-sm-center">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
     </section>
 @endsection
@@ -18,8 +18,8 @@
 @section('body-class','services')
 @section('bg-img','services.png')
 @section('content')
-    <div class="d-none d-sm-block pb-4 sticky-top">
-        <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white">
+    <div class="d-none d-sm-block sticky-top">
+        <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white pb-4">
             <div id="menu-center" class="container">
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item inner-nav-item">
