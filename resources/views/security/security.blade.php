@@ -4,13 +4,13 @@
 
 
 @push('stylesheets')
-    <link href="{{ asset("css/security.css") }}" rel="stylesheet" />
+    <link href='{{ asset('css/security.css') }}' rel='stylesheet' />
 @endpush
 
 @section('header-content')
-    <section id="hero-content" class="col-xl-7 col-sm-12">
-        <h1 class="title text-center" id="security_title">Security</h1>
-        <p class="description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <section id='hero-content' class='col-xl-7 col-sm-12'>
+        <h1 class='title text-center' id='security_title'>Security</h1>
+        <p class='description text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
 @endsection
 
@@ -19,12 +19,12 @@
 
 @section('content')
 
-        <section id='first-section'>
+        <section class='first-section' id='protection'>
             <article class='container-fluid'>
-                <div class="row security-width">
-                    <div class="col-sm-6">
-                        <h1 class='subtitle black' id="subtitle_1">Protection of Funds</h1>
-                        <span id="para_1">
+                <div class='row security-width'>
+                    <div class='col-sm-6'>
+                        <h1 class='subtitle black' id='subtitle_1'>Protection of Funds</h1>
+                        <span id='para_1'>
                             <p>
                                 The protection of your crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
                             </p>
@@ -37,9 +37,9 @@
                             </p>
                         </span>
                     </div>
-                    <div class="col-sm-6">
-                        <h1 class='subtitle black' id="subtitle_2">Encryption and Technologies</h1>
-                        <span id="para_2">
+                    <div class='col-sm-6'>
+                        <h1 class='subtitle black' id='subtitle_2'>Encryption and Technologies</h1>
+                        <span id='para_2'>
                             <p>
                                 A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned,
                                 and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technology.
@@ -53,10 +53,10 @@
                 </div>
             </article>
         </section>
-        <section id='second-section'>
+        <section class='second-section' id='technology'>
             <article class='container-fluid position-relative'>
-                <div class="row security-width">
-                    <div class="col-sm-5" id='infor-security'>
+                <div class='row security-width'>
+                    <div class='col-sm-5' id='infor-security'>
                         <h1 class='subtitle black'>Information Security</h1>
                         <p>
                            Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work
@@ -70,12 +70,12 @@
                         </p>
                     </div>
                 </div>
-                <div class="security-section">&nbsp;</div>
+                <div class='security-section'>&nbsp;</div>
             </article>
         </section>
 
 @endsection
 
 @push('custom-scripts')
-    <script src={{ asset("js/security.js") }}></script>
+    <script src={{ asset('js/security.js') }}></script>
 @endpush
