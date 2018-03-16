@@ -67,25 +67,25 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">legal</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Regulation</a></span>
+                            <span class="color"><a href="{{ url('#') }}">Regulation</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">AML & KYC</a></span>
+                            <span class="color"><a href="{{ url('#') }}">AML & KYC</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Terms and Conditions</a></span>
+                            <span class="color"><a href="{{ url('#') }}">Terms and Conditions</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Marketing Guidelines</a></span>
+                            <span class="color"><a href="{{ url('#') }}">Marketing Guidelines</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Licensing</a></span>
+                            <span class="color"><a href="{{ url('#') }}">Licensing</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Entry Requirements</a></span>
+                            <span class="color"><a href="{{ url('#') }}">Entry Requirements</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Privacy Policy</a></span>
+                            <span class="color"><a href="{{ url('#') }}">Privacy Policy</a></span>
                         </li>
                     </ul>
                 </div>
