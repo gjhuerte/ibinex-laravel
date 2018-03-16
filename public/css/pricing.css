@@ -141,6 +141,7 @@
 
     #pricing-content > hr:first-of-type {
         margin-top: 10px;
+        margin-bottom: 21px;
     }
 
     #pricing-content #what-you-receive {

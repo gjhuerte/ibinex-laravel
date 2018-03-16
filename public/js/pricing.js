@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // No animation strating from iPad to smaller devices
-    /*
+
     if(document.documentElement.clientWidth > 768) {
         window.sr = ScrollReveal({
             //origin: 'left',
@@ -29,5 +29,5 @@ $(document).ready(function() {
             delay: 250
         });
     }
-    */
+
 });
