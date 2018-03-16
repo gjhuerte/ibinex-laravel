@@ -2,11 +2,11 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var navOffset = $("#inner-nav").offset().top;
         if($(document).scrollTop() >= navOffset){
-            $("#inner-nav").addClass('shrink shadow');
+            $("#inner-nav").addClass('shadow');
             $("#inner-nav").removeClass('pb-4');
         }
         else {
-            $("#inner-nav").removeClass('shrink shadow');
+            $("#inner-nav").removeClass('shadow');
             $("#inner-nav").addClass('pb-4');
         }
     });
@@ -74,7 +74,7 @@ $(document).ready(function() {
         distance: '100px',
     }, 450);
 
-    sr.reveal('#platformText', {
+    sr.reveal('#platform-text-container', {
         distance: '300px',
     });
 
@@ -84,7 +84,7 @@ $(document).ready(function() {
         distance: '100px',
     }, 450);
 
-    sr.reveal('#secondSection', {
+    sr.reveal('#second-section-container', {
         distance: '300px',
     });
 
@@ -100,7 +100,7 @@ $(document).ready(function() {
         distance: '100px',
     }, 450);
 
-    sr.reveal('#thirdSection', {
+    sr.reveal('#third-section-container', {
         distance: '300px',
     });
 

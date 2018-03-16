@@ -69,6 +69,10 @@ div.platform-text p {
     line-height: 2;
 }
 
+.platform-text div:first-child p:first-child{
+    font-weight: 500;
+}
+
 div.crm p {
     line-height: 2;
 }
@@ -78,18 +82,44 @@ div.lorem .l2 img{
     /*   margin-right: -40px; */
 }
 
+.row{
+    max-width: 1920px !important;
+}
+
 .red-ellipse{
     z-index: 999;
     position: absolute;
-    top: 35%;
-    height: 30%;
+    top: 37%;
+    height: 24%;
+}
+
+.cb1{
+    /*padding-top: 50px*/
 }
 
 .red-ellipse-2{
     z-index: 999;
     position: absolute;
-    top: 47%;
-    height: 27%;
+    top: 40%;
+    height: 24%;
+}
+
+#platform-img-container{
+    background-image: url(../img/l1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 93%;
+    height: 250px;
+    padding-right: 0 !important;
+}
+
+.platform-text{
+    padding-top: 50px;
+}
+
+.inner-lorem{
+    padding: 60px 20px 20px;
+    font-size: 16px;
 }
 
 .cb-logo{
@@ -111,7 +141,7 @@ div.lorem .l2 img{
 .cb1{
     background-image: url(../img/cb1.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center 110%;
     background-size: 194px;
     height: 242px;
     z-index: 0;
@@ -121,7 +151,7 @@ div.lorem .l2 img{
 .cb2{
     background-image: url(../img/cb2_nobg.png);
     background-repeat: no-repeat;
-    background-position: 52% 257%;
+    background-position: 52% 236%;
     background-size: 600px;
     zoom: 2;
     z-index: 100;
@@ -131,17 +161,17 @@ div.lorem .l2 img{
 }
 
 .cb-text{
-    padding-top: 317px;
+    padding-top: 390px;
 }
 
 
 .macbook-img{
     background-image: url(../img/l2.png);
     background-repeat: no-repeat;
-    background-position: 77% center;
+    background-position: 84% center;
     background-size: cover;
     width: 100%;
-    height: 238px;
+    height: 280px;
     /*   zoom: 0.5; */
 }
 
@@ -158,10 +188,11 @@ div.lorem .l2 img{
     background-image: url(../img/qtt.png);
     background-repeat: no-repeat;
     background-position: 40% center;
-    background-size: cover;
+    background-size: 100% 100%;
     width: 100%;
-    height: 1150px;
-    zoom: 0.4;
+    height: 1300px;
+    zoom: 0.3;
+    overflow: hidden;
 }
 
 .lorem-ipsum p, .lorem-ipsum-lower p{
@@ -212,80 +243,96 @@ div.lorem .l2 img{
 
 /* Tablets to Desktop */
 
-@media only screen and (min-width: 576px){
-    .inner-lorem{
-        padding: 20px 40px;
-        font-size: 16px;
-    }
+/*@media only screen and (min-width: 576px){*/
+    /*.platform-text{*/
+        /*padding-top: 50px;*/
+    /*}*/
+    /*.inner-lorem{*/
+        /*padding: 45px 40px;*/
+        /*font-size: 16px;*/
+    /*}*/
 
-    .red-ellipse{
-        top: 70%;
-        left: 20%;
-        height: 30%;
-    }
+    /*.red-ellipse{*/
+        /*top: 70%;*/
+        /*left: 20%;*/
+        /*height: 30%;*/
+    /*}*/
 
-    .red-ellipse-2{
-        top: 50%;
-        left: 17%;
-        height: 20%;
-    }
+    /*.red-ellipse-2{*/
+        /*top: 50%;*/
+        /*left: 17%;*/
+        /*height: 20%;*/
+    /*}*/
 
-    .lorem-ipsum{
-        z-index: 5;
-        position: absolute;
-        top: 83%;
-    }
+    /*.lorem-ipsum{*/
+        /*z-index: 5;*/
+        /*position: absolute;*/
+        /*top: 83%;*/
+    /*}*/
 
-    .cb-text{
-        padding-top: 110px;
-        padding-right: 4rem;
-    }
+    /*.cb-text{*/
+        /*padding-top: 110px;*/
+        /*padding-right: 4rem;*/
+    /*}*/
 
-    .inner-crm{
-        padding-left: 100px;
-    }
+    /*.inner-crm{*/
+        /*padding-left: 100px;*/
+    /*}*/
 
-    .crm-container{
-        padding-bottom: 113px !important;
-    }
+    /*.crm-container{*/
+        /*padding-bottom: 113px !important;*/
+    /*}*/
 
-    .qtt-container{
-        position: absolute;
-        top: -25%;
-    }
+    /*.qtt-container{*/
+        /*position: absolute;*/
+        /*top: -25%;*/
+    /*}*/
 
-    .custodian{
-        padding-bottom: 400px;
-    }
+    /*.custodian{*/
+        /*padding-bottom: 400px;*/
+    /*}*/
 
-    .custodian-left{
-        padding-left: 105px;
-    }
-}
+    /*.custodian-left{*/
+        /*padding-left: 105px;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 576px){
-    .lorem-ipsum{
-        margin-left: 5rem;
-    }
+/*@media (min-width: 576px){*/
+    /*.lorem-ipsum{*/
+        /*margin-left: 5rem;*/
+    /*}*/
 
-    .lorem-ipsum-lower{
-        margin-left: 5rem;
-    }
-}
+    /*.lorem-ipsum-lower{*/
+        /*margin-left: 5rem;*/
+    /*}*/
+/*}*/
 
 
 @media only screen and (min-width: 767px){
+
+    #platform-img-container{
+        height: 500px;
+    }
+
+
     .macbook-img{
       background-position: 87% center;
     }
 
     .red-ellipse{
         top: 49%;
-        left: 18%;
+        left: 6%;
+        height: 31%;
+    }
+
+    .cb-text{
+        padding-top: 50px;
     }
 
     .red-ellipse-2{
-        top: 39%;
+        top: 45%;
+        left: 6%;
+        height: 31%;
     }
     .lorem-ipsum{
         top: 62.5%;
@@ -296,7 +343,7 @@ div.lorem .l2 img{
     }
 
     .fifth-section p:first-child{
-        margin-bottom: 70px;
+        /*margin-bottom: 70px;*/
     }
 
     .qtt-container{
@@ -305,6 +352,19 @@ div.lorem .l2 img{
 }
 
 @media only screen and (min-width: 1024px){
+
+    .platform-text-inner p{
+        padding-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+
+    #platform-img-container{
+        background-position: 92% 62%;
+        background-size: 95%;
+        height: 450px;
+    }
+
     .lorem-ipsum{
         margin-left: 7rem;
     }
@@ -320,7 +380,7 @@ div.lorem .l2 img{
     }
 
     .red-ellipse-2{
-        top: 45%;
+        top: 44%;
         left: 17%;
         height: 20%;
     }
@@ -354,7 +414,7 @@ div.lorem .l2 img{
     }
 
     .custodian-left{
-        padding-left: 105px;
+        padding-left: 30px;
     }
 }
 
@@ -364,7 +424,7 @@ div.lorem .l2 img{
     }
 
     .red-ellipse-2{
-        top: 47%;
+        top: 50%;
     }
 
     .custodian{
@@ -385,6 +445,112 @@ div.lorem .l2 img{
         top: 50%;
     }
 }
+
+
+@media only screen and (min-width: 1920px){
+
+    .platform-text{
+        padding-top: 66px;
+        padding-right: 340px;
+    }
+
+    .platform-text-inner p{
+        padding-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .lorem-ipsum{
+        margin-left: 10rem !important;
+        top: 100%
+    }
+
+    .red-ellipse{
+        top: 80%;
+        height: 45%;
+        left: 17%;
+    }
+
+    #platform-img-container{
+        background-image: url(../img/l1.png);
+        background-repeat: no-repeat;
+        background-position: 92% 38%;
+        background-size: 75%;
+        height: 550px;
+    }
+
+    .inner-crm{
+        padding-left: 375px;
+    }
+
+    .macbook-img{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .inner-lorem{
+        padding-top: 75px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 40px;
+    }
+
+    .crm-container{
+        padding-bottom: 190px !important;
+    }
+
+    .cb-text{
+        padding-right: 350px;
+    }
+
+    .cb p{
+        line-height: 1.7;
+    }
+
+    #credit-card-container{
+        padding-top: 100px !important;
+    }
+
+    .fone-img{
+        background-position: 96% center;
+        background-size: 66%;
+    }
+
+    .qtt-container{
+        top: -35%;
+    }
+
+    .qtt{
+        zoom: 0.6;
+    }
+
+    .red-ellipse-2{
+        top: 60%;
+        height: 24%;
+    }
+
+    .custodian{
+        padding-bottom: 600px;
+    }
+
+    .custodian-left{
+        padding-left: 320px;
+        padding-top: 60px;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 10rem !important;
+        padding-left: 70px !important;
+        padding-right: 80px !important;
+        padding-bottom: 45px !important;
+    }
+
+    #huffpost-bottom{
+        margin-top: 5px !important;
+    }
+}
+
 
 
 
