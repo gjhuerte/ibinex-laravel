@@ -24,7 +24,7 @@
                 <div class='row security-width'>
                     <div class='col-sm-6'>
                         <h1 class='subtitle black' id='subtitle_1'>Protection of Funds</h1>
-                        <span id='para_1'>
+                        <div id='para_1'>
                             <p>
                                 The protection of your crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
                             </p>
@@ -35,11 +35,11 @@
                                 We are the first cryptocurrency exchange platform to hold this mantle and offer exclusive payment solutions. As such, we must demonstrate a consistent level of regulatory compliance
                                 in order to retain professional distinction; a title of which we are immensely proud.
                             </p>
-                        </span>
+                        </div>
                     </div>
                     <div class='col-sm-6'>
                         <h1 class='subtitle black' id='subtitle_2'>Encryption and Technologies</h1>
-                        <span id='para_2'>
+                        <div id='para_2'>
                             <p>
                                 A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned,
                                 and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technology.
@@ -48,7 +48,7 @@
                                 We ensure that no weak links exist to threaten the stability and core security of Ibinex for our customers. Threats are neutralised before they present themselves &ndash;
                                 we take no chances, and anticipate potential breaches before they arise, entirely removing their potential before they ever eventuate.
                             </p>
-                        </span>
+                        </div>
                     </div>
                 </div>
             </article>
