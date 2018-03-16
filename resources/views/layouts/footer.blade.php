@@ -10,7 +10,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Our vision</a></span>
+                            <span class="color"><a href="{{ url('why-ibinex?#') }}">Our vision</a></span>
                         </li>
                     </ul>
 
@@ -19,10 +19,10 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">pricing</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Platform Pricing</a></span>
+                            <span class="color"><a href="{{ url('pricing?#') }}">Platform Pricing</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Liquidity Fee's</a></span>
+                            <span class="color"><a href="{{ url('pricing?#') }}">Liquidity Fee's</a></span>
                         </li>
                     </ul>
                 </div>
@@ -30,19 +30,19 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">services</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Platform</a></span>
+                            <span class="color"><a href="{{ url('/services?#platform') }}">Platform</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">CRM / BackOffice</a></span>
+                            <span class="color"><a href="{{ url('/services?#CRMbackoffice') }}">CRM / BackOffice</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">CryptoBridge</a></span>
+                            <span class="color"><a href="{{ url('/services?#cryptoBridge') }}">CryptoBridge</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Credit Card Processing</a></span>
+                            <span class="color"><a href="{{ url('/services?#creditCard') }}">Credit Card Processing</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Custodian Accounts</a></span>
+                            <span class="color"><a href="{{ url('/services?#custodian') }}">Custodian Accounts</a></span>
                         </li>
                     </ul>
                 </div>
@@ -50,16 +50,16 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Protection of Funds</a></span>
+                            <span class="color"><a href="{{ url('security?#protection') }}">Protection of Funds</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Encryption and Technologies</a></span>
+                            <span class="color"><a href="{{ url('security?#protection') }}">Encryption and Technologies</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Information Security</a></span>
+                            <span class="color"><a href="{{ url('security?#technology') }}">Information Security</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Privacy</a></span>
+                            <span class="color"><a href="{{ url('security?#technology') }}">Privacy</a></span>
                         </li>
                     </ul>
                 </div>
@@ -96,16 +96,16 @@
                             <span class="color"><a href="#">Transparency</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Press</a></span>
+                            <span class="color"><a href="{{ url('about-us?#press') }}">Press</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Executive Team</a></span>
+                            <span class="color"><a href="{{ url('about-us?#executive-team') }}">Executive Team</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Advisory Board</a></span>
+                            <span class="color"><a href="{{ url('about-us?#advisory-board') }}">Advisory Board</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Roadmap</a></span>
+                            <span class="color"><a href="{{ url('about-us?#') }}">Roadmap</a></span>
                         </li>
                     </ul>
                 </div>
