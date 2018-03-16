@@ -53,7 +53,7 @@
                             <span class="color"><a>Protection of Funds</a></span>
                         </li>
                         <li>
-                            <span class="color"<a>>Encryption and Technologies</a></span>
+                            <span class="color"<a>Encryption and Technologies</a></span>
                         </li>
                         <li>
                             <span class="color"><a>Information Security</a></span>
