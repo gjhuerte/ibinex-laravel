@@ -3,9 +3,11 @@ $(document).ready(function() {
         var navOffset = $("#inner-nav").offset().top;
         if($(document).scrollTop() >= navOffset){
             $("#inner-nav").addClass('shrink shadow');
+            $("#inner-nav").removeClass('pb-4');
         }
         else {
             $("#inner-nav").removeClass('shrink shadow');
+            $("#inner-nav").addClass('pb-4');
         }
     });
 
@@ -53,7 +55,7 @@ $(document).ready(function() {
         $('.inner-nav-item a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos+100 && refElement.position().top + refElement.height() > scrollPos) {
+            if (refElement.position().top <= scrollPos+200 && refElement.position().top + refElement.height() > scrollPos) {
                 $('#menu-center ul li a').removeClass("active");
                 currLink.addClass("active");
             }
@@ -122,12 +124,6 @@ $(document).ready(function() {
         distance: '300px',
     });
 
-    // sr.reveal('#platformImg', {
-    //     duration: 1500,
-    //     viewFactor: 0.5,
-    //     distance: '100px',
-    //     origin: 'left'
-    // });
 
 
 
