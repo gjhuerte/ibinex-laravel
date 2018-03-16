@@ -72,8 +72,8 @@
 </div> <!-- row -->
 </div>
 
-<div class="py-5" id="people-behind">
-
+<div>
+<div class="row" id="people-behind">
 <div class="col-sm-12 text-center pb-5">
 <h2>
     The people behind Ibinex
@@ -106,6 +106,7 @@
 </div>
 <div class="col-sm-2 order-4">
     <!--spacer-->
+</div>
 </div>
 </div>
 </div>
@@ -274,8 +275,7 @@
 @endsection
 
 @push('custom-scripts')
-
+@endpush
 <script src="{{ asset("js/about-us.js") }}"></script>
 
 
-@endpush
