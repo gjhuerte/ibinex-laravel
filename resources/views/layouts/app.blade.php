@@ -56,7 +56,7 @@
 {{--<script src="script.js"></script>--}}
 <script>
     var mobile_width = 576;
-    ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp',500);
+    ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp');
 
 </script>
 @stack('scripts')

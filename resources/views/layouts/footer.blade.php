@@ -10,7 +10,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Our vision</a></span>
+                            <span class="color"><a href="{{ url('why-ibinex?#') }}">Our vision</a></span>
                         </li>
                     </ul>
 
@@ -19,10 +19,10 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">pricing</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Platform Pricing</a></span>
+                            <span class="color"><a href="{{ url('pricing?#') }}">Platform Pricing</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Liquidity Fee's</a></span>
+                            <span class="color"><a href="{{ url('pricing?#') }}">Liquidity Fee's</a></span>
                         </li>
                     </ul>
                 </div>
@@ -30,19 +30,19 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">services</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Platform</a></span>
+                            <span class="color"><a href="{{ url('/services?#platform-section') }}">Platform</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">CRM / BackOffice</a></span>
+                            <span class="color"><a href="{{ url('/services?#crm-section') }}">CRM / BackOffice</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">CryptoBridge</a></span>
+                            <span class="color"><a href="{{ url('/services?#crypto-bridge-section') }}">CryptoBridge</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Credit Card Processing</a></span>
+                            <span class="color"><a href="{{ url('/services?#credit-card-section') }}">Credit Card Processing</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Custodian Accounts</a></span>
+                            <span class="color"><a href="{{ url('/services?#custodian-section') }}">Custodian Accounts</a></span>
                         </li>
                     </ul>
                 </div>
@@ -50,16 +50,16 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Protection of Funds</a></span>
+                            <span class="color"><a href="{{ url('security?#protection') }}">Protection of Funds</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Encryption and Technologies</a></span>
+                            <span class="color"><a href="{{ url('security?#protection') }}">Encryption and Technologies</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Information Security</a></span>
+                            <span class="color"><a href="{{ url('security?#technology') }}">Information Security</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Privacy</a></span>
+                            <span class="color"><a href="{{ url('security?#technology') }}">Privacy</a></span>
                         </li>
                     </ul>
                 </div>
@@ -93,19 +93,19 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">About Ibinex</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Transparency</a></span>
+                            <span class="color"><a href="{{ url('about-us?#transparency') }}">Transparency</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Press</a></span>
+                            <span class="color"><a href="{{ url('about-us?#press') }}">Press</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Executive Team</a></span>
+                            <span class="color"><a href="{{ url('about-us?#executive-team') }}">Executive Team</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Advisory Board</a></span>
+                            <span class="color"><a href="{{ url('about-us?#advisory-board') }}">Advisory Board</a></span>
                         </li>
                         <li>
-                            <span class="color"><a href="#">Roadmap</a></span>
+                            <span class="color"><a href="{{ url('about-us?#') }}">Roadmap</a></span>
                         </li>
                     </ul>
                 </div>
@@ -149,7 +149,7 @@
                             <p class="pad-bot">Office: 1-800-972-3981</p>
                         </li>
                         <li>
-                            <p class="pad-bot">contact@ibinex.com</p>
+                            <p class="pad-bot"><a href="maito:contact@ibinex.com">contact@ibinex.com</a></p>
                         </li>
                     </ul>
                 </div>
@@ -177,7 +177,7 @@
                             <p class="pad-bot">Office: 1-809-457257</p>
                         </li>
                         <li>
-                            <p class="pad-bot">rnd@ibinex.com</p>
+                            <p class="pad-bot"><a href="mailto:rnd@ibinex.com">rnd@ibinex.com</a></p>
                         </li>
                     </ul>
                 </div>
@@ -194,15 +194,15 @@
                 </div>
                 <h6 class="text-uppercase fonts font-weight-light d-none d-lg-block d-xl-block grey">find us online</h6>
                 <div class ="position-relative d-none d-lg-block d-xl-block">
-                    <a href="#"><img src="/img/social-icons/fb.png" alt=" facebook logo"></a>
-                    <a href="#"><img src="/img/social-icons/twitter.png" alt=" twitter logo"></a>
-                    <a href="#"><img src="/img/social-icons/wa.png" alt="whatsapp logo"></a>
-                    <a href="#"><img src="/img/social-icons/messenger.png" alt="messenger logo"></a>
-                    <a href="#"><img src="/img/social-icons/skype.png" alt="skype logo"></a>
-                    <a href="#"><img src="/img/social-icons/google.png" alt="google+ logo"></a>
-                    <a href="#"><img src="/img/social-icons/telegram.png" alt="telegram logo"></a>
-                    <a href="#"><img src="/img/social-icons/yt.png" alt="youtube logo"></a>
-                    <a href="#"><img src="/img/social-icons/viber.png" alt="viber logo"></a>
+                    <a href="https://www.facebook.com"><img src="/img/social-icons/fb.png" alt=" facebook logo"></a>
+                    <a href="https://twitter.com/IbinexExchange"><img src="/img/social-icons/twitter.png" alt=" twitter logo"></a>
+                    <a href="https://whatsapp.com"><img src="/img/social-icons/wa.png" alt="whatsapp logo"></a>
+                    <a href="https://messenger.com"><img src="/img/social-icons/messenger.png" alt="messenger logo"></a>
+                    <a href="https://skype.com"><img src="/img/social-icons/skype.png" alt="skype logo"></a>
+                    <a href="https://plus.google.com"><img src="/img/social-icons/google.png" alt="google+ logo"></a>
+                    <a href="https://telegram.com"><img src="/img/social-icons/telegram.png" alt="telegram logo"></a>
+                    <a href="https://youtube.com"><img src="/img/social-icons/yt.png" alt="youtube logo"></a>
+                    <a href="https://viber.com"><img src="/img/social-icons/viber.png" alt="viber logo"></a>
                 </div>
             </div>
             <!--/.Fourth column-->
