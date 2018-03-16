@@ -16,6 +16,7 @@
 @section('body-class','contact')
 @section('bg-img','contact-bg.png')
 @section('content')
+        <section>
                     <div class="container">
                         <div class="ib-get-started">
                             <div class="row ib-get-started-a">
@@ -70,7 +71,8 @@
                             </div>
                         </div>
                     </div>
-
+        </section>
+        <section>
                     <div class="ib-contact">
                         <div class="row ib-contact-support">
                             {{--<div class="col-sm-2"></div>--}}
@@ -79,16 +81,16 @@
                                     <h2>
                                         Support
                                     </h2>
-                                    <p>
+                                    <p class="p1">
                                         Contact and feedback are integral to the Ibinex way, enabling
                                         us to cater to your needs and requirements effectively and efficiently.
                                     </p>
-                                    <p>
+                                    <p class="p2">
                                         For support regarding any aspect of the Ibinex platform, your use of this website
                                         or your own exchange integrationm please contact us with your enquiry for
                                         personalised customer service.
                                     </p>
-                                    <p>
+                                    <p class="p3">
                                         We will endeavour to respond to you as promptly as possible.
                                     </p>
                                 </div>
@@ -118,6 +120,7 @@
                             </div>
                         </div>
                     </div>
+        </section>
 @endsection
 
 @push('scripts')

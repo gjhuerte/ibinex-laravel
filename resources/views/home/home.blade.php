@@ -69,7 +69,7 @@
         <section class="row no-gutters pt-5 position-relative fixed-height">
             <!--Will remove fixed-height -->
             <aside class="col-xl-8 order-xl-2 d-none  d-xl-block position-absolute stick-right">
-                <img class="" src="https://i.imgur.com/qHjq1P1.png" height="520" alt="bootstrap">
+                <img class="" src="{{asset("img/qHjq1P1.png")}}" height="520" alt="bootstrap">
             </aside>
             <div class="col-xl-6 order-xl-1 pt-5">
                 <h2 class="title text-left">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
@@ -102,7 +102,7 @@
             </div>
 
             <aside class="col-xl-6 order-xl-1 position-relative">
-                <img class="raise-image" src="https://i.imgur.com/3nSwpAa.png" height="520" alt="bootstrap">
+                <img class="raise-image" src="{{asset("img/3nSwpAa.png")}}" height="520" alt="bootstrap">
             </aside>
 
         </section>
@@ -159,7 +159,7 @@
             </section>
 
             <aside class="col-xl-6 order-xl-1 embed-parent-wrap left">
-                <div class="embed-image halfed shadow" style="background-image: url('https://i.imgur.com/hN17jUY.png');">
+                <div class="embed-image halfed shadow" style="background-image: url('{{asset('img/hN17jUY.png')}}');">
                     <div class="playButton faButton raise-half blue-button shadow">fa-quote</div>
                 </div>
             </aside>
@@ -180,7 +180,7 @@
 
                 <div class="brochures text-center">
                     <!-- 1 -->
-                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <img class="" src="{{ asset('img/q5EDmus.png')}}" alt="Brochure"/>
                     <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p>PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure">Download</button>

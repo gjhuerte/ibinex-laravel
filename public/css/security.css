@@ -34,8 +34,6 @@ article {
     padding-top: 0.8em!important;
 }
 
-
-
 /*** Media Queries as per chrome dev tool ***/
 
 /* iPad specific */
@@ -56,7 +54,10 @@ article {
         padding-bottom: 0;
     }
     article {
-        padding: 120px;
+        padding: 8px;
+    }
+    .first-section {
+        padding: 10% 0;
     }
     section {
         padding: 0;
@@ -80,11 +81,9 @@ article {
     #infor-security {
         padding-bottom:200px;
     }
-    article {
-        padding: 120px;
-    }
     .first-section {
-        padding-bottom: 12%;
+        padding: 10% 0;
+        margin: 0 auto;
     }
     section {
         padding: 4em 0;

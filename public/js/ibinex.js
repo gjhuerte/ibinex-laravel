@@ -34,7 +34,7 @@ var ibinex = (function(options) {
                     window.addEventListener('load', function () {
                         ibinex.scroll_pos(element, function (v) {
                             if (v)
-                                ibinex.go_animate(element, effect, delay);
+                                ibinex.go_animate(element, effect, delay ? delay : 800);
                         });
                     });
                     ibinex.scroll(element, function (flag) {
