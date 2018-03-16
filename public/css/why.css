@@ -24,14 +24,29 @@ body{
     border-radius: 50%;
 }
 
+.core-div{
+    margin-top: 10px;
+}
+
 .core-text {
     color: rgb(39,112,246);
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .block {
     background-color: rgb(242,241,241);
     z-index: 99999;
 
+}
+
+h2.first-fold-title{
+   margin-top: 60px;
+}
+
+p.first-fold-p{
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 h2.blocktext
@@ -67,8 +82,9 @@ p.blocktext
         position: relative;
         top: -210px;
         grid-row: 3 / span 1;
-        margin-bottom: -160px;
-        /*z-index: 9999999;*/
+        margin: 0 16px -160px;
+        padding: 0 18px 0 18px;
+
     }
 }
 
@@ -97,8 +113,12 @@ p.blocktext
     }
 
     .remover{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    div.core-left{
+        margin-left: 65px;
     }
 
     .core-text {
@@ -118,27 +138,25 @@ p.blocktext
 
     h2.blocktext
     {
-        padding:5%;
+        padding: 5% 5% 3% 5%;
         margin-right:20%;
     }
 
     p.blocktext
     {
-        margin-top: 0%;
-        text-align: justify;
+        margin-top: 0;
         margin-left: 5%;
         margin-right: 21%;
 
     }
 
     .block{
-        top: 12%;
-        right: 0%;
+        right: 0;
         width: 53%;
-        margin-right: 0px !important;
+        margin-right: 0 !important;
         padding: 3% 5% 4% !important;
         position: absolute;
-        top: 38vh;
+        top: 125px;
     }
 }
 
@@ -146,15 +164,48 @@ p.blocktext
 
 @media only screen and (min-width: 1200px){
 
+    h2.first-fold-title{
+        margin-top: 110px !important;
+        margin-bottom: 55px !important;
+    }
+
+    p.first-fold-p{
+        margin-bottom: 65px;
+    }
+
+    div.core-right{
+        padding-left: 80px;
+        margin-left: 44px;
+    }
+
+    div.core-left{
+        padding-right: 60px;
+        margin-right: 45px;
+        margin-left: 0;
+    }
 
     .blocktext-background{
         zoom: 1;
     }
 
     .blocktext-background2{
-        width: 800px;
-        height: 600px;
+        width: 915px;
+        height: 650px;
+        margin-bottom: 70px;
     }
 
+    .block {
+        padding-bottom: 200px !important;
+    }
+
+    .blocktext-p1 {
+        padding-right: 65px;
+        margin-bottom: 50px;
+        padding-top: 28px;
+    }
+
+    .blocktext-p2 {
+        padding-right: 55px;
+    }
 
 }

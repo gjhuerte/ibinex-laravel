@@ -21,12 +21,12 @@
 
 @section('content')
     <section id="pricing-content" class="container-fluid">
-        <section class="text-center">
+        <section id="pricing-intro" class="text-center">
             <h2>Integration of the Ibinex turnkey cryptocurrency platform to exchange your way requires:</h2>
         </section>
 
         <section class="row">
-            <article class="col-sm-6">
+            <article id="our-pricing" class="col-md-6">
                 <h5>Our Pricing</h5>
                 <div class="blue-text font-weight-bold">
                     <p>$150,000 "reserve only, no payment" deposited in a local Escrow account of your choice for 180 days</p>
@@ -34,7 +34,7 @@
                 </div>
             </article>
 
-            <article class="col-sm-6">
+            <article id="our-fees" class="col-md-6">
                 <h5>Our Fees</h5>
                 <div class="green-text font-weight-bold">
                     <p>0.1% flat-rate fee based on exchange volume with a minimum fee of $20,000 per month</p>
@@ -45,15 +45,15 @@
         <hr>
 
         <section class="row">
-            <article class="col">
+            <article id="what-you-receive" class="col">
                 <h5>What you receive</h5>
                 <div class="row small-text">
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <p>Tailored Front End content website ( +CMS ) with integrated web-based trading platform</p>
                         <p>Fully Compliant and Regulated Banking Custodian Services in Europe and North America</p>
                         <p>Full CRM / Back office Solution including KYC/AML, account and money management</p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <p>Processing Solutions for Credit Cards, Debit Cards, Wire Transfers, Alternative Payments, Hosted Wallets, Cold Wallets and various others for both FIAT and CryptoCurrencies</p>
                         <p>Aggregated Liquidity Exchange with "Top of Book" API bridge from over 60 exchanges for hundreds of CryptoCurrencies</p>
                     </div>
@@ -63,7 +63,7 @@
         <hr>
 
         <section class="row">
-            <article class="col-sm-6">
+            <article id="setup" class="col-md-6">
                 <h5>Setup</h5>
                 <p>In order to proceed with setup, we require:</p>
                 <div class="blue-text font-weight-bold">
@@ -72,7 +72,7 @@
                 </div>
             </article>
 
-            <article class="col-sm-6">
+            <article id="onboarding-time" class="col-md-6">
                 <h5>Onboarding time</h5>
                 <p>Please note that, due to incredibly high demand of the Ibinex exchange solutions suite, the current onboarding waiting time is 4 months.</p>
                 <p>We are doing our utmost to reduce time to market while retaining our trademark standard of excellence, and appreciate your interest in our innovations.</p>
@@ -84,27 +84,5 @@
 @endsection
 
 @push('custom-scripts')
-    <script>
-        // No animation strating from iPad to smaller devices
-        if (document.documentElement.clientWidth > 768) {
-            window.sr = ScrollReveal({
-                origin: 'left',
-                scale: 1,
-                mobile: false,
-                viewFactor: 0.25
-            });
-
-            sr.reveal('#pricing-content article > h5', {
-                distance: '100px',
-                duration: 500,
-                delay: 250
-            });
-
-            sr.reveal('#pricing-content article p', {
-                distance: '50px',
-                duration: 1000,
-                delay: 250
-            });
-        }
-    </script>
+    <script src={{ asset("js/pricing.js") }}></script>
 @endpush
