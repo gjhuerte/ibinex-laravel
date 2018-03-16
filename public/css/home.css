@@ -1,3 +1,8 @@
 body #fullscreen-hero {
     /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
 }
+
+body.home-template aside{
+    padding-left: 0;
+    padding-right: 0;
+}
