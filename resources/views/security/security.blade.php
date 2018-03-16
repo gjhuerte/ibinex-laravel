@@ -59,8 +59,7 @@
                     <div class='col-sm-5' id='infor-security'>
                         <h1 class='subtitle black'>Information Security</h1>
                         <p>
-                           Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work
-                           who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.
+                           Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.
                         </p>
                         <h1 class='subtitle black'>Privacy</h1>
                         <p>
