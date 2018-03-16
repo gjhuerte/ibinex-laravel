@@ -56,6 +56,7 @@
 {{--<script src="script.js"></script>--}}
 <script>
     var faButton = $('.faButton');
+    var mobile_width = 576;
     $(window).resize(function() {
         faButton.css('height', faButton.width());
     });

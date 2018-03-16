@@ -83,7 +83,7 @@
             <p class="col-sm-12 text-center mt-1 mb-3">Our strategy is underpinned by the 4 core strengths of ibinex:</p>
             <div class="container overflow-remover">
                 <div class="row">
-                    <div class="col-lg-3 col-md-5 col-s-12 mx-3 core-left">
+                     <div class="col-lg-3 {{--col-md-5--}}col-s-12 mx-3 core-left">
                         <div class="py-3">
                             <span class="core">01</span>
                         </div>
@@ -99,11 +99,11 @@
                     </div><!--col-->
 
 
-                    <img class="col-lg-5 col-md-12 d-none d-lg-block pc" src="{{asset('img/pc.png')}}" alt="pc image">
+                    <img class="col-lg-5 {{--col-md-12--}}d-none d-lg-block pc" src="{{asset('img/pc.png')}}" alt="pc image">
 
 
 
-                    <div class="col-lg-3 col-md-5 col-s-12 mx-3 core-right">
+                    <div class="col-lg-3 {{--col-md-5--}} col-s-12 mx-3 core-right">
                         <div class="py-3">
                             <span class="core">03</span>
                         </div>
@@ -122,7 +122,7 @@
         </div><!--row-->
     </div><!--container-->
     <div id="second-fold" class="container-fluid remover">
-        <div  class="row position-relative max-width-none overflow-remover">
+        <div id="our-vision" class="row position-relative max-width-none overflow-remover">
             <div class="col-xs-12 blocktext-background shadow"></div>
             <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
             <div class="block mx-3 px-3 shadow">
