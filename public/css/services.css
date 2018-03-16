@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+#inner-nav *{
+    transition: none;
+}
+
+.inner-nav-pb{
+    padding-bottom: 3rem;
+}
+
 .no-overflow{
     overflow: hidden;
 }
@@ -80,7 +88,7 @@ div.lorem .l2 img{
 .red-ellipse-2{
     z-index: 999;
     position: absolute;
-    top: 39%;
+    top: 47%;
     height: 27%;
 }
 
@@ -119,7 +127,7 @@ div.lorem .l2 img{
     z-index: 100;
     height: 242px;
     position: absolute;
-    top: 21%;
+    top: 17%;
 }
 
 .cb-text{
@@ -156,11 +164,11 @@ div.lorem .l2 img{
     zoom: 0.4;
 }
 
-div.lorem-ipsum p, .lorem-ipsum-lower p{
+.lorem-ipsum p, .lorem-ipsum-lower p{
     line-height: 1.5;
 }
 
-div.lorem-ipsum, .lorem-ipsum-lower{
+.lorem-ipsum, .lorem-ipsum-lower{
     background-color: rgb(39, 112, 246);
 }
 
@@ -172,11 +180,11 @@ div.lorem-ipsum, .lorem-ipsum-lower{
     background-color: rgb(250,250,250);
 }
 
-div.cb{
+.cb{
     z-index: -1;
 }
 
-div.cb p{
+.cb p{
     /*   color: rgba(105,105,105); */
     color: #595959;
     font-size: 17px;
@@ -191,7 +199,7 @@ div.cb p{
     line-height: 2;
 }
 
-div.credit-card p {
+.credit-card p {
     color: #595959;
     font-size: 17px;
     font-weight: 500;
@@ -205,7 +213,7 @@ div.credit-card p {
 /* Tablets to Desktop */
 
 @media only screen and (min-width: 576px){
-    div.inner-lorem{
+    .inner-lorem{
         padding: 20px 40px;
         font-size: 16px;
     }
@@ -222,14 +230,15 @@ div.credit-card p {
         height: 20%;
     }
 
-    div.lorem-ipsum{
+    .lorem-ipsum{
         z-index: 5;
         position: absolute;
         top: 83%;
     }
 
     .cb-text{
-        padding-top: 100px;
+        padding-top: 110px;
+        padding-right: 4rem;
     }
 
     .inner-crm{
@@ -256,32 +265,110 @@ div.credit-card p {
 
 @media (min-width: 576px){
     .lorem-ipsum{
-        margin-left: 5rem !important;
+        margin-left: 5rem;
     }
 
     .lorem-ipsum-lower{
-        margin-left: 5rem !important;
+        margin-left: 5rem;
     }
 }
 
 
-/* @media only screen and (min-width: 767px){
-  .lorem-ipsum{
-    margin-left: 5rem !important;
-  }
+@media only screen and (min-width: 767px){
+    .macbook-img{
+      background-position: 87% center;
+    }
 
-  .lorem-ipsum-lower{
-    margin-left: 5rem !important;
-  }
-} */
+    .red-ellipse{
+        top: 49%;
+        left: 18%;
+    }
 
-@media only screen and (min-width: 1000px){
+    .red-ellipse-2{
+        top: 39%;
+    }
     .lorem-ipsum{
-        margin-left: 7rem !important;
+        top: 62.5%;
+    }
+
+    .fone-img{
+        background-position: 74% center;
+    }
+
+    .fifth-section p:first-child{
+        margin-bottom: 70px;
+    }
+
+    .qtt-container{
+        top: -15%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .lorem-ipsum{
+        margin-left: 7rem;
     }
 
     .lorem-ipsum-lower{
-        margin-left: 7rem !important;
+        margin-left: 7rem;
+    }
+
+    .red-ellipse{
+        top: 70%;
+        left: 20%;
+        height: 30%;
+    }
+
+    .red-ellipse-2{
+        top: 45%;
+        left: 17%;
+        height: 20%;
+    }
+
+    .lorem-ipsum{
+        z-index: 5;
+        position: absolute;
+        top: 83%;
+    }
+
+    .cb-text{
+        padding-top: 110px;
+        padding-right: 4rem;
+    }
+
+    .inner-crm{
+        padding-left: 100px;
+    }
+
+    .crm-container{
+        padding-bottom: 175px !important;
+    }
+
+    .qtt-container{
+        position: absolute;
+        top: -25%;
+    }
+
+    .custodian{
+        padding-bottom: 420px;
+    }
+
+    .custodian-left{
+        padding-left: 105px;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .crm-container{
+        padding-bottom: 120px !important;
+    }
+
+    .red-ellipse-2{
+        top: 47%;
+    }
+
+    .custodian{
+        padding-bottom: 450px;
     }
 }
 
@@ -292,6 +379,10 @@ div.credit-card p {
 
     .lorem-ipsum-lower{
         margin-left: 8rem !important;
+    }
+
+    .red-ellipse-2{
+        top: 50%;
     }
 }
 
