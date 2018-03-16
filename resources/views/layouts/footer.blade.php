@@ -10,7 +10,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color">Our vision</span>
+                            <span class="color"><a>Our vision</a></span>
                         </li>
                     </ul>
 
@@ -19,10 +19,10 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">pricing</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color">Platform Pricing</span>
+                            <span class="color"><a>Platform Pricing</a></span>
                         </li>
                         <li>
-                            <span class="color">Liquidity Fee's</span>
+                            <span class="color"><a>Liquidity Fee's</a></span>
                         </li>
                     </ul>
                 </div>
@@ -30,19 +30,19 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">services</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color">Platform</span>
+                            <span class="color"><a>Platform</a></span>
                         </li>
                         <li>
-                            <span class="color">CRM / BackOffice</span>
+                            <span class="color"><a>CRM / BackOffice</a></span>
                         </li>
                         <li>
-                            <span class="color">CryptoBridge</span>
+                            <span class="color"><a>CryptoBridge</a></span>
                         </li>
                         <li>
-                            <span class="color">Credit Card Processing</span>
+                            <span class="color"><a>Credit Card Processing</a></span>
                         </li>
                         <li>
-                            <span class="color">Custodian Accounts</span>
+                            <span class="color"><a>Custodian Accounts</a></span>
                         </li>
                     </ul>
                 </div>
@@ -50,16 +50,16 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color">Protection of Funds</span>
+                            <span class="color"><a>Protection of Funds</a></span>
                         </li>
                         <li>
-                            <span class="color">Encryption and Technologies</span>
+                            <span class="color"<a>>Encryption and Technologies</a></span>
                         </li>
                         <li>
-                            <span class="color">Information Security</span>
+                            <span class="color"><a>Information Security</a></span>
                         </li>
                         <li>
-                            <span class="color">Privacy</span>
+                            <span class="color"><a>Privacy</a></span>
                         </li>
                     </ul>
                 </div>
@@ -67,25 +67,25 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">legal</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color">Regulation</span>
+                            <span class="color"><a>Regulation</a></span>
                         </li>
                         <li>
-                            <span class="color">AML & KYC</span>
+                            <span class="color"><a>AML & KYC</a></span>
                         </li>
                         <li>
-                            <span class="color">Terms and Conditions</span>
+                            <span class="color"><a>Terms and Conditions</a></span>
                         </li>
                         <li>
-                            <span class="color">Marketing Guidelines</span>
+                            <span class="color"><a>Marketing Guidelines</a></span>
                         </li>
                         <li>
-                            <span class="color">Licensing</span>
+                            <span class="color"><a>Licensing</a></span>
                         </li>
                         <li>
-                            <span class="color">Entry Requirements</span>
+                            <span class="color"><a>Entry Requirements</a></span>
                         </li>
                         <li>
-                            <span class="color">Privacy Policy</span>
+                            <span class="color"><a>Privacy Policy</a></span>
                         </li>
                     </ul>
                 </div>
@@ -93,19 +93,19 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">About Ibinex</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color">Transparency</span>
+                            <span class="color"><a>Transparency</a></span>
                         </li>
                         <li>
-                            <span class="color">Press</span>
+                            <span class="color"><a>Press</a></span>
                         </li>
                         <li>
-                            <span class="color">Executive Team</span>
+                            <span class="color"><a>Executive Team</a></span>
                         </li>
                         <li>
-                            <span class="color">Advisory Board</span>
+                            <span class="color"><a>Advisory Board</a></span>
                         </li>
                         <li>
-                            <span class="color">Roadmap</span>
+                            <span class="color"><a>Roadmap</a></span>
                         </li>
                     </ul>
                 </div>
