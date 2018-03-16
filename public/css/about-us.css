@@ -37,9 +37,7 @@ body{
 
 
 #people-behind-bg{
-    background-color: rgb(231,251,248);
-
-    background-position: center center;
+    background-color: #e7fbf8;
 }
 
 #circ, #circ-pic {
@@ -93,7 +91,7 @@ div.advisory-board{
 ul.advisory-board-members-list{
     font-family: 'Montserrat';
     font-size: 0.9rem;
-    font-color: #1a1a1a;
+    color: #1a1a1a;
 }
 
 div.advisory-board-members-list-item-name{
