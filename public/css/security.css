@@ -41,9 +41,9 @@ article {
     .security-section {
         display: block;
         position:absolute;
-        height:105%;
+        height:130%;
         width:50%;
-        top:-15%;
+        top:-27%;
         right:0;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
@@ -58,7 +58,7 @@ article {
         padding: 10% 0;
     }
     section {
-        padding: 0;
+        padding: 4em 0;
     }
 }
 
