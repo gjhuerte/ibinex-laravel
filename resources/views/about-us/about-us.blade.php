@@ -74,7 +74,7 @@
 
 <div id="executive-team">
 <div class="row py-5" id="people-behind-bg">
-<div class="col-lg-12 text-center pb-5">
+<div class="col-lg-12 text-center">
 <h2>
     The people behind Ibinex
 </h2>
