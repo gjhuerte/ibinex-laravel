@@ -20,7 +20,7 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Le fav and touch icons -->
-    {{--<link rel="shortcut icon" href="images/favicon.ico" />--}}
+    <link rel="shortcut icon" href="{{ asset("img/logo/ibinex.ico") }}" />
     {{--<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />--}}
     {{--<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />--}}
     {{--<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />--}}
@@ -31,8 +31,8 @@
 <div id='main-body' class='container-fluid'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">
+            @include('layouts.navbar')
             <section class="container">
-                @include('layouts.navbar')
                 @yield('header-content')
             </section>
         </div>
@@ -55,15 +55,9 @@
 <script src="{{ asset("js/ibinex.js") }}"></script>
 {{--<script src="script.js"></script>--}}
 <script>
-    var faButton = $('.faButton');
-    $(window).resize(function() {
-        faButton.css('height', faButton.width());
-    });
-
-    $(document).ready(function() {
-        faButton.css('height', faButton.width());
-    });
+    var mobile_width = 576;
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp',500);
+
 </script>
 @stack('scripts')
 {{--<script src="script.js"></script>--}}

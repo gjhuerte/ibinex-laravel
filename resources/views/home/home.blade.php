@@ -26,17 +26,37 @@
         $(function() {
             //floating button will remain a circle at all times
             let faButton = $('.faButton');
-            faButton.css('height', faButton.width());
+            faButton.css('display', 'block').css('height', faButton.width());
             $(window).resize(function() {
-                faButton.css('height', faButton.width());
             });
+
+            //floating play button's position
+            let playButton = $('.playButton');
+            let playSize =  parseInt(playButton.height()) / 2;
+            if($( document ).width() > 1200)
+                playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
+            else
+                playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize);
 
             //margin-right fix for fifth-fold
             let marginRight = parseInt($('#third-fold > .row').css('margin-right'));
             $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
+
+
             $(window).resize(function() {
+                //floating button will remain a circle at all times
+                faButton.css('height', faButton.width());
+
+                //margin-right fix for fifth-fold
                 marginRight = parseInt($('#third-fold > .row').css('margin-right'));
                 $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
+
+                //play button position
+                console.log($( document ).width());
+                if($( document ).width() > 1200)
+                    playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
+                else
+                    playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize).delay(1000);
             });
         });
 
@@ -105,11 +125,11 @@
 
 
             <aside class="col-xl-6 order-xl-12 embed-parent-wrap top right">
-                <div class="embed-image" style="background-image: url('https://i.imgur.com/vxYWbMb.png');">&nbsp;</div>
+                <div class="embed-image" style="background-image: url('{{ asset("img/home-card.png") }}');">&nbsp;</div>
                 <div class="embed-blue-wrap shadow">
-                    <div class="faButton top-half red shadow"></div>
-                    <section class="my-5 mx-3">
-                        <p class="quote text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="faButton top-half red-button shadow"></div>
+                    <section class="quote-wrapper">
+                        <p class="quote text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <span class="author">HuffPost</span>
                     </section>
                 </div>
@@ -139,8 +159,9 @@
             </section>
 
             <aside class="col-xl-6 order-xl-1 embed-parent-wrap left">
-                <div class="embed-image halfed shadow" style="background-image: url('https://i.imgur.com/hN17jUY.png');">&nbsp;</div>
-                <div class="faButton raise-half">fa-quote</div>
+                <div class="embed-image halfed shadow" style="background-image: url('https://i.imgur.com/hN17jUY.png');">
+                    <div class="playButton faButton raise-half blue-button shadow">fa-quote</div>
+                </div>
             </aside>
 
         </section>
@@ -152,9 +173,9 @@
             <h2 class="sub-title grey bold">Learn more about Ibinex</h2>
             <h1 class="title black smaller bold">Technical Papers & Legal Circular</h1>
         </header>
-        <section class="row">
+        <section class="row carousel slide d-md-none text-center" data-interval="false" data-ride="carousel" id="advisory-board-members-carousel">
 
-            <section id="downloadables" class="d-flex justify-content-around flex-wrap">
+            <section id="downloadables" class="d-flex justify-content-around flex-wrap carousel-inner">
                 <!-- FIRST ROW START -->
 
                 <div class="brochures text-center">
