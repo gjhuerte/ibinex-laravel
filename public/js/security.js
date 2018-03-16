@@ -1,14 +1,7 @@
 
-// && $("#hero-content p").css("visibility")
-
-
-// var color = $('.box').css('background-color');
-// var color = $("#hero-content p").css("visibility");
-// if (color == 'rgb(0, 0, 255)' || color == 'blue') // =='blue' <- IE hack
-//     alert("it's blue!\nColor detected: " + color);
+// document.querySelector('#hero-content p').style.visibility == 'visible';
 
 if (document.documentElement.clientWidth > 1023) {
-    // setTimeout(function() {
         window.sr = ScrollReveal({reset: false,delay: 1000,useDelay: 'always',});
 
         sr.reveal('#subtitle_1', {
@@ -39,5 +32,4 @@ if (document.documentElement.clientWidth > 1023) {
         sr.reveal('.security-section', {
             duration: 2000,
         });
-    // }, 1500);
 }
