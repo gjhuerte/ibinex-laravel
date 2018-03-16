@@ -1,6 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i');
 @font-face {
     font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNovaRegular.otf') format('opentype');
@@ -495,6 +495,11 @@ footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot{
 }
 footer p.pad-bot{
     margin: 10px 0;
+}
+
+footer a, a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 @media all and (max-width: 576px){
