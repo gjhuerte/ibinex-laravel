@@ -23,7 +23,7 @@ section {
 article {
     padding: 0;
 }
-#second-section {
+.second-section {
     background-color: rgb(231,251,248);
 }
 .security-width {
@@ -90,7 +90,7 @@ article {
     article {
         padding: 120px;
     }
-    #first-section {
+    .first-section {
         padding-bottom: 12%;
     }
     section {

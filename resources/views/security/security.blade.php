@@ -19,7 +19,7 @@
 
 @section('content')
 
-        <section id='first-section'>
+        <section class='first-section' id='protection'>
             <article class='container-fluid'>
                 <div class="row security-width">
                     <div class="col-sm-6">
@@ -53,7 +53,7 @@
                 </div>
             </article>
         </section>
-        <section id='second-section'>
+        <section class='second-section' id='technology'>
             <article class='container-fluid position-relative'>
                 <div class="row security-width">
                     <div class="col-sm-5" id='infor-security'>
