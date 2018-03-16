@@ -286,7 +286,7 @@ body .gradient-wrapper{
         flex-wrap: wrap;
         align-content: center;
     }
-    body #fullscreen-hero #hero-content p{
+    body #fullscreen-hero #hero-content p, body #fullscreen-hero #hero-content h1{
         width: 100%
     }
     body #fullscreen-hero .semi-circle {
