@@ -1,11 +1,4 @@
 
-/*rgb(39,30,183)*/
-/*rgb(109,40,118)*/
-/*rgb(164,46,65)*/
-
-body #fullscreen-hero #hero-content {
-    padding: 80px 0;
-}
 section#hero-content {
     margin: 0 auto;
 }
@@ -23,7 +16,7 @@ section {
 article {
     padding: 0;
 }
-#second-section {
+.second-section {
     background-color: rgb(231,251,248);
 }
 .security-width {
@@ -90,7 +83,7 @@ article {
     article {
         padding: 120px;
     }
-    #first-section {
+    .first-section {
         padding-bottom: 12%;
     }
     section {

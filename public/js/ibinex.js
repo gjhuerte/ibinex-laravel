@@ -1,3 +1,5 @@
+var mobile_width = 576;
+var mobile_animation = true;
 var ibinex = (function(options) {
 
     "use strict";
@@ -11,7 +13,6 @@ var ibinex = (function(options) {
                 hH = $(element).outerHeight(),
                 wH = $(window).height(),
                 wS = $(window).scrollTop();
-            console.log(wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH), element);
             if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH))
                 callback(true);
         },
@@ -25,7 +26,7 @@ var ibinex = (function(options) {
             });
         },
         animate: function(element, effect, delay) {
-            if($(window).width() > mobile_width) {
+            if((!mobile_animation && $(window).width() > mobile_width) || mobile_animation) {
                 if(!$(element).hasClass('animated')) {
                     $(element).css('visibility', 'hidden');
                     delay = delay ? delay : false;
@@ -44,7 +45,7 @@ var ibinex = (function(options) {
             }
         },
         go_animate: function(element, effect, delay) {
-            if($(window).width() > mobile_width) {
+            if((!mobile_animation && $(window).width() > mobile_width) || mobile_animation) {
                 if (delay) {
                     setTimeout(function () {
                         $(element).css('visibility', 'visible');
