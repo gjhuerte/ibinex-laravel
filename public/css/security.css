@@ -31,7 +31,7 @@ article {
 }
 .subtitle {
     display: block;
-    padding-top: 0.8em!important;
+    padding-top: 0.5em!important;
 }
 
 /*** Media Queries as per chrome dev tool ***/
@@ -82,8 +82,11 @@ article {
         padding-bottom:200px;
     }
     .first-section {
-        padding: 10% 0;
+        padding: 11em 0;
         margin: 0 auto;
+    }
+    .first-section article {
+        margin-bottom: 30px;
     }
     section {
         padding: 4em 0;
