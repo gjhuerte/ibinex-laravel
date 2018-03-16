@@ -194,15 +194,15 @@
                 </div>
                 <h6 class="text-uppercase fonts font-weight-light d-none d-lg-block d-xl-block grey">find us online</h6>
                 <div class ="position-relative d-none d-lg-block d-xl-block">
-                    <img src="/img/social-icons/fb.png" alt=" facebook logo">
-                    <img src="/img/social-icons/twitter.png" alt=" twitter logo">
-                    <img src="/img/social-icons/wa.png" alt="whatsapp logo">
-                    <img src="/img/social-icons/messenger.png" alt="messenger logo">
-                    <img src="/img/social-icons/skype.png" alt="skype logo">
-                    <img src="/img/social-icons/google.png" alt="google+ logo">
-                    <img src="/img/social-icons/telegram.png" alt="telegram logo">
-                    <img src="/img/social-icons/yt.png" alt="youtube logo">
-                    <img src="/img/social-icons/viber.png" alt="viber logo">
+                    <a><img src="/img/social-icons/fb.png" alt=" facebook logo"></a>
+                    <a><img src="/img/social-icons/twitter.png" alt=" twitter logo"></a>
+                    <a><img src="/img/social-icons/wa.png" alt="whatsapp logo"></a>
+                    <a><img src="/img/social-icons/messenger.png" alt="messenger logo"></a>
+                    <a><img src="/img/social-icons/skype.png" alt="skype logo"></a>
+                    <a><img src="/img/social-icons/google.png" alt="google+ logo"></a>
+                    <a><img src="/img/social-icons/telegram.png" alt="telegram logo"></a>
+                    <a><img src="/img/social-icons/yt.png" alt="youtube logo"></a>
+                    <a><img src="/img/social-icons/viber.png" alt="viber logo"></a>
                 </div>
             </div>
             <!--/.Fourth column-->
