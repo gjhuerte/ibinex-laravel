@@ -1,7 +1,5 @@
 $(document).ready(function() {
-    // No animation strating from iPad to smaller devices
-
-    if(document.documentElement.clientWidth > 768) {
+    if(document.documentElement.clientWidth >= 768) {
         window.sr = ScrollReveal({
             //origin: 'left',
             distance: '0',
@@ -28,6 +26,16 @@ $(document).ready(function() {
             duration: 3000,
             delay: 250
         });
-    }
 
+        var firstSet = $('#pricing-content #what-you-receive .first-set');
+        var secondSet = $('#pricing-content #what-you-receive .second-set');
+        var count = $(secondSet + ' > p').length;
+
+        for(var i = 1; i <= count; i++) {
+            if($(firstSet + ' > p:nth-of-type(' + i + ')').css('margin-bottom') <
+                $(secondSet + ' > p:nth-of-type(' + i + ')').css('margin-bottom')) {
+                $(firstSet + ' > p:nth-of-type(' + i + ')').css('margin-bottom', $(secondSet + ' > p:nth-of-type(' + i + ')').css('margin-bottom'));
+            }
+        }
+    }
 });

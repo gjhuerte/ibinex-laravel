@@ -48,12 +48,12 @@
             <article id="what-you-receive" class="col">
                 <h5>What you receive</h5>
                 <div class="row small-text">
-                    <div class="col-md-6">
+                    <div class="first-set col-md-6">
                         <p>Tailored Front End content website ( +CMS ) with integrated web-based trading platform</p>
                         <p>Fully Compliant and Regulated Banking Custodian Services in Europe and North America</p>
                         <p>Full CRM / Back office Solution including KYC/AML, account and money management</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="second-set col-md-6">
                         <p>Processing Solutions for Credit Cards, Debit Cards, Wire Transfers, Alternative Payments, Hosted Wallets, Cold Wallets and various others for both FIAT and CryptoCurrencies</p>
                         <p>Aggregated Liquidity Exchange with "Top of Book" API bridge from over 60 exchanges for hundreds of CryptoCurrencies</p>
                     </div>
