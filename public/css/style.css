@@ -26,6 +26,9 @@ body {
      **************************  MOBILE  ******************************
      *****************************************************************/
 }
+body aside{
+    padding: 0;
+}
 body > div {
     padding: 0 !important;
 }
@@ -111,7 +114,6 @@ body .semi-circle.green-brochure {
 }
 body #fullscreen-hero {
     color: white;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

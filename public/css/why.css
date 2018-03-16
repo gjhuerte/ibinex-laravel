@@ -11,6 +11,7 @@ body{
     font-family: "Proxima Nova";
 }
 
+
 .overflow-remover{
     overflow: hidden;
 }
@@ -29,8 +30,6 @@ body{
 
 .block {
     background-color: rgb(242,241,241);
-    position: absolute;
-    top: 38vh;
     z-index: 99999;
 
 }
@@ -53,28 +52,42 @@ p.blocktext
     background-repeat:no-repeat;
 }
 
-/* 768 px */
+@media only screen and (max-width: 768px){
 
-/*@media only screen and (min-width: 768px){*/
-    /*h2.blocktext {*/
-        /*padding-top: 10%;*/
-    /*}*/
+    #our-vision {
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    #our-vision > div:first-child {
+        grid-row: 1 / span 2;
+        /*z-index: 9999999;*/
+    }
 
-    /*p.blocktext {*/
-        /*margin-top: 5%;*/
-    /*}*/
-
-    /*.block{*/
-        /*top:35vh;*/
-        /*margin-left: 7% !important;*/
-        /*margin-right: 7% !important;*/
-    /*}*/
-    /*.blocktext-background{*/
-        /*zoom: 0.7;*/
-    /*}*/
+    #our-vision > div:last-child {
+        position: relative;
+        top: -210px;
+        grid-row: 3 / span 1;
+        margin-bottom: -160px;
+        /*z-index: 9999999;*/
+    }
+}
 
 
-/*}*/
+
+
+@media only screen and (min-width: 768px){
+    .blocktext-background{
+        zoom: 0.7;
+    }
+
+    h2.blocktext {
+        padding-top: 10%;
+    }
+
+    p.blocktext {
+        margin-top: 5%;
+    }
+}
 
 /* 1024 px */
 
@@ -124,6 +137,8 @@ p.blocktext
         width: 53%;
         margin-right: 0px !important;
         padding: 3% 5% 4% !important;
+        position: absolute;
+        top: 38vh;
     }
 }
 
