@@ -93,7 +93,7 @@
                     <h6 class="text-uppercase heads fonts font-weight-light blue py-4">About Ibinex</h6>
                     <ul class="list-unstyled">
                         <li>
-                            <span class="color"><a href="#">Transparency</a></span>
+                            <span class="color"><a href="{{ url('about-us?#transparency') }}">Transparency</a></span>
                         </li>
                         <li>
                             <span class="color"><a href="{{ url('about-us?#press') }}">Press</a></span>
