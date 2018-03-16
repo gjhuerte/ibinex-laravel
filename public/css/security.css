@@ -45,9 +45,7 @@ article {
         width:50%;
         top:-15%;
         right:0;
-        background-image: url('../img/security-section.png');
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
     #infor-security {
@@ -73,9 +71,7 @@ article {
         width:50%;
         top:-25%;
         right:0;
-        background-image: url('../img/security-section.png');
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
     #infor-security {
