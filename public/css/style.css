@@ -455,7 +455,7 @@ body footer .column2 {
     color: white;
     align-self:center;
     padding-top:70px;
-    padding-left:5%;
+    padding-left:3%;
 }
 #contact-section h2.title{
     font-family: "Proxima Nova", sans-serif;
@@ -469,7 +469,7 @@ h6.text-uppercase.heads.fonts{
 }
 ul.list-unstyled li span.color{
     font-size:13px;
-    font-weight: bold;
+    font-weight: normal;
 }
 footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot{
     font-size:14px;
@@ -482,22 +482,19 @@ footer #title{
     font-weight: bold;
 }
 
+footer .semi-circle-property{
+    width: 100%;
+    height: 40px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 @media all and (max-width: 576px){
     .d-xs-block{
         display: block;
     }
-
-    footer .absolute-div{
-        top: 0;
-        left: 0;
-        padding-left: 3%;
-    }
-
-    footer #pad-left{
-        padding-left: 1%;
-    }
-
-
 }
 
 
@@ -511,6 +508,7 @@ footer #title{
     }
     body footer .column2{
          padding-top: 0;
+
      }
 }
 
