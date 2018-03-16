@@ -498,6 +498,11 @@ footer p.pad-bot{
     margin: 10px 0;
 }
 
+footer a, a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 @media all and (max-width: 576px){
     .d-xs-block{
         display: block;
