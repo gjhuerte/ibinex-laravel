@@ -132,7 +132,7 @@ body .semi-circle.pink {
     background-color: rgba(224, 159, 181, 1);
 }
 body .semi-circle.red{
-     background-color:rgba( 255, 0, 0, 1);
+    background-color:rgba( 255, 0, 0, 1);
 }
 body .semi-circle.green-brochure {
     background-color: rgba(18, 213, 184, 1);
@@ -236,7 +236,7 @@ body .gradient-wrapper{
 
 @media all and (min-width: 768px){
     #logo {
-        /*max-width:*/
+        max-width:
     }
     #logo .flexed-image{
         width: 80%;
@@ -438,12 +438,11 @@ body footer h6 {
     margin-top: 20px;
 }
 body footer div + span.property {
-    font-weight: lighter;
+    font-weight: light;
     font-size: 0.1px;
 }
 body footer h6.heads {
     color: blue;
-    font-weight: bold;
 }
 body footer li {
     list-style-type: none;
@@ -454,7 +453,9 @@ body footer .column3 {
 body footer #flex{
     padding: 2%;
 }
-
+footer .offset-1{
+    margin-left: ;
+}
 body footer div .alignment{
     text-align:left;
 }
@@ -484,11 +485,9 @@ body footer .column2 {
 h6.text-uppercase.heads.fonts{
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
-    font-weight: bold;
 }
 ul.list-unstyled li span.color{
     font-size:13px;
-    font-weight: bold;
 }
 footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot{
     font-size:14px;
@@ -497,42 +496,23 @@ footer p.pad-bot{
     margin: 10px 0;
 }
 
-footer #title{
-    font-weight: bold;
-}
-
 @media all and (max-width: 576px){
     .d-xs-block{
         display: block;
     }
-
-    footer .absolute-div{
-        top: 0;
-        left: 0;
-        padding-left: 3%;
-    }
-
-    footer #pad-left{
-        padding-left: 1%;
-    }
-
-
 }
-
-
 @media all and (max-width: 768px){
     .align-self-center{
         text-align: center;
         padding: 45px ;
     }
     body footer .pad-top{
-        padding-top: 60px;
+        padding-top: 45px;
     }
     body footer .column2{
-         padding-top: 0;
-     }
+        padding-top: 0;
+    }
 }
-
 
 
 /*
@@ -540,7 +520,7 @@ footer #title{
 */
 #contact-section a {
     color: #222;
-}    	
+}
 
 #contact-section a:hover {
     color: #000;
