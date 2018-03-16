@@ -25,7 +25,7 @@ var ibinex = (function(options) {
             });
         },
         animate: function(element, effect, delay) {
-            if($(window).width() > $(window).width()) {
+            if($(window).width() > mobile_width) {
                 if(!$(element).hasClass('animated')) {
                     $(element).css('visibility', 'hidden');
                     delay = delay ? delay : false;
@@ -44,7 +44,7 @@ var ibinex = (function(options) {
             }
         },
         go_animate: function(element, effect, delay) {
-            if($(window).width() > $(window).width()) {
+            if($(window).width() > mobile_width) {
                 if (delay) {
                     setTimeout(function () {
                         $(element).css('visibility', 'visible');

@@ -41,7 +41,7 @@ var contact = {
 
 $(document).ready(function(){
 
-    if($(window).width() > $(window).width()) {
+    if($(window).width() > mobile_width) {
         contact.init_circle();
         // ibinex.animate(".ib-get-started .row.ib-get-started-a h2, .ib-get-started .row.ib-get-started-a p", "fadeInUp");
         // ibinex.animate(".ib-get-started .ib-note", "fadeInUp");
@@ -50,14 +50,14 @@ $(document).ready(function(){
     window.sr = ScrollReveal();
 
     sr.reveal('.ib-get-started .row.ib-get-started-a h2', {
-        duration: 2000,
+        duration: 1000,
         viewFactor: 0.5,
         distance: '100px',
         delay: 100,
         mobile: false
     }, 450);
     sr.reveal('.ib-get-started .row.ib-get-started-a p', {
-        duration: 2000,
+        duration: 1000,
         viewFactor: 0.5,
         distance: '100px',
         delay: 100,
