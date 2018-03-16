@@ -4,6 +4,10 @@ section#hero-content{
     margin: 0 auto;
 }*/
 
+body{
+    overflow-x:hidden;
+}
+
 .quotes {
     font-family: 'Playfair Display', serif;
     font-style: italic;
