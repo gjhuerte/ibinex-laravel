@@ -125,12 +125,18 @@
 
 /* Media Queries: Non-Mobile */
 
-@media only screen and (min-width: 576px) {
-    #pricing-content {
+@media only screen and (min-width: 768px) {
+    /*#pricing-content {
         box-sizing: border-box;
         max-width: 969px;
         padding: 20px 15px 122px;
         margin: auto;
+    }*/
+
+    #pricing-content h2 {
+        padding-top: 48px;
+        padding-bottom: 64px;
+        line-height: 130%;
     }
 
     #pricing-content > hr:first-of-type {
@@ -158,7 +164,13 @@
     body #fullscreen-hero.full-height .gradient-wrapper{
         height: calc(100vh - 17.5vh);
     }
+
     #pricing-content {
+        box-sizing: border-box;
+        max-width: 969px;
+        padding: 20px 15px 122px;
+        margin: auto;
+
         border-radius: 20px;
         position: relative;
         top: -25vh;
