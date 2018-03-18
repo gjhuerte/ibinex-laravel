@@ -13,7 +13,7 @@
     font-weight: bold;
     font-style: normal;
 }
-}
+
 /* End Fonts*/
 
 *{
@@ -100,6 +100,9 @@ body .faButton.blue-button {
 }
 body .faButton.raise-half{
     position: absolute;
+}
+body .playButton{
+    opacity: 0
 }
 body .semi-circle {
     padding: 10px 25px;
@@ -238,7 +241,7 @@ body .gradient-wrapper{
 
 @media all and (min-width: 768px){
     #logo {
-        max-width:
+        /*max-width:*/
     }
     #logo .flexed-image{
         width: 80%;
@@ -331,7 +334,7 @@ body .gradient-wrapper{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        min-height: 450px;
+        min-height: 55vh;
     }
     body .position-relative .embed-parent-wrap .embed-image.halfed {
         width: 80%;
@@ -456,7 +459,7 @@ body footer #flex{
     padding: 2%;
 }
 footer .offset-1{
-    margin-left: ;
+    /*margin-left: ;*/
 }
 body footer div .alignment{
     text-align:left;
@@ -482,7 +485,7 @@ body footer .column2 {
 #contact-section h2.title{
     font-family: "Proxima Nova", sans-serif;
     font-size: 23px;
-    font-color: #0b1b28;
+    color: #0b1b28;
 }
 h6.text-uppercase.heads.fonts{
     font-family: "Proxima Nova", sans-serif;
