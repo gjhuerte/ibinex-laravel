@@ -2,6 +2,7 @@
 
 #pricing-content {
     font-family: 'Proxima Nova', sans-serif;
+    font-size: 15.7px;
 }
 
 #pricing-content h2 {
@@ -123,7 +124,8 @@
 
 @media only screen and (min-width: 768px) {
     body #fullscreen-hero.full-height {
-        min-height: 100vh;
+        min-height: 130vh;
+        margin-bottom: -21vh;
     }
 
     body #fullscreen-hero.full-height .gradient-wrapper{
@@ -140,26 +142,28 @@
         margin-bottom: 21px;
     }
 
+    #pricing-content #what-you-receive {
+        padding-bottom: 27px;
+    }
+
+    #pricing-content #what-you-receive > h5 {
+        padding-bottom: 8px;
+    }
+
+    #pricing-content article > div.text-small {
+        font-size: 13.7px;
+    }
+
     #pricing-content #onboarding-time {
         padding-bottom: 150px;
     }
-
-/*
-    #pricing-content #what-you-receive {
-        padding-bottom: 0;
-    }
-
-    #pricing-content #what-you-receive p {
-        padding-bottom: 30px;
-    }
 }
-*/
 
 @media only screen and (min-width: 969px) {
     #pricing-content {
         max-width: 969px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 12px;
+        padding-right: 12px;
         border-radius: 20px;
         box-sizing: border-box;
 
