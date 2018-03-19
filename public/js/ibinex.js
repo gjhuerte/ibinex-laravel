@@ -1,5 +1,5 @@
 var mobile_width = 576;
-var mobile_animation = true;
+var mobile_animation = false;
 var ibinex = (function(options) {
 
     "use strict";
