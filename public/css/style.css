@@ -258,6 +258,9 @@ body .gradient-wrapper{
 }
 
 @media all and (min-width: 992px){
+    body #fullscreen-hero{
+        min-height:100vh;
+    }
     #logo .flexed-image{
         width: 33.3%;
         max-width:250px;
@@ -360,6 +363,20 @@ body .gradient-wrapper{
         height: 567px;
     }
 }
+
+/*
+    Menu - Side bar
+ */
+
+.custom-toggler .navbar-toggler-icon {
+    /* Menu Icon */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+
 
 /*
     Footer by PJ

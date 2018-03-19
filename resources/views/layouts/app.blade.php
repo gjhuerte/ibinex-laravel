@@ -31,10 +31,12 @@
 <div id='main-body' class='container-fluid'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">
-            @include('layouts.navbar')
-            <section class="container">
-                @yield('header-content')
-            </section>
+            <div class="container">
+                @include('layouts.navbar')
+                <section class="container">
+                    @yield('header-content')
+                </section>
+            </div>
         </div>
     </header>
     <main>
@@ -53,8 +55,18 @@
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="{{ asset("js/ib-loader.js") }}"></script>
 <script src="{{ asset("js/ibinex.js") }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
 {{--<script src="script.js"></script>--}}
 <script>
+    $("img").each(function() {
+        var $this = $(this);
+        var src = $this.attr("src");
+        $this.attr( "data-src", src );
+        $this.removeAttr("src");
+    });
+    $(function() {
+        $('img').Lazy();
+    });
     var mobile_width = 576;
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp');
 
