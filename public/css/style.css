@@ -256,11 +256,12 @@ body .gradient-wrapper{
         left: 5em;
     }
 }
-
-@media all and (min-width: 992px){
+@media all and (max-width:991px){
     body #fullscreen-hero{
         min-height:100vh;
     }
+}
+@media all and (min-width: 992px){
     #logo .flexed-image{
         width: 33.3%;
         max-width:250px;
