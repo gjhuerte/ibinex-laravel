@@ -713,7 +713,7 @@
   backface-visibility: visible !important;
   -webkit-animation-name: flipInY;
   animation-name: flipInY;
-} 
+}
 
 @-webkit-keyframes zoomIn {
   from {

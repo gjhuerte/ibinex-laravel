@@ -187,8 +187,10 @@
                         </div>
                         <div id="fifthSection" class="col-12 col-sm-6 col-md-12 col-lg-6 px-0 fifth-section">
                             <div class="qtt-container">
-                                <div class="col-12 qtt px-0">
-                                    <!--<img class="qtt-img" src="" alt=""> -->
+                                <div class="qtt-image-container">
+                                    <div class="col-12 qtt px-0">
+                                        <!--<img class="qtt-img" src="" alt=""> -->
+                                    </div>
                                 </div>
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
                                 <div class="col-12 col-sm-10 col-md-12 col-lg-10 text-white px-3 pb-sm-4 pt-4 pt-xl-5 pt-sm-5 px-sm-5 pb-3 lorem-ipsum-lower">
