@@ -36,7 +36,7 @@
                 <section class="container">
                     @yield('header-content')
                 </section>
-            </div>
+            </div> 
         </div>
     </header>
     <main>
