@@ -67,7 +67,7 @@ p.blocktext
     background-repeat:no-repeat;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 992px){
 
     #our-vision {
         display: grid;
@@ -87,8 +87,6 @@ p.blocktext
 
     }
 }
-
-
 
 
 @media only screen and (min-width: 768px){
@@ -123,6 +121,7 @@ p.blocktext
 
     .core-text {
         margin-bottom: 40%;
+        line-height: 1.8;
     }
 
     .blocktext-background{
@@ -147,6 +146,7 @@ p.blocktext
         margin-top: 0;
         margin-left: 5%;
         margin-right: 21%;
+        line-height: 1.8;
 
     }
 

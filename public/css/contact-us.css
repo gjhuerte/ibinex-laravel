@@ -29,17 +29,17 @@ section#hero-content {
     margin-left: 0px;
 }
 .ib-contact {
-    height: 100vh;
+    height: 90vh;
     margin: 15% 0 0 0;
     color: #5F605F;
 }
 .col-sm-7.ib-contact-bg {
     background: url(../img/formbg.png) no-repeat top left/cover;
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 .ib-contact-form {
-    width: 26vw;
+    width: 28vw;
     min-width: 300px;
     background: #f2f1f1;
     padding: 5%;
@@ -59,7 +59,11 @@ section#hero-content {
 .ib-contact-form button.btn.btn-primary {
     background-color: #12d5b8;
     border: none;
-    width: 120px;
+    /*width: 120px;*/
+    width: 45%;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .ib-circle {
     background-color: #fd0000;
@@ -84,14 +88,24 @@ section#hero-content {
     padding-top: 5%;
 }
 .ib-get-started {
-    padding-top: 10%;
+    padding-top: 16%;
 }
 .ib-contact-support .ib-support-text {
     width: 73%;
     float: right;
     padding-top: 12%;
 }
-@media only screen and (max-width: 576px) {
+.ib-contact-form textarea {
+    height: 11em;
+}
+/*@media only screen and (max-width: 576px) { */
+    /*.col-sm-7.ib-contact-bg {*/
+        /*background: #f2f1f1;*/
+        /*height: 100%;*/
+        /*position: relative;*/
+    /*}*/
+/*}*/
+@media only screen and (max-width: 576px), screen and (max-height: 550px) {
     .row.ib-get-started-a {
         margin: 0 0 0;
     }
@@ -106,6 +120,7 @@ section#hero-content {
         background: #f2f1f1;
         position: relative;
         margin: 0;
+        min-width: 0;
     }
     .col-sm-7.ib-contact-bg {
         background: #f2f1f1;
@@ -119,10 +134,10 @@ section#hero-content {
     .ib-circle-c, #live-demo-btn {
         display: none;
     }
-    #fullscreen-hero {
-        height: 100vh;
-        background: url(../img/contact-bg.png) no-repeat center top/cover;
-    }
+    /*#fullscreen-hero {*/
+        /*height: 100vh;*/
+        /*background: url(../img/contact-bg.png) no-repeat center top/cover;*/
+    /*}*/
     .ib-get-started {
         padding-top: 15%;
     }
@@ -159,17 +174,17 @@ section#hero-content {
     }
 }
 @media only screen and (min-height: 1024px) {
-    body #fullscreen-hero{
-        min-height: 70vh !important;
-        height: 70vh;
-    }
+    /*body #fullscreen-hero{*/
+        /*min-height: 70vh !important;*/
+        /*height: 70vh;*/
+    /*}*/
     .ib-contact-form textarea {
         height: 27em;
     }
 }
 @media only screen and (min-height: 900px) {
     .ib-contact-form textarea {
-        height: 27em;
+        height: 23em;
     }
 }
 @media only screen and (max-height: 480px) {

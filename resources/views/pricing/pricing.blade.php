@@ -28,7 +28,7 @@
         <section class="row">
             <article id="our-pricing" class="col-md-6">
                 <h5>Our Pricing</h5>
-                <div class="blue-text font-weight-bold">
+                <div class="text-blue font-weight-bold">
                     <p>$150,000 "reserve only, no payment" deposited in a local Escrow account of your choice for 180 days</p>
                     <p>Your first 90 days of Ibinex are gratis while you build your book.</p>
                 </div>
@@ -36,7 +36,7 @@
 
             <article id="our-fees" class="col-md-6">
                 <h5>Our Fees</h5>
-                <div class="green-text font-weight-bold">
+                <div class="text-green font-weight-bold">
                     <p>0.1% flat-rate fee based on exchange volume with a minimum fee of $20,000 per month</p>
                     <p>Fees begin only at day 91.</p>
                 </div>
@@ -47,7 +47,7 @@
         <section class="row">
             <article id="what-you-receive" class="col">
                 <h5>What you receive</h5>
-                <div class="row small-text">
+                <div class="row text-small">
                     <div class="col-md-6">
                         <p>Tailored Front End content website ( +CMS ) with integrated web-based trading platform</p>
                         <p>Fully Compliant and Regulated Banking Custodian Services in Europe and North America</p>
@@ -66,7 +66,7 @@
             <article id="setup" class="col-md-6">
                 <h5>Setup</h5>
                 <p>In order to proceed with setup, we require:</p>
-                <div class="blue-text font-weight-bold">
+                <div class="text-blue font-weight-bold">
                     <p>Your company to sign out Letter of Intent (LOI)</p>
                     <p>Proof of the Escrow deposit at a bank or with an attorney of your choice.</p>
                 </div>

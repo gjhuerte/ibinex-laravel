@@ -13,7 +13,7 @@
     font-weight: bold;
     font-style: normal;
 }
-}
+
 /* End Fonts*/
 
 *{
@@ -100,6 +100,9 @@ body .faButton.blue-button {
 }
 body .faButton.raise-half{
     position: absolute;
+}
+body .playButton{
+    opacity: 0
 }
 body .semi-circle {
     padding: 10px 25px;
@@ -238,7 +241,7 @@ body .gradient-wrapper{
 
 @media all and (min-width: 768px){
     #logo {
-        max-width:
+        /*max-width:*/
     }
     #logo .flexed-image{
         width: 80%;
@@ -253,7 +256,11 @@ body .gradient-wrapper{
         left: 5em;
     }
 }
-
+@media all and (max-width:991px){
+    body #fullscreen-hero{
+        min-height:100vh;
+    }
+}
 @media all and (min-width: 992px){
     #logo .flexed-image{
         width: 33.3%;
@@ -331,7 +338,7 @@ body .gradient-wrapper{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        min-height: 450px;
+        min-height: 55vh;
     }
     body .position-relative .embed-parent-wrap .embed-image.halfed {
         width: 80%;
@@ -357,6 +364,20 @@ body .gradient-wrapper{
         height: 567px;
     }
 }
+
+/*
+    Menu - Side bar
+ */
+
+.custom-toggler .navbar-toggler-icon {
+    /* Menu Icon */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+
 
 /*
     Footer by PJ
@@ -456,7 +477,7 @@ body footer #flex{
     padding: 2%;
 }
 footer .offset-1{
-    margin-left: ;
+    /*margin-left: ;*/
 }
 body footer div .alignment{
     text-align:left;
@@ -482,7 +503,7 @@ body footer .column2 {
 #contact-section h2.title{
     font-family: "Proxima Nova", sans-serif;
     font-size: 23px;
-    font-color: #0b1b28;
+    color: #0b1b28;
 }
 h6.text-uppercase.heads.fonts{
     font-family: "Proxima Nova", sans-serif;

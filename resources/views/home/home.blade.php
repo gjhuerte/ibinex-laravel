@@ -25,39 +25,6 @@
     <script>
 
         $(function() {
-            //Carousel
-            var myCarousels = $(".carousel");
-            //Add indicators
-            myCarousels.each(function( index, element  ) {
-                var myCarousel = $("#"+$(element).attr('id'));
-                myCarousel.append("<ol class='carousel-indicators'></ol>");
-                var indicators = $("#"+$(element).attr('id') + " .carousel-indicators");
-                $("#"+$(element).attr('id') +" .carousel-inner").children(".item").each(function(index) {
-                    console.log(index);
-                    (index === 0) ?
-                        indicators.append("<li data-target='#"+$(element).attr('id')+"' data-slide-to='"+index+"' class='active'></li>") :
-                        indicators.append("<li data-target='#"+$(element).attr('id')+"' data-slide-to='"+index+"'></li>");
-                });
-            });
-            myCarousels.carousel({
-                interval: 2000
-            })
-            //Carousel Touch
-            $('.carousel').each(function () {
-                var $carousel = $(this);
-                var hammertime = new Hammer(this, {
-                    recognizers: [
-                        [Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]
-                    ]
-                });
-                hammertime.on('swipeleft', function () {
-                    $carousel.carousel('next');
-                });
-                hammertime.on('swiperight', function () {
-                    $carousel.carousel('prev');
-                });
-            });
-
             //floating button will remain a circle at all times
             let faButton = $('.faButton');
             faButton.css('display', 'block').css('height', faButton.width());
@@ -67,15 +34,10 @@
             //floating play button's position
             let playButton = $('.playButton');
             let playSize =  parseInt(playButton.height()) / 2;
-            if($( document ).width() > 1200)
+            if($( document ).width() > 1201)
                 playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
             else
                 playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize);
-
-            //margin-right fix for fifth-fold
-            let marginRight = parseInt($('#third-fold > .row').css('margin-right'));
-            $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
-
 
             $(window).resize(function() {
                 //floating button will remain a circle at all times
@@ -86,7 +48,6 @@
                 $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
 
                 //play button position
-                console.log($( document ).width());
                 if($( document ).width() > 1200)
                     playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
                 else
@@ -356,3 +317,8 @@
         </section>
     </section>
 @endsection
+
+
+@push('scripts')
+    <script src="{{ asset("js/home.js") }}"></script>
+@endpush
