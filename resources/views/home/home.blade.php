@@ -21,6 +21,7 @@
 @section('bg-img','home-bg.png')
 
 @push('custom-scripts')
+    <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
     <script>
 
         $(function() {
@@ -33,15 +34,10 @@
             //floating play button's position
             let playButton = $('.playButton');
             let playSize =  parseInt(playButton.height()) / 2;
-            if($( document ).width() > 1200)
+            if($( document ).width() > 1201)
                 playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
             else
                 playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize);
-
-            //margin-right fix for fifth-fold
-            let marginRight = parseInt($('#third-fold > .row').css('margin-right'));
-            $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
-
 
             $(window).resize(function() {
                 //floating button will remain a circle at all times
@@ -52,7 +48,6 @@
                 $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
 
                 //play button position
-                console.log($( document ).width());
                 if($( document ).width() > 1200)
                     playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
                 else
@@ -127,7 +122,9 @@
             <aside class="col-xl-6 order-xl-12 embed-parent-wrap top right">
                 <div class="embed-image" style="background-image: url('{{ asset("img/home-card.png") }}');">&nbsp;</div>
                 <div class="embed-blue-wrap shadow">
-                    <div class="faButton top-half red-button shadow"></div>
+                    <div class="faButton top-half red-button shadow d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" viewBox="0 0 512 512"><path d="M0 432V304C0 166.982 63.772 67.676 193.827 32.828 209.052 28.748 224 40.265 224 56.027v33.895c0 10.057-6.228 19.133-15.687 22.55C142.316 136.312 104 181.946 104 256h72c26.51 0 48 21.49 48 48v128c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48zm336 48h128c26.51 0 48-21.49 48-48V304c0-26.51-21.49-48-48-48h-72c0-74.054 38.316-119.688 104.313-143.528C505.772 109.055 512 99.979 512 89.922V56.027c0-15.762-14.948-27.279-30.173-23.199C351.772 67.676 288 166.982 288 304v128c0 26.51 21.49 48 48 48z" style="fill:white;"/></svg>
+                    </div>
                     <section class="quote-wrapper">
                         <p class="quote text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <span class="author">HuffPost</span>
@@ -160,7 +157,9 @@
 
             <aside class="col-xl-6 order-xl-1 embed-parent-wrap left">
                 <div class="embed-image halfed shadow" style="background-image: url('{{asset('img/hN17jUY.png')}}');">
-                    <div class="playButton faButton raise-half blue-button shadow">fa-quote</div>
+                    <div class="playButton faButton raise-half blue-button shadow d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
+                    </div>
                 </div>
             </aside>
 
@@ -173,9 +172,9 @@
             <h2 class="sub-title grey bold">Learn more about Ibinex</h2>
             <h1 class="title black smaller bold">Technical Papers & Legal Circular</h1>
         </header>
-        <section class="row carousel slide d-md-none text-center" data-interval="false" data-ride="carousel" id="advisory-board-members-carousel">
+        <section class="row slide text-center d-none d-md-block">
 
-            <section id="downloadables" class="d-flex justify-content-around flex-wrap carousel-inner">
+            <section id="downloadables" class="d-flex justify-content-around flex-wrap">
                 <!-- FIRST ROW START -->
 
                 <div class="brochures text-center">
@@ -228,10 +227,81 @@
                     <button class="semi-circle green-brochure">Download</button>
                 </div>
                 <!-- SECOND ROW END -->
-
             </section>
 
         </section>
+
+        <div class="carousel slide d-md-none" data-interval="false" data-ride="carousel" id="brochures-carousel">
+
+            <div id="downloadables" class="carousel-inner">
+
+
+                <!-- FIRST ROW START -->
+
+                <div class="carousel-item text-center active">
+                    <!-- 1 -->
+                    <img class="" src="{{ asset('img/q5EDmus.png')}}" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+
+                <div class="carousel-item text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+
+                <div class="carousel-item text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+                <!-- FIRST ROW END -->
+                <!-- SECOND ROW START -->
+
+                <div class="carousel-item text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+
+                <div class="carousel-item text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+
+                <div class="carousel-item text-center">
+                    <!-- 1 -->
+                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
+                    <p>PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure">Download</button>
+                </div>
+                <!-- SECOND ROW END -->
+
+                <a class="carousel-control-prev" href="#brochures-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#brochures-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+
+        </div>
+
     </section>
     <section id="seventh-fold" class="text-center my-5">
         <header>
@@ -247,3 +317,8 @@
         </section>
     </section>
 @endsection
+
+
+@push('scripts')
+    <script src="{{ asset("js/home.js") }}"></script>
+@endpush

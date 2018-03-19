@@ -4,32 +4,33 @@
     font-family: 'Proxima Nova', sans-serif;
 }
 
-#pricing-content article > h5 {
-    font-weight: bold;
+#pricing-content h2 {
+    font-size: 34px;
 }
 
-#pricing-content {
+#pricing-content h2,
+#pricing-content article > h5 {
     color: #fff;
 }
 
 #pricing-content article > h5 {
     font-size: 22px;
+    font-weight: bold;
 }
 
-#pricing-content h2 {
-    font-size: 34px;
-    color: #fff;
+#pricing-content article {
+    color: #dcdcdc;
 }
 
-#pricing-content article > .blue-text {
+#pricing-content article > div.text-blue {
     color: #2770f6;
 }
 
-#pricing-content article > .green-text {
+#pricing-content article > div.text-green {
     color: #12d5b8;
 }
 
-#pricing-content article > .small-text {
+#pricing-content article > div.text-small {
     font-size: 14px;
 }
 
@@ -38,7 +39,6 @@
 
 #pricing-content {
     background-color: #212a5f;
-    position: relative;
 }
 
 #pricing-content:before {
@@ -50,7 +50,7 @@
     right: 0;
     z-index: -1;
     border-radius: 20px;
-    box-shadow: 0 0 40px #a5aaae;
+    box-shadow: 0 0 40px #aaa;
 }
 
 #pricing-content > hr {
@@ -60,98 +60,117 @@
 
 /* Distance and Spacing */
 
-#pricing-content {
-    padding-bottom: 10px;
-}
-
-#pricing-content > section:first-of-type {
+#pricing-content > #pricing-intro {
     max-width: 675px;
+    padding-top: 46px;
+    padding-bottom: 74px;
     margin: auto;
 }
 
 #pricing-content h2 {
-    padding-top: 47px;
-    padding-bottom: 75px;
-    line-height: 130%;
+    line-height: 1.35;
 }
 
-#pricing-content article,
-#pricing-content article > h5 {
+#pricing-content article {
     padding-bottom: 20px;
 }
 
-#pricing-content > section:nth-of-type(2) > article:last-of-type {
+#pricing-content #our-fees {
     padding-bottom: 0;
+}
+
+#pricing-content #what-you-receive {
+    padding-bottom: 17px;
+}
+
+#pricing-content #onboarding-time {
+    padding-bottom: 37px;
+}
+
+#pricing-content article > h5 {
+    padding-bottom: 10px;
+}
+
+#pricing-content #what-you-receive > h5 {
+    padding-bottom: 1px;
 }
 
 #pricing-content article p {
     text-align: justify;
-    text-justify: inter-word;
-    line-height: 180%;
+    line-height: 1.8;
+    padding-bottom: 8px;
 }
 
-#pricing-content article p,
-#pricing-content > hr {
-    padding-bottom: 15px;
+#pricing-content #what-you-receive p {
+    padding-bottom: 0;
 }
 
-#pricing-content article > .small-text p {
-    padding-bottom: 5px;
+#pricing-content #what-you-receive > div > div:first-of-type {
+    margin-bottom: -17px;
 }
 
 #pricing-content > hr:first-of-type {
-    padding-bottom: 15px;
+    padding-bottom: 14px;
     margin-top: 0;
 }
 
 #pricing-content > hr:last-of-type {
-    padding-bottom: 40px;
+    padding-bottom: 43px;
 }
 
 
 /* Media Queries: Non-Mobile */
 
-@media only screen and (min-width: 576px) {
-    #pricing-content {
-        box-sizing: border-box;
-        max-width: 970px;
-        padding: 20px 15px 122px;
-        margin: auto;
+@media only screen and (min-width: 768px) {
+    body #fullscreen-hero.full-height {
+        min-height: 100vh;
+    }
+
+    body #fullscreen-hero.full-height .gradient-wrapper{
+        height: calc(100vh - 17.5vh);
+    }
+
+    #pricing-content > #pricing-intro {
+        padding-top: 47px;
+        padding-bottom: 64px;
     }
 
     #pricing-content > hr:first-of-type {
         margin-top: 10px;
+        margin-bottom: 21px;
     }
 
-    #pricing-content > section:nth-of-type(3) > article {
+    #pricing-content #onboarding-time {
+        padding-bottom: 150px;
+    }
+
+/*
+    #pricing-content #what-you-receive {
         padding-bottom: 0;
     }
 
-    #pricing-content article > .small-text p {
+    #pricing-content #what-you-receive p {
         padding-bottom: 30px;
     }
 }
+*/
 
-@media only screen and (min-width: 970px) {
-    body {
-        position: relative;
-    }
-
-    body #fullscreen-hero.full-height {
-        min-height: 110vh;
-    }
-    body #fullscreen-hero.full-height .gradient-wrapper{
-        height: calc(100vh - 17.5vh);
-    }
+@media only screen and (min-width: 969px) {
     #pricing-content {
+        max-width: 969px;
+        padding-left: 15px;
+        padding-right: 15px;
         border-radius: 20px;
+        box-sizing: border-box;
+
+        margin: auto;
+        margin-bottom: calc(-25vh - 66px);
         position: relative;
         top: -25vh;
-        margin-bottom: -400px;
     }
 
-    .footer-buffer {
-        height: 95px;
+    div.footer-buffer {
+        height: 66px;
         background-color: #f2f1f1;
     }
 }

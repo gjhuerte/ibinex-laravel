@@ -31,7 +31,7 @@ article {
 }
 .subtitle {
     display: block;
-    padding-top: 0.8em!important;
+    padding-top: 0.5em!important;
 }
 
 /*** Media Queries as per chrome dev tool ***/
@@ -41,13 +41,11 @@ article {
     .security-section {
         display: block;
         position:absolute;
-        height:105%;
+        height:130%;
         width:50%;
-        top:-15%;
+        top:-27%;
         right:0;
-        background-image: url('../img/security-section.png');
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
     #infor-security {
@@ -60,7 +58,7 @@ article {
         padding: 10% 0;
     }
     section {
-        padding: 0;
+        padding: 4em 0;
     }
 }
 
@@ -73,17 +71,18 @@ article {
         width:50%;
         top:-25%;
         right:0;
-        background-image: url('../img/security-section.png');
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
     #infor-security {
         padding-bottom:200px;
     }
     .first-section {
-        padding: 10% 0;
+        padding: 11em 0;
         margin: 0 auto;
+    }
+    .first-section article {
+        margin-bottom: 30px;
     }
     section {
         padding: 4em 0;
