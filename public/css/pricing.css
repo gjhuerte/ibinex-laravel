@@ -124,8 +124,8 @@
 
 @media only screen and (min-width: 768px) {
     body #fullscreen-hero.full-height {
-        min-height: 130vh;
-        margin-bottom: -21vh;
+        min-height: 136vh;
+        margin-bottom: -27vh;
     }
 
     body #fullscreen-hero.full-height .gradient-wrapper{
@@ -133,7 +133,7 @@
     }
 
     #pricing-content > #pricing-intro {
-        padding-top: 47px;
+        padding-top: 67px;
         padding-bottom: 64px;
     }
 
@@ -155,7 +155,7 @@
     }
 
     #pricing-content #onboarding-time {
-        padding-bottom: 150px;
+        padding-bottom: 149px;
     }
 }
 
@@ -168,13 +168,13 @@
         box-sizing: border-box;
 
         margin: auto;
-        margin-bottom: calc(-25vh - 66px);
+        margin-bottom: calc(-25vh - 65px);
         position: relative;
         top: -25vh;
     }
 
     div.footer-buffer {
-        height: 66px;
+        height: 65px;
         background-color: #f2f1f1;
     }
 }
