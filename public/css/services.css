@@ -366,11 +366,11 @@ div.lorem .l2 img{
     }
 
     .lorem-ipsum{
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
 
     .lorem-ipsum-lower{
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
 
     .red-ellipse{
@@ -423,6 +423,11 @@ div.lorem .l2 img{
         padding-bottom: 120px !important;
     }
 
+    .fone-img{
+        background-position: 74% -20%;
+        background-size: 85%;
+    }
+
     .red-ellipse-2{
         top: 46%;
     }
@@ -430,9 +435,25 @@ div.lorem .l2 img{
     .custodian{
         padding-bottom: 450px;
     }
+
+    .custodian-left{
+        padding-left: 74px;
+    }
 }
 
 @media only screen and (min-width: 1440px){
+
+    #platform-img-container{
+        background-position: 86% 25%;
+        background-size: 83%;
+        height: 500px;
+    }
+
+    .fone-img{
+        background-position: 85% 10%;
+        background-size: 70%;
+    }
+
     .lorem-ipsum{
         margin-left: 8rem !important;
     }

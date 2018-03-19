@@ -8,7 +8,9 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
-
+.shadow:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
