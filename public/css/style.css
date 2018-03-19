@@ -536,7 +536,7 @@ footer a, a:hover{
     }
 }
 
-/**
+
 @media all and (max-width: 768px){
     .align-self-center{
         text-align: center;
@@ -549,8 +549,6 @@ footer a, a:hover{
         padding-top: 0;
         padding-left: 3%;
     }
-**/
-
 }
 
 
