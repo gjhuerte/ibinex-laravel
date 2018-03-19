@@ -123,6 +123,7 @@ p.blocktext
 
     .core-text {
         margin-bottom: 40%;
+        line-height: 1.8;
     }
 
     .blocktext-background{
@@ -147,6 +148,7 @@ p.blocktext
         margin-top: 0;
         margin-left: 5%;
         margin-right: 21%;
+        line-height: 1.8;
 
     }
 

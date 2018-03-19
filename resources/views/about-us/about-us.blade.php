@@ -79,7 +79,7 @@
     The people behind Ibinex
 </h2>
 </div>
-<div class="row">
+<div class="row w-100">
 <div class="col-lg-2 order-1">
     <!--spacer-->
 </div>
