@@ -124,12 +124,19 @@
 
 @media only screen and (min-width: 768px) {
     body #fullscreen-hero.full-height {
+        /*
         min-height: 136vh;
         margin-bottom: -27vh;
+        */
+        min-height: 875px;
+        //margin-bottom: -121px;
     }
 
-    body #fullscreen-hero.full-height .gradient-wrapper{
+    body #fullscreen-hero.full-height .gradient-wrapper {
+        /*
         height: calc(100vh - 17.5vh);
+        */
+        height: 0;
     }
 
     #pricing-content > #pricing-intro {
