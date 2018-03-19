@@ -31,7 +31,7 @@
 <div id='main-body' class='container-fluid'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">
-            <div class="container .d-flex flex-wrap">
+            <div class="container d-flex flex-wrap">
                 @include('layouts.navbar')
                 <section class="container">
                     @yield('header-content')
