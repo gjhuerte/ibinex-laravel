@@ -1,6 +1,6 @@
 <section id="contact-section" class ="bg-color-grey py-5">
     <header>
-        <h2 class="title text-center pt-2 pb-3">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline">1-800-972-3981</span></h2>
+        <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 3px;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header">1-800-972-3981</span></h2>
     </header>
     <nav>
         <div class="container text-sm-left text-md-center">
@@ -129,7 +129,7 @@
 
             <!--Second column-->
             <div class="col-sm-12 col-md-4 col-lg-3">
-                <div class="position-absolute pt-lg-3">
+                <div class="position-absolute pt-lg-3 height-foot">
                     <h6 class="text-uppercase font-weight-light fonts grey">Ibinex Offices</h6>
                 </div>
                 <div class="pad-top pad-left-div" id="pad-left">
@@ -208,7 +208,7 @@
             <!--/.Fourth column-->
         </div>
         <div>
-            <p class="property small grey text-justify pb-5 mb-0">Risk Disclosure: Ibinex Financials (ibinex.com) will not accept any liability for loss or damage as a result of reliance on the information contained within this website including data, quotes, charts and buy/sell signals. Please be fully informed regarding the risks and costs associated with trading the cryptocurrency markets. It is one of the riskiest investment forms possible. Trading or investing in cryptocurrencies carries with IT potential risks. Prices of cryptocurrencies are extremely volatile and may be affected by external factors such as financial, regulatory or political events. Cryptocurrencies are not suitable for all investors. Before deciding to trade foreign exchange or any other financial instrument or cryptocurrencies you should carefully consider your investment objectives, level of experience, and risk appetite. Ibinex Financials would like to remind you that data contained in this website is not necessarily real-time nor accurate. Cryptocurrency prices are not provided by exchanges but rather by market makers, and so prices may not be accurate and may differ from the actual market price, meaning prices are indicative and not appropriate for trading purposes. Therefore, Ibinex doesn't bear any responsibility for any trading losses you might incur as a result of using this data.</p>
+            <p class="property small color text-justify pb-5 mb-0 script">Risk Disclosure: Ibinex Financials (ibinex.com) will not accept any liability for loss or damage as a result of reliance on the information contained within this website including data, quotes, charts and buy/sell signals. Please be fully informed regarding the risks and costs associated with trading the cryptocurrency markets. It is one of the riskiest investment forms possible. Trading or investing in cryptocurrencies carries with IT potential risks. Prices of cryptocurrencies are extremely volatile and may be affected by external factors such as financial, regulatory or political events. Cryptocurrencies are not suitable for all investors. Before deciding to trade foreign exchange or any other financial instrument or cryptocurrencies you should carefully consider your investment objectives, level of experience, and risk appetite. Ibinex Financials would like to remind you that data contained in this website is not necessarily real-time nor accurate. Cryptocurrency prices are not provided by exchanges but rather by market makers, and so prices may not be accurate and may differ from the actual market price, meaning prices are indicative and not appropriate for trading purposes. Therefore, Ibinex doesn't bear any responsibility for any trading losses you might incur as a result of using this data.</p>
         </div>
     </div>
     <!--/.Footer Links-->
