@@ -44,7 +44,7 @@ $(document).ready(function() {
                 'scrollTop': $target.offset().top
             }, 500, 'swing', function () {
                 window.location.hash = target;
-                // $(document).on("scroll", onScroll);
+                $(document).on("scroll", onScroll);
             });
         } // End if
     });
