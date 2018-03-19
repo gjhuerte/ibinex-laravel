@@ -545,15 +545,13 @@ footer a, a:hover{
     body footer .ibinex-footA{
         padding-left: 6px;
     }
-    body footer .script {
-        font-size: xx-small;
-    }
     body footer #pad-left {
         padding-left: 5px;
     }
 
-    body footer .color{
+    body footer #color{
         color: #626888;
+        font-size: xx-small;
     }
 }
 
