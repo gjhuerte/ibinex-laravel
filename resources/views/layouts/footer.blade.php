@@ -123,7 +123,7 @@
         <div class="row alignment">
             <!--First column-->
             <div class="col-sm-12 col-md-4 col-lg-3 align-self-center ">
-                <img class= "padding" src = "/img/logo/logo-bottom.png" alt="ibinex logo-bottom">
+                <img class= "padding img-size" src = "/img/logo/logo-bottom.png" alt="ibinex logo-bottom">
             </div>
             <!--/.First column-->
 
