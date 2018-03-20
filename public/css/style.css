@@ -160,12 +160,15 @@ body #fullscreen-hero .navbar{
     margin-top: 25px;
 }
 body #fullscreen-hero {
-    background-position: center center;
+    /*background-position: center center;*/
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    background-attachment: fixed;
+    background-position: center;  
 }
 body #fullscreen-hero.full-height {
     min-height: 100vh;

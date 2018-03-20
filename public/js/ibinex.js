@@ -141,5 +141,4 @@ var ibinex = (function(options) {
 $(document).ready(function() { 
     ibinex.smooth_scroll();
     // ibinex.hero_shinker();
-
 });
