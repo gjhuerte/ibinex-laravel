@@ -382,10 +382,12 @@ body .gradient-wrapper{
 #main-body{
     right:0;
 }
-.sidenav{
+.sidenav.open{
     -webkit-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
     box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
+}
+.sidenav{
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -401,7 +403,7 @@ body .gradient-wrapper{
     padding:20px;
     padding-top:50px;
     text-align: center;
-} 
+}
 .custom-toggler{
     width: 20px;
     height: 30px;
