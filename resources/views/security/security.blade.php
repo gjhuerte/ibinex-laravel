@@ -22,7 +22,7 @@
         <section class='first-section' id='protection'>
             <article class='container-fluid'>
                 <div class='row security-width'>
-                    <div class='col-sm-6'>
+                    <div class='col-md-6'>
                         <h1 class='subtitle black' id='subtitle_1'>Protection of Funds</h1>
                         <div id='para_1'>
                             <p>
@@ -37,7 +37,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class='col-sm-6'>
+                    <div class='col-md-6'>
                         <h1 class='subtitle black' id='subtitle_2'>Encryption and Technologies</h1>
                         <div id='para_2'>
                             <p>
@@ -56,7 +56,7 @@
         <section class='second-section' id='technology'>
             <article class='container-fluid position-relative'>
                 <div class='row security-width'>
-                    <div class='col-sm-5' id='infor-security'>
+                    <div class='col-md-5' id='infor-security'>
                         <h1 class='subtitle black'>Information Security</h1>
                         <p>
                            Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.

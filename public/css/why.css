@@ -67,7 +67,7 @@ p.blocktext
     background-repeat:no-repeat;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 992px){
 
     #our-vision {
         display: grid;
@@ -87,8 +87,6 @@ p.blocktext
 
     }
 }
-
-
 
 
 @media only screen and (min-width: 768px){
@@ -128,13 +126,13 @@ p.blocktext
 
     .blocktext-background{
         zoom: 0.8;
-        height: 750px;
+        height: 754px;
     }
 
     .blocktext-background2{
         width: 500px;
         height: 450px;
-        margin-left: 10%;
+        margin-left: 140px;
     }
 
     h2.blocktext
@@ -153,13 +151,13 @@ p.blocktext
     }
 
     .block{
-        right: 0;
-        width: 53%;
-        margin-right: 0 !important;
-        padding: 3% 5% 4% !important;
-        position: absolute;
-        top: 125px;
-    }
+         right: 0;
+         width: 53%;
+         margin-right: 0 !important;
+         padding: 3% 5% 4% !important;
+         position: absolute;
+         top: 125px;
+     }
 }
 
 /* 1200 px */
@@ -209,5 +207,18 @@ p.blocktext
     .blocktext-p2 {
         padding-right: 55px;
     }
+
+}
+
+@media only screen and (min-width: 1920px){
+
+    .block{
+        width: 1093px;
+        padding: 72px 148px 160px 108px !important;
+    }
+
+    p.blocktext {
+        margin-right: 22%;
+
 
 }

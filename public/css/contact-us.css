@@ -29,13 +29,13 @@ section#hero-content {
     margin-left: 0px;
 }
 .ib-contact {
-    height: 90vh;
+    /*height: 90vh;*/
     margin: 15% 0 0 0;
     color: #5F605F;
 }
 .col-sm-7.ib-contact-bg {
     background: url(../img/formbg.png) no-repeat top left/cover;
-    height: 90vh;
+    /*height: 90vh;*/
     position: relative;
 }
 .ib-contact-form {
@@ -43,9 +43,9 @@ section#hero-content {
     min-width: 300px;
     background: #f2f1f1;
     padding: 5%;
-    position: absolute;
-    /*margin: -14% 0 0 7%;*/
-    margin: -12% 0 0 7%;
+    /*position: absolute;*/
+    /*margin: -12% 0 0 7%;*/
+    margin: -12% 0 5% 7%;
 }
 .ib-contact-form input, .ib-contact-form textarea {
     border: none;
@@ -68,14 +68,15 @@ section#hero-content {
 .ib-circle {
     background-color: #fd0000;
     color: white;
-    padding: 3px;
-    height: 19px;
-    width: 19px;
+    padding: 7px;
+    /*height: 19px;*/
+    /*width: 19px;*/
+    height: 38px;
+    width: 40px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 9px;
 }
 .core {
     background-color: rgb(48,217,196);
@@ -98,13 +99,31 @@ section#hero-content {
 .ib-contact-form textarea {
     height: 11em;
 }
-/*@media only screen and (max-width: 576px) { */
-    /*.col-sm-7.ib-contact-bg {*/
-        /*background: #f2f1f1;*/
-        /*height: 100%;*/
-        /*position: relative;*/
+@media only screen and (max-width: 576px) {
+    .col-sm-7.ib-contact-bg {
+        background: #f2f1f1;
+        height: 100%;
+        position: relative;
+    }
+    .ib-contact-form {
+        margin: 0;
+    }
+    .ib-contact-form button.btn.btn-primary {
+        width: 70%;
+    }
+}
+@media only screen and (min-height: 551px) {
+    /*.ib-contact {*/
+        /*height: 100vh;*/
     /*}*/
-/*}*/
+    .ib-contact-form {
+        width: 28vw;
+    }
+    .col-sm-7.ib-contact-bg {
+        /*max-height: ;*/
+        height: 90vh;
+    }
+}
 @media only screen and (max-width: 576px), screen and (max-height: 550px) {
     .row.ib-get-started-a {
         margin: 0 0 0;
@@ -119,16 +138,17 @@ section#hero-content {
         width: auto;
         background: #f2f1f1;
         position: relative;
-        margin: 0;
+        /*margin: 0;*/
         min-width: 0;
     }
     .col-sm-7.ib-contact-bg {
-        background: #f2f1f1;
+        /*background: #f2f1f1;*/
         height: 100%;
         position: relative;
     }
     .ib-contact-form button.btn.btn-primary {
-        width: 155px;
+        /*width: 155px;*/
+        width: 70%;
         padding: 3%;
     }
     .ib-circle-c, #live-demo-btn {

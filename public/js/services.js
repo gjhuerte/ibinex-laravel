@@ -66,63 +66,63 @@ $(document).ready(function() {
     }
 
 
-    window.sr = ScrollReveal();
-
-    sr.reveal('.inner-platform', {
-        duration: 2000,
-        viewFactor: 0.5,
-        distance: '100px',
-    }, 450);
-
-    sr.reveal('#platform-text-container', {
-        distance: '300px',
-    });
-
-    sr.reveal('.second-section', {
-        duration: 2000,
-        viewFactor: 0.5,
-        distance: '100px',
-    }, 450);
-
-    sr.reveal('#second-section-container', {
-        distance: '300px',
-    });
-
-    sr.reveal('.third-section', {
-        duration: 2000,
-        viewFactor: 0.5,
-        distance: '100px',
-    }, 450);
-
-    sr.reveal('.third-section-mobile', {
-        duration: 2000,
-        viewFactor: 0.5,
-        distance: '100px',
-    }, 450);
-
-    sr.reveal('#third-section-container', {
-        distance: '300px',
-    });
-
-    sr.reveal('.fourth-section', {
-        duration: 2000,
-        viewFactor: 0.5,
-        distance: '100px',
-    }, 450);
-
-    sr.reveal('#fourthSection', {
-        distance: '300px',
-    });
-
-    sr.reveal('.fifth-section', {
-        duration: 2000,
-        viewFactor: 0.5,
-        distance: '100px',
-    }, 450);
-
-    sr.reveal('#fifthSection', {
-        distance: '300px',
-    });
+    // window.sr = ScrollReveal();
+    //
+    // sr.reveal('.inner-platform', {
+    //     duration: 2000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    // }, 450);
+    //
+    // sr.reveal('#platform-text-container', {
+    //     distance: '300px',
+    // });
+    //
+    // sr.reveal('.second-section', {
+    //     duration: 2000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    // }, 450);
+    //
+    // sr.reveal('#second-section-container', {
+    //     distance: '300px',
+    // });
+    //
+    // sr.reveal('.third-section', {
+    //     duration: 2000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    // }, 450);
+    //
+    // sr.reveal('.third-section-mobile', {
+    //     duration: 2000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    // }, 450);
+    //
+    // sr.reveal('#third-section-container', {
+    //     distance: '300px',
+    // });
+    //
+    // sr.reveal('.fourth-section', {
+    //     duration: 2000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    // }, 450);
+    //
+    // sr.reveal('#fourthSection', {
+    //     distance: '300px',
+    // });
+    //
+    // sr.reveal('.fifth-section', {
+    //     duration: 2000,
+    //     viewFactor: 0.5,
+    //     distance: '100px',
+    // }, 450);
+    //
+    // sr.reveal('#fifthSection', {
+    //     distance: '300px',
+    // });
 
 
 

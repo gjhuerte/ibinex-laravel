@@ -83,6 +83,8 @@
         document.getElementById("main-body").style.right = "0";
     }
 
+    ibinex.reveal_btn_top();
+
 </script>
 @stack('scripts')
 {{--<script src="script.js"></script>--}}
