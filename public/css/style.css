@@ -160,12 +160,15 @@ body #fullscreen-hero .navbar{
     margin-top: 25px;
 }
 body #fullscreen-hero {
-    background-position: center center;
+    /*background-position: center center;*/
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    background-attachment: fixed;
+    background-position: center;  
 }
 body #fullscreen-hero.full-height {
     min-height: 100vh;
@@ -444,15 +447,15 @@ body .gradient-wrapper{
     -o-transition: margin-top .1s linear;
     transition: margin-top .1s linear;
 }
-
+*/
 #fullscreen-hero .navbar .nav-item a{
     -webkit-transition: none;
     -moz-transition: none;
     -ms-transition: none;
     -o-transition: none;
-    transition: .2s ease-out;
+    transition: none;
 }
-*/
+
 /******* end abry pogi *************/
 
 

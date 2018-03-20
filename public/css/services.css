@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    position: relative;
+}
+
 #inner-nav *{
     transition: none;
 }
+
+/*.sticky-top {*/
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    /*top: 68px !important;*/
+    /*z-index: 1020;*/
+/*}*/
 
 .inner-nav-pb{
     padding-bottom: 3rem;
@@ -522,13 +533,29 @@ div.lorem .l2 img{
 
 @media only screen and (min-width: 1366px){
 
-    #platform-img-container{
-        background-position: 70% 40%;
-        background-size: 90%;
+    .m-bot-30{
+        margin: 20px 0;
+    }
+
+    #platform-img-container {
+        background-position: 70% 31%;
+        background-size: 100% 100%;
+        width: 97%;
+        height: 425px;
+        float: right;
+    }
+
+    #laptop-container{
+        padding-right: 20px;
+    }
+
+    .lorem {
+        padding-top: 50px;
     }
 
     .lorem-ipsum{
         margin-left: 7rem;
+        top: 461px;
     }
 
     .lorem-ipsum-lower{
@@ -536,7 +563,7 @@ div.lorem .l2 img{
     }
 
     .crm-container{
-        padding-bottom: 185px !important;
+        padding-bottom: 220px !important;
     }
 
     .fone-img{
@@ -546,9 +573,13 @@ div.lorem .l2 img{
     }
 
     .red-ellipse{
-        top: 70%;
+        top: 79%;
         left: 19%;
         height: 30%;
+    }
+
+    #crm-left-container {
+        padding-top: 110px;
     }
 
     .red-ellipse-2{
