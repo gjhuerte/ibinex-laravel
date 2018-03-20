@@ -387,6 +387,9 @@ body .gradient-wrapper{
     -moz-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
     box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
 }
+.sidenav img{
+    margin-bottom: 25px;
+}
 .sidenav{
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -485,6 +488,7 @@ body .gradient-wrapper{
     text-decoration: none;
     display: block;
     transition: 0.3s;
+    color: white;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -493,6 +497,7 @@ body .gradient-wrapper{
 }
 
 .sidenav button{
+    margin-top:25px;
     background-color: #2563c6;
 }
 
