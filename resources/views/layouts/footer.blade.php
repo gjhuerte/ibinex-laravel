@@ -3,7 +3,7 @@
         <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 3px;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header">1-800-972-3981</span></h2>
     </header>
     <nav>
-        <div class="container text-sm-left text-md-left" style="font-weight: 600">
+        <div class="container text-sm-left text-md-left font-weight-normal">
             <div class="row">
                 <div class ="col-md-4 col-lg-2">
                     <h6 class="text-uppercase heads fonts blue py-4">Why ibinex</h6>
