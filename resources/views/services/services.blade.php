@@ -60,8 +60,8 @@
 
                         <div id="platform-text-container" class="col-12 col-lg-6 inner-platform platform-text">
                             <div>
-                                <span class="text-dark font-35">Platform</span>
-                                <p class="text-secondary text-justify pt-2 mb-sm-1 mt-sm-0">
+                                <p class="text-dark font-34">Platform</p>
+                                <p class="text-secondary text-justify mb-sm-1 mt-sm-0">
                                     Your exchange is your launchpad. Our suite elevates your exchange by equipping you with your own platform consisting of:
                                 </p>
                             </div>
@@ -87,10 +87,10 @@
                     <div id="crm-left-container" class="col-12 col-lg-6 bg-white crm second-section">
                         <div class="inner-crm">
                             <div class="text-left">
-                                <span class="text-dark font-35">CRM Back Office</span>
+                                <span class="text-dark font-34">CRM Back Office</span>
                             </div>
                             <div class="">
-                                <p class="text-secondary text-sm-justify mt-sm-0 mb-sm-3">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
+                                <p class="text-secondary text-justify mt-sm-0 mb-sm-3">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
                             </div>
                             <div class="text-primary">
                                 <strong>
@@ -144,10 +144,10 @@
 
                         </div>
                         <div id="third-section-container" class="col-12 col-sm-6 col-md-12 col-lg-6 cb-text third-section">
-                                <h1 class="text-dark">CryptoBridge<sup>&trade;</sup></h1>
-                                <p class="text-justify text-sm-left pt-4 mt-3 mb-sm-5 pb-sm-5 mt-sm-0">Aggregate elite exchanges and indexes as the cryptocurrency market moves, with out patent-pending proprietary software suite,
+                                <p class="text-dark font-34 heading-margin-sm">CryptoBridge<sup>&trade;</sup></p>
+                                <p class="text-justify text-sm-left mb-sm-5 pb-sm-5 mt-sm-0">Aggregate elite exchanges and indexes as the cryptocurrency market moves, with out patent-pending proprietary software suite,
                                     CryptoBridge<sup>&trade;</sup>. Gain access to 60 premier exchanges for maximum liquidity cryptocurrencies, all available only through
-                                    CryptoBridge<sup>&trade;</sup> by Ibinex</p>
+                                    CryptoBridge<sup>&trade;</sup> by Ibinex.</p>
                         </div>
                     </div> <!-- /.row -->
                 </div>
@@ -164,8 +164,8 @@
                         </div>
 
                         <div id="fourthSection" class="col-12 col-sm-6 col-md-12 col-lg-4 credit-card px-0 fourth-section">
-                            <h1 class="text-dark">Credit Card Processing</h1>
-                            <p class="text-justify pt-2 mt-sm-0">
+                            <p class="text-dark font-34 heading-margin-sm">Credit Card Processing</p>
+                            <p class="text-justify mt-sm-0">
                                 We offer full spectrum payment processing for cryptocurrencies, and a complete selection that is unavailable elsewhere.
                                 Exchanging your way with Ibinex means experiencing a whole new world of payment options including: credit cards, debit cards,
                                 wire transfers, alternative payments, hosted wallets and cold wallets.
@@ -180,7 +180,7 @@
                 <div class="container-fluid">
                     <div class="row max-width-none">
                         <div class="col-12 col-sm-6 col-md-12 col-lg-6 custodian-left fifth-section">
-                            <h1>Custodian Accounts</h1>
+                            <p class="font-34 heading-margin-sm text-dark">Custodian Accounts</p>
                             <p class="normal-p text-justify mt-sm-0 m-bot-30">
                                 Another first sees Ibinex leading the way as the world's first cryptocurrency exchange with a finance transaction license.
                                 We are proud to be the first to offer you:
