@@ -40,8 +40,9 @@
 
 #pricing-content {
     background-color: #212a5f;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.35);
 }
-
+/*
 #pricing-content:before {
     content: "";
     position: absolute;
@@ -53,7 +54,7 @@
     border-radius: 20px;
     box-shadow: 0 0 40px #aaa;
 }
-
+*/
 #pricing-content > hr {
     border-color: #2770f6;
 }
@@ -124,7 +125,7 @@
 
 @media only screen and (min-width: 768px) {
     body #fullscreen-hero.full-height {
-        min-height: 850px;
+        min-height: 867px;
     }
 
     body #fullscreen-hero.full-height .gradient-wrapper {
@@ -138,9 +139,9 @@
         box-sizing: border-box;
 
         margin: auto;
-        margin-bottom: calc(-317px - 65px);
+        margin-bottom: -399px;
         position: relative;
-        top: -317px;
+        top: -334px;
     }
 
     #pricing-content > #pricing-intro {
