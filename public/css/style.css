@@ -524,6 +524,9 @@ footer a, a:hover{
     text-decoration: none;
 }
 
+
+
+
 @media all and (max-width: 576px){
     .d-xs-block{
         display: block;

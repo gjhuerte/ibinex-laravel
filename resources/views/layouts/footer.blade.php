@@ -3,10 +3,10 @@
         <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 3px;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header">1-800-972-3981</span></h2>
     </header>
     <nav>
-        <div class="container text-sm-left text-md-center">
+        <div class="container text-sm-left text-md-left" style="font-weight: 600">
             <div class="row">
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">Why ibinex</h6>
+                    <h6 class="text-uppercase heads fonts blue py-4">Why ibinex</h6>
 
                     <ul class="list-unstyled">
                         <li>
@@ -16,7 +16,7 @@
 
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">pricing</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">pricing</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a href="{{ url('pricing#') }}">Platform Pricing</a></span>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">services</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">services</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a href="{{ url('/services#platform-section') }}">Platform</a></span>
@@ -47,7 +47,7 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">Security</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a href="{{ url('security#protection') }}">Protection of Funds</a></span>
@@ -64,7 +64,7 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">legal</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">legal</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a href="{{ url('#') }}">Regulation</a></span>
@@ -90,7 +90,7 @@
                     </ul>
                 </div>
                 <div class ="col-md-4 col-lg-2">
-                    <h6 class="text-uppercase heads fonts font-weight-light blue py-4">About Ibinex</h6>
+                    <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">About Ibinex</h6>
                     <ul class="list-unstyled">
                         <li>
                             <span class="color"><a href="{{ url('about-us#transparency') }}">Transparency</a></span>
