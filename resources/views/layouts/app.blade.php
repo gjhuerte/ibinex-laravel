@@ -27,7 +27,7 @@
     @stack('stylesheets')
 </head>
 
-<body class='@yield('body-class')-template'>
+<body class='@yield('body-class')-template' @yield('scrollspy')>
 <div id='main-body' class='container-fluid position-relative'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">

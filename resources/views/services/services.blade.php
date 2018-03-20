@@ -17,25 +17,28 @@
 
 @section('body-class','services')
 @section('bg-img','services.png')
+@section('scrollspy')
+    data-spy="scroll" data-target="#inner-nav" data-offset="150"
+@endsection
 @section('content')
     <div class="d-none d-lg-block sticky-top">
         <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white p-bot-30">
             <div id="menu-center" class="container">
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#platform-section">Platform</a>
+                        <a class="nav-link inner-nav-link menu2" href="#platform-section">Platform</a>
                     </li>
                     <li class="nav-item inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#crm-section">CRM Back Office</a>
+                        <a class="nav-link inner-nav-link menu2" href="#crm-section">CRM Back Office</a>
                     </li>
                     <li class="nav-item inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#crypto-bridge-section">CryptoBridge&trade;</a>
+                        <a class="nav-link inner-nav-link menu2" href="#crypto-bridge-section">CryptoBridge&trade;</a>
                     </li>
                     <li class="nav-item inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#credit-card-section">Credit Card Processing</a>
+                        <a class="nav-link inner-nav-link menu2" href="#credit-card-section">Credit Card Processing</a>
                     </li>
                     <li class="nav-item inner-nav-item">
-                        <a class="nav-link inner-nav-link" href="#custodian-section">Custodian Accounts</a>
+                        <a class="nav-link inner-nav-link menu2" href="#custodian-section">Custodian Accounts</a>
                     </li>
                 </ul>
             </div>
