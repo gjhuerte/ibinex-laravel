@@ -450,7 +450,7 @@ body .gradient-wrapper{
     -moz-transition: none;
     -ms-transition: none;
     -o-transition: none;
-    transition: none;
+    transition: .2s ease-out;
 }
 
 /******* end abry pogi *************/
@@ -494,6 +494,10 @@ body footer .centered .footer-contact {
 }
 footer .semi-circle{
     color: rgb(184, 22, 31);
+}
+footer .semi-circle-dark-red{
+    background: rgba(184,22,31,1);
+    color: #fff;
 }
 
 body footer .centered .footer-navigation {
@@ -630,9 +634,7 @@ footer a, a:hover{
         width: 135%;
     }
 
-    body footer .semi-circle-dark-red{
-        background-color: rgba(184,22,31,1);
-    }
+
 }
 
 @media all and (min-width: 320px) and (max-width: 330px){
