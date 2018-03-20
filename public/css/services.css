@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    position: relative;
+}
+
 #inner-nav *{
     transition: none;
 }
+
+/*.sticky-top {*/
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    /*top: 68px !important;*/
+    /*z-index: 1020;*/
+/*}*/
 
 .inner-nav-pb{
     padding-bottom: 3rem;
@@ -67,7 +78,7 @@
 /* Mobile Development */
 
 #platform-text-container{
-    padding-right: 0 !important;
+    /*padding-right: 0 !important;*/
     padding-left: 0 !important;
 }
 
@@ -95,8 +106,8 @@ div.lorem .l2 img{
 .red-ellipse{
     z-index: 999;
     position: absolute;
-    top: 40%;
-    height: 22%;
+    top: 33%;
+    height: 20%;
 }
 
 .cb1{
@@ -107,20 +118,24 @@ div.lorem .l2 img{
     z-index: 999;
     position: absolute;
     top: 42%;
-    height: 22%;
+    height: 25%;
 }
 
 #platform-img-container{
     background-image: url(../img/l1.png);
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    background-size: 93%;
-    height: 250px;
+    background-size: cover;
+    height: 190px;
     padding-right: 0 !important;
 }
 
 .platform-text{
     padding-top: 50px;
+}
+
+.platform-text-inner{
+    padding-bottom: 30px;
 }
 
 .inner-lorem{
@@ -167,17 +182,17 @@ div.lorem .l2 img{
 }
 
 .cb-text{
-    padding-top: 390px;
+    padding-top: 385px;
 }
 
 
 .macbook-img{
-    background-image: url(../img/l2.png);
+    background-image: url(../img/services_1.png);
     background-repeat: no-repeat;
-    background-position: 90% center;
+    background-position: 85% center;
     background-size: cover;
-    height: 500px;
-    zoom: 0.5;
+    height: 330px;
+    /*zoom: 0.5;*/
 }
 
 .qtt-image-container{
@@ -186,10 +201,10 @@ div.lorem .l2 img{
 }
 
 .qtt{
-    background-image: url(../img/qtt.png);
+    background-image: url(../img/services_2.png);
     background-repeat: no-repeat;
-    background-position: 40% center;
-    background-size: 100% 100%;
+    background-position: 20% center;
+    background-size: cover;
     width: 100%;
     height: 330px;
     /*zoom: 0.3;*/
@@ -202,6 +217,13 @@ div.lorem .l2 img{
 
 .lorem-ipsum-lower{
     padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.lorem-ipsum{
+    width: 85%;
+    right: 0;
+    margin-left: 0 !important;
 }
 
 .lorem-ipsum, .lorem-ipsum-lower{
@@ -236,9 +258,13 @@ div.lorem .l2 img{
 
 .normal-p{
     color: #595959;
-    font-size: 17px;
+    /*font-size: 17px;*/
     font-weight: 500;
     line-height: 2;
+}
+
+#fourthSection{
+    padding-top: 45px;
 }
 
 .credit-card p {
@@ -250,6 +276,34 @@ div.lorem .l2 img{
 
 .custodian-p{
     color: rgb(39, 112, 246);
+}
+
+.huffpost-bottom{
+    margin: 10px 0 20px;
+}
+
+.font-35{
+    font-size: 35px;
+}
+
+.m-bot-30{
+    margin-bottom: 30px;
+}
+
+.p-bot-30{
+    padding-bottom: 30px;
+}
+
+#crm-left-container{
+    padding-top: 50px;
+}
+
+#laptop-container{
+    margin-top: 60px;
+}
+
+.navbar-white .navbar-nav a {
+    color: #595959;
 }
 
 /* Tablets to Desktop */
@@ -335,11 +389,11 @@ div.lorem .l2 img{
     }
 
     .lorem-ipsum-lower{
-        padding-top: 100px;
+        padding-top: 45px;
     }
 
     #platform-img-container{
-        height: 500px;
+        height: 480px;
     }
 
 
@@ -349,9 +403,9 @@ div.lorem .l2 img{
     }
 
     .red-ellipse{
-        top: 51%;
-        left: 6%;
-        height: 31%;
+        top: 60%;
+        left: 3%;
+        height: 25%;
     }
 
     .cb-text{
@@ -380,7 +434,7 @@ div.lorem .l2 img{
     }
 
     .red-ellipse-2{
-        top: 61%;
+        top: 66%;
         left: 5%;
         height: 25%;
     }
@@ -389,11 +443,11 @@ div.lorem .l2 img{
 @media only screen and (min-width: 1024px){
 
     .macbook-img{
-        height: 604px;
+        height: 411px;
     }
 
     .platform-text-inner p{
-        padding-top: 5px !important;
+        /*padding-top: 5px !important;*/
         margin-bottom: 2px !important;
     }
 
@@ -419,7 +473,7 @@ div.lorem .l2 img{
     }
 
     .red-ellipse-2{
-        top: 61%;
+        top: 66%;
         left: 17%;
         height: 14%;
     }
@@ -440,7 +494,7 @@ div.lorem .l2 img{
     }
 
     .crm-container{
-        padding-bottom: 175px !important;
+        padding-bottom: 240px !important;
     }
 
     .qtt-container{
@@ -467,19 +521,41 @@ div.lorem .l2 img{
     }
 
     .red-ellipse-2{
-        top: 61%;
+        top: 67%;
+        left: 20%;
+        height: 17%;
+    }
+
+    .custodian {
+        padding-bottom: 390px;
     }
 }
 
 @media only screen and (min-width: 1366px){
 
-    #platform-img-container{
-        background-position: 70% 40%;
-        background-size: 90%;
+    .m-bot-30{
+        margin: 20px 0;
+    }
+
+    #platform-img-container {
+        background-position: 70% 31%;
+        background-size: 100% 100%;
+        width: 97%;
+        height: 425px;
+        float: right;
+    }
+
+    #laptop-container{
+        padding-right: 20px;
+    }
+
+    .lorem {
+        padding-top: 50px;
     }
 
     .lorem-ipsum{
         margin-left: 7rem;
+        top: 461px;
     }
 
     .lorem-ipsum-lower{
@@ -487,22 +563,33 @@ div.lorem .l2 img{
     }
 
     .crm-container{
-        padding-bottom: 120px !important;
+        padding-bottom: 220px !important;
     }
 
     .fone-img{
         background-position: 74% -20%;
         background-size: 85%;
+        height: 785px;
+    }
+
+    .red-ellipse{
+        top: 79%;
+        left: 19%;
+        height: 30%;
+    }
+
+    #crm-left-container {
+        padding-top: 110px;
     }
 
     .red-ellipse-2{
-        top: 54%;
-        left: 20%;
-        height: 17%;
+        top: 58%;
+        left: 19%;
+        height: 20%;
     }
 
     .custodian{
-        padding-bottom: 320px;
+        padding-bottom: 200px;
     }
 
     .custodian-left{
@@ -522,10 +609,27 @@ div.lorem .l2 img{
         height: 500px;
     }
 
+    .lorem {
+        padding-top: 50px;
+    }
+
+    .lorem-ipsum{
+        top: 93%;
+    }
+
+    .red-ellipse{
+        top: 78%;
+        height: 36%;
+    }
+
+    .crm-container {
+        padding-bottom: 225px !important;
+    }
+
     .fone-img{
         background-position: 85% 10%;
         background-size: 70%;
-        height: 723px;
+        height: 683px;
     }
 
     .lorem-ipsum{
@@ -537,44 +641,75 @@ div.lorem .l2 img{
     }
 
     .red-ellipse-2{
-        top: 52%;
-        left: 18%;
+        top: 66%;
+        left: 19%;
+        height: 22%;
+    }
+
+    .qtt {
+        height: 650px;
+    }
+
+    .custodian {
+        padding-bottom: 450px;
     }
 }
 
 
 @media only screen and (min-width: 1920px){
 
-    .platform-text{
-        padding-top: 66px;
-        padding-right: 340px;
+    #platform-text-container{
+        padding-right: 360px;
+        padding-top: 75px;
+    }
+
+    #platform-text-container div:first-child{
+        margin-bottom: 30px;
     }
 
     .platform-text-inner p{
-        padding-top: 10px !important;
-        margin-bottom: 10px !important;
+        /*padding-top: 10px !important;*/
+        margin-bottom: 30px !important;
     }
 
     .lorem-ipsum{
         margin-left: 10rem !important;
-        top: 100%
+        top: 505px;
     }
 
     .red-ellipse{
-        top: 80%;
-        height: 45%;
-        left: 17%;
+        top: 420px;
+        height: 35%;
+        left: 18%;
+    }
+
+    #laptop-container{
+        padding-top: 40px;
+        clear: both;
+        margin-top: 0;
+        padding-right: 20px;
     }
 
     #platform-img-container{
         background-image: url(../img/l1.png);
         background-repeat: no-repeat;
-        background-position: 92% 38%;
-        background-size: 75%;
-        height: 550px;
+        background-position: 91% 61%;
+        background-size: 100% 100%;
+        width: 85%;
+        height: 535px;
+        float: right;
+    }
+
+    .platform-text-inner {
+        padding-bottom: 20px;
+    }
+
+    #crm-left-container{
+        padding-top: 100px;
     }
 
     .inner-crm{
+        /*padding-top: 100px;*/
         padding-left: 375px;
     }
 
@@ -582,7 +717,7 @@ div.lorem .l2 img{
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        height: 451px;
+        height: 455px;
         zoom: 1;
     }
 
@@ -594,15 +729,24 @@ div.lorem .l2 img{
     }
 
     .crm-container{
-        padding-bottom: 190px !important;
+        padding-bottom: 180px !important;
+    }
+
+    .cb-logo{
+        height: 440px;
     }
 
     .cb-text{
         padding-right: 350px;
+        padding-top: 155px;
     }
 
     .cb p{
         line-height: 1.7;
+    }
+
+    #credit-card-section{
+        padding-top: 110px;
     }
 
     #credit-card-container{
@@ -610,8 +754,15 @@ div.lorem .l2 img{
     }
 
     .fone-img{
-        background-position: 96% center;
-        background-size: 66%;
+        background-position: 92% 95%;
+        background-size: cover;
+        width: 67%;
+        height: 846px;
+        float: right;
+    }
+
+    #fourthSection{
+        padding-top: 65px;
     }
 
     .qtt-container{
@@ -619,21 +770,29 @@ div.lorem .l2 img{
     }
 
     .qtt{
-        height: 641px;
+        background-position: 40% center;
+        background-size: 100% 100%;
+        height: 640px;
     }
 
     .red-ellipse-2{
-        top: 62%;
-        height: 24%;
+        top: 65%;
+        height: 22%;
     }
 
     .custodian{
-        padding-bottom: 600px;
+        padding-bottom: 330px;
     }
 
     .custodian-left{
         padding-left: 320px;
         padding-top: 60px;
+        padding-right: 30px !important;
+    }
+
+
+    .m-bot-30{
+        margin-bottom: 30px;
     }
 
     .lorem-ipsum-lower{
@@ -641,10 +800,20 @@ div.lorem .l2 img{
         padding-left: 70px !important;
         padding-right: 80px !important;
         padding-bottom: 45px !important;
+        padding-top: 60px;
     }
 
     #huffpost-bottom{
         margin-top: 5px !important;
+    }
+
+    .lorem{
+        padding-top: 50px;
+    }
+
+    .inner-nav-link {
+        /*padding: 10px 90px;*/
+        margin: auto 30px;
     }
 }
 

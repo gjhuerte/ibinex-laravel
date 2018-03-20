@@ -63,41 +63,82 @@ var ibinex = (function(options) {
                 else
                     $('.back-to-top').removeClass('reveal').addClass('hidden');
             });
+        },
+        go_top: function() {
+            $("html").animate({ scrollTop: 0 }, "slow");
+        },
+        hero_shinker: function() {
+            var hero = $('#fullscreen-hero'),
+                heroHeight = $('#fullscreen-hero').outerHeight(true);
+
+            var navbar = $('#fullscreen-hero .navbar');
+
+            var navbarHeight = $(navbar).outerHeight();
+
+            $(hero).css('min-height', navbarHeight);
+
+            $(hero).parent().css('margin-top', heroHeight);
+
+            $(window).scroll(function() {
+
+                var scrollOffset = $(window).scrollTop();
+
+                $(hero).css('height', (heroHeight - scrollOffset));
+
+                if (scrollOffset > (heroHeight - navbarHeight)) {
+
+                    $('#hero-content').css( "opacity", 0);
+
+                    $(navbar).css({"margin-top":"7.5px", "padding": "10px 0"});
+
+                }
+
+                else {
+
+                    $('#hero-content').css( "opacity", 1);
+
+                    $(navbar).css({"margin-top":"25px", "padding": "30px 0 0"});
+
+                }
+
+            });
+        },
+        smooth_scroll: function() {
+            $("a[href*='#']")
+                .not("[href='#']")
+                .not("[href='#0']")
+                .on("click", function (event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+
+                        if (location.pathname != this.pathname) {
+                            return;
+                        }
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function () {
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
         }
     }
 
 
 }());
 
-$(document).ready(function() {
-// Add smooth scrolling to all links
-    $("a[href*='#']")
-        .not("[href='#']")
-        .not("[href='#0']")
-        .on("click", function (event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-            // Prevent default anchor click behavior
-
-            if (location.pathname != this.pathname) {
-                return;
-            }
-            event.preventDefault();
-
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function () {
-
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-            });
-        } // End if
-    });
-
+$(document).ready(function() { 
+    ibinex.smooth_scroll();
+    // ibinex.hero_shinker();
 });
