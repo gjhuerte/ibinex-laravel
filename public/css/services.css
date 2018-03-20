@@ -399,6 +399,20 @@ p.heading-margin-sm + p{
 /*}*/
 
 
+@media only screen and (min-width: 360px) {
+    #platform-img-container{
+        height: 215px;
+    }
+
+    .red-ellipse {
+        top: 35%;
+    }
+
+    .red-ellipse-2{
+        top: 44%;
+    }
+}
+
 @media only screen and (min-width: 576px){
     .macbook-img{
         background-position: center center;
