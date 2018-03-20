@@ -19,7 +19,7 @@
 @section('bg-img','services.png')
 @section('content')
     <div class="d-none d-lg-block sticky-top">
-        <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white pb-4">
+        <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white p-bot-30">
             <div id="menu-center" class="container">
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item inner-nav-item">
@@ -176,7 +176,7 @@
             <div id="custodian-section" class="col-12 custodian px-0 pt-4">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 custodian-left pb-4 pb-sm-0 fifth-section">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 custodian-left fifth-section">
                             <h1>Custodian Accounts</h1>
                             <p class="normal-p text-justify mt-sm-0 m-bot-30">
                                 Another first sees Ibinex leading the way as the world's first cryptocurrency exchange with a finance transaction license.

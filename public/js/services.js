@@ -3,11 +3,11 @@ $(document).ready(function() {
         var navOffset = $("#inner-nav").offset().top;
         if($(document).scrollTop() >= navOffset){
             $("#inner-nav").addClass('shadow');
-            $("#inner-nav").removeClass('pb-4');
+            $("#inner-nav").removeClass('p-bot-30');
         }
         else {
             $("#inner-nav").removeClass('shadow');
-            $("#inner-nav").addClass('pb-4');
+            $("#inner-nav").addClass('p-bot-30');
         }
     });
 
@@ -123,9 +123,5 @@ $(document).ready(function() {
     // sr.reveal('#fifthSection', {
     //     distance: '300px',
     // });
-
-
-
-
 });
 
