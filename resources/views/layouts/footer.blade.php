@@ -212,7 +212,7 @@
         </div>
     </div>
     <!--/.Footer Links-->
-    <a class="back-to-top hidden" href="#fullscreen-hero" title="Back to top">
+    <a class="back-to-top hidden" title="Back to top" onclick="ibinex.go_top()">
         <i class="arrow-up"></i>
     </a>
 </footer>
