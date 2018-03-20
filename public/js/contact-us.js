@@ -39,18 +39,18 @@ var contact = {
 };
 
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-    if((!mobile_animation && $(window).width() > mobile_width) || mobile_animation) {
-        contact.init_circle();
-        ibinex.animate(".ib-get-started .row.ib-get-started-a h2, .ib-get-started .row.ib-get-started-a p", "fadeInUp");
-        ibinex.animate(".ib-get-started .ib-note", "fadeInUp");
-        ibinex.animate(".row.ib-contact-support h2", "fadeInLeft");
-        ibinex.animate(".row.ib-contact-support .ib-support-text .p1", "fadeInLeft",200);
-        ibinex.animate(".row.ib-contact-support .ib-support-text .p2", "fadeInLeft",300);
-        ibinex.animate(".row.ib-contact-support .ib-support-text .p3", "fadeInLeft",400);
-        ibinex.animate(".ib-contact .ib-contact-form input, .ib-contact .ib-contact-form textarea", "zoomIn");
-    }
+    // if((!mobile_animation && $(window).width() > mobile_width) || mobile_animation) {
+        // contact.init_circle();
+        // ibinex.animate(".ib-get-started .row.ib-get-started-a h2, .ib-get-started .row.ib-get-started-a p", "fadeInUp");
+        // ibinex.animate(".ib-get-started .ib-note", "fadeInUp");
+        // ibinex.animate(".row.ib-contact-support h2", "fadeInLeft");
+        // ibinex.animate(".row.ib-contact-support .ib-support-text .p1", "fadeInLeft",200);
+        // ibinex.animate(".row.ib-contact-support .ib-support-text .p2", "fadeInLeft",300);
+        // ibinex.animate(".row.ib-contact-support .ib-support-text .p3", "fadeInLeft",400);
+        // ibinex.animate(".ib-contact .ib-contact-form input, .ib-contact .ib-contact-form textarea", "zoomIn");
+    // }
     // window.sr = ScrollReveal(); 
     // sr.reveal('.ib-get-started .row.ib-get-started-a h2', {
     //     duration: 1000,
@@ -85,4 +85,4 @@ $(document).ready(function(){
     //     delay: 100
     // });
 
-});
+// });
