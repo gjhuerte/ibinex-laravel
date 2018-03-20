@@ -76,13 +76,15 @@
         document.getElementById("mySidenav").style.width = "250px";
         document.getElementById("main-body").style.right = "250px";
         $('.custom-toggler').attr('onclick', 'closeNav()').toggleClass('open');
+        $('.sidenav').toggleClass('open');
     }
 
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main-body").style.right = "0";
-        $('.custom-toggler').attr('onclick', 'openNav()').removeClass('open');;
+        $('.custom-toggler').attr('onclick', 'openNav()').removeClass('open');
+        $('.sidenav').removeClass('open');
     }
 
     ibinex.reveal_btn_top();
