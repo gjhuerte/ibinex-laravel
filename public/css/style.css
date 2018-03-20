@@ -524,6 +524,10 @@ footer a, a:hover{
     text-decoration: none;
 }
 
+footer input::placeholder{
+    font-size: small;
+}
+
 @media all and (max-width: 320px){
     .d-xs-block{
         display: block;
