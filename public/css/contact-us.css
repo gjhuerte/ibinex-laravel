@@ -124,7 +124,7 @@ section#hero-content {
         height: 90vh;
     }
 }
-@media only screen and (max-width: 576px), screen and (max-height: 550px) {
+@media only screen and (max-width: 650px), screen and (max-height: 550px) {
     .row.ib-get-started-a {
         margin: 0 0 0;
     }
