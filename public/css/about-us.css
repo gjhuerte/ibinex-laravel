@@ -34,8 +34,6 @@ section#hero-content{
 
 #people-behind-bg{
     background-color: #e7fbf8;
-    padding-bottom: 180px !important;
-
 }
 
 #circ, #circ-pic {
@@ -76,23 +74,38 @@ section#hero-content{
 }
 
 #media-coverage-floater{
-    height: 900px;
-    width: 857px;
+    position: relative;
+    width: 100%;
     max-width: 100%;
     flex: none;
-    position: relative;
-    transform: translateY(-18%);
-    padding: 200px 55px 210px 433px;
-}
-
-#thirdfold-p1 {
-    margin-bottom: 40px;
 }
 
 #media-coverage-images{
-    margin-left: 100px !important;
-    margin-top: 100px !important;
+    width: 100%;
 }
+
+@media all and (max-width:1023px){
+    #media-coverage-floater{
+        order: 2;
+    }
+
+    #media-coverage-images{
+        order: 1;
+    }
+}
+
+@media all and (min-width:992px) and (max-width: 1023px){
+    #media-coverage-images{
+        margin: 0 auto !important;
+    }
+
+    #media-coverage-images>h2{
+        text-align: center;
+    }
+
+}
+}
+
 
 div.advisory-board{
     background-color: #f2f2f2;
@@ -111,10 +124,47 @@ div.advisory-board-members-list-item-desc{
     padding-right: 1em;
 }
 
-.advisory-board-members-list li{
-    padding: 0 5px;
+@media only screen and (min-width: 1024px){
+    #media-coverage-floater{
+        position: relative;
+        transform: translateY(-18%);
+        padding: 7% 5% 5% 21%;
+        width: 46%;
+        max-width: 100%;
+        flex: none;
 }
 
-.advisory-board-members-list li img{
-    width:100%;
+    #media-coverage-images{
+        margin-left: 100px !important;
+        margin-top: 100px !important;
+    }
+
+    #people-behind-bg{
+        padding-bottom: 10% !important;
+    }
+
+@media only screen and (min-width: 1920px){
+
+  #media-coverage-floater{
+      height: 900px;
+      width: 857px;
+      max-width: 100%;
+      flex: none;
+      transform: translateY(-18%);
+      padding: 200px 55px 210px 433px;
+  }
+
+    #people-behind-bg{
+        padding-bottom: 180px !important;
+    }
+
+    #thirdfold-p1 {
+        margin-bottom: 40px;
+    }
+
+    #media-coverage-images{
+        margin-left: 100px !important;
+        margin-top: 100px !important;
+    }
+
 }
