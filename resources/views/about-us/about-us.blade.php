@@ -143,8 +143,8 @@
 
 <div class="row">
 <div class="col-12 advisory-board">
-    <div class="py-5 text-center">
-        <h2 class="mx-2">Ibinex Advisory Board</h2>
+    <div class="py-5 my-5 text-center">
+        <h2 class="mx-5">Ibinex Advisory Board</h2>
     </div>
 
     <ul class="advisory-board-members-list list-inline text-center d-none d-lg-block">

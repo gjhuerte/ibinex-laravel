@@ -123,12 +123,12 @@
         <div class="row alignment">
             <!--First column-->
             <div class="col-sm-12 col-md-4 col-lg-3 align-self-center ">
-                <img class= "padding" src = "/img/logo/logo-bottom.png" alt="ibinex logo-bottom">
+                <img class= "padding img-size" src = "/img/logo/logo-bottom.png" alt="ibinex logo-bottom">
             </div>
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-sm-12 col-md-4 col-lg-2">
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="position-absolute pt-lg-3 height-foot">
                     <h6 class="text-uppercase font-weight-light fonts grey" style="color: #646781">Ibinex Offices</h6>
                 </div>
@@ -190,7 +190,7 @@
                 <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3 color-copy" style="color: #646781">sign up to our news letter</h6>
                 <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
                     <input type="email" class="semi-circle" style="width:100%; height: 45px; color: black" placeholder="Insert your email"/>
-                    <input type="submit" class="position-absolute semi-circle semi-circle-dark-red" value="SUBMIT" style="width:100px; height: 45px; top:0; right:0; color:white; font-size: x-small; font-weight: bold; letter-spacing: 1px;"/>
+                    <input type="submit" class="position-absolute semi-circle semi-circle-dark-red" value="SUBMIT" style="width:100px; height: 45px; top:0; right:0; color:white; font-size: x-small; font-weight: bold; letter-spacing: 1px; background-color: rgb(184, 22, 31);"/>
                 </div>
                 <h6 class="text-uppercase fonts font-weight-light d-none d-lg-block d-xl-block grey color-copy" style="color: #646781">find us online</h6>
                 <div class ="position-relative d-none d-lg-block d-xl-block">
@@ -212,7 +212,7 @@
         </div>
     </div>
     <!--/.Footer Links-->
-    <a class="back-to-top hidden" href="#fullscreen-hero" title="Back to top">
+    <a class="back-to-top hidden" title="Back to top" onclick="ibinex.go_top()">
         <i class="arrow-up"></i>
     </a>
 </footer>

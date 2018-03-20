@@ -110,3 +110,11 @@ div.advisory-board-members-list-item-desc{
     padding-left: 1em;
     padding-right: 1em;
 }
+
+.advisory-board-members-list li{
+    padding: 0 5px;
+}
+
+.advisory-board-members-list li img{
+    width:100%;
+}

@@ -17,7 +17,7 @@
 /* End Fonts*/
 
 *{
-    transition: all .5s ease-in;
+    transition: all .2s ease-in;
 }
 
 body {
@@ -160,12 +160,15 @@ body #fullscreen-hero .navbar{
     margin-top: 25px;
 }
 body #fullscreen-hero {
-    background-position: center center;
+    /*background-position: center center;*/
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    background-attachment: fixed;
+    background-position: center;  
 }
 body #fullscreen-hero.full-height {
     min-height: 100vh;
@@ -380,26 +383,99 @@ body .gradient-wrapper{
     right:0;
 }
 .sidenav{
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
+    box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color: rgb(237, 118, 137); /* Black*/
+    background-color: #212a5f; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .sidenav ul{
     padding:20px;
     padding-top:50px;
     text-align: center;
+} 
+.custom-toggler{
+    width: 20px;
+    height: 30px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
 }
+.custom-toggler span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#nav-icon3 span:nth-child(1) {
+    top: 3px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 13px;
+}
+
+#nav-icon3 span:nth-child(4) {
+    top: 23px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
 .sidenav ul li{
     margin: 2.5px 0;
+    min-width:100px;
 }
 
 .sidenav a {
@@ -425,7 +501,7 @@ body .gradient-wrapper{
 
 /******** abry pogi **********/
 
-
+/* reserved for future use
 #fullscreen-hero{
     transition: none;
     z-index: 1000;
@@ -444,13 +520,13 @@ body .gradient-wrapper{
     -o-transition: margin-top .1s linear;
     transition: margin-top .1s linear;
 }
-
+*/
 #fullscreen-hero .navbar .nav-item a{
-    -webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    -ms-transition: .2s ease-out;
-    -o-transition: .2s ease-out;
-    transition: .2s ease-out;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
 }
 
 /******* end abry pogi *************/
@@ -494,6 +570,10 @@ body footer .centered .footer-contact {
 }
 footer .semi-circle{
     color: rgb(184, 22, 31);
+}
+footer .semi-circle-dark-red{
+    background: rgba(184,22,31,1);
+    color: #fff;
 }
 
 body footer .centered .footer-navigation {
@@ -630,9 +710,7 @@ footer a, a:hover{
         width: 135%;
     }
 
-    body footer .semi-circle-dark-red{
-        background-color: rgba(184,22,31,1);
-    }
+
 }
 
 @media all and (min-width: 320px) and (max-width: 330px){
@@ -764,11 +842,97 @@ footer a, a:hover{
         padding-left: 10px;
         padding-top: 50px;
     }
-    body footer .col-sm-12.col-md-4.col-lg-2{
+    body footer .col-sm-12.col-md-4.col-lg-3{
         padding-left: 45px;
     }
     body footer .position-absolute.pt-lg-3.height-foot{
         padding-top: 25px;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px){
+    .d-md-block{
+        display: block;
+    }
+    .align-self-center{
+        text-align: center;
+        padding: 45px ;
+    }
+    body footer .pad-top{
+        padding-top: 80px;
+        padding-left: 4px;
+    }
+    body footer .column2{
+        padding-top: 80px;
+        padding-left: 3%;
+    }
+    body footer .padding{
+        padding-left: 10px;
+        padding-top: 50px;
+        width: 190px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.column2{
+        padding-left: 2px;
+        max-width: 20%;
+    }
+    body footer .position-absolute.pt-lg-3.height-foot{
+        padding-top: 25px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.align-self-center {
+        max-width: 22%;
+        padding-left: 5px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3 {
+        max-width: 22%;
+    }
+    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4 {
+        width: 140%;
+    }
+    body footer .position-relative.d-none.d-lg-block.d-xl-block {
+        width: 145%;
+    }
+}
+
+@media all and (min-width: 1200px){
+    .d-xl-block{
+        display: block;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
+        max-width: 21%;
+        padding-top: 3.5%;
+    }
+
+    body footer .pad-top{
+        padding-top: 70px;
+        padding-left: 4px;
+    }
+
+    body footer .column2{
+        padding-left: 4%;
+    }
+
+    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
+        width: 145%;
+    }
+
+    body footer input::placeholder{
+        font-size: small;
+    }
+
+    body footer .col-sm-12.col-md-4.col-lg-3 {
+        max-width: 18%;
+    }
+
+    body footer .col-sm-12.col-md-4.col-lg-3.column2{
+        max-width: 23%;
+    }
+
+    body footer .position-relative.d-none.d-lg-block.d-xl-block{
+        width: 135%;
+    }
+
+    body footer .semi-circle-dark-red{
+        background-color: rgba(184,22,31,1);
     }
 }
 
