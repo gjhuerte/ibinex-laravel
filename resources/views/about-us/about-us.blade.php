@@ -44,16 +44,16 @@
     <div class="row">
         <div class="col-5">
             <img src="/img/about-us/r1.png" class="img-fluid">
-            <div class="py-2 row">
-                <div class="col-6 mr-1 pr-0">
+            <div class="mt-lg-4 mt-1 p-1 mb-5 row">
+                <div class="col-7 py-0 pr-0 p-lg-0">
                     <img src="/img/about-us/r2.png" class="img-fluid">
                 </div>
-                <div class="col-4 p-0 ml-2 mr-0">
+                <div class="col-5 p-1 p-lg-0">
                     <img src="/img/about-us/r3.png" class="img-fluid">
                 </div>
             </div>
         </div>
-        <div class="col-7 pr-0">
+        <div class="col-7 pr-0 pt-lg-5 pt-0">
             <img id="transparency-right-floater" src="/img/about-us/r5.png" class="img-fluid">
         </div>
     </div>
