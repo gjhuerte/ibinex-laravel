@@ -212,5 +212,8 @@
         </div>
     </div>
     <!--/.Footer Links-->
+    <a class="back-to-top hidden" href="#fullscreen-hero" title="Back to top">
+        <i class="arrow-up"></i>
+    </a>
 </footer>
 <!--/.Footer-->
