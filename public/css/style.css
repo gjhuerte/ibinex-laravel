@@ -820,6 +820,49 @@ footer a, a:hover{
     }
 }
 
+@media all and (max-width: 1368px) and (min-width: 1200px){
+    .d-xl-block{
+        display: block;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
+        max-width: 21%;
+        padding-top: 3.5%;
+    }
+
+    body footer .pad-top{
+        padding-top: 70px;
+        padding-left: 4px;
+    }
+
+    body footer .column2{
+        padding-left: 4%;
+    }
+
+    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
+        width: 145%;
+    }
+
+    body footer input::placeholder{
+        font-size: small;
+    }
+
+    body footer .col-sm-12.col-md-4.col-lg-3 {
+        max-width: 18%;
+    }
+
+    body footer .col-sm-12.col-md-4.col-lg-3.column2{
+        max-width: 23%;
+    }
+
+    body footer .position-relative.d-none.d-lg-block.d-xl-block{
+        width: 135%;
+    }
+
+    body footer .semi-circle-dark-red{
+        background-color: rgba(184,22,31,1);
+    }
+}
+
 
 /*
     Ansell navbar
