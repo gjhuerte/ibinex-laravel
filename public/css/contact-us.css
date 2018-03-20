@@ -68,14 +68,15 @@ section#hero-content {
 .ib-circle {
     background-color: #fd0000;
     color: white;
-    padding: 3px;
-    height: 19px;
-    width: 19px;
+    padding: 7px;
+    /*height: 19px;*/
+    /*width: 19px;*/
+    height: 38px;
+    width: 40px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 9px;
 }
 .core {
     background-color: rgb(48,217,196);
