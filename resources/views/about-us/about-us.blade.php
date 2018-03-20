@@ -115,19 +115,19 @@
 <div class="row">
 
 <div id="media-coverage-floater" class="col-lg-6 blue-ibinex-bg">
-    <div class="row">
-        <div class="col-xl-6">
-            <!-- spacer-->
-        </div>
-        <div class="col-xl-6 my-5 p-5 pr-3">
+    {{--<div class="row">--}}
+        {{--<div class="col-xl-6">--}}
+            {{--<!-- spacer-->--}}
+        {{--</div>--}}
+        {{--<div class="col-xl-6 my-5 p-5 pr-3">--}}
             <div class="quotes text-white mr-lg-4 mr-0">
-                <p>This is the dawn of a new era. A great era, we believe. Because with every beat of the heart, a starting signal rings out.</p>
+                <p id="thirdfold-p1">This is the dawn of a new era. A great era, we believe. Because with every beat of the heart, a starting signal rings out.</p>
                 <p>With each tick of the clock we gain one second. With each new thought we change the way we think forever.</p>
             </div>
-        </div>
-    </div>
+        {{--</div>--}}
+    {{--</div>--}}
 </div>
-<div class="col-lg-4 py-5 mx-5 text-center text-lg-left">
+<div id="media-coverage-images" class="col-lg-4 py-5 mx-5 text-center text-lg-left">
     <h2 style="font-size:34px;color:#333">
         Ibinex media coverage
     </h2>
