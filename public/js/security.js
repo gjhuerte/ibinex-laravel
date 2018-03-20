@@ -1,5 +1,5 @@
 
-window.sr = ScrollReveal({reset: false,delay: 400,duration: 2000,mobile:true});
+window.sr = ScrollReveal({reset: false,delay: 600,duration: 1000,mobile:true, easing: 'ease-in-out',});
 
 sr.reveal('#subtitle_1', {
     origin: 'bottom',
