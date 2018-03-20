@@ -354,7 +354,7 @@ body .gradient-wrapper{
         max-width: 1140px;
         margin: 0 auto;
     }
-    body .container-fluid > .row.max-width-none, body .container > .row.max-width-none {
+    body .container-fluid  .row.max-width-none, body .container  .row.max-width-none {
         max-width: none;
     }
     body #downloadables .brochures {
@@ -375,6 +375,51 @@ body .gradient-wrapper{
 }
 .navbar-light .navbar-toggler {
     border: none;
+}
+#main-body{
+    right:0;
+}
+.sidenav{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: rgb(237, 118, 137); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav ul{
+    padding:20px;
+    padding-top:50px;
+    text-align: center;
+}
+.sidenav ul li{
+    margin: 2.5px 0;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 42px;
 }
 
 
