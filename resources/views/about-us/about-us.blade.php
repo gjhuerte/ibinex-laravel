@@ -44,16 +44,16 @@
     <div class="row">
         <div class="col-5">
             <img src="/img/about-us/r1.png" class="img-fluid">
-            <div class="py-2 row">
-                <div class="col-6 mr-1 pr-0">
+            <div class="mt-lg-4 mt-1 p-1 mb-5 row">
+                <div class="col-7 py-0 pr-0 p-lg-0">
                     <img src="/img/about-us/r2.png" class="img-fluid">
                 </div>
-                <div class="col-4 p-0 ml-2 mr-0">
+                <div class="col-5 p-1 p-lg-0">
                     <img src="/img/about-us/r3.png" class="img-fluid">
                 </div>
             </div>
         </div>
-        <div class="col-7 pr-0">
+        <div class="col-7 pr-0 pt-lg-5 pt-0">
             <img id="transparency-right-floater" src="/img/about-us/r5.png" class="img-fluid">
         </div>
     </div>
@@ -94,8 +94,8 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <p class="py-2">
-        <button class="btn blue-ibinex-bg btn-primary round-btn px-4">
-            <i class="fa fa-linkedin-square"></i> Linkedin profile
+        <button class="btn blue-ibinex-bg btn-primary round-btn px-4 py-2 linked-in-btn">
+            <img src="/img/about-us/linked_in.png" /> Linkedin profile
         </button>
     </p>
 </div>

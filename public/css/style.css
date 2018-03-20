@@ -134,7 +134,7 @@ body .semi-circle.green {
     background-color: rgba(18, 217, 194, 1);
 }
 body .semi-circle.pink {
-    background-color: rgba(224, 159, 181, 1);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 body .semi-circle.red{
     background-color:rgba( 255, 0, 0, 1);
@@ -270,6 +270,11 @@ body .gradient-wrapper{
         max-width:250px;
     }
 }
+@media all and (min-width:1200px) and (max-width:1566px){
+    #fourth-fold{
+        padding-bottom:10vh;
+    }
+}
 /****************************************************************
  **************************  DESKTOP  ****************************
  *****************************************************************/
@@ -382,10 +387,15 @@ body .gradient-wrapper{
 #main-body{
     right:0;
 }
-.sidenav{
+.sidenav.open{
     -webkit-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
     box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
+}
+.sidenav img{
+    margin-bottom: 25px;
+}
+.sidenav{
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -401,7 +411,7 @@ body .gradient-wrapper{
     padding:20px;
     padding-top:50px;
     text-align: center;
-} 
+}
 .custom-toggler{
     width: 20px;
     height: 30px;
@@ -483,11 +493,21 @@ body .gradient-wrapper{
     text-decoration: none;
     display: block;
     transition: 0.3s;
+    color: white;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #f1f1f1;
+}
+
+.sidenav button{
+    margin-top:25px;
+    background-color: #2563c6;
+}
+
+.sidenav button:hover{
+    background-color: white;
 }
 
 /* Position and style the close button (top right corner) */

@@ -2,7 +2,7 @@
 
 #pricing-content {
     font-family: 'Proxima Nova', sans-serif;
-    font-size: 15.7px;
+    font-size: 15.8px;
 }
 
 #pricing-content h2 {
@@ -111,7 +111,7 @@
 
 /* Media Queries: Non-Mobile */
 
-@media only screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
     body #fullscreen-hero.full-height {
         min-height: 867px;
     }
@@ -124,12 +124,14 @@
         max-width: 969px;
         padding-left: 12px;
         padding-right: 12px;
-        box-sizing: border-box;
 
-        margin: auto;
-        margin-bottom: -399px;
+        box-sizing: border-box;
         position: relative;
         top: -334px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -399px;
     }
 
     #pricing-content > #pricing-intro {
@@ -151,7 +153,7 @@
     }
 
     #pricing-content #what-you-receive > div.text-small {
-        font-size: 13.7px;
+        font-size: 13.8px;
     }
 
     #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(1) {
@@ -166,6 +168,10 @@
         padding-bottom: 3px;
     }
 
+    #pricing-content > hr:last-of-type {
+        padding-bottom: 33px;
+    }
+
     #pricing-content #onboarding-time {
         padding-bottom: 149px;
     }
@@ -176,13 +182,13 @@
     }
 }
 
-@media only screen and (min-width: 969px) {
+@media all and (min-width: 969px) {
     #pricing-content {
         border-radius: 20px;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
     #pricing-content > hr {
         margin-left: 15px;
         margin-right: 15px;

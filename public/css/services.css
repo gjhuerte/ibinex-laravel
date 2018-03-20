@@ -88,6 +88,12 @@ div.platform-text p {
 
 .platform-text div:first-child p:first-child{
     font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.platform-text div:first-child p:first-child + p{
+    margin-top: 0;
 }
 
 div.crm p {
@@ -248,13 +254,13 @@ div.lorem .l2 img{
     z-index: -1;
 }
 
-.cb p{
-    /*   color: rgba(105,105,105); */
-    color: #595959;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 2;
-}
+/*.cb p{*/
+    /*!*   color: rgba(105,105,105); *!*/
+    /*color: #595959;*/
+    /*font-size: 17px;*/
+    /*font-weight: 500;*/
+    /*line-height: 2;*/
+/*}*/
 
 .normal-p{
     color: #595959;
@@ -265,11 +271,12 @@ div.lorem .l2 img{
 
 #fourthSection{
     padding-top: 45px;
+    padding-bottom: 37px;
 }
 
-.credit-card p {
+.credit-card p, .cb p {
     color: #595959;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 2;
 }
@@ -284,6 +291,25 @@ div.lorem .l2 img{
 
 .font-35{
     font-size: 35px;
+}
+
+.font-34{
+    font-size: 34px !important;
+}
+
+#fourthSection p:first-child, #third-section-container p:first-child{
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+
+p.heading-margin-sm{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p.heading-margin-sm + p{
+    margin-top: 5px;
 }
 
 .m-bot-30{
@@ -372,6 +398,26 @@ div.lorem .l2 img{
     /*}*/
 /*}*/
 
+
+@media only screen and (min-width: 360px) {
+    #platform-img-container{
+        height: 215px;
+    }
+
+    .red-ellipse {
+        top: 35%;
+    }
+
+    .red-ellipse-2{
+        top: 44%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    #platform-img-container{
+        height: 222px;
+    }
+}
 
 @media only screen and (min-width: 576px){
     .macbook-img{
@@ -582,6 +628,10 @@ div.lorem .l2 img{
         padding-top: 110px;
     }
 
+    #fourthSection {
+        padding-top: 87px;
+    }
+
     .red-ellipse-2{
         top: 58%;
         left: 19%;
@@ -594,6 +644,7 @@ div.lorem .l2 img{
 
     .custodian-left{
         padding-left: 74px;
+        padding-top: 50px;
     }
 
     .qtt{
@@ -781,7 +832,7 @@ div.lorem .l2 img{
     }
 
     .custodian{
-        padding-bottom: 330px;
+        padding-bottom: 360px;
     }
 
     .custodian-left{
