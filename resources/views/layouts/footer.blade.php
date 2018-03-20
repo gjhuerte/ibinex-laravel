@@ -189,7 +189,7 @@
             <div class=" d-none d-lg-block d-xl-block col-md-4 col-lg-5 col-sm-12 newsletter">
                 <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3">sign up to our news letter</h6>
                 <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4" style="width: 90%">
-                    <input type="email" class="semi-circle" style="width:100%; height: 45px;"/>
+                    <input type="email" class="semi-circle" style="width:100%; height: 45px; color: black"/>
                     <input type="submit" class="position-absolute semi-circle red" value="SUBMIT" style="width:100px; height: 45px; top:0; right:0; color:white; font-size: x-small; font-weight: bold;"/>
 
                 </div>
