@@ -179,7 +179,7 @@
 
                 <div class="brochures text-center">
                     <!-- 1 -->
-                    <img class="" src="{{ asset('img/q5EDmus.png')}}" alt="Brochure"/>
+                    <img class="" src="{{ asset('img/b1.png')}}" alt="Brochure"/>
                     <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p>PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure">Download</button>
@@ -187,7 +187,7 @@
 
                 <div class="brochures text-center">
                     <!-- 1 -->
-                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <img class="" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
                     <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p>PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure">Download</button>
@@ -195,7 +195,7 @@
 
                 <div class="brochures text-center">
                     <!-- 1 -->
-                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <img class="" src="{{ asset('img/b3.png')}}" alt="Brochure"/>
                     <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p>PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure">Download</button>
@@ -205,7 +205,7 @@
 
                 <div class="brochures text-center">
                     <!-- 1 -->
-                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <img class="" src="{{ asset('img/b4.png')}}" alt="Brochure"/>
                     <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p>PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure">Download</button>
@@ -213,7 +213,7 @@
 
                 <div class="brochures text-center">
                     <!-- 1 -->
-                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <img class="" src="{{ asset('img/b5.png')}}" alt="Brochure"/>
                     <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p>PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure">Download</button>
@@ -221,7 +221,7 @@
 
                 <div class="brochures text-center">
                     <!-- 1 -->
-                    <img class="" src="https://i.imgur.com/q5EDmus.png" alt="Brochure"/>
+                    <img class="" src="{{ asset('img/b6.png')}}" alt="Brochure"/>
                     <h2 class="grey bold" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p>PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure">Download</button>

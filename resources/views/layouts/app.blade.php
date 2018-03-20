@@ -20,14 +20,14 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="{{ asset("img/logo/ibinex.ico") }}" />
+    <link rel="shortcut icon" href="{{ asset("img/logo/ibinex-red.ico") }}" />
     {{--<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />--}}
     {{--<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />--}}
     {{--<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />--}}
     @stack('stylesheets')
 </head>
 
-<body class='@yield('body-class')-template'>
+<body class='@yield('body-class')-template' @yield('scrollspy')>
 <div id='main-body' class='container-fluid position-relative'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">
@@ -73,14 +73,18 @@
 
     /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
     function openNav() {
-        document.getElementById("mySidenav").style.width = "200px";
-        document.getElementById("main-body").style.right = "200px";
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main-body").style.right = "250px";
+        $('.custom-toggler').attr('onclick', 'closeNav()').toggleClass('open');
+        $('.sidenav').toggleClass('open');
     }
 
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main-body").style.right = "0";
+        $('.custom-toggler').attr('onclick', 'openNav()').removeClass('open');
+        $('.sidenav').removeClass('open');
     }
 
     ibinex.reveal_btn_top();

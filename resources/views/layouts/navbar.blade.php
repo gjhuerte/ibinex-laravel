@@ -7,9 +7,13 @@
             <!--Logo here-->
             <img src="@stack('logo-link')" alt="bootstrap">
         </a>
-        <button onclick="openNav()" class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" style="outline:none">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+
+        <div onclick="openNav()" id="nav-icon3" class="navbar-toggler custom-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
         <!--Start menu items here-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,9 +52,8 @@
 
 @section('nav-links')
     <div class="sidenav " id="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="navbar-nav mr-auto">
-            <img src="@stack('logo-link')" alt="bootstrap" style="width:100%; height:auto">
+            <img src="/img/logo/logo-bottom.png" alt="bootstrap" style="min-width:150px;">
             <li class="nav-item active">
                 <a class="nav-link nav" href="{!! url('/') !!}">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -75,7 +78,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="{!! url('/contact-us') !!}">Contact Us</a>
             </li>
-            <button class="btn my-2 my-sm-0 semi-circle pink" type="submit">Live Demo</button>
+            <button class="btn my-2 my-sm-0 semi-circle pink" style="min-width:100px" type="submit">Live Demo</button>
         </ul>
 
 

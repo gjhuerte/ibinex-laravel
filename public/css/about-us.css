@@ -34,6 +34,7 @@ section#hero-content{
 
 #people-behind-bg{
     background-color: #e7fbf8;
+    padding-bottom: 180px !important;
 
 }
 
@@ -75,8 +76,22 @@ section#hero-content{
 }
 
 #media-coverage-floater{
+    height: 900px;
+    width: 857px;
+    max-width: 100%;
+    flex: none;
     position: relative;
-    transform:translateY(-10%);
+    transform: translateY(-18%);
+    padding: 200px 55px 210px 433px;
+}
+
+#thirdfold-p1 {
+    margin-bottom: 40px;
+}
+
+#media-coverage-images{
+    margin-left: 100px !important;
+    margin-top: 100px !important;
 }
 
 div.advisory-board{
@@ -94,4 +109,24 @@ div.advisory-board-members-list-item-name,
 div.advisory-board-members-list-item-desc{
     padding-left: 1em;
     padding-right: 1em;
+}
+
+.advisory-board-members-list li{
+    padding: 0 5px;
+}
+
+.advisory-board-members-list li img{
+    width:100%;
+}
+
+button.linked-in-btn {
+
+    border-radius: 23px;
+    -moz-border-radius: 23px;
+    -webkit-border-radius: 23px;
+    
+}
+
+button.linked-in-btn img {
+    margin-right: 0.5em;
 }
