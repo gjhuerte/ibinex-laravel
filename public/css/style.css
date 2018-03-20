@@ -378,6 +378,39 @@ body .gradient-wrapper{
 }
 
 
+/******** abry pogi **********/
+
+
+#fullscreen-hero{
+    transition: none;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    min-height: 85px;
+    overflow: hidden;
+}
+
+#fullscreen-hero .navbar{
+    transition: margin-top .1s linear;
+    -webkit-transition: margin-top .1s linear;
+    -moz-transition: margin-top .1s linear;
+    -ms-transition: margin-top .1s linear;
+    -o-transition: margin-top .1s linear;
+    transition: margin-top .1s linear;
+}
+
+#fullscreen-hero .navbar .nav-item a{
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+/******* end abry pogi *************/
+
+
 
 /*
     Footer by PJ
@@ -593,3 +626,5 @@ ul.navbar-nav + button.btn:hover {
     background: #2563c6;
     color: #fff;
 }
+
+

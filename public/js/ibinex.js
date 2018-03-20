@@ -93,4 +93,47 @@ $(document).ready(function() {
         } // End if
     });
 
+
+    heroShinker();
+
 });
+
+
+var heroShinker = function() {
+
+    var hero = $('#fullscreen-hero'),
+        heroHeight = $('#fullscreen-hero').outerHeight(true);
+
+    var navbar = $('#fullscreen-hero .navbar');
+
+    var navbarHeight = $(navbar).outerHeight();
+
+    $(hero).css('min-height', navbarHeight);
+
+    $(hero).parent().css('margin-top', heroHeight);
+
+    $(window).scroll(function() {
+
+        var scrollOffset = $(window).scrollTop();
+
+        $(hero).css('height', (heroHeight - scrollOffset));
+
+        if (scrollOffset > (heroHeight - navbarHeight)) {
+
+            $('#hero-content').css( "opacity", 0);
+
+            $(navbar).css({"margin-top":"7.5px", "padding": "10px 0"});
+
+        }
+
+        else {
+
+            $('#hero-content').css( "opacity", 1);
+
+            $(navbar).css({"margin-top":"25px", "padding": "30px 0 0"});
+
+        }
+
+    });
+
+}
