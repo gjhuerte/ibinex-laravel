@@ -128,7 +128,7 @@
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-sm-12 col-md-5 col-lg-3 position-absolute" style="padding-left: 15%;">
+            <div class="col-sm-12 col-md-5 col-lg-4 position-absolute" style="padding-left: 15%;">
                 <div class="position-absolute pt-lg-3 height-foot">
                     <h6 class="text-uppercase font-weight-light fonts grey">Ibinex Offices</h6>
                 </div>
@@ -186,9 +186,9 @@
 
 
             <!--Fourth column-->
-            <div class=" d-none d-lg-block d-xl-block col-md-4 col-lg-5 col-sm-12 newsletter" style="padding-left: 5%">
+            <div class=" d-none d-lg-block d-xl-block col-md-4 col-lg-5 col-sm-12 newsletter">
                 <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3">sign up to our news letter</h6>
-                <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
+                <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4" style="width: 118%">
                     <input type="email" class="semi-circle" style="width:100%; height: 45px;"/>
                     <input type="submit" class="position-absolute semi-circle red" value="SUBMIT" style="width:100px; height: 45px; top:0; right:0; color:white; font-size: x-small; font-weight: bold;"/>
 
