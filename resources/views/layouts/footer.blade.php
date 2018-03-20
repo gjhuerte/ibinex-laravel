@@ -122,13 +122,13 @@
     <div class="container text-left text-md-left">
         <div class="row alignment">
             <!--First column-->
-            <div class="col-sm-12 col-md-4 col-lg-3 align-self-center ">
+            <div class="col-sm-12 col-md-3 col-lg-3 align-self-center">
                 <img class= "padding" src = "/img/logo/logo-bottom.png" alt="ibinex logo-bottom">
             </div>
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="col-sm-12 col-md-5 col-lg-3 position-absolute" style="padding-left: 15%;">
                 <div class="position-absolute pt-lg-3 height-foot">
                     <h6 class="text-uppercase font-weight-light fonts grey">Ibinex Offices</h6>
                 </div>
@@ -157,7 +157,7 @@
             <!--/.Second column-->
 
             <!--Third column-->
-            <div class="col-sm-12 col-md-4 col-lg-3 column2">
+            <div class="col-sm-12 col-md-4 col-lg-4 column2" style="padding-left: 18%">
 
                 <div>
                     <ul class="list-unstyled">
@@ -186,11 +186,12 @@
 
 
             <!--Fourth column-->
-            <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-3 ">
+            <div class=" d-none d-lg-block d-xl-block col-md-4 col-lg-5 col-sm-12 newsletter" style="padding-left: 5%">
                 <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3">sign up to our news letter</h6>
                 <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
-                    <input type="email" class="semi-circle" style="width:100%; height: 40px;"/>
-                    <input type="submit" class="position-absolute semi-circle red" value="SUBMIT" style="width:100px; height: 40px; top:0; right:0; color:white;"/>
+                    <input type="email" class="semi-circle" style="width:100%; height: 45px;"/>
+                    <input type="submit" class="position-absolute semi-circle red" value="SUBMIT" style="width:100px; height: 45px; top:0; right:0; color:white; font-size: x-small; font-weight: bold;"/>
+
                 </div>
                 <h6 class="text-uppercase fonts font-weight-light d-none d-lg-block d-xl-block grey">find us online</h6>
                 <div class ="position-relative d-none d-lg-block d-xl-block">
@@ -207,8 +208,8 @@
             </div>
             <!--/.Fourth column-->
         </div>
-        <div >
-            <p class="property color text-justify pb-5 mb-0" id="color">Risk Disclosure: Ibinex Financials (ibinex.com) will not accept any liability for loss or damage as a result of reliance on the information contained within this website including data, quotes, charts and buy/sell signals. Please be fully informed regarding the risks and costs associated with trading the cryptocurrency markets. It is one of the riskiest investment forms possible. Trading or investing in cryptocurrencies carries with IT potential risks. Prices of cryptocurrencies are extremely volatile and may be affected by external factors such as financial, regulatory or political events. Cryptocurrencies are not suitable for all investors. Before deciding to trade foreign exchange or any other financial instrument or cryptocurrencies you should carefully consider your investment objectives, level of experience, and risk appetite. Ibinex Financials would like to remind you that data contained in this website is not necessarily real-time nor accurate. Cryptocurrency prices are not provided by exchanges but rather by market makers, and so prices may not be accurate and may differ from the actual market price, meaning prices are indicative and not appropriate for trading purposes. Therefore, Ibinex doesn't bear any responsibility for any trading losses you might incur as a result of using this data.</p>
+        <div style="color: #646781; font-size: x-small; ">
+            <p class="property text-justify pb-5 mb-0">Risk Disclosure: Ibinex Financials (ibinex.com) will not accept any liability for loss or damage as a result of reliance on the information contained within this website including data, quotes, charts and buy/sell signals. Please be fully informed regarding the risks and costs associated with trading the cryptocurrency markets. It is one of the riskiest investment forms possible. Trading or investing in cryptocurrencies carries with IT potential risks. Prices of cryptocurrencies are extremely volatile and may be affected by external factors such as financial, regulatory or political events. Cryptocurrencies are not suitable for all investors. Before deciding to trade foreign exchange or any other financial instrument or cryptocurrencies you should carefully consider your investment objectives, level of experience, and risk appetite. Ibinex Financials would like to remind you that data contained in this website is not necessarily real-time nor accurate. Cryptocurrency prices are not provided by exchanges but rather by market makers, and so prices may not be accurate and may differ from the actual market price, meaning prices are indicative and not appropriate for trading purposes. Therefore, Ibinex doesn't bear any responsibility for any trading losses you might incur as a result of using this data.</p>
         </div>
     </div>
     <!--/.Footer Links-->
