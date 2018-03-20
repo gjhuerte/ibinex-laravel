@@ -446,11 +446,11 @@ body .gradient-wrapper{
 }
 
 #fullscreen-hero .navbar .nav-item a{
-    -webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    -ms-transition: .2s ease-out;
-    -o-transition: .2s ease-out;
-    transition: .2s ease-out;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
 }
 
 /******* end abry pogi *************/
