@@ -69,7 +69,7 @@
     });
     var mobile_width = 576;
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp');
-
+    ibinex.reveal_btn_top();
 </script>
 @stack('scripts')
 {{--<script src="script.js"></script>--}}
