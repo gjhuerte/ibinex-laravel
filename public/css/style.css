@@ -603,38 +603,6 @@ footer a, a:hover{
 }
 
 
-@media all and (min-width: 1368px){
-    body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
-        max-width: 21%;
-        padding-top: 3.5%;
-    }
-
-    body footer .pad-top{
-        padding-top: 70px;
-        padding-left: 4px;
-    }
-
-    body footer .column2{
-        padding-left: 4%;
-    }
-
-    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
-        width: 145%;
-    }
-
-    body footer input::placeholder{
-        font-size: small;
-    }
-
-    body footer .position-relative.d-none.d-lg-block.d-xl-block{
-        width: 135%;
-    }
-
-    body footer .semi-circle-dark-red{
-        background-color: rgba(184,22,31,1);
-    }
-}
-
 @media all and (min-width: 320px) and (max-width: 330px){
     .d-xs-block{
         display: block;
@@ -764,11 +732,53 @@ footer a, a:hover{
         padding-left: 10px;
         padding-top: 50px;
     }
-    body footer .col-sm-12.col-md-4.col-lg-2{
+    body footer .col-sm-12.col-md-4.col-lg-3{
         padding-left: 45px;
     }
     body footer .position-absolute.pt-lg-3.height-foot{
         padding-top: 25px;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px){
+    .d-md-block{
+        display: block;
+    }
+    .align-self-center{
+        text-align: center;
+        padding: 45px ;
+    }
+    body footer .pad-top{
+        padding-top: 80px;
+        padding-left: 4px;
+    }
+    body footer .column2{
+        padding-top: 80px;
+        padding-left: 3%;
+    }
+    body footer .padding{
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.column2{
+        padding-left: 2px;
+        max-width: 20%;
+    }
+    body footer .position-absolute.pt-lg-3.height-foot{
+        padding-top: 25px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.align-self-center {
+        max-width: 22%;
+        padding-left: 5px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3 {
+        max-width: 22%;
+    }
+    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4 {
+        width: 140%;
+    }
+    body footer .position-relative.d-none.d-lg-block.d-xl-block {
+        width: 145%;
     }
 }
 
