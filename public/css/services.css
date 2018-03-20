@@ -413,6 +413,12 @@ p.heading-margin-sm + p{
     }
 }
 
+@media only screen and (min-width: 375px) {
+    #platform-img-container{
+        height: 222px;
+    }
+}
+
 @media only screen and (min-width: 576px){
     .macbook-img{
         background-position: center center;
