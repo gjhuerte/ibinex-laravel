@@ -104,11 +104,11 @@ $(document).ready(function() {
     });
 
 
-    heroShinker();
+    /*heroShinker(); */
 
 });
 
-
+/* reserved for future use
 var heroShinker = function() {
 
     var hero = $('#fullscreen-hero'),
@@ -146,4 +146,4 @@ var heroShinker = function() {
 
     });
 
-}
+} */
