@@ -28,7 +28,7 @@
 </head>
 
 <body class='@yield('body-class')-template'>
-<div id='main-body' class='container-fluid'>
+<div id='main-body' class='container-fluid position-relative'>
     <header id="fullscreen-hero" class="@yield('header-height')" style="background-image: url({{ asset("img/")}}{{ "/" }}@yield('bg-img'));">
         <div class="gradient-wrapper">
             <div class="container d-flex flex-wrap">
@@ -36,7 +36,7 @@
                 <section class="container">
                     @yield('header-content')
                 </section>
-            </div> 
+            </div>
         </div>
     </header>
     <main>
@@ -46,6 +46,7 @@
 </div>
 <!-- div container end-->
 
+@yield('nav-links')
 <!-- Le javascript
   ================================================== -->
 {{--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>--}}
@@ -69,7 +70,21 @@
     });
     var mobile_width = 576;
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp');
+
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "200px";
+        document.getElementById("main-body").style.right = "200px";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main-body").style.right = "0";
+    }
+
     ibinex.reveal_btn_top();
+
 </script>
 @stack('scripts')
 {{--<script src="script.js"></script>--}}
