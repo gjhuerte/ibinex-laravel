@@ -67,7 +67,7 @@
 /* Mobile Development */
 
 #platform-text-container{
-    padding-right: 0 !important;
+    /*padding-right: 0 !important;*/
     padding-left: 0 !important;
 }
 
@@ -95,8 +95,8 @@ div.lorem .l2 img{
 .red-ellipse{
     z-index: 999;
     position: absolute;
-    top: 40%;
-    height: 22%;
+    top: 41%;
+    height: 25%;
 }
 
 .cb1{
@@ -107,20 +107,24 @@ div.lorem .l2 img{
     z-index: 999;
     position: absolute;
     top: 42%;
-    height: 22%;
+    height: 25%;
 }
 
 #platform-img-container{
     background-image: url(../img/l1.png);
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    background-size: 93%;
-    height: 250px;
+    background-size: cover;
+    height: 190px;
     padding-right: 0 !important;
 }
 
 .platform-text{
     padding-top: 50px;
+}
+
+.platform-text-inner{
+    padding-bottom: 30px;
 }
 
 .inner-lorem{
@@ -167,17 +171,17 @@ div.lorem .l2 img{
 }
 
 .cb-text{
-    padding-top: 390px;
+    padding-top: 385px;
 }
 
 
 .macbook-img{
-    background-image: url(../img/l2.png);
+    background-image: url(../img/services_1.png);
     background-repeat: no-repeat;
-    background-position: 90% center;
+    background-position: 85% center;
     background-size: cover;
-    height: 500px;
-    zoom: 0.5;
+    height: 330px;
+    /*zoom: 0.5;*/
 }
 
 .qtt-image-container{
@@ -186,10 +190,10 @@ div.lorem .l2 img{
 }
 
 .qtt{
-    background-image: url(../img/qtt.png);
+    background-image: url(../img/services_2.png);
     background-repeat: no-repeat;
-    background-position: 40% center;
-    background-size: 100% 100%;
+    background-position: 20% center;
+    background-size: cover;
     width: 100%;
     height: 330px;
     /*zoom: 0.3;*/
@@ -202,6 +206,13 @@ div.lorem .l2 img{
 
 .lorem-ipsum-lower{
     padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.lorem-ipsum{
+    width: 85%;
+    right: 0;
+    margin-left: 0 !important;
 }
 
 .lorem-ipsum, .lorem-ipsum-lower{
@@ -236,9 +247,13 @@ div.lorem .l2 img{
 
 .normal-p{
     color: #595959;
-    font-size: 17px;
+    /*font-size: 17px;*/
     font-weight: 500;
     line-height: 2;
+}
+
+#fourthSection{
+    padding-top: 45px;
 }
 
 .credit-card p {
@@ -250,6 +265,26 @@ div.lorem .l2 img{
 
 .custodian-p{
     color: rgb(39, 112, 246);
+}
+
+.huffpost-bottom{
+    margin: 10px 0 20px;
+}
+
+.font-35{
+    font-size: 35px;
+}
+
+.m-bot-30{
+    margin-bottom: 30px;
+}
+
+#crm-left-container{
+    padding-top: 50px;
+}
+
+#laptop-container{
+    margin-top: 60px;
 }
 
 /* Tablets to Desktop */
@@ -393,7 +428,7 @@ div.lorem .l2 img{
     }
 
     .platform-text-inner p{
-        padding-top: 5px !important;
+        /*padding-top: 5px !important;*/
         margin-bottom: 2px !important;
     }
 
@@ -545,36 +580,58 @@ div.lorem .l2 img{
 
 @media only screen and (min-width: 1920px){
 
-    .platform-text{
-        padding-top: 66px;
-        padding-right: 340px;
+    #platform-text-container{
+        padding-right: 360px;
+        padding-top: 75px;
+    }
+
+    #platform-text-container div:first-child{
+        margin-bottom: 30px;
     }
 
     .platform-text-inner p{
-        padding-top: 10px !important;
-        margin-bottom: 10px !important;
+        /*padding-top: 10px !important;*/
+        margin-bottom: 30px !important;
     }
 
     .lorem-ipsum{
         margin-left: 10rem !important;
-        top: 100%
+        top: 500px;
     }
 
     .red-ellipse{
-        top: 80%;
-        height: 45%;
-        left: 17%;
+        top: 415px;
+        height: 35%;
+        left: 18%;
+    }
+
+    #laptop-container{
+        padding-top: 40px;
+        clear: both;
+        margin-top: 0;
+        padding-right: 20px;
     }
 
     #platform-img-container{
         background-image: url(../img/l1.png);
         background-repeat: no-repeat;
-        background-position: 92% 38%;
-        background-size: 75%;
-        height: 550px;
+        background-position: 91% 61%;
+        background-size: 100% 100%;
+        width: 85%;
+        height: 535px;
+        float: right;
+    }
+
+    .platform-text-inner {
+        padding-bottom: 20px;
+    }
+
+    #crm-left-container{
+        padding-top: 100px;
     }
 
     .inner-crm{
+        /*padding-top: 100px;*/
         padding-left: 375px;
     }
 
@@ -582,7 +639,7 @@ div.lorem .l2 img{
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        height: 451px;
+        height: 450px;
         zoom: 1;
     }
 
@@ -594,15 +651,24 @@ div.lorem .l2 img{
     }
 
     .crm-container{
-        padding-bottom: 190px !important;
+        padding-bottom: 180px !important;
+    }
+
+    .cb-logo{
+        height: 440px;
     }
 
     .cb-text{
         padding-right: 350px;
+        padding-top: 155px;
     }
 
     .cb p{
         line-height: 1.7;
+    }
+
+    #credit-card-section{
+        padding-top: 110px;
     }
 
     #credit-card-container{
@@ -610,8 +676,15 @@ div.lorem .l2 img{
     }
 
     .fone-img{
-        background-position: 96% center;
-        background-size: 66%;
+        background-position: 92% 95%;
+        background-size: cover;
+        width: 67%;
+        height: 846px;
+        float: right;
+    }
+
+    #fourthSection{
+        padding-top: 65px;
     }
 
     .qtt-container{
@@ -619,21 +692,29 @@ div.lorem .l2 img{
     }
 
     .qtt{
-        height: 641px;
+        background-position: 40% center;
+        background-size: 100% 100%;
+        height: 640px;
     }
 
     .red-ellipse-2{
-        top: 62%;
-        height: 24%;
+        top: 65%;
+        height: 22%;
     }
 
     .custodian{
-        padding-bottom: 600px;
+        padding-bottom: 330px;
     }
 
     .custodian-left{
         padding-left: 320px;
         padding-top: 60px;
+        padding-right: 30px !important;
+    }
+
+
+    .m-bot-30{
+        margin-bottom: 30px;
     }
 
     .lorem-ipsum-lower{
@@ -641,10 +722,15 @@ div.lorem .l2 img{
         padding-left: 70px !important;
         padding-right: 80px !important;
         padding-bottom: 45px !important;
+        padding-top: 60px;
     }
 
     #huffpost-bottom{
         margin-top: 5px !important;
+    }
+
+    .lorem{
+        padding-top: 50px;
     }
 }
 

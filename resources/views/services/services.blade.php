@@ -47,25 +47,30 @@
             <div id="platform-section" class="col-12 bg-light">
                 <div class="container-fluid">
                     <div class="row platform-content">
-                        <div id="platform-img-container" class="col-12 col-lg-6 macbook-img1 inner-platform">
-                            {{--<img class="w-100" src="{{asset('img/l1.png')}}" alt="Cryptocurrency Graphs on Macbook">--}}
+                        <div class="col-12 col-lg-6 px-0">
+                            <div id="laptop-container">
+                                <div id="platform-img-container" class="macbook-img1 inner-platform">
+                                    {{--<img class="w-100" src="{{asset('img/l1.png')}}" alt="Cryptocurrency Graphs on Macbook">--}}
+                                </div>
+                            </div>
                         </div>
+
                         <div id="platform-text-container" class="col-12 col-lg-6 inner-platform platform-text">
                             <div>
-                                <span class="text-dark h1">Platform</span>
+                                <span class="text-dark font-35">Platform</span>
                                 <p class="text-secondary text-justify pt-2 mb-sm-1 mt-sm-0">
                                     Your exchange is your launchpad. Our suite elevates your exchange by equipping you with your own platform consisting of:
                                 </p>
                             </div>
-                            <div class="text-primary text-justify pb-5 platform-text-inner">
+                            <div class="text-primary text-justify platform-text-inner">
                                 <strong>
-                                    <p class="pt-xl-3 pt-sm-3 pt-lg-1 mb-sm-2 mt-sm-0">Tailor-made private, institutional white label infatructure</p>
-                                    <p class="pt-xl-3 pt-sm-3 pt-lg-1 mb-sm-2 mt-sm-0">Fully-customisable front-end website</p>
-                                    <p class="pt-xl-3 pt-sm-3 pt-lg-1 mb-sm-2 mt-sm-0">Completely integrated web-based trading platform</p>
-                                    <p class="pt-xl-3 pt-sm-3 pt-lg-1 mb-sm-2 mt-sm-0">Flexible front-end user trading</p>
-                                    <p class="pt-xl-3 pt-sm-3 pt-lg-1 mb-sm-2 mt-sm-0">Performance-driven features</p>
-                                    <p class="pt-xl-3 pt-sm-3 pt-lg-1 mb-sm-2 mt-sm-0">Secure private cloud hosting</p>
-                                    <p class="pt-xl-3 pt-sm-3 pt-lg-1 mb-sm-2 mt-sm-0">Total compatibility with your own branding deck.</p>
+                                    <p class="m-bot-30">Tailor-made private, institutional white label infatructure</p>
+                                    <p class="m-bot-30">Fully-customisable front-end website</p>
+                                    <p class="m-bot-30">Completely integrated web-based trading platform</p>
+                                    <p class="m-bot-30">Flexible front-end user trading</p>
+                                    <p class="m-bot-30">Performance-driven features</p>
+                                    <p class="m-bot-30">Secure private cloud hosting</p>
+                                    <p class="m-bot-30">Total compatibility with your own branding deck.</p>
                                 </strong>
                             </div>
                         </div>
@@ -78,25 +83,25 @@
                 <div class="row max-width-none">
                     <div id="crm-left-container" class="col-12 col-lg-6 bg-white crm second-section">
                         <div class="inner-crm">
-                            <div class="text-left pt-5 mt-3">
-                                <span class="text-dark h1">CRM Back Office</span>
+                            <div class="text-left">
+                                <span class="text-dark font-35">CRM Back Office</span>
                             </div>
-                            <div class="pt-4">
+                            <div class="">
                                 <p class="text-secondary text-sm-justify mt-sm-0 mb-sm-3">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
                             </div>
-                            <div class="text-primary pb-3">
+                            <div class="text-primary">
                                 <strong>
-                                    <p class="pt-3 pt-sm-1 mb-sm-1 mt-sm-0">KYC/AML doccumentation collection</p>
-                                    <p class="pt-3 pt-sm-1 mb-sm-1 mt-sm-0">Documentation verification</p>
-                                    <p class="pt-3 pt-sm-1 mb-sm-1 mt-sm-0">Account and money management</p>
-                                    <p class="pt-3 pt-sm-1 mb-sm-1 mt-sm-0">Optimised back-office administrative workflow</p>
-                                    <p class="pt-3 pt-sm-1 mb-sm-1 mt-sm-0">Enhanced UI/UX</p>
+                                    <p class="m-bot-30">KYC/AML doccumentation collection</p>
+                                    <p class="m-bot-30">Documentation verification</p>
+                                    <p class="m-bot-30">Account and money management</p>
+                                    <p class="m-bot-30">Optimised back-office administrative workflow</p>
+                                    <p class="m-bot-30">Enhanced UI/UX</p>
                                 </strong>
                             </div>
                         </div>
                     </div> <!-- /.col-12 bg-white crm -->
                     <div id="second-section-container" class="col-12 col-lg-6 second-section">
-                        <div class="row pt-5 mt-2">
+                        <div class="row">
                             <div class="col-12 bg-white lorem px-0">
                                 <div class="macbook-img l2">
                                     <!--                    <img src="assets/images/l2.png" alt="Macbook Laptop"> -->
@@ -104,12 +109,16 @@
                             </div> <!-- /.lorem -->
                             <img class="red-ellipse" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
 
-                            <div class="col-12 col-lg-10 text-white lorem-ipsum px-0">
+                            <div class="col-12 text-white lorem-ipsum px-0">
                                 <div class="inner-lorem">
-                                    <p class="text-justify text-sm-left pt-sm-0 mt-4 mt-sm-0 h4 inner-quote"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
+                                    <p class="text-justify text-sm-left pt-sm-0 mt-4 mt-sm-0 h4 inner-quote">
+                                        <em>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            At, consectetur consequatur corporis dicta dolore earum eligendi enim eos esse excepturi
+                                            fugit, nam necessitatibus nemo, nihil quasi sapiente tempore vel voluptatibus?
+                                            Corporis dicta dolore earum eligendi enim.
                                         </em></p>
-                                    <p>HuffPost</p>
+                                    <p class="huffpost-bottom">HuffPost</p>
                                 </div>
                             </div> <!-- /.lorem -->
                         </div> <!-- /.row -->
@@ -142,15 +151,18 @@
             </div> <!-- /.col-12 CB logo--> {{--#cryptoBridge--}}
 
 
-            <div id="credit-card-section" class="col-12 pt-5 pt-md-0 pt-lg-5 bg-white px-md-0">
+            <div id="credit-card-section" class="col-12 bg-white px-md-0">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="col-12 col-sm-6 col-md-6 d-none d-lg-block fone-img fourth-section">
-                            <!--                 <img class="w-100" src="assets/images/fone.png" alt="Phone"> -->
+                        <div id="fone-img-container" class="col-12 col-sm-6 col-md-6 d-none d-lg-block">
+                            <div class="fone-img fourth-section">
+                                <!--                 <img class="w-100" src="assets/images/fone.png" alt="Phone"> -->
+                            </div>
                         </div>
-                        <div id="fourthSection" class="col-12 col-sm-6 col-md-12 col-lg-4 credit-card px-0 pt-sm-5 mt-sm-4 fourth-section">
-                            <h1 class="pl-3 text-dark">Credit Card Processing</h1>
-                            <p class="text-justify pt-2 px-2 mt-sm-0">
+
+                        <div id="fourthSection" class="col-12 col-sm-6 col-md-12 col-lg-4 credit-card px-0 fourth-section">
+                            <h1 class="text-dark">Credit Card Processing</h1>
+                            <p class="text-justify pt-2 mt-sm-0">
                                 We offer full spectrum payment processing for cryptocurrencies, and a complete selection that is unavailable elsewhere.
                                 Exchanging your way with Ibinex means experiencing a whole new world of payment options including: credit cards, debit cards,
                                 wire transfers, alternative payments, hosted wallets and cold wallets.
@@ -166,21 +178,21 @@
                     <div class="row max-width-none">
                         <div class="col-12 col-sm-6 col-md-12 col-lg-6 custodian-left pb-4 pb-sm-0 fifth-section">
                             <h1>Custodian Accounts</h1>
-                            <p class="normal-p text-justify mt-sm-0">
+                            <p class="normal-p text-justify mt-sm-0 m-bot-30">
                                 Another first sees Ibinex leading the way as the world's first cryptocurrency exchange with a finance transaction license.
                                 We are proud to be the first to offer you:
                             </p>
                             <strong>
-                                <p class="custodian-p pt-3 pt-sm-1 mb-sm-2 mt-sm-0">
+                                <p class="custodian-p m-bot-30">
                                     Fully-compliant licensed custodian proceeding and accounts
                                 </p>
-                                <p class="custodian-p pt-3 pt-sm-1 mb-sm-2 mt-sm-0">
+                                <p class="custodian-p m-bot-30">
                                     The choice to instead select a custodian of your choice
                                 </p>
-                                <p class="custodian-p pt-3 pt-sm-1 mb-sm-2 mt-sm-0">
+                                <p class="custodian-p m-bot-30">
                                     Payments via swipe-and-transmit from FIAT to base currency
                                 </p>
-                                <p class="custodian-p pt-3 pt-sm-1 mb-sm-2 mt-sm-0">
+                                <p class="custodian-p m-bot-30">
                                     Fully-compliant licensed custodian proceeding and accounts
                                 </p>
                             </strong>
@@ -193,13 +205,13 @@
                                     </div>
                                 {{--</div>--}}
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
-                                <div class="col-12 col-sm-10 col-md-12 col-lg-10 text-white px-3 pb-sm-4 px-sm-5 pb-3 lorem-ipsum-lower">
-                                    <p class="text-justify h4 mt-sm-0 inner-quote">
+                                <div class="col-12 col-sm-10 col-md-12 col-lg-10 text-white px-3 lorem-ipsum-lower">
+                                    <p class="text-justify h4 inner-quote">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
 
                                     </p>
-                                    <p id="huffpost-bottom">HuffPost</p>
+                                    <p class="huffpost-bottom">HuffPost</p>
                                 </div> <!-- /.lorem -->
                             </div>
                         </div>
