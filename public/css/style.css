@@ -425,7 +425,7 @@ body .gradient-wrapper{
 
 /******** abry pogi **********/
 
-
+/* reserved for future use
 #fullscreen-hero{
     transition: none;
     z-index: 1000;
@@ -444,7 +444,7 @@ body .gradient-wrapper{
     -o-transition: margin-top .1s linear;
     transition: margin-top .1s linear;
 }
-
+*/
 #fullscreen-hero .navbar .nav-item a{
     -webkit-transition: none;
     -moz-transition: none;
@@ -494,6 +494,10 @@ body footer .centered .footer-contact {
 }
 footer .semi-circle{
     color: rgb(184, 22, 31);
+}
+footer .semi-circle-dark-red{
+    background: rgba(184,22,31,1);
+    color: #fff;
 }
 
 body footer .centered .footer-navigation {
@@ -603,6 +607,8 @@ footer a, a:hover{
 }
 
 
+<<<<<<< HEAD
+=======
 @media all and (min-width: 1368px){
     body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
         max-width: 21%;
@@ -630,11 +636,10 @@ footer a, a:hover{
         width: 135%;
     }
 
-    body footer .semi-circle-dark-red{
-        background-color: rgba(184,22,31,1);
-    }
+
 }
 
+>>>>>>> b8bf8556b17b0fbd8341c18bf835764e6e716228
 @media all and (min-width: 320px) and (max-width: 330px){
     .d-xs-block{
         display: block;
@@ -764,11 +769,54 @@ footer a, a:hover{
         padding-left: 10px;
         padding-top: 50px;
     }
-    body footer .col-sm-12.col-md-4.col-lg-2{
+    body footer .col-sm-12.col-md-4.col-lg-3{
         padding-left: 45px;
     }
     body footer .position-absolute.pt-lg-3.height-foot{
         padding-top: 25px;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px){
+    .d-md-block{
+        display: block;
+    }
+    .align-self-center{
+        text-align: center;
+        padding: 45px ;
+    }
+    body footer .pad-top{
+        padding-top: 80px;
+        padding-left: 4px;
+    }
+    body footer .column2{
+        padding-top: 80px;
+        padding-left: 3%;
+    }
+    body footer .padding{
+        padding-left: 10px;
+        padding-top: 50px;
+        width: 190px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.column2{
+        padding-left: 2px;
+        max-width: 20%;
+    }
+    body footer .position-absolute.pt-lg-3.height-foot{
+        padding-top: 25px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3.align-self-center {
+        max-width: 22%;
+        padding-left: 5px;
+    }
+    body footer .col-sm-12.col-md-4.col-lg-3 {
+        max-width: 22%;
+    }
+    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4 {
+        width: 140%;
+    }
+    body footer .position-relative.d-none.d-lg-block.d-xl-block {
+        width: 145%;
     }
 }
 
