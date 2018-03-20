@@ -63,6 +63,9 @@ var ibinex = (function(options) {
                 else
                     $('.back-to-top').removeClass('reveal').addClass('hidden');
             });
+        },
+        go_top: function() {
+            $("html").animate({ scrollTop: 0 }, "slow");
         }
     }
 
