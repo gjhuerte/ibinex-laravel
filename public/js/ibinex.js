@@ -13,8 +13,7 @@ var ibinex = (function(options) {
                 hH = $(element).outerHeight(),
                 wH = $(window).height(),
                 wS = $(window).scrollTop();
-            if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH))
-                callback(true);
+                callback(wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH));
         },
         scroll: function(element, callback) {
             // $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove', function () {
@@ -56,6 +55,14 @@ var ibinex = (function(options) {
                     $(element).addClass('animated ' + effect)
                 }
             }
+        },
+        reveal_btn_top: function() {
+            $(window).scroll(function(){
+                if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 300)
+                    $('.back-to-top').removeClass('hidden').addClass('reveal');
+                else
+                    $('.back-to-top').removeClass('reveal').addClass('hidden');
+            });
         }
     }
 

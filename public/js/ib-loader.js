@@ -6,7 +6,7 @@ var loading_screen = {
             "        <div class=\"ib-loading-outer\">\n" +
             "            <div class=\"ib-loading-middle\">\n" +
             "                <h1 class=\"ib-loading-logo-header\">\n" +
-            "                    <img class=\"ib-loading-logo\" src=\""+logo+"\" alt=\"ibinex-logo\" />\n" +
+            "                    <img class=\"ib-loading-logo\" src=\""+logo+"\" alt=\"IBINEX\" />\n" +
             "                </h1>\n" +
             "                <div class=\"ib-loading-html ib-loaded\">\n" +
             "                    <div class=\"sk-spinner sk-spinner-chasing-dots\">\n" +
