@@ -260,6 +260,7 @@ body .gradient-wrapper{
     width:100%;
     display: flex;
     flex-wrap: wrap;
+    background: linear-gradient(to right, rgba(57,28,255, 0.8) , rgba(255,59,48,0.8));
 }
 
 @media all and (min-width: 768px){
@@ -409,9 +410,9 @@ body .gradient-wrapper{
     right:0;
 }
 .sidenav.open{
-    -webkit-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
-    box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 15px 0 26px -7px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 15px 0 26px -7px rgba(0,0,0,0.4);
+    box-shadow: inset 15px 0 26px -7px rgba(0,0,0,0.4);
 }
 .sidenav img{
     margin-bottom: 25px;
@@ -506,7 +507,7 @@ body .gradient-wrapper{
 
 .sidenav ul li{
     margin: 2.5px 0;
-    min-width:100px;
+    min-width:210px;
 }
 
 .sidenav a {
@@ -717,7 +718,7 @@ ul.list-unstyled li span.color{
 
 }
 footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot{
-    font-size:14px;
+    font-size:13px;
 }
 footer p.pad-bot{
     margin: 10px 0;
@@ -732,36 +733,12 @@ input::value{
     letter-spacing: 3px;
 }
 
-
-@media all and (min-width: 1368px){
-    body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
-        max-width: 21%;
-        padding-top: 3.5%;
-    }
-
-    body footer .pad-top{
-        padding-top: 70px;
-        padding-left: 4px;
-    }
-
-    body footer .column2{
-        padding-left: 4%;
-    }
-
-    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
-        width: 145%;
-    }
-
-    body footer input::placeholder{
-        font-size: small;
-    }
-
-    body footer .position-relative.d-none.d-lg-block.d-xl-block{
-        width: 135%;
-    }
-
-
+footer{
+    line-height: 1.5;
 }
+
+
+
 
 @media all and (min-width: 320px) and (max-width: 330px){
     .d-xs-block{
@@ -889,7 +866,7 @@ input::value{
         padding-left: 3%;
     }
     body footer .padding{
-        padding-left: 10px;
+        padding-left: 0px;
         padding-top: 50px;
     }
     body footer .col-sm-12.col-md-4.col-lg-3{
@@ -948,8 +925,13 @@ input::value{
         display: block;
     }
     body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
-        max-width: 21%;
+        max-width: 20%;
         padding-top: 3.5%;
+    }
+
+    body footer .padding{
+        padding-top: 20%;
+        padding-left: 0;
     }
 
     body footer .pad-top{
@@ -983,6 +965,21 @@ input::value{
 
     body footer .semi-circle-dark-red{
         background-color: rgba(184,22,31,1);
+    }
+
+    body section .col-lg-3{
+        max-width: 19%;
+    }
+
+    body section .about {
+        max-width: 11%;
+    }
+
+    .footer{
+        height: 465px;
+    }
+    .property{
+        padding-top: 2%;
     }
 }
 

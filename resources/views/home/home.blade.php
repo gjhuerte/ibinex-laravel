@@ -18,7 +18,7 @@
 
 @section('body-class','home')
 @section('header-height','full-height')
-@section('bg-img','home-bg.png')
+@section('bg-img','home-cover.png')
 
 @push('custom-scripts')
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
