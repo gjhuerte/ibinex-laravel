@@ -5,7 +5,7 @@
     <nav>
         <div class="container text-sm-left text-md-left">
             <div class="row">
-                <div class ="col-md-4 col-lg-4">
+                <div class ="col-md-4 col-lg-2">
                     <h6 class="text-uppercase heads fonts blue py-4">Why ibinex</h6>
 
                     <ul class="list-unstyled">
@@ -15,7 +15,7 @@
                     </ul>
 
                 </div>
-                <div class ="col-md-4 col-lg-4">
+                <div class ="col-md-4 col-lg-2">
                     <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">pricing</h6>
                     <ul class="list-unstyled">
                         <li>
@@ -26,7 +26,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class ="col-md-4 col-lg-4">
+                <div class ="col-md-4 col-lg-2">
                     <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">services</h6>
                     <ul class="list-unstyled">
                         <li>
@@ -46,7 +46,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class ="col-md-4 col-lg-4">
+                <div class ="col-md-4 col-lg-3">
                     <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
@@ -63,7 +63,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class ="col-md-4 col-lg-4">
+                <div class ="col-md-4 col-lg-2">
                     <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">legal</h6>
                     <ul class="list-unstyled">
                         <li>
@@ -89,7 +89,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class ="col-md-4 col-lg-4">
+                <div class ="col-md-4 col-lg-2 about">
                     <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">About Ibinex</h6>
                     <ul class="list-unstyled">
                         <li>
