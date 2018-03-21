@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','About Us | Ibinex')
+@section('title','About Us')
 
 
 @push('stylesheets')
@@ -19,7 +19,7 @@
 @section('content')
 <div class="container-fluid">
 
-<div id="transparency" class="pb-5">
+<div id="transparency">
 
 <div class="row pt-lg-5">
 <div class="col-lg-2"><!-- spacer --></div>
@@ -99,7 +99,7 @@
         </button>
     </p>
 </div>
-<div class="col-lg-4 px-5 order-1 order-lg-3 text-center text-lg-left">
+<div class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
 
     <img src="/img/about-us/taov2.png" class="img-fluid w-100 ml-3 mh-100" id="circ-pic"/>
     <div><img src="/img/about-us/circ.png" class="img-fluid" id="circ" /></div>
@@ -143,7 +143,7 @@
 
 <div class="row">
 <div class="col-12 advisory-board">
-    <div class="py-5 my-5 text-center">
+    <div class="my-5 text-center">
         <h2 class="mx-5">Ibinex Advisory Board</h2>
     </div>
 

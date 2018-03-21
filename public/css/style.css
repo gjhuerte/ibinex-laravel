@@ -29,6 +29,7 @@
 body {
     font-family: "Proxima Nova", sans-serif;
     color: #5f5f5f;
+    line-height: 1.8em;
 }
 body aside{
     padding-left: 0;
@@ -197,6 +198,7 @@ body #fullscreen-hero #hero-content p {
 }
 body #fullscreen-hero #hero-content p.description {
     font-size: 22px;
+    line-height: 1.9em;
 }
 body #fullscreen-hero .semi-circle {
     padding: 10px 25px;
