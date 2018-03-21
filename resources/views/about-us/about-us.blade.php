@@ -80,10 +80,10 @@
 </h2>
 </div>
 <div class="row w-100">
-<div class="col-lg-2 order-1">
+<div class="col-lg-3 order-1">
     <!--spacer-->
 </div>
-<div class="col-lg-4 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
+<div class="col-lg-3 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
     <p class="blue-ibinex my-0" style="font-size:32px;">
         Michael Peers
     </p>
