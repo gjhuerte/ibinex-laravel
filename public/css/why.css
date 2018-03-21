@@ -11,6 +11,9 @@ body{
     font-family: "Proxima Nova";
 }
 
+#fullscreen-hero {
+    background-position-x: 0 !important;
+}
 
 .overflow-remover{
     overflow: hidden;
@@ -130,6 +133,11 @@ h2.blocktext-2{
     p.blocktext {
         margin-top: 5%;
     }
+
+    #fullscreen-hero {
+        background-position-x: center !important;
+    }
+
 }
 
 /* 1024 px */

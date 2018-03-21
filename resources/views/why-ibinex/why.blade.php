@@ -64,7 +64,7 @@
 @endpush
 
 @section('body-class','contact')
-@section('bg-img','top.png')
+@section('bg-img','why-bg.png')
 @section('content')
     <div id="first-fold" class="container spacer">
         <div class="row max-width-none">
