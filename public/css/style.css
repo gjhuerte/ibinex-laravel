@@ -210,7 +210,8 @@ body #fullscreen-hero #hero-content p {
 }
 body #fullscreen-hero #hero-content p.description {
     font-size: 22px;
-    line-height: 1.49em;;
+    line-height: 1.49em;
+    hyphens: manual;
 }
 body #fullscreen-hero .semi-circle {
     padding: 10px 25px;
