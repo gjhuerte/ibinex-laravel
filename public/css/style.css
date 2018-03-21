@@ -405,9 +405,9 @@ body .gradient-wrapper{
     right:0;
 }
 .sidenav.open{
-    -webkit-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
-    box-shadow: 6px 5px 26px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 15px 0 26px -7px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 15px 0 26px -7px rgba(0,0,0,0.4);
+    box-shadow: inset 15px 0 26px -7px rgba(0,0,0,0.4);
 }
 .sidenav img{
     margin-bottom: 25px;
@@ -502,7 +502,7 @@ body .gradient-wrapper{
 
 .sidenav ul li{
     margin: 2.5px 0;
-    min-width:100px;
+    min-width:210px;
 }
 
 .sidenav a {
