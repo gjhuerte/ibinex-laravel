@@ -8,7 +8,7 @@
             <img src="@stack('logo-link')" alt="bootstrap">
         </a>
 
-        <div onclick="openNav()" id="nav-icon3" class="navbar-toggler custom-toggler">
+        <div onclick="ibinex.open_nav()" id="nav-icon3" class="navbar-toggler custom-toggler">
             <span></span>
             <span></span>
             <span></span>

@@ -17,7 +17,7 @@
 @section('body-class','about')
 @section('bg-img','about-us/about-bg.png')
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid px-lg-3">
 
 <div id="transparency">
 

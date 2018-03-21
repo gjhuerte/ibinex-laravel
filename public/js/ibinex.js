@@ -132,13 +132,29 @@ var ibinex = (function(options) {
                         });
                     } // End if
                 });
+        },
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+        open_nav: function() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main-body").style.right = "250px";
+            $('.custom-toggler').attr('onclick', 'ibinex.close_nav()').toggleClass('open');
+            $('.sidenav').toggleClass('open');
+        },
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+        close_nav: function() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main-body").style.right = "0";
+            $('.custom-toggler').attr('onclick', 'ibinex.open_nav()').removeClass('open');
+            $('.sidenav').removeClass('open');
         }
     }
 
 
 }());
 
-$(document).ready(function() { 
+$(document).ready(function() {
+    ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp');
+    ibinex.reveal_btn_top();
     ibinex.smooth_scroll();
     // ibinex.hero_shinker();
 });
