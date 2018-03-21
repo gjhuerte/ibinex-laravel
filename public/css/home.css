@@ -6,3 +6,9 @@ body.home-template aside{
     padding-left: 0;
     padding-right: 0;
 }
+
+@media (max-width: 767px) {
+    h2.title.text-left {
+        text-align:center !important;
+    }
+}
