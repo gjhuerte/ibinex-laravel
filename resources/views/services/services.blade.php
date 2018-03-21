@@ -9,8 +9,8 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">
         <h1 class="title text-left text-sm-center">Services</h1>
-        <p class="description text-left text-sm-center">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
-        <p class="description text-left text-sm-center">Our ecosystem of services comprises of the following units.</p>
+        <p id="hero-first-p" class="description text-left text-sm-center">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
+        <p id="hero-second-p" class="description text-left text-sm-center">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
     </section>
 @endsection
@@ -114,7 +114,7 @@
 
                             <div class="col-12 text-white lorem-ipsum px-0">
                                 <div class="inner-lorem">
-                                    <p class="text-justify text-sm-left pt-sm-0 mt-4 mt-sm-0 h4 inner-quote">
+                                    <p class="text-justify text-sm-left h4 inner-quote">
                                         <em>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -132,7 +132,7 @@
             <div id="crypto-bridge-section" class="col-12 cb px-0">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="d-none d-sm-block d-md-none d-lg-block col-sm-6 col-lg-6 px-0 cb-logo third-section">
+                        <div class="d-none d-md-none d-lg-block col-sm-6 col-lg-6 px-0 cb-logo third-section">
                         </div>
 
                         <div class="d-block d-lg-none col-12 cb1 third-section-mobile">
