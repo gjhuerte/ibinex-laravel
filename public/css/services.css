@@ -8,6 +8,27 @@ body{
     position: relative;
 }
 
+body .gradient-wrapper{
+    background: linear-gradient(to right, rgba(57,28,255, 0.6) , rgba(255,59,48,0.6)) !important;
+}
+
+/*Below are updates using perfectpixel plugin from chrome*/
+body #fullscreen-hero #hero-content p.description {
+    line-height: 1.4em;
+}
+body #fullscreen-hero #hero-content p
+{
+    margin-top: 0;
+}
+body p
+{
+    margin: 15px 0;
+}
+.navbar {
+    padding: .5rem 0;
+}
+
+
 #inner-nav *{
     transition: none;
 }
@@ -78,12 +99,12 @@ body{
 /* Mobile Development */
 
 #platform-text-container{
-    /*padding-right: 0 !important;*/
+    padding-right: 0 !important;
     padding-left: 0 !important;
 }
 
-div.platform-text p {
-    line-height: 2;
+.platform-text p {
+    line-height: 1.8;
 }
 
 .platform-text div:first-child p:first-child{
@@ -97,7 +118,7 @@ div.platform-text p {
 }
 
 div.crm p {
-    line-height: 2;
+    line-height: 1.9;
 }
 
 div.lorem .l2 img{
@@ -112,8 +133,8 @@ div.lorem .l2 img{
 .red-ellipse{
     z-index: 999;
     position: absolute;
-    top: 33%;
-    height: 20%;
+    top: 41%;
+    height: 24%;
 }
 
 .cb1{
@@ -128,7 +149,7 @@ div.lorem .l2 img{
 }
 
 #laptop-container{
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 #platform-img-container{
@@ -136,16 +157,20 @@ div.lorem .l2 img{
     background-repeat: no-repeat;
     background-position: 50% 100%;
     background-size: cover;
-    height: 190px;
+    height: 186px;
     padding-right: 0 !important;
 }
 
 .platform-text{
-    padding-top: 50px;
+    padding-top: 36px;
+}
+
+.lh-18{
+    line-height: 1.8;
 }
 
 .platform-text-inner{
-    padding-bottom: 30px;
+    padding-bottom: 36px;
 }
 
 .inner-lorem{
@@ -173,8 +198,8 @@ div.lorem .l2 img{
     background-image: url(../img/cb1.png);
     background-repeat: no-repeat;
     background-position: center 110%;
-    background-size: 194px;
-    height: 242px;
+    background-size: 180px;
+    height: 234px;
     z-index: 0;
 }
 
@@ -309,8 +334,29 @@ p.heading-margin-sm + p{
     margin-top: 5px;
 }
 
+
+.m-top-28{
+    margin-top: 28px;
+}
+
+.m-top-40{
+    margin-top: 40px;
+}
+
+.m-bot-20{
+    margin-bottom: 20px;
+}
+
+.m-top-25{
+    margin-top: 25px;
+}
+
+.m-bot-28{
+    margin-bottom: 28px;
+}
+
 .m-bot-30{
-    margin-bottom: 30px;
+    margin-bottom: 26px;
 }
 
 .p-bot-30{
@@ -318,7 +364,7 @@ p.heading-margin-sm + p{
 }
 
 #crm-left-container{
-    padding-top: 50px;
+    padding-top: 63px;
 }
 
 
@@ -569,6 +615,7 @@ p.heading-margin-sm + p{
 
     #laptop-container{
         padding-right: 20px;
+        margin-top: 35px;
     }
 
     .lorem {
@@ -595,7 +642,7 @@ p.heading-margin-sm + p{
     }
 
     .red-ellipse{
-        top: 79%;
+        top: 82%;
         left: 19%;
         height: 30%;
     }
@@ -695,8 +742,7 @@ p.heading-margin-sm + p{
     }
 
     .platform-text-inner p{
-        /*padding-top: 10px !important;*/
-        margin-bottom: 30px !important;
+        margin-bottom: 32px !important;
     }
 
     .lorem-ipsum{

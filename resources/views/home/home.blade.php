@@ -10,15 +10,15 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12">
         <h1 class="title text-left">Introducing CryptoBridge™</h1>
-        <p class="description text-justify">Our patent-pending proprietary software, CrpytoBridge, is the nexus that aggregates premier cryptocurrency exchangs and indexes for your customers, in real-time.</p>
-        <p class="description text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique combination of the best and most select cryptocurrency exchanges and most attractive live prices - only available via the Ibinex trading platform.</p>
+        <p class="description text-justify">Our patent-pending proprieta&shy;ry software, CrpytoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
+        <p class="description text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
         <button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>
     </section>
 @endsection
 
 @section('body-class','home')
 @section('header-height','full-height')
-@section('bg-img','home-bg.png')
+@section('bg-img','home-cover.png')
 
 @push('custom-scripts')
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
@@ -61,14 +61,14 @@
 @section('content')
     <!--1  -->
     <section id="second-fold" class="container-fluid bg-color-grey">
-        <section class="row no-gutters pt-5 position-relative fixed-height">
+        <section class="row no-gutters pt-md-5 position-relative fixed-height">
             <!--Will remove fixed-height -->
             <aside class="col-xl-8 order-xl-2 d-none  d-xl-block position-absolute stick-right">
                 <img class="" src="{{asset("img/qHjq1P1.png")}}" height="520" alt="bootstrap">
             </aside>
-            <div class="col-xl-6 order-xl-1 pt-5">
+            <div class="col-xl-6 order-xl-1">
                 <h2 class="title text-left text-center-sm">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
-                <p class="text-justify">With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Iniex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with
+                <p class="text-justify pt-2 ws-5">With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Iniex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with
                     your own web-based platform, Ibinex, will show you definitely how to build a cryptocurrency exchange, your way.</p>
             </div>
         </section>
@@ -77,21 +77,27 @@
 
     <!-- 2 -->
     <section id="third-fold" class="container-fluid bg-color-white mb-5">
-        <section class="row pt-5 position-relative">
+        <section class="row pt-lg-5 position-relative pt-3">
             <div class="col-xl-6 order-xl-12">
-                <h2 class="title text-left">
-                    <span>Exchange your Way with Ibinex.</span><br>
-                    <span>Your Turn-Key Solution Includes:</span>
+                <h2 class="title text-left title-sm">
+                    <div class="d-lg-block d-none">
+                        <span>Exchange your Way with Ibinex.</span><br>
+                        <span>Your Turn-Key Solution Includes:</span>
+                    </div>
+                    <div class="d-lg-none">
+                        <span>Exchange your Way with Ibinex.
+                        Your Turn-Key Solution Includes:</span>
+                    </div>
                 </h2>
 
-                <section class="pt-3">
+                <section class="pt-4">
                     <h2 class="sub-title blue bold">Tailored Front End content website</h2>
-                    <p class="description text-justify">Ibinex provide you with a tailored front-end website with a fully-integrated web-based trading platform and Content Management System (CMS). Offering you flexible front-end user trading, while preserving the personal touch for your brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
+                    <p class="description text-justify pt-1 ws-5">Ibinex provide you with a tailored front-end website with a fully-integrated web-based trading platform and Content Management System (CMS). Offering you flexible front-end user trading, while preserving the personal touch for your brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
                 </section>
 
-                <section class="pt-3">
-                    <h2 class="sub-title blue bold">Tailored Front End content website</h2>
-                    <p class="description text-justify">The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account & money management. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
+                <section class="mt-5 pt-1">
+                    <h2 class="sub-title blue bold">Full CRM & Back Office Solution</h2>
+                    <p class="description text-justify pt-2 ws-5">The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account & money management. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
                 </section>
 
             </div>
@@ -112,21 +118,21 @@
                     <p class="description text-justify">Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
                 </section>
 
-                <section class="pt-3">
+                <section class="pt-4">
                     <h2 class="sub-title blue bold">Complete processing solution</h2>
-                    <p class="description text-justify">With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilies for your exchange to thrive in maximum liquidity.</p>
+                    <p class="description text-justify pt-1">With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilies for your exchange to thrive in maximum liquidity.</p>
                 </section>
             </div>
 
 
             <aside class="col-xl-6 order-xl-12 embed-parent-wrap top right">
-                <div class="embed-image" style="background-image: url('{{ asset("img/home-card.png") }}');">&nbsp;</div>
+                <div class="embed-image mt-5" style="background-image: url('{{ asset("img/home-card.png") }}');">&nbsp;</div>
                 <div class="embed-blue-wrap shadow">
                     <div class="faButton top-half red-button shadow d-flex justify-content-center">
-                        <img src="{{ asset('img/quote-mark.png') }}" alt="Quotation Mark" style="width:57px; height: 53px; align-self:center;">
+                        <img src="{{ asset('img/quote-mark.png') }}" alt="Quotation Mark" class="quote-mark">
                     </div>
                     <section class="quote-wrapper">
-                        <p class="quote text-justify font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="quote text-justify font-weight-bold mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <span class="author">HuffPost</span>
                     </section>
                 </div>
@@ -141,14 +147,14 @@
         <section class="row embed-parent max-width-none">
             <section class="row mx-0">
                 <div class="col-xl-6 order-xl-2">
-                    <section class="pt-3">
-                        <h2 class="sub-title blue bold">Compliant Banking Custodian Service</h2>
-                        <p class="description text-justify">Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
+                    <section class="pt-4">
+                        <h2 class="sub-title blue bold sm-title-lh">Compliant Banking Custodian Service</h2>
+                        <p class="description text-justify pt-2">Ibinex is the first ever cryptocurrency exchange platform in the world that has a finance transaction license. We can offer fully-compliant and licensed custodian processing and accoutns, or you can choose to operate with your own custodian. Ibinex is licensed to facilitate payments via swipe-and-transmit from FIAT to a base currency. This preferred solution is unavailable to the bigger cryptocurrency exchanges, and is only offered by Ibinex.</p>
                     </section>
 
-                    <section class="pt-3">
-                        <h2 class="sub-title blue bold">Hosted in a secure private cloud environment</h2>
-                        <p class="description text-justify">With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilies for your exchange to thrive in maximum liquidity.</p>
+                    <section class="pt-4">
+                        <h2 class="sub-title blue bold sm-title-lh pt-2">Hosted in a secure private cloud environment</h2>
+                        <p class="description text-justify pt-1">Security is a 360 degree operation, with the Ibinex platform guarded 24/7 in a private cloud and crypto-based funds held in shielded cold wallets. Cyber security experts maintain and defend the platform. While cold wallets containing funds are impregnable, offline, and safely out of unathorised reach.</p>
                     </section>
                 </div>
 

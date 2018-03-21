@@ -1,8 +1,4 @@
 
-/*
-section#hero-content{
-    margin: 0 auto;
-}*/
 
 
 .quotes {
@@ -11,6 +7,13 @@ section#hero-content{
     text-align: center;
     font-size: 30px;
     font-weight: 700;
+    line-height: normal;
+    word-wrap: break-word;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
 }
 
 #transparency-quote{
@@ -18,6 +21,8 @@ section#hero-content{
 }
 
 #transparency-right-floater{
+    position: absolute;
+    padding-left:10px;
     right:0;
     padding-top:2rem;
 }
@@ -53,7 +58,6 @@ section#hero-content{
 }
 
 
-
 @media (max-width:993px){
     #circ{
 
@@ -69,6 +73,11 @@ section#hero-content{
         top: initial;
         transform:initial;
         width:100%;
+    }
+    #exec-desc{
+        left: 5%;
+        padding-left: 10px;
+        margin-left: 0px;
     }
 }
 
@@ -129,6 +138,7 @@ div.advisory-board-members-list-item-name,
 div.advisory-board-members-list-item-desc{
     padding-left: 1em;
     padding-right: 1em;
+    color: #1a1a1a;
 }
 
 @media only screen and (min-width: 1024px) {
