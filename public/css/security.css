@@ -38,9 +38,18 @@ article {
 
 /*** Media Queries as per chrome dev tool ***/
 
-
-
 @media all and (max-width: 767px) {
+    h1.title {
+        margin-bottom: 0.6em;
+    }
+    p.description {
+        padding-top: 0.1em;
+        line-height: 1.49em;
+    }
+
+
+
+
     .security-width div {
         padding: 1.4em 0 0;
     }
@@ -60,7 +69,10 @@ article {
         padding-top: 0.21em;
     }
     #infor-security p {
-        padding-top: .8em;
+        padding: .8em 0;
+    }
+    #privacy {
+        padding-top: 0.5em!important;
     }
 
 }
