@@ -148,6 +148,8 @@ body #fullscreen-hero .gradient-wrapper {
         position: relative;
         top: -328px;
 
+        padding-left: 12px;
+        padding-right: 12px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -393px;
