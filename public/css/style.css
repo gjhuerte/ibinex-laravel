@@ -13,6 +13,12 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaSemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 
 /* End Fonts*/
 
@@ -20,9 +26,19 @@
     transition: all .2s ease-in;
 }
 
+img{
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 body {
     font-family: "Proxima Nova", sans-serif;
     color: #5f5f5f;
+    line-height: 1.8em;
 }
 body aside{
     padding-left: 0;
@@ -191,6 +207,7 @@ body #fullscreen-hero #hero-content p {
 }
 body #fullscreen-hero #hero-content p.description {
     font-size: 22px;
+    line-height: 1.9em;
 }
 body #fullscreen-hero .semi-circle {
     padding: 10px 25px;
@@ -622,6 +639,8 @@ body footer .bottom-bar {
 }
 body footer span.color {
     color: black;
+    font-size: 18px;
+    font-weight: 600;
 }
 body footer .bg-color-grey {
     background-color: whitesmoke;
@@ -688,7 +707,10 @@ h6.text-uppercase.heads.fonts{
     font-size: 13px;
 }
 ul.list-unstyled li span.color{
-    font-size:13px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
 }
 footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot{
     font-size:14px;
@@ -700,6 +722,10 @@ footer p.pad-bot{
 footer a, a:hover{
     color: white;
     text-decoration: none;
+}
+
+input::value{
+    letter-spacing: 3px;
 }
 
 

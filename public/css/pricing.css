@@ -111,7 +111,14 @@
 
 /* Media Queries: Non-Mobile */
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 576px) {
+    #pricing-content {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+}
+
+@media all and (min-width: 992px) {
     body #fullscreen-hero.full-height {
         min-height: 867px;
     }
@@ -122,9 +129,7 @@
 
     #pricing-content {
         max-width: 969px;
-        padding-left: 12px;
-        padding-right: 12px;
-
+        border-radius: 20px;
         box-sizing: border-box;
         position: relative;
         top: -334px;
@@ -179,12 +184,6 @@
     div.footer-buffer {
         height: 65px;
         background-color: #f2f1f1;
-    }
-}
-
-@media all and (min-width: 969px) {
-    #pricing-content {
-        border-radius: 20px;
     }
 }
 
