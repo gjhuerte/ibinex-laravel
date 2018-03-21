@@ -53,7 +53,7 @@
 @section('nav-links')
     <div class="sidenav " id="mySidenav">
         <ul class="navbar-nav mr-auto">
-            <img src="/img/logo/logo-bottom.png" alt="bootstrap" style="min-width:150px;">
+            <img src="/img/logo/logo-bottom.png" alt="bootstrap" style="min-width:210px;">
             <li class="nav-item active">
                 <a class="nav-link nav" href="{!! url('/') !!}">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -78,7 +78,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="{!! url('/contact-us') !!}">Contact Us</a>
             </li>
-            <button class="btn my-2 my-sm-0 semi-circle pink" style="min-width:100px" type="submit">Live Demo</button>
+            <button class="btn my-2 my-sm-0 semi-circle pink" style="min-width:210px" type="submit">Live Demo</button>
         </ul>
 
 
