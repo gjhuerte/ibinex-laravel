@@ -60,8 +60,9 @@ section#hero-content {
     background-color: #12d5b8;
     border: none;
     /*width: 120px;*/
-    width: 45%;
-    height: 60px;
+    /*width: 45%;*/
+    width: 181px;
+    height: 54px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -99,6 +100,18 @@ section#hero-content {
 .ib-contact-form textarea {
     height: 11em;
 }
+
+@media only screen and (min-height: 900px) {
+    .ib-contact-form textarea {
+        height: 23em;
+    }
+}
+@media only screen and (max-height: 480px) {
+    body #fullscreen-hero #hero-content {
+        padding: 5vh 0 80px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .col-sm-7.ib-contact-bg {
         background: #f2f1f1;
@@ -114,7 +127,7 @@ section#hero-content {
 }
 @media only screen and (min-height: 551px) {
     /*.ib-contact {*/
-        /*height: 100vh;*/
+    /*height: 100vh;*/
     /*}*/
     .ib-contact-form {
         width: 28vw;
@@ -155,8 +168,8 @@ section#hero-content {
         display: none;
     }
     /*#fullscreen-hero {*/
-        /*height: 100vh;*/
-        /*background: url(../img/contact-bg.png) no-repeat center top/cover;*/
+    /*height: 100vh;*/
+    /*background: url(../img/contact-bg.png) no-repeat center top/cover;*/
     /*}*/
     .ib-get-started {
         padding-top: 15%;
@@ -179,7 +192,6 @@ section#hero-content {
         height: 100%;
     }
 }
-
 @media only screen and (min-width: 1920px) {
     #fullscreen-hero{
         background: url(../img/contact-bg.png) no-repeat center top/contain
@@ -191,28 +203,29 @@ section#hero-content {
 @media only screen and (max-width: 1224px) and (min-width: 576px) {
     .ib-contact-form {
         width: 40vw;
-    }
+    } 
 }
 @media only screen and (min-height: 1024px) {
     /*body #fullscreen-hero{*/
-        /*min-height: 70vh !important;*/
-        /*height: 70vh;*/
+    /*min-height: 70vh !important;*/
+    /*height: 70vh;*/
     /*}*/
     .ib-contact-form textarea {
         height: 27em;
     }
 }
-@media only screen and (min-height: 900px) {
-    .ib-contact-form textarea {
-        height: 23em;
+@media all and (max-width: 1024px) {
+    .ib-contact-support .ib-support-text {
+        width: 85%;
+        float: right;
     }
 }
-@media only screen and (max-height: 480px) {
-    body #fullscreen-hero #hero-content {
-        padding: 5vh 0 80px;
+/** ipad../.. **/
+@media all and (max-width: 768px) and (max-height: 1024px) {
+    .ib-contact-support .ib-support-text {
+        width: 100%;
     }
 }
-
 /** animation **/
 
 

@@ -167,7 +167,7 @@ body #fullscreen-hero {
     display: flex;
     flex-wrap: wrap;
 
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;  
 }
 body #fullscreen-hero.full-height {
