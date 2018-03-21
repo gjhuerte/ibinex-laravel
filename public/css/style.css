@@ -13,6 +13,12 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaSemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 
 /* End Fonts*/
 
@@ -622,6 +628,8 @@ body footer .bottom-bar {
 }
 body footer span.color {
     color: black;
+    font-size: 18px;
+    font-weight: 600;
 }
 body footer .bg-color-grey {
     background-color: whitesmoke;
@@ -688,7 +696,10 @@ h6.text-uppercase.heads.fonts{
     font-size: 13px;
 }
 ul.list-unstyled li span.color{
-    font-size:13px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
 }
 footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot{
     font-size:14px;
@@ -700,6 +711,10 @@ footer p.pad-bot{
 footer a, a:hover{
     color: white;
     text-decoration: none;
+}
+
+input::value{
+    letter-spacing: 3px;
 }
 
 
