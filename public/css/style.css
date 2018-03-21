@@ -13,6 +13,12 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaSemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 
 /* End Fonts*/
 
@@ -622,6 +628,7 @@ body footer .bottom-bar {
 }
 body footer span.color {
     color: black;
+    font-size: 18px;
 }
 body footer .bg-color-grey {
     background-color: whitesmoke;
