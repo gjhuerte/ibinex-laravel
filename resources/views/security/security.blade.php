@@ -15,7 +15,8 @@
 @endsection
 
 @section('body-class','security')
-@section('bg-img','security-banner-temp.png')
+{{--@section('bg-img','security-banner-temp.png')--}}
+@section('bg-img','security.PNG')
 
 @section('content')
 
@@ -61,8 +62,7 @@
                         <p>
                            Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.
                         </p>
-                        <h1 class='subtitle black'>Privacy</h1>
-                        <p>
+                        <h1 class='subtitle black' id="privacy">Privacy</h1>
                         <p>
                             Security and confidentiality are of the utmost importance for our clients, and you can learn more about our completely transparent Regulation and Privacy Policy,
                             to have complete peace of mind and confidence in Ibinex.

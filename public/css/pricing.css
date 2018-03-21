@@ -2,7 +2,7 @@
 
 #pricing-content {
     font-family: 'Proxima Nova', sans-serif;
-    font-size: 15.8px;
+    /*font-size: 15.8px;*/
 }
 
 #pricing-content h2 {
@@ -17,6 +17,7 @@
 #pricing-content article > h5 {
     font-size: 22px;
     font-weight: bold;
+    /*font-weight: 600;*/
 }
 
 #pricing-content article {
@@ -37,6 +38,10 @@
 
 
 /* Backgrounds and Borders */
+
+body #fullscreen-hero .gradient-wrapper {
+    background: linear-gradient(to right, rgba(57, 28, 255, 0.6), rgba(255, 59, 48, 0.6)) !important;
+}
 
 #pricing-content {
     background-color: #212a5f;
@@ -73,6 +78,14 @@
     text-align: justify;
     line-height: 1.8;
     padding-bottom: 8px;
+}
+
+#pricing-content #our-pricing {
+    padding-left: 18px;
+}
+
+#pricing-content #setup {
+    padding-left: 18px;
 }
 
 #pricing-content #our-fees {
@@ -119,12 +132,13 @@
 }
 
 @media all and (min-width: 992px) {
-    body #fullscreen-hero.full-height {
-        min-height: 867px;
+    body #fullscreen-hero,
+    body #fullscreen-hero .gradient-wrapper {
+        min-height: 857px;
     }
 
-    body #fullscreen-hero.full-height .gradient-wrapper {
-        height: 0;
+    body #fullscreen-hero .gradient-wrapper #hero-content {
+        margin-top: -365px;
     }
 
     #pricing-content {
@@ -132,11 +146,11 @@
         border-radius: 20px;
         box-sizing: border-box;
         position: relative;
-        top: -334px;
+        top: -328px;
 
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -399px;
+        margin-bottom: -393px;
     }
 
     #pricing-content > #pricing-intro {

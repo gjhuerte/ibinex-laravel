@@ -9,14 +9,14 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">
         <h1 class="title text-left text-sm-center">Services</h1>
-        <p class="description text-left text-sm-center">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
-        <p class="description text-left text-sm-center">Our ecosystem of services comprises of the following units.</p>
+        <p id="hero-first-p" class="description text-left text-sm-center">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
+        <p id="hero-second-p" class="description text-left text-sm-center">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
     </section>
 @endsection
 
 @section('body-class','services')
-@section('bg-img','services.png')
+@section('bg-img','services_hero.png')
 @section('scrollspy')
     data-spy="scroll" data-target="#inner-nav" data-offset="150"
 @endsection
@@ -47,8 +47,8 @@
 
     <div class="container-fluid">
         <div class="row max-width-none">
-            <div id="platform-section" class="col-12 bg-light">
-                <div class="container-fluid">
+            <div id="platform-section" class="col-12 bg-light max-width-none">
+                <div class="container-fluid max-width-none">
                     <div class="row platform-content">
                         <div class="col-12 col-lg-6 px-0">
                             <div id="laptop-container">
@@ -60,20 +60,20 @@
 
                         <div id="platform-text-container" class="col-12 col-lg-6 inner-platform platform-text">
                             <div>
-                                <p class="text-dark font-34">Platform</p>
-                                <p class="text-secondary text-justify mb-sm-1 mt-sm-0">
+                                <p class="text-dark font-34" style="line-height: 2;">Platform</p>
+                                <p class="text-secondary text-justify mb-sm-1 mt-sm-0 lh-18">
                                     Your exchange is your launchpad. Our suite elevates your exchange by equipping you with your own platform consisting of:
                                 </p>
                             </div>
                             <div class="text-primary text-justify platform-text-inner">
                                 <strong>
-                                    <p class="m-bot-30">Tailor-made private, institutional white label infatructure</p>
-                                    <p class="m-bot-30">Fully-customisable front-end website</p>
-                                    <p class="m-bot-30">Completely integrated web-based trading platform</p>
-                                    <p class="m-bot-30">Flexible front-end user trading</p>
-                                    <p class="m-bot-30">Performance-driven features</p>
-                                    <p class="m-bot-30">Secure private cloud hosting</p>
-                                    <p class="m-bot-30">Total compatibility with your own branding deck.</p>
+                                    <p class="m-bot-30 m-top-40">Tailor-made private, institutional white label infatructure</p>
+                                    <p class="m-bot-30 m-top-28">Fully-customisable front-end website</p>
+                                    <p class="m-bot-30 m-top-28">Completely integrated web-based trading platform</p>
+                                    <p class="m-bot-30 m-top-28">Flexible front-end user trading</p>
+                                    <p class="m-bot-30 m-top-28">Performance-driven features</p>
+                                    <p class="m-bot-30 m-top-28">Secure private cloud hosting</p>
+                                    <p class="m-bot-30 m-top-28">Total compatibility with your own branding deck.</p>
                                 </strong>
                             </div>
                         </div>
@@ -90,15 +90,15 @@
                                 <span class="text-dark font-34">CRM Back Office</span>
                             </div>
                             <div class="">
-                                <p class="text-secondary text-justify mt-sm-0 mb-sm-3">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
+                                <p class="text-secondary text-justify mt-sm-0 mb-sm-3 lh-18">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
                             </div>
-                            <div class="text-primary">
+                            <div class="text-primary text-justify">
                                 <strong>
-                                    <p class="m-bot-30">KYC/AML doccumentation collection</p>
-                                    <p class="m-bot-30">Documentation verification</p>
-                                    <p class="m-bot-30">Account and money management</p>
-                                    <p class="m-bot-30">Optimised back-office administrative workflow</p>
-                                    <p class="m-bot-30">Enhanced UI/UX</p>
+                                    <p class="m-bot-30 m-top-25">KYC/AML doccumentation collection</p>
+                                    <p class="m-bot-30 m-top-25">Documentation verification</p>
+                                    <p class="m-bot-30 m-top-25">Account and money management</p>
+                                    <p class="m-bot-30 m-top-25">Optimised back-office administrative workflow</p>
+                                    <p class="m-bot-28">Enhanced UI/UX</p>
                                 </strong>
                             </div>
                         </div>
@@ -114,12 +114,10 @@
 
                             <div class="col-12 text-white lorem-ipsum px-0">
                                 <div class="inner-lorem">
-                                    <p class="text-justify text-sm-left pt-sm-0 mt-4 mt-sm-0 h4 inner-quote">
+                                    <p class="text-justify text-sm-left h4 inner-quote">
                                         <em>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At, consectetur consequatur corporis dicta dolore earum eligendi enim eos esse excepturi
-                                            fugit, nam necessitatibus nemo, nihil quasi sapiente tempore vel voluptatibus?
-                                            Corporis dicta dolore earum eligendi enim.
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                         </em></p>
                                     <p class="huffpost-bottom">HuffPost</p>
                                 </div>
@@ -134,7 +132,7 @@
             <div id="crypto-bridge-section" class="col-12 cb px-0">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="d-none d-sm-block d-md-none d-lg-block col-sm-6 col-lg-6 px-0 cb-logo third-section">
+                        <div class="d-none d-md-none d-lg-block col-sm-6 col-lg-6 px-0 cb-logo third-section">
                         </div>
 
                         <div class="d-block d-lg-none col-12 cb1 third-section-mobile">

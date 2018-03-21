@@ -11,6 +11,9 @@ body{
     font-family: "Proxima Nova";
 }
 
+#fullscreen-hero {
+    background-position-x: 0 !important;
+}
 
 .overflow-remover{
     overflow: hidden;
@@ -19,19 +22,31 @@ body{
 .core {
     background-color: rgb(48,217,196);
     color: white;
-    font-size: 12px;
-    padding: 14px 15px;
+    font-size: 15px;
     border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 3.3;
 }
 
 .core-div{
     margin-top: 10px;
+    display: flex;
 }
 
 .core-text {
     color: rgb(39,112,246);
-    margin-top: 30px;
+    margin-top: 24px;
     margin-bottom: 50px;
+}
+
+div.core-right{
+    margin-top: -11px;
+}
+
+#fourth-core{
+    padding-right: 76px !important;
 }
 
 .block {
@@ -41,30 +56,47 @@ body{
 }
 
 h2.first-fold-title{
-   margin-top: 60px;
+    font-size: 34px !important;
+    margin-top: 51px;
+    line-height: 1.33;
 }
 
 p.first-fold-p{
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 4px;
+    margin-bottom: 30px;
 }
 
 h2.blocktext
 {
-    padding-top: 20%;
+    padding-top: 71px;
+    font-size: 35px;
+    line-height: 1.28;
 }
 
-p.blocktext
-{
-    margin-top: 10%;
+p.blocktext-p1{
+    margin-top: 18px !important;
+    margin-left: 4px;
 }
+
+p.blocktext-p2{
+    margin-top: 26px;
+    margin-left: 5px;
+}
+
+h2.blocktext-2{
+    padding-top: 27px;
+}
+
+
 
 .blocktext-background{
     background-image: url(../img/s1.png);
-    height: 750px;
+    height: 765px;
     width:100%;
-    zoom: 0.6;
+    /*zoom: 0.6;*/
+    zoom: 0.49;
     background-repeat:no-repeat;
+    background-position-x: -60px;
 }
 
 @media only screen and (max-width: 992px){
@@ -80,7 +112,7 @@ p.blocktext
 
     #our-vision > div:last-child {
         position: relative;
-        top: -210px;
+        top: -178px;
         grid-row: 3 / span 1;
         margin: 0 16px -160px;
         padding: 0 18px 0 18px;
@@ -101,6 +133,11 @@ p.blocktext
     p.blocktext {
         margin-top: 5%;
     }
+
+    #fullscreen-hero {
+        background-position-x: center !important;
+    }
+
 }
 
 /* 1024 px */
