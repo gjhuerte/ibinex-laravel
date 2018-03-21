@@ -8,5 +8,7 @@ body.home-template aside{
 }
 
 @media (max-width: 767px) {
-    h2.title.text-left { text-align:center }
+    h2.title.text-left {
+        text-align:center !important;
+    }
 }
