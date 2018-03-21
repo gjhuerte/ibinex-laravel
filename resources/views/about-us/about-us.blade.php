@@ -23,7 +23,7 @@
 
 <div class="row pt-lg-5">
 <div class="col-lg-2"><!-- spacer --></div>
-<div class="col-lg-4 mt-5 px-2 py-lg-5">
+<div class="col-lg-4 mt-5 px-3 py-lg-5">
     <h2 class="mb-4" style="font-size:34px;">
         Transparency
     </h2>
@@ -120,7 +120,7 @@
             {{--<!-- spacer-->--}}
         {{--</div>--}}
         {{--<div class="col-xl-6 my-5 p-5 pr-3">--}}
-            <div class="quotes text-white px-4 py-5 px-lg-0 py-lg-0 mr-lg-4 mr-0">
+            <div class="quotes text-white px-3 py-5 px-lg-0 py-lg-0 mr-lg-4 mr-0">
                 <p id="thirdfold-p1">This is the dawn of a new era. A great era, we believe. Because with every beat of the heart, a starting signal rings out.</p>
                 <p>With each tick of the clock we gain one second. With each new thought we change the way we think forever.</p>
             </div>
