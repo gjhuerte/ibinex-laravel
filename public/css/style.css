@@ -1065,7 +1065,7 @@ Back to top
 
 @media all and (max-width: 767px) {
     body #fullscreen-hero {
-        height: 119.5vh;
+        min-height: 119.5vh;
     }
     body #fullscreen-hero #hero-content {
     padding: 0;
