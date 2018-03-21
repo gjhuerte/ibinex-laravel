@@ -24,10 +24,10 @@
                                     <h2>
                                         Get Started
                                     </h2>
-                                    <p>
+                                    <p class="ib-mb-1">
                                         We invite you to first experience the Ibinex demo <a>here</a>, which will help you to conceptualise the possibilities of personalisation for your own exchange.
                                     </p>
-                                    <p class="py-2">
+                                    <p class="ib-mb-2">
                                         The next step is to contact us to discuss on-boarding. It is a simple process which you can learn about in more detail on the Pricing page, but essentially consists of 3 steps:
                                     </p>
                                 </div>
@@ -37,7 +37,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">1</span>
                                     </div>
-                                    <img class="img-1 ib-pb-2 pt-3 pb-5" src="{{ asset("img/p1.png") }}" />
+                                    <img class="img-1 ib-pb-2 pt-4 pb-5" src="{{ asset("img/p1.png") }}" />
                                     <div class="label pt-3 ib-pt-1">
                                         Local Escrow deposit
                                     </div>
@@ -50,7 +50,7 @@
                                         <span class="ib-circle">2</span>
                                     </div>
                                     <img class="ib-p py-3" src="{{ asset("img/p2.png") }}" />
-                                    <div class="label pt-3 ib-pb-1">
+                                    <div class="label pt-2 ib-pb-1">
                                         Letter of Intent
                                     </div>
                                 </div>
@@ -58,8 +58,8 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">3</span>
                                     </div>
-                                    <img class="ib-p py-3" src="{{ asset("img/p3.png") }}" />
-                                    <div class="label pt-3 ib-pb-1">
+                                    <img class="ib-p py-2" src="{{ asset("img/p3.png") }}" />
+                                    <div class="label pt-2 ib-pb-1 ib-pb-2">
                                         Proof of Escrow deposit
                                     </div>
                                 </div>

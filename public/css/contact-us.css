@@ -141,6 +141,9 @@
         /*font-size: 1.5em;*/
         font-size: 22px;
     }
+    .ib-get-started-b .label.pt-3.ib-pt-3 {
+        margin-top: 3px;
+    }
     .ib-contact-form label{
         /*margin-top: 0.7rem;*/
     }
@@ -165,7 +168,7 @@
         display: none;
     }
     .ib-get-started {
-        padding-top: 1%;
+        padding-top: 13%;
     }
     .ib-contact .ib-contact-support .col-sm-3 {
         padding: 0 7%;
@@ -188,22 +191,20 @@
         height: 18em;
     }
     /** PIXEL PERFECT **/
+    .label.pt-2.ib-pb-1.ib-pb-2,
     .label.pt-4.ib-pb-1 {
-        padding-top: 7px !important;
+        padding-top: 22px !important;
     }
     .ib-note.text-center.mt-3 {
         margin-top: 0 !important;
     }
-    p.p2 {
-        padding-top: 7px;
-    }
-    p.p3 {
-        padding-top: 8px;
+    p.p2,p.p3 {
+        padding-top: 13px;
     }
     /*.ib-get-started-b .col-sm img,*/
     .img-1.ib-pb-2.pt-4.pb-5
     {
-        margin-top: -5px;
+        margin-top: 8px;
         margin-left: 2px;
     }
     .ib-get-started-b .label.pt-3.ib-pt-1 {
@@ -214,6 +215,21 @@
     }
     .ib-contact-form .form-group input{
         height: 40px;
+    }
+    .ib-get-started .ib-mb-1 {
+        margin-top: 22px;
+        margin-right: 5px;
+    }
+    .ib-get-started .ib-mb-2 {
+        margin-top: 28px;
+        margin-left: -4px;
+    }
+    .ib-note.text-center.mt-5 {
+        margin-top: 19px !important;
+        margin-right: 3px;
+    }
+    .ib-contact p.p1 {
+        margin-top: 20px;
     }
 }
 @media only screen and (min-width: 1920px) {
