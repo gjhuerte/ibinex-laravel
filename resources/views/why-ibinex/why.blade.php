@@ -85,7 +85,7 @@
                             <span class="core">02</span>
                         </div>
                         <p class="core-text">
-                            <b>Trailblazing of complete and customizable white label platform solutions</b>
+                            <b>Trailblazing of complete and customisable white label platform solutions</b>
                         </p>
                     </div><!--col-->
 
@@ -104,8 +104,8 @@
                         <div class="core-div">
                             <span class="core">04</span>
                         </div>
-                        <p class="core-text">
-                            <b>Providing full-spectrum payment processing infrastructure to revolutionise liquidity for your exchange.</b>
+                        <p id="fourth-core" class="core-text">
+                            <b>Providing a full-spectrum payment processing infrastructure to revolutionise liquidity for your exchange.</b>
                         </p>
                     </div><!--col-->
                 </div> <!--row-->
@@ -114,18 +114,18 @@
     </div><!--container-->
     <div id="second-fold" class="container-fluid remover">
         <div id="our-vision" class="row position-relative max-width-none overflow-remover">
-            <div class="col-xs-12 blocktext-background shadow"> <!--content--></div>
+            <div class="col-xs-12 blocktext-background"> <!--content--></div>
             <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/hand.png')}}" alt="typing hand">
-            <div class="block shadow">
+            <div class="block">
                 <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
                 <p class="blocktext blocktext-p1">
                     We seek to revolutionise the way that exchange owners create their platforms
                     and raise the standard of marketplace excellence by incorporating our cutting-edge
                     technology, delivered with practicality and a host of unique benefits, only enjoyed
-                    by merging with Ibinex ecosystem.
+                    by merging with the Ibinex ecosystem.
                 </p>
 
-                <h2 class="blocktext">We are an ecosystem with vision</h2>
+                <h2 class="blocktext blocktext-2">We are an ecosystem with vision</h2>
                 <p class="blocktext blocktext-p2">
                     As the gateway to your own customizable cryptocurrency ecosystem, our vision is to equip
                     you with the tools to create and operate your cryptocurrency exchange, your way.
