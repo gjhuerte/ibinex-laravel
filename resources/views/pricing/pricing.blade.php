@@ -26,7 +26,7 @@
         </section>
 
         <section class="row">
-            <article id="our-pricing" class="col-md-6">
+            <article id="our-pricing" class="col-lg-6">
                 <h5>Our Pricing</h5>
                 <div class="text-blue font-weight-bold">
                     <p>$150,000 "reserve only, no payment" deposited in a local Escrow account of your choice for 180 days</p>
@@ -34,7 +34,7 @@
                 </div>
             </article>
 
-            <article id="our-fees" class="col-md-6">
+            <article id="our-fees" class="col-lg-6">
                 <h5>Our Fees</h5>
                 <div class="text-green font-weight-bold">
                     <p>0.1% flat-rate fee based on exchange volume with a minimum fee of $20,000 per month</p>
@@ -48,12 +48,12 @@
             <article id="what-you-receive" class="col">
                 <h5>What you receive</h5>
                 <div class="row text-small">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <p>Tailored Front End content website ( +CMS ) with integrated web-based trading platform</p>
                         <p>Fully Compliant and Regulated Banking Custodian Services in Europe and North America</p>
                         <p>Full CRM / Back office Solution including KYC/AML, account and money management</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <p>Processing Solutions for Credit Cards, Debit Cards, Wire Transfers, Alternative Payments, Hosted Wallets, Cold Wallets and various others for both FIAT and CryptoCurrencies</p>
                         <p>Aggregated Liquidity Exchange with "Top of Book" API bridge from over 60 exchanges for hundreds of CryptoCurrencies</p>
                     </div>
@@ -63,7 +63,7 @@
         <hr>
 
         <section class="row">
-            <article id="setup" class="col-md-6">
+            <article id="setup" class="col-lg-6">
                 <h5>Setup</h5>
                 <p>In order to proceed with setup, we require:</p>
                 <div class="text-blue font-weight-bold">
@@ -72,7 +72,7 @@
                 </div>
             </article>
 
-            <article id="onboarding-time" class="col-md-6">
+            <article id="onboarding-time" class="col-lg-6">
                 <h5>Onboarding time</h5>
                 <p>Please note that, due to incredibly high demand of the Ibinex exchange solutions suite, the current onboarding waiting time is 4 months.</p>
                 <p>We are doing our utmost to reduce time to market while retaining our trademark standard of excellence, and appreciate your interest in our innovations.</p>

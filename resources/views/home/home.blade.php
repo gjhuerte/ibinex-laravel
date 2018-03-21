@@ -10,15 +10,15 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12">
         <h1 class="title text-left">Introducing CryptoBridge™</h1>
-        <p class="description text-justify">Our patent-pending proprietary software, CrpytoBridge, is the nexus that aggregates premier cryptocurrency exchangs and indexes for your customers, in real-time.</p>
-        <p class="description text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique combination of the best and most select cryptocurrency exchanges and most attractive live prices - only available via the Ibinex trading platform.</p>
+        <p class="description text-justify">Our patent-pending proprieta&shy;ry software, CrpytoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
+        <p class="description text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
         <button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>
     </section>
 @endsection
 
 @section('body-class','home')
 @section('header-height','full-height')
-@section('bg-img','home-bg.png')
+@section('bg-img','home-cover.png')
 
 @push('custom-scripts')
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
