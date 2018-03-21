@@ -1,4 +1,6 @@
 
+/* style */
+
 section#hero-content {
     margin: 0 auto;
 }
@@ -9,7 +11,7 @@ p {
     text-align: justify;
 }
 section {
-    padding-top: 1em;
+    /*padding-top: 1em;*/
     min-height: 300px;
     position: relative;
 }
