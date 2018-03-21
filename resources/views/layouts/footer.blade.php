@@ -212,8 +212,9 @@
         </div>
     </div>
     <!--/.Footer Links-->
-    <a class="back-to-top hidden" title="Back to top" onclick="ibinex.go_top()">
-        <i class="arrow-up"></i>
-    </a>
 </footer>
 <!--/.Footer-->
+
+<a class="back-to-top hidden" title="Back to top" onclick="ibinex.go_top()">
+    <i class="arrow-up"></i>
+</a>

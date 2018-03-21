@@ -45,7 +45,11 @@ section#hero-content{
 
 
 #circ {
-    left:-2.5%;
+    left:-5%;
+}
+
+#circ-pic{
+    width:auto;
 }
 
 
@@ -57,6 +61,7 @@ section#hero-content{
         top: 0;
         width:25%;
         height:auto;
+        left:5%;
     }
 
     #circ-pic{
@@ -188,4 +193,8 @@ button.linked-in-btn {
 
 button.linked-in-btn img {
     margin-right: 0.5em;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    transform: translateY(-350%);
 }
