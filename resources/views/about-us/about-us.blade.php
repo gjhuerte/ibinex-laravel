@@ -40,15 +40,15 @@
         Ibinex is defined by our dedication to unifying trading standards in the cryptocurrency world, increasing accountability, integrity and excellence in service.
     </p>
 </div>
-<div class="col-lg-6">
+<div class="col-lg-6 pl-lg-4">
     <div class="row mb-5">
         <div class="col-5" style="flex:0 auto; width:auto; padding-right:0">
             <img src="/img/about-us/r1.png" class="img-fluid">
             <div class="mt-lg-4 mt-2 row">
-                <div class="col-7 py-0 pr-0">
+                <div class="col-7 py-0 pr-2">
                     <img src="/img/about-us/r2.png" class="img-fluid">
                 </div>
-                <div class="col-5 pl-1">
+                <div class="col-5 pl-0">
                     <img src="/img/about-us/r3.png" class="img-fluid">
                 </div>
             </div>
