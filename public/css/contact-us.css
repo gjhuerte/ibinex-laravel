@@ -217,9 +217,9 @@
     }
 }
 @media only screen and (min-width: 1920px) {
-    #fullscreen-hero{
-        background: url(../img/contact-bg.png) no-repeat center top/contain
-    }
+    /*#fullscreen-hero{*/
+        /*background: url(../img/contact-bg-old.png) no-repeat center top/contain*/
+    /*}*/
     .ib-contact-support .ib-support-text {
         width: 58%;
     }
