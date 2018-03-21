@@ -73,7 +73,7 @@
 </div>
 
 <div id="executive-team">
-<div class="row py-5" id="people-behind-bg">
+<div class="row py-5 mb-lg-5" id="people-behind-bg">
 <div class="col-lg-12 pb-3 pb-xl-5 text-center">
 <h2>
     The people behind Ibinex
@@ -83,7 +83,7 @@
 <div class="col-lg-2 order-1">
     <!--spacer-->
 </div>
-<div class="col-lg-4 mx-3 order-2 mb-5 pb-5 order-lg-2">
+<div class="col-lg-4 mx-3 order-2 mb-lg-5 pb-lg-5 order-lg-2">
     <p class="blue-ibinex my-0" style="font-size:32px;">
         Michael Peers
     </p>
@@ -101,7 +101,7 @@
 </div>
 <div class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
 
-    <img src="/img/about-us/taov2.png" class="img-fluid w-100 ml-3 mh-100" id="circ-pic"/>
+    <img src="/img/about-us/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
     <div><img src="/img/about-us/circ.png" class="img-fluid" id="circ" /></div>
 </div>
 <div class="col-lg-2 order-4">
@@ -204,7 +204,7 @@
         <li class="col-lg-2"><!--spacer --></li>
     </ul>
 
-    <div class="carousel slide d-lg-none text-center" data-interval="false" data-ride="carousel" id="advisory-board-members-carousel">
+    <div class="carousel slide d-lg-none text-center" data-interval="false" data-ride="carousel" id="advisory-board-members-carousel" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
 
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -259,10 +259,10 @@
 
 
 
-<div class="py-5">
-<div class="row">
+<div class="py-lg-5">
+<div class="row py-lg-5">
 <div class="col-lg-3"></div>
-<div class="col-lg-6 text-center px-4 mb-5 pb-5">
+<div class="col-lg-6 text-center px-4 my-5">
     <p class="quotes blue-ibinex">
         Tommorow does not yet exist, but our dreams do. So, we get to work today, like always. Because "tomorrow" will be what we make it. And if we can create the future in our heads, it will meet us halfway.
     </p>
@@ -276,6 +276,8 @@
 
 @push('custom-scripts')
     <script src="{{ asset("js/about-us.js") }}"></script>
+    <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
+
 @endpush
 
 
