@@ -2,7 +2,6 @@
 
 #pricing-content {
     font-family: 'Proxima Nova', sans-serif;
-    /*font-size: 15.8px;*/
 }
 
 #pricing-content h2 {
@@ -17,7 +16,6 @@
 #pricing-content article > h5 {
     font-size: 22px;
     font-weight: bold;
-    /*font-weight: 600;*/
 }
 
 #pricing-content article {
