@@ -17,7 +17,7 @@
 @section('bg-img','contact-bg.png')
 @section('content')
         <section>
-                    <div class="container c-c">
+                    <div class="container">
                         <div class="ib-get-started">
                             <div class="row ib-get-started-a">
                                 <div class="col-sm p-0">
@@ -37,7 +37,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">1</span>
                                     </div>
-                                    <img class="img-1 ib-pb-2 pt-4 pb-5" src="{{ asset("img/p1.png") }}" />
+                                    <img class="img-1 ib-pb-2 pt-3 pb-5" src="{{ asset("img/p1.png") }}" />
                                     <div class="label pt-3 ib-pt-1">
                                         Local Escrow deposit
                                     </div>
@@ -50,7 +50,7 @@
                                         <span class="ib-circle">2</span>
                                     </div>
                                     <img class="ib-p py-3" src="{{ asset("img/p2.png") }}" />
-                                    <div class="label pt-4 ib-pb-1">
+                                    <div class="label pt-3 ib-pb-1">
                                         Letter of Intent
                                     </div>
                                 </div>
@@ -59,12 +59,12 @@
                                         <span class="ib-circle">3</span>
                                     </div>
                                     <img class="ib-p py-3" src="{{ asset("img/p3.png") }}" />
-                                    <div class="label pt-4 ib-pb-1">
+                                    <div class="label pt-3 ib-pb-1">
                                         Proof of Escrow deposit
                                     </div>
                                 </div>
                             </div>
-                            <div class="ib-note text-center mt-3">
+                            <div class="ib-note text-center mt-5">
                                 <p>
                                     Please note that, due to high demand, the current on-boarding time frame is 4 months.
                                 </p>
@@ -102,11 +102,11 @@
                                             <label for="inputFullName">Full Name</label>
                                             <input type="text" class="form-control" id="inputFullName">
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group c-g-1">
                                             <label for="inputEmail">Email Address</label>
                                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group c-g-1">
                                             <label for="inputSubject">Subject</label>
                                             <input type="text" class="form-control" id="inputSubject">
                                         </div>

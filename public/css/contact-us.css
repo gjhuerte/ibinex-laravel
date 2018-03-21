@@ -63,7 +63,6 @@
 .ib-circle {
     background-color: #fd0000;
     color: white;
-    padding: 7px;
     /*height: 19px;*/
     /*width: 19px;*/
     height: 38px;
@@ -72,6 +71,7 @@
     display: block;
     margin: 0 auto;
     text-align: center;
+    line-height: 40px;
 }
 .core {
     background-color: rgb(48,217,196);
@@ -91,7 +91,9 @@
 .ib-contact-form textarea {
     height: 11em;
 }
-
+.ib-get-started-b .label {
+    font-size: 1.4rem;
+}
 @media only screen and (min-height: 900px) {
     .ib-contact-form textarea {
         height: 23em;
@@ -109,8 +111,12 @@
         height: 100%;
         position: relative;
     }
+    .ib-contact-form .form-group label{
+        font-size: 0.9rem;
+    }
     .ib-contact-form {
         margin: 0;
+        padding: 7% 0;
     }
     .ib-contact-form button.btn.btn-primary {
         width: 70%;
@@ -136,14 +142,13 @@
         font-size: 22px;
     }
     .ib-contact-form label{
-        margin-top: 0.7rem;
+        /*margin-top: 0.7rem;*/
     }
     .ib-contact-form {
         width: auto;
         background: #f2f1f1;
         position: relative;
         min-width: 0;
-        padding: 7% 0;
     }
     .col-sm-7.ib-contact-bg {
         height: 100%;
@@ -151,14 +156,16 @@
          margin-top: 48px;
     }
     .ib-contact-form button.btn.btn-primary {
-        width: 70%;
-        padding: 3%;
+        /*width: 70%;*/
+        /*padding: 3%;*/
+        width: 63%;
+        margin: 23px 5px;
     }
     .ib-circle-c, #live-demo-btn {
         display: none;
     }
     .ib-get-started {
-        padding-top: 15%;
+        padding-top: 1%;
     }
     .ib-contact .ib-contact-support .col-sm-3 {
         padding: 0 7%;
@@ -178,13 +185,9 @@
         height: 100%;
     }
     .ib-contact-form textarea {
-        height: 17em;
+        height: 18em;
     }
     /** PIXEL PERFECT **/
-    /*.c-c.container {*/
-        /*padding-right: 0;*/
-        /*padding-left: 10px;*/
-    /*}*/
     .label.pt-4.ib-pb-1 {
         padding-top: 7px !important;
     }
@@ -197,12 +200,20 @@
     p.p3 {
         padding-top: 8px;
     }
-    .img-1.ib-pb-2.pt-4.pb-5 {
-        margin-top: -6px;
+    /*.ib-get-started-b .col-sm img,*/
+    .img-1.ib-pb-2.pt-4.pb-5
+    {
+        margin-top: -5px;
         margin-left: 2px;
     }
     .ib-get-started-b .label.pt-3.ib-pt-1 {
         padding-top: 1.2rem !important
+    }
+    .ib-contact-form .c-g-1 {
+        padding-top: 9px;
+    }
+    .ib-contact-form .form-group input{
+        height: 40px;
     }
 }
 @media only screen and (min-width: 1920px) {
@@ -210,8 +221,17 @@
         background: url(../img/contact-bg.png) no-repeat center top/contain
     }
     .ib-contact-support .ib-support-text {
-        width: 60%;
+        width: 58%;
     }
+    .container .ib-get-started .col-sm.p-0 {
+        margin: 0 5%;
+    }
+    .container .ib-get-started {
+        padding-top: 4.5%;
+    }
+    /*.ib-get-started-b .label {*/
+        /*font-size: 1.4rem;*/
+    /*}*/
 }
 @media only screen and (max-width: 1224px) and (min-width: 576px) {
     .ib-contact-form {
