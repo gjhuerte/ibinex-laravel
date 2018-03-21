@@ -67,7 +67,7 @@
                 <img class="" src="{{asset("img/qHjq1P1.png")}}" height="520" alt="bootstrap">
             </aside>
             <div class="col-xl-6 order-xl-1 pt-5">
-                <h2 class="title text-left">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
+                <h2 class="title text-left text-center-sm">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
                 <p class="text-justify">With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Iniex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with
                     your own web-based platform, Ibinex, will show you definitely how to build a cryptocurrency exchange, your way.</p>
             </div>
