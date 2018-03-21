@@ -56,40 +56,8 @@
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="{{ asset("js/ib-loader.js") }}"></script>
 <script src="{{ asset("js/ibinex.js") }}"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+{{--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>--}}
 {{--<script src="script.js"></script>--}}
-<script>
-    $("img").each(function() {
-        var $this = $(this);
-        var src = $this.attr("src");
-        $this.attr( "data-src", src );
-        $this.removeAttr("src");
-    });
-    $(function() {
-        $('img').Lazy();
-    });
-    var mobile_width = 576;
-    ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp');
-
-    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main-body").style.right = "250px";
-        $('.custom-toggler').attr('onclick', 'closeNav()').toggleClass('open');
-        $('.sidenav').toggleClass('open');
-    }
-
-    /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main-body").style.right = "0";
-        $('.custom-toggler').attr('onclick', 'openNav()').removeClass('open');
-        $('.sidenav').removeClass('open');
-    }
-
-    ibinex.reveal_btn_top();
-
-</script>
 @stack('scripts')
 {{--<script src="script.js"></script>--}}
 @stack('custom-scripts')
