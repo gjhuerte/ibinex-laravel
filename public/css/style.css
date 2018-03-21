@@ -1,6 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i');
 @font-face {
     font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNovaRegular.otf') format('opentype');
