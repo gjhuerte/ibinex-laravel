@@ -134,13 +134,13 @@
             <div id="crypto-bridge-section" class="col-12 cb px-0">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="d-none d-sm-block col-sm-6 col-md-12 col-lg-6 px-0 cb-logo third-section">
-                            <!--                 <img class="w-100" src="assets/images/cb.png" alt="CB logo"> -->
+                        <div class="d-none d-sm-block d-md-none d-lg-block col-sm-6 col-lg-6 px-0 cb-logo third-section">
                         </div>
-                        <div class="d-block d-sm-none col-12 cb1 third-section-mobile">
+
+                        <div class="d-block d-lg-none col-12 cb1 third-section-mobile">
 
                         </div>
-                        <div class="d-block d-sm-none col-12 cb2 third-section-mobile">
+                        <div class="d-block d-lg-none col-12 cb2 third-section-mobile">
 
                         </div>
                         <div id="third-section-container" class="col-12 col-sm-6 col-md-12 col-lg-6 cb-text third-section">
@@ -163,7 +163,7 @@
                             </div>
                         </div>
 
-                        <div id="fourthSection" class="col-12 col-sm-6 col-md-12 col-lg-4 credit-card px-0 fourth-section">
+                        <div id="fourthSection" class="col-12 col-sm-6 col-md-12 col-lg-4 credit-card fourth-section">
                             <p class="text-dark font-34 heading-margin-sm">Credit Card Processing</p>
                             <p class="text-justify mt-sm-0">
                                 We offer full spectrum payment processing for cryptocurrencies, and a complete selection that is unavailable elsewhere.

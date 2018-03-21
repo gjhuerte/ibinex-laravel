@@ -127,6 +127,10 @@ div.lorem .l2 img{
     height: 25%;
 }
 
+#laptop-container{
+    margin-top: 60px;
+}
+
 #platform-img-container{
     background-image: url(../img/l1.png);
     background-repeat: no-repeat;
@@ -254,14 +258,6 @@ div.lorem .l2 img{
     z-index: -1;
 }
 
-/*.cb p{*/
-    /*!*   color: rgba(105,105,105); *!*/
-    /*color: #595959;*/
-    /*font-size: 17px;*/
-    /*font-weight: 500;*/
-    /*line-height: 2;*/
-/*}*/
-
 .normal-p{
     color: #595959;
     /*font-size: 17px;*/
@@ -270,8 +266,9 @@ div.lorem .l2 img{
 }
 
 #fourthSection{
-    padding-top: 45px;
-    padding-bottom: 37px;
+    /*padding-top: 45px;*/
+    /*padding-bottom: 37px;*/
+    padding: 45px 0 37px;
 }
 
 .credit-card p, .cb p {
@@ -324,9 +321,6 @@ p.heading-margin-sm + p{
     padding-top: 50px;
 }
 
-#laptop-container{
-    margin-top: 60px;
-}
 
 .navbar-white .navbar-nav a {
     color: #595959;
@@ -334,72 +328,14 @@ p.heading-margin-sm + p{
 
 /* Tablets to Desktop */
 
-/*@media only screen and (min-width: 576px){*/
-    /*.platform-text{*/
-        /*padding-top: 50px;*/
-    /*}*/
-    /*.inner-lorem{*/
-        /*padding: 45px 40px;*/
-        /*font-size: 16px;*/
-    /*}*/
-
-    /*.red-ellipse{*/
-        /*top: 70%;*/
-        /*left: 20%;*/
-        /*height: 30%;*/
-    /*}*/
-
-    /*.red-ellipse-2{*/
-        /*top: 50%;*/
-        /*left: 17%;*/
-        /*height: 20%;*/
-    /*}*/
-
-    /*.lorem-ipsum{*/
-        /*z-index: 5;*/
-        /*position: absolute;*/
-        /*top: 83%;*/
-    /*}*/
-
-    /*.cb-text{*/
-        /*padding-top: 110px;*/
-        /*padding-right: 4rem;*/
-    /*}*/
-
-    /*.inner-crm{*/
-        /*padding-left: 100px;*/
-    /*}*/
-
-    /*.crm-container{*/
-        /*padding-bottom: 113px !important;*/
-    /*}*/
-
-    /*.qtt-container{*/
-        /*position: absolute;*/
-        /*top: -25%;*/
-    /*}*/
-
-    /*.custodian{*/
-        /*padding-bottom: 400px;*/
-    /*}*/
-
-    /*.custodian-left{*/
-        /*padding-left: 105px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 576px){*/
-    /*.lorem-ipsum{*/
-        /*margin-left: 5rem;*/
-    /*}*/
-
-    /*.lorem-ipsum-lower{*/
-        /*margin-left: 5rem;*/
-    /*}*/
-/*}*/
 
 
 @media only screen and (min-width: 360px) {
+
+    #laptop-container{
+        /*height: 215px;*/
+    }
+
     #platform-img-container{
         height: 215px;
     }
@@ -414,9 +350,22 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 375px) {
+
+
     #platform-img-container{
         height: 222px;
     }
+}
+
+@media only screen and (min-width: 414px){
+    #platform-img-container {
+        height: 249px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+
+
 }
 
 @media only screen and (min-width: 576px){
@@ -438,6 +387,7 @@ p.heading-margin-sm + p{
         padding-top: 45px;
     }
 
+
     #platform-img-container{
         height: 480px;
     }
@@ -448,18 +398,34 @@ p.heading-margin-sm + p{
         height: 700px;
     }
 
-    .red-ellipse{
+    .red-ellipse {
         top: 60%;
         left: 3%;
         height: 25%;
     }
 
-    .cb-text{
-        padding-top: 50px;
+    .cb1{
+        background-position: 52% center;
+        zoom: 1.5;
     }
+
+    .cb2{
+        background-position: 52% 252%;
+        zoom: 3.5;
+    }
+
+    .cb-text{
+        padding-top: 490px;
+    }
+
 
     .lorem-ipsum{
         top: 62.5%;
+    }
+
+    #fourthSection{
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .fone-img{
@@ -504,6 +470,16 @@ p.heading-margin-sm + p{
         height: 450px;
     }
 
+    .lorem{
+        padding-top: 50px;
+    }
+
+    .lorem-ipsum{
+        z-index: 5;
+        position: absolute;
+        top: 83%;
+    }
+
     .lorem-ipsum{
         margin-left: 5rem;
     }
@@ -513,22 +489,22 @@ p.heading-margin-sm + p{
     }
 
     .red-ellipse{
-        top: 70%;
+        top: 71%;
         left: 20%;
         height: 30%;
     }
 
-    .red-ellipse-2{
-        top: 66%;
-        left: 17%;
-        height: 14%;
+    #crm-left-container {
+        padding-top: 110px;
     }
 
-    .lorem-ipsum{
-        z-index: 5;
-        position: absolute;
-        top: 83%;
+    .red-ellipse-2{
+        top: 65%;
+        left: 20%;
+        height: 17%;
     }
+
+
 
     .cb-text{
         padding-top: 110px;
@@ -665,12 +641,12 @@ p.heading-margin-sm + p{
     }
 
     .lorem-ipsum{
-        top: 93%;
+        top: 91%;
     }
 
     .red-ellipse{
-        top: 78%;
-        height: 36%;
+        top: 76%;
+        height: 37%;
     }
 
     .crm-container {
