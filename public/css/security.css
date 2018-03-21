@@ -33,10 +33,49 @@ article {
 }
 .subtitle {
     display: block;
-    padding-top: 0.5em!important;
+    padding-top: 0.5em;
 }
 
 /*** Media Queries as per chrome dev tool ***/
+
+@media all and (max-width: 767px) {
+    h1.title {
+        margin-bottom: 0.6em;
+    }
+    p.description {
+        padding-top: 0.1em;
+        line-height: 1.49em;
+    }
+
+
+
+
+    .security-width div {
+        padding: 1.4em 0 0;
+    }
+    body p {
+         margin: 0;
+    }
+    div#para_1, div#para_2 {
+        padding-top: 0;
+    }
+    div#para_1 p,  div#para_2 p {
+        padding-bottom: 1.79em;
+    }
+    #subtitle_2 {
+        padding-top: 0!important;
+    }
+    #infor-security h1 {
+        padding-top: 0.21em;
+    }
+    #infor-security p {
+        padding: .8em 0;
+    }
+    #privacy {
+        padding-top: 0.5em!important;
+    }
+
+}
 
 /* iPad specific */
 @media only screen and (min-device-width: 768px) and (max-device-width: 768px) {
