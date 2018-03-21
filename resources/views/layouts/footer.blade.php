@@ -1,6 +1,6 @@
-<section id="contact-section" class ="bg-color-grey py-5">
+<section id="contact-section" class ="bg-color-grey py-5 contact-height">
     <header>
-        <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 5px;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header text-center"style="padding-top: 10px;">1-800-972-3981</span></h2>
+        <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 4.5px; padding-left: 4.7%;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header text-center"style="padding-top: 10px;">1-800-972-3981</span></h2>
     </header>
     <nav>
         <div class="container text-sm-left text-md-left">

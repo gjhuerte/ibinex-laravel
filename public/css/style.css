@@ -736,7 +736,9 @@ input::value{
 
 footer{
     line-height: 1.5;
+    width: 1920px;
 }
+
 
 
 
@@ -921,7 +923,7 @@ footer{
     }
 }
 
-@media all and (min-width: 1200px){
+@media all and (max-width: 1920px){
     .d-xl-block{
         display: block;
     }
@@ -931,7 +933,6 @@ footer{
     }
 
     body footer .padding{
-        padding-top: 20%;
         padding-left: 0;
     }
 
@@ -981,6 +982,15 @@ footer{
     }
     .property{
         padding-top: 2%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .contact-height{
+        height: 517px;
+        width: 100%;
     }
 }
 
