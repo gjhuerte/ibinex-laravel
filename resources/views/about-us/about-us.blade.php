@@ -62,7 +62,7 @@
             <img src="/img/about-us/r4.png" class="img-fluid">
         </div>
         <div class="col-lg-5 m-4">
-            <p id="transparency-quote" class="quotes font-weight-bold">
+            <p id="transparency-quote" class="quotes">
                 We can never be sure what the next day, the next week, the next decade will bring. The future is an unexplored realm packed with dreams, surprises, even possible victories.
             </p>
         </div>
@@ -74,7 +74,7 @@
 
 <div id="executive-team">
 <div class="row py-5" id="people-behind-bg">
-<div class="col-lg-12 text-center">
+<div class="col-lg-12 pb-3 pb-xl-5 text-center">
 <h2>
     The people behind Ibinex
 </h2>
@@ -83,11 +83,11 @@
 <div class="col-lg-2 order-1">
     <!--spacer-->
 </div>
-<div class="col-lg-4 p-5 order-2 mb-5 pb-5 order-lg-2">
-    <p class="blue-ibinex" style="font-size:32px;">
+<div class="col-lg-4 mx-3 order-2 mb-5 pb-5 order-lg-2">
+    <p class="blue-ibinex my-0" style="font-size:32px;">
         Michael Peers
     </p>
-    <p class="blue-ibinex" style="font-weight:bold;">
+    <p class="blue-ibinex mt-0" style="font-weight:bold;">
         Sales Consultant, EMEA
     </p>
     <p style="color:#5f5f5f;">
@@ -101,7 +101,7 @@
 </div>
 <div class="col-lg-4 px-5 order-1 order-lg-3 text-center text-lg-left">
 
-    <img src="/img/about-us/taov2.png" class="img-fluid" id="circ-pic"/>
+    <img src="/img/about-us/taov2.png" class="img-fluid w-100 ml-3 mh-100" id="circ-pic"/>
     <div><img src="/img/about-us/circ.png" class="img-fluid" id="circ" /></div>
 </div>
 <div class="col-lg-2 order-4">
@@ -111,7 +111,7 @@
 </div>
 </div>
 
-<div class="py-5" id="press">
+<div class="my-0" id="press">
 <div class="row">
 
 <div id="media-coverage-floater" class="col-lg-6 col-md-12 blue-ibinex-bg">
@@ -139,7 +139,7 @@
 </div>
 </div>
 
-<div class="py-5" id="advisory-board">
+<div class="my-0" id="advisory-board">
 
 <div class="row">
 <div class="col-12 advisory-board">
@@ -263,7 +263,7 @@
 <div class="row">
 <div class="col-lg-3"></div>
 <div class="col-lg-6 text-center px-4 mb-5 pb-5">
-    <p class="quotes font-weight-bold blue-ibinex">
+    <p class="quotes blue-ibinex">
         Tommorow does not yet exist, but our dreams do. So, we get to work today, like always. Because "tomorrow" will be what we make it. And if we can create the future in our heads, it will meet us halfway.
     </p>
 </div>
