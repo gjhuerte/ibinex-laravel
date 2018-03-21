@@ -203,7 +203,7 @@ section#hero-content {
 @media only screen and (max-width: 1224px) and (min-width: 576px) {
     .ib-contact-form {
         width: 40vw;
-    } 
+    }
 }
 @media only screen and (min-height: 1024px) {
     /*body #fullscreen-hero{*/
