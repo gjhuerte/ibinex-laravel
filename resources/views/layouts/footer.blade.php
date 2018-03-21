@@ -46,7 +46,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class ="col-md-4 col-lg-2">
+                <div class ="col-md-4 col-lg-3">
                     <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
@@ -89,7 +89,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class ="col-md-4 col-lg-2">
+                <div class ="col-md-4 col-lg-2 about">
                     <h6 class="text-uppercase heads fonts font-weight-normal blue py-4">About Ibinex</h6>
                     <ul class="list-unstyled">
                         <li>

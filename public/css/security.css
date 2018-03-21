@@ -1,3 +1,30 @@
+/*Below are updates using perfectpixel plugin from chrome*/
+/*body #fullscreen-hero #hero-content {*/
+     /*padding: 0;*/
+/*}*/
+/*body #fullscreen-hero #hero-content p.description {*/
+    /*line-height: 1.49em;*/
+/*}*/
+
+/*body #fullscreen-hero #hero-content p {*/
+     /*margin-top: 0;*/
+/*}*/
+/*body p {*/
+    /*margin: 15px 0;*/
+/*}*/
+
+
+
+/*.navbar {*/
+    /*padding: .5rem 0;*/
+/*}*/
+body #fullscreen-hero {
+    height: 119.5vh;
+}
+
+
+
+/* style */
 
 section#hero-content {
     margin: 0 auto;
@@ -9,7 +36,7 @@ p {
     text-align: justify;
 }
 section {
-    padding-top: 1em;
+    /*padding-top: 1em;*/
     min-height: 300px;
     position: relative;
 }
