@@ -23,7 +23,7 @@
 
 <div class="row pt-lg-5">
 <div class="col-lg-2"><!-- spacer --></div>
-<div class="col-lg-4 mt-5 px-4 pb-5">
+<div class="col-lg-4 mt-5 px-2 py-lg-5">
     <h2 class="mb-4" style="font-size:34px;">
         Transparency
     </h2>
@@ -34,26 +34,26 @@
         We channel our extensive industry knowledge and vision into the live and developing cryptocurrency arena, to provide you with premium solutions for you to create tailored exchange platforms with our seasoned experience as your competitive edge.
     </p>
     <p>
-        We are trusted by thousands of customers world-wide daily as their white-label exchange platform, and pride ourselves on exhibiting the very highest standards of transparency and professionalilg.
+        We are trusted by thousands of customers world-wide daily as their white-label exchange platform, and pride ourselves on exhibiting the very highest standards of transparency and professionalism.
     </p>
     <p>
         Ibinex is defined by our dedication to unifying trading standards in the cryptocurrency world, increasing accountability, integrity and excellence in service.
     </p>
 </div>
 <div class="col-lg-6">
-    <div class="row">
-        <div class="col-5">
+    <div class="row mb-5">
+        <div class="col-5" style="flex:0 auto; width:auto; padding-right:0">
             <img src="/img/about-us/r1.png" class="img-fluid">
-            <div class="mt-lg-4 mt-1 p-1 mb-5 row">
-                <div class="col-7 py-0 pr-0 p-lg-0">
+            <div class="mt-lg-4 mt-2 row">
+                <div class="col-7 py-0 pr-0">
                     <img src="/img/about-us/r2.png" class="img-fluid">
                 </div>
-                <div class="col-5 p-1 p-lg-0">
+                <div class="col-5 pl-1">
                     <img src="/img/about-us/r3.png" class="img-fluid">
                 </div>
             </div>
         </div>
-        <div class="col-7 pr-0 pt-lg-5 pt-0">
+        <div class="col pr-0 pt-lg-5 pt-0">
             <img id="transparency-right-floater" src="/img/about-us/r5.png" class="img-fluid">
         </div>
     </div>
@@ -83,7 +83,7 @@
 <div class="col-lg-2 order-1">
     <!--spacer-->
 </div>
-<div class="col-lg-4 mx-3 order-2 mb-lg-5 pb-lg-5 order-lg-2">
+<div class="col-lg-4 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
     <p class="blue-ibinex my-0" style="font-size:32px;">
         Michael Peers
     </p>
@@ -143,7 +143,7 @@
 
 <div class="row">
 <div class="col-12 advisory-board">
-    <div class="my-5 text-center">
+    <div class="py-5 text-center">
         <h2 class="mx-5">Ibinex Advisory Board</h2>
     </div>
 
@@ -262,7 +262,7 @@
 <div class="py-lg-5">
 <div class="row py-lg-5">
 <div class="col-lg-3"></div>
-<div class="col-lg-6 text-center px-4 my-5">
+<div class="col-lg-6 text-center px-3 my-5">
     <p class="quotes blue-ibinex">
         Tommorow does not yet exist, but our dreams do. So, we get to work today, like always. Because "tomorrow" will be what we make it. And if we can create the future in our heads, it will meet us halfway.
     </p>
