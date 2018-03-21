@@ -17,17 +17,17 @@
 @section('bg-img','contact-bg.png')
 @section('content')
         <section>
-                    <div class="container">
+                    <div class="container c-c">
                         <div class="ib-get-started">
                             <div class="row ib-get-started-a">
-                                <div class="col-sm">
+                                <div class="col-sm p-0">
                                     <h2>
                                         Get Started
                                     </h2>
                                     <p>
                                         We invite you to first experience the Ibinex demo <a>here</a>, which will help you to conceptualise the possibilities of personalisation for your own exchange.
                                     </p>
-                                    <p>
+                                    <p class="py-2">
                                         The next step is to contact us to discuss on-boarding. It is a simple process which you can learn about in more detail on the Pricing page, but essentially consists of 3 steps:
                                     </p>
                                 </div>
@@ -37,7 +37,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">1</span>
                                     </div>
-                                    <img class="ib-pb-2 pt-4 pb-5" src="{{ asset("img/p1.png") }}" />
+                                    <img class="img-1 ib-pb-2 pt-4 pb-5" src="{{ asset("img/p1.png") }}" />
                                     <div class="label pt-3 ib-pt-1">
                                         Local Escrow deposit
                                     </div>
@@ -64,7 +64,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="ib-note text-center mt-5">
+                            <div class="ib-note text-center mt-3">
                                 <p>
                                     Please note that, due to high demand, the current on-boarding time frame is 4 months.
                                 </p>
