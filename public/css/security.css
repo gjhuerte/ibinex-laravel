@@ -37,19 +37,21 @@ article {
 }
 
 /*** Media Queries as per chrome dev tool ***/
-
+@media (min-width: 1200px) {
+    body #fullscreen-hero {
+        background-position: center top;
+    }
+}
 @media all and (max-width: 767px) {
+    body #fullscreen-hero {
+        background-position: -120px;
+    }
     h1.title {
         margin-bottom: 0.6em;
     }
     p.description {
         padding-top: 0.1em;
-        line-height: 1.49em;
     }
-
-
-
-
     .security-width div {
         padding: 1.4em 0 0;
     }

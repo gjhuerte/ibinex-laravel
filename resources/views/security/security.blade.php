@@ -15,7 +15,8 @@
 @endsection
 
 @section('body-class','security')
-@section('bg-img','security-banner-temp.png')
+{{--@section('bg-img','security-banner-temp.png')--}}
+@section('bg-img','security.PNG')
 
 @section('content')
 
